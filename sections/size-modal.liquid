@@ -1,0 +1,247 @@
+{{ 'size-modal.css' | asset_url | stylesheet_tag }}
+{{ 'custom-style-size-modal.css' | asset_url | stylesheet_tag }}
+
+<div class="modal modal--size" id="myModal" data-modal-overlay="true">
+  <div class="modal__wrapper">
+    <button class="modal__close" type="button" aria-label="Close size guide">
+      <svg xmlns="http://www.w3.org/2000/svg" class="cross" viewBox="0 0 96.2 96.2" role="img" aria-hidden="true" focusable="false">
+        <g data-name="Livello 2"><g data-name="Livello 1"><path d="M89.3,1.2,48.1,42.4,6.9,1.2a4,4,0,0,0-5.7,0,4,4,0,0,0,0,5.7L42.4,48.1,1.2,89.3a4,4,0,0,0,0,5.7,4,4,0,0,0,5.7,0L48.1,53.8,89.3,94.9A4,4,0,1,0,95,89.2L53.8,48,95,6.8a4,4,0,0,0,0-5.7A4.28,4.28,0,0,0,89.3,1.2Z"/></g></g>
+      </svg>
+    </button>
+
+    <div class="modal__title">
+      <h3 class="size-guide__title">{{ section.settings.heading }}</h3>
+      {% if section.settings.size_guide_description != blank %}
+        <p class="size-guide-description">{{ section.settings.size_guide_description }}</p>
+      {% endif %}
+    </div>
+
+    <div class="modal__content">
+      {% for block in section.blocks %}
+        {% case block.type %}
+
+          {% when 'size_conversion' %}
+            <div class="size-guide-block-wrapper size-guide">
+              <div class="size-guide-header">
+                {% if block.settings.description != blank %}
+                  <p class="block-description">{{ block.settings.description }}</p>
+                {% endif %}
+                {% if block.settings.name != blank %}
+                  <p class="block-name">{{ block.settings.name }}</p>
+                {% endif %}
+              </div>
+
+              <!-- Conversione taglie (STD con colspan dinamico) -->
+              <div class="size-guide-details">
+                <table class="size-guide-table">
+                  <thead>
+                    <tr>
+                      <th>STD</th>
+                      {% assign std_groups_list = section.settings.std_groups | default: 'XS:1,S:2,M:1,L:1,XL:1' | split: ',' %}
+                      {% for grp in std_groups_list %}
+                        {% assign parts = grp | split: ':' %}
+                        {% assign std_label = parts[0] | strip %}
+                        {% assign std_span  = parts[1] | default: '1' | strip %}
+                        <th colspan="{{ std_span }}">{{ std_label }}</th>
+                      {% endfor %}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {% assign size_rows_list = section.settings.size_rows | newline_to_br | split: '<br />' %}
+                    {% for row in size_rows_list %}
+                      {% if row != blank %}
+                        {% assign row_values = row | split: '|' %}
+                        <tr>
+                          {% for cell in row_values %}
+                            <td>{{ cell | strip }}</td>
+                          {% endfor %}
+                        </tr>
+                      {% endif %}
+                    {% endfor %}
+                  </tbody>
+                </table>
+              </div>
+
+              <!-- Conversione taglie denim -->
+              <div class="size-guide-details">
+                <h4 class="size-guide-subtitle">conversione taglie denim</h4>
+                <table class="size-guide-table">
+                  <tbody>
+                    {% assign denim_rows_list = section.settings.denim_rows | newline_to_br | split: '<br />' %}
+                    {% for row in denim_rows_list %}
+                      {% if row != blank %}
+                        {% assign row_values = row | split: '|' %}
+                        <tr>
+                          {% for cell in row_values %}
+                            <td>{{ cell | strip }}</td>
+                          {% endfor %}
+                        </tr>
+                      {% endif %}
+                    {% endfor %}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+          {% when 'body_measurements' %}
+            <div class="size-guide-block-wrapper body-measurement-block-wrapper body-measurement">
+              <div class="size-guide-header">
+                {% if block.settings.description != blank %}
+                  <p class="block-description">{{ block.settings.description }}</p>
+                {% endif %}
+                {% if block.settings.name != blank %}
+                  <p class="block-name">{{ block.settings.name }}</p>
+                {% endif %}
+              </div>
+
+              <!-- Misure del corpo -->
+              <div class="size-guide-details">
+                <table class="size-guide-table">
+                  <thead>
+                    <tr>
+                      <th></th>
+                      {% assign body_labels_list = section.settings.body_labels | split: ',' %}
+                      {% for label in body_labels_list %}
+                        <th>{{ label | strip }}</th>
+                      {% endfor %}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {% assign body_rows_list = section.settings.body_rows | newline_to_br | split: '<br />' %}
+                    {% for row in body_rows_list %}
+                      {% if row != blank %}
+                        {% assign row_values = row | split: '|' %}
+                        <tr>
+                          {% for cell in row_values %}
+                            <td>{{ cell | strip }}</td>
+                          {% endfor %}
+                        </tr>
+                      {% endif %}
+                    {% endfor %}
+                  </tbody>
+                </table>
+
+                {% if section.settings.model_info != blank %}
+                  <p class="model-info">{{ section.settings.model_info }}</p>
+                {% endif %}
+              </div>
+            </div>
+
+          {% when 'footwear_size_conversion' %}
+            <div class="size-guide-block-wrapper footwear-block-wrapper footwear-block">
+              <div class="size-guide-header">
+                
+                {% if block.settings.name != blank %}
+                  <p class="block-name">{{ block.settings.name }}</p>
+                {% endif %}
+              </div>
+
+              <!-- Taglie calzature -->
+              <div class="size-guide-details">
+                <table class="size-guide-table">
+                  <thead>
+                    <tr>
+                      {% assign shoe_labels_list = section.settings.shoe_labels | split: ',' %}
+                      {% for label in shoe_labels_list %}
+                        <th>{{ label | strip }}</th>
+                      {% endfor %}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {% assign shoe_rows_list = section.settings.shoe_rows | newline_to_br | split: '<br />' %}
+                    {% for row in shoe_rows_list %}
+                      {% if row != blank %}
+                        {% assign row_values = row | split: '|' %}
+                        <tr>
+                          {% for cell in row_values %}
+                            <td>{{ cell | strip }}</td>
+                          {% endfor %}
+                        </tr>
+                      {% endif %}
+                    {% endfor %}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+<script>
+  (function() {
+    var modal = document.getElementById("myModal");
+    var btn = document.querySelector(".size-link");
+    var closeBtn = document.getElementsByClassName("modal__close")[0];
+
+    if (btn) btn.addEventListener("click", function(){ modal.style.display = "flex"; });
+    if (closeBtn) closeBtn.addEventListener("click", function(){ modal.style.display = "none"; });
+    window.addEventListener("click", function(e){ if (e.target === modal) modal.style.display = "none"; });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Size Guide Modal",
+  "class": "size-guide-section ignore-section-animation",
+  "settings": [
+    { "type": "text", "id": "heading", "label": "Heading", "default": "Guida Taglie" },
+    { "type": "inline_richtext", "id": "size_guide_description", "label": "Descrizione introduttiva", "default": "Per identificare la tua taglia abbiamo convertito indicativamente in questa tabella la taglia riportata sull'etichetta del prodotto selezionato. Se hai già acquistato un prodotto del nostro brand, ti consigliamo di scegliere la stessa taglia." },
+
+    { "type": "header", "content": "Conversione taglie" },
+    { "type": "paragraph", "content": "STD con colspan: usa formato etichetta:colspan separati da virgola." },
+    {
+      "type": "text",
+      "id": "std_groups",
+      "label": "STD – gruppi (es. XS:1,S:2,M:1,L:1,XL:1)",
+      "default": "XS:1,S:2,M:1,L:1,XL:1"
+    },
+    { "type": "paragraph", "content": "Righe: una per riga, celle separate da |. La somma dei colspans deve uguale al numero di celle." },
+    {
+      "type": "textarea",
+      "id": "size_rows",
+      "label": "Righe conversione taglie",
+      "default": "IT|38|40|42|44|46|48\nEU|34|36|38|40|42|44\nFR|34|36|38|40|42|44\nUS|2|4|6|8|10|12\nUK|6|8|10|12|14|16"
+    },
+
+    { "type": "header", "content": "Denim" },
+    { "type": "paragraph", "content": "Due righe, celle con |" },
+    {
+      "type": "textarea",
+      "id": "denim_rows",
+      "label": "Righe denim",
+      "default": "25|26|27|28|29|30|31|32\n38|40|40 1/2|42|42 1/2|44|44 1/2|46"
+    },
+
+    { "type": "header", "content": "Misure del corpo" },
+    { "type": "paragraph", "content": "Prima cella = nome riga (Busto/Vita/Fianchi). Colonne separate da virgola." },
+    { "type": "textarea", "id": "body_labels", "label": "Colonne misure corpo", "default": "38,40,42,44,46,48" },
+    {
+      "type": "textarea",
+      "id": "body_rows",
+      "label": "Righe misure corpo",
+      "default": "Busto|80 cm|84 cm|88 cm|92 cm|96 cm|100 cm\nVita|64 cm|68 cm|72 cm|76 cm|80 cm|88 cm\nFianchi|88 cm|92 cm|96 cm|100 cm|104 cm|108 cm"
+    },
+    { "type": "text", "id": "model_info", "label": "Testo modella", "default": "La modella è alta 179 cm e indossa la taglia 40, la S di maglieria e la 26 di denim." },
+
+    { "type": "header", "content": "Calzature" },
+    { "type": "paragraph", "content": "Colonne separate da virgola. Righe: celle con |." },
+    { "type": "textarea", "id": "shoe_labels", "label": "Colonne calzature", "default": "IT,FR/EU,UK,US" },
+    {
+      "type": "textarea",
+      "id": "shoe_rows",
+      "label": "Righe calzature",
+      "default": "36|36|3.5|6\n37|37|4|6.5\n38|38|5|7.5\n39|39|5.5|8\n40|40|6.5|9\n41|41|7|9.5"
+    }
+  ],
+  "blocks": [
+    { "type": "size_conversion", "name": "Conversione Taglie", "settings": [ { "type": "inline_richtext", "id": "description", "label": "Descrizione blocco" }, { "type": "text", "id": "name", "label": "Nome blocco", "default": "conversione taglie" } ] },
+    { "type": "body_measurements", "name": "Misure del Corpo", "settings": [ { "type": "inline_richtext", "id": "description", "label": "Descrizione blocco" }, { "type": "text", "id": "name", "label": "Nome blocco", "default": "Misure del Corpo" } ] },
+    { "type": "footwear_size_conversion", "name": "Taglie Calzature", "settings": [ { "type": "inline_richtext", "id": "description", "label": "Descrizione blocco" }, { "type": "text", "id": "name", "label": "Nome blocco", "default": "Taglie Calzature" } ] }
+  ],
+  "presets": [ { "name": "Size Modal" } ],
+  "enabled_on": { "templates": ["product"] }
+}
+{% endschema %}

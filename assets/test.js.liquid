@@ -1,0 +1,1278 @@
+"use strict";
+(window.Alysi = window.Alysi || {}),
+    (Alysi.country_list = [
+        { name: "Afghanistan", code: "AF" },
+        { name: "land Islands", code: "AX" },
+        { name: "Albania", code: "AL" },
+        { name: "Algeria", code: "DZ" },
+        { name: "American Samoa", code: "AS" },
+        { name: "Andorra", code: "AD" },
+        { name: "Angola", code: "AO" },
+        { name: "Anguilla", code: "AI" },
+        { name: "Antarctica", code: "AQ" },
+        { name: "Antigua and Barbuda", code: "AG" },
+        { name: "Argentina", code: "AR" },
+        { name: "Armenia", code: "AM" },
+        { name: "Aruba", code: "AW" },
+        { name: "Australia", code: "AU" },
+        { name: "Austria", code: "AT" },
+        { name: "Azerbaijan", code: "AZ" },
+        { name: "Bahamas", code: "BS" },
+        { name: "Bahrain", code: "BH" },
+        { name: "Bangladesh", code: "BD" },
+        { name: "Barbados", code: "BB" },
+        { name: "Belarus", code: "BY" },
+        { name: "Belgium", code: "BE" },
+        { name: "Belize", code: "BZ" },
+        { name: "Benin", code: "BJ" },
+        { name: "Bermuda", code: "BM" },
+        { name: "Bhutan", code: "BT" },
+        { name: "Bolivia", code: "BO" },
+        { name: "Bosnia and Herzegovina", code: "BA" },
+        { name: "Botswana", code: "BW" },
+        { name: "Bouvet Island", code: "BV" },
+        { name: "Brazil", code: "BR" },
+        { name: "British Indian Ocean Territory", code: "IO" },
+        { name: "Brunei Darussalam", code: "BN" },
+        { name: "Bulgaria", code: "BG" },
+        { name: "Burkina Faso", code: "BF" },
+        { name: "Burundi", code: "BI" },
+        { name: "Cambodia", code: "KH" },
+        { name: "Cameroon", code: "CM" },
+        { name: "Canada", code: "CA" },
+        { name: "Cape Verde", code: "CV" },
+        { name: "Cayman Islands", code: "KY" },
+        { name: "Central African Republic", code: "CF" },
+        { name: "Chad", code: "TD" },
+        { name: "Chile", code: "CL" },
+        { name: "China", code: "CN" },
+        { name: "Christmas Island", code: "CX" },
+        { name: "Cocos (Keeling) Islands", code: "CC" },
+        { name: "Colombia", code: "CO" },
+        { name: "Comoros", code: "KM" },
+        { name: "Congo", code: "CG" },
+        { name: "Congo, The Democratic Republic of the", code: "CD" },
+        { name: "Cook Islands", code: "CK" },
+        { name: "Costa Rica", code: "CR" },
+        { name: 'Cote D"Ivoire', code: "CI" },
+        { name: "Croatia", code: "HR" },
+        { name: "Cuba", code: "CU" },
+        { name: "Cyprus", code: "CY" },
+        { name: "Czech Republic", code: "CZ" },
+        { name: "Denmark", code: "DK" },
+        { name: "Djibouti", code: "DJ" },
+        { name: "Dominica", code: "DM" },
+        { name: "Dominican Republic", code: "DO" },
+        { name: "Ecuador", code: "EC" },
+        { name: "Egypt", code: "EG" },
+        { name: "El Salvador", code: "SV" },
+        { name: "Equatorial Guinea", code: "GQ" },
+        { name: "Eritrea", code: "ER" },
+        { name: "Estonia", code: "EE" },
+        { name: "Ethiopia", code: "ET" },
+        { name: "Falkland Islands (Malvinas)", code: "FK" },
+        { name: "Faroe Islands", code: "FO" },
+        { name: "Fiji", code: "FJ" },
+        { name: "Finland", code: "FI" },
+        { name: "France", code: "FR" },
+        { name: "French Guiana", code: "GF" },
+        { name: "French Polynesia", code: "PF" },
+        { name: "French Southern Territories", code: "TF" },
+        { name: "Gabon", code: "GA" },
+        { name: "Gambia", code: "GM" },
+        { name: "Georgia", code: "GE" },
+        { name: "Germany", code: "DE" },
+        { name: "Ghana", code: "GH" },
+        { name: "Gibraltar", code: "GI" },
+        { name: "Greece", code: "GR" },
+        { name: "Greenland", code: "GL" },
+        { name: "Grenada", code: "GD" },
+        { name: "Guadeloupe", code: "GP" },
+        { name: "Guam", code: "GU" },
+        { name: "Guatemala", code: "GT" },
+        { name: "Guernsey", code: "GG" },
+        { name: "Guinea", code: "GN" },
+        { name: "Guinea-Bissau", code: "GW" },
+        { name: "Guyana", code: "GY" },
+        { name: "Haiti", code: "HT" },
+        { name: "Heard Island and Mcdonald Islands", code: "HM" },
+        { name: "Holy See (Vatican City State)", code: "VA" },
+        { name: "Honduras", code: "HN" },
+        { name: "Hong Kong", code: "HK" },
+        { name: "Hungary", code: "HU" },
+        { name: "Iceland", code: "IS" },
+        { name: "India", code: "IN" },
+        { name: "Indonesia", code: "ID" },
+        { name: "Iran, Islamic Republic Of", code: "IR" },
+        { name: "Iraq", code: "IQ" },
+        { name: "Ireland", code: "IE" },
+        { name: "Isle of Man", code: "IM" },
+        { name: "Israel", code: "IL" },
+        { name: "Italy", code: "IT" },
+        { name: "Jamaica", code: "JM" },
+        { name: "Japan", code: "JP" },
+        { name: "Jersey", code: "JE" },
+        { name: "Jordan", code: "JO" },
+        { name: "Kazakhstan", code: "KZ" },
+        { name: "Kenya", code: "KE" },
+        { name: "Kiribati", code: "KI" },
+        { name: 'Korea, Democratic People"S Republic of', code: "KP" },
+        { name: "Korea, Republic of", code: "KR" },
+        { name: "Kuwait", code: "KW" },
+        { name: "Kyrgyzstan", code: "KG" },
+        { name: 'Lao People"S Democratic Republic', code: "LA" },
+        { name: "Latvia", code: "LV" },
+        { name: "Lebanon", code: "LB" },
+        { name: "Lesotho", code: "LS" },
+        { name: "Liberia", code: "LR" },
+        { name: "Libyan Arab Jamahiriya", code: "LY" },
+        { name: "Liechtenstein", code: "LI" },
+        { name: "Lithuania", code: "LT" },
+        { name: "Luxembourg", code: "LU" },
+        { name: "Macao", code: "MO" },
+        { name: "Macedonia, The Former Yugoslav Republic of", code: "MK" },
+        { name: "Madagascar", code: "MG" },
+        { name: "Malawi", code: "MW" },
+        { name: "Malaysia", code: "MY" },
+        { name: "Maldives", code: "MV" },
+        { name: "Mali", code: "ML" },
+        { name: "Malta", code: "MT" },
+        { name: "Marshall Islands", code: "MH" },
+        { name: "Martinique", code: "MQ" },
+        { name: "Mauritania", code: "MR" },
+        { name: "Mauritius", code: "MU" },
+        { name: "Mayotte", code: "YT" },
+        { name: "Mexico", code: "MX" },
+        { name: "Micronesia, Federated States of", code: "FM" },
+        { name: "Moldova, Republic of", code: "MD" },
+        { name: "Monaco", code: "MC" },
+        { name: "Mongolia", code: "MN" },
+        { name: "Montenegro", code: "ME" },
+        { name: "Montserrat", code: "MS" },
+        { name: "Morocco", code: "MA" },
+        { name: "Mozambique", code: "MZ" },
+        { name: "Myanmar", code: "MM" },
+        { name: "Namibia", code: "NA" },
+        { name: "Nauru", code: "NR" },
+        { name: "Nepal", code: "NP" },
+        { name: "Netherlands", code: "NL" },
+        { name: "Netherlands Antilles", code: "AN" },
+        { name: "New Caledonia", code: "NC" },
+        { name: "New Zealand", code: "NZ" },
+        { name: "Nicaragua", code: "NI" },
+        { name: "Niger", code: "NE" },
+        { name: "Nigeria", code: "NG" },
+        { name: "Niue", code: "NU" },
+        { name: "Norfolk Island", code: "NF" },
+        { name: "Northern Mariana Islands", code: "MP" },
+        { name: "Norway", code: "NO" },
+        { name: "Oman", code: "OM" },
+        { name: "Pakistan", code: "PK" },
+        { name: "Palau", code: "PW" },
+        { name: "Palestinian Territory, Occupied", code: "PS" },
+        { name: "Panama", code: "PA" },
+        { name: "Papua New Guinea", code: "PG" },
+        { name: "Paraguay", code: "PY" },
+        { name: "Peru", code: "PE" },
+        { name: "Philippines", code: "PH" },
+        { name: "Pitcairn", code: "PN" },
+        { name: "Poland", code: "PL" },
+        { name: "Portugal", code: "PT" },
+        { name: "Puerto Rico", code: "PR" },
+        { name: "Qatar", code: "QA" },
+        { name: "Reunion", code: "RE" },
+        { name: "Romania", code: "RO" },
+        { name: "Russian Federation", code: "RU" },
+        { name: "Rwanda", code: "RW" },
+        { name: "Saint Helena", code: "SH" },
+        { name: "Saint Kitts and Nevis", code: "KN" },
+        { name: "Saint Lucia", code: "LC" },
+        { name: "Saint Pierre and Miquelon", code: "PM" },
+        { name: "Saint Vincent and the Grenadines", code: "VC" },
+        { name: "Samoa", code: "WS" },
+        { name: "San Marino", code: "SM" },
+        { name: "Sao Tome and Principe", code: "ST" },
+        { name: "Saudi Arabia", code: "SA" },
+        { name: "Senegal", code: "SN" },
+        { name: "Serbia", code: "RS" },
+        { name: "Seychelles", code: "SC" },
+        { name: "Sierra Leone", code: "SL" },
+        { name: "Singapore", code: "SG" },
+        { name: "Slovakia", code: "SK" },
+        { name: "Slovenia", code: "SI" },
+        { name: "Solomon Islands", code: "SB" },
+        { name: "Somalia", code: "SO" },
+        { name: "South Africa", code: "ZA" },
+        { name: "South Georgia and the South Sandwich Islands", code: "GS" },
+        { name: "Spain", code: "ES" },
+        { name: "Sri Lanka", code: "LK" },
+        { name: "Sudan", code: "SD" },
+        { name: "Suriname", code: "SR" },
+        { name: "Svalbard and Jan Mayen", code: "SJ" },
+        { name: "Swaziland", code: "SZ" },
+        { name: "Sweden", code: "SE" },
+        { name: "Switzerland", code: "CH" },
+        { name: "Syrian Arab Republic", code: "SY" },
+        { name: "Taiwan, Province of China", code: "TW" },
+        { name: "Tajikistan", code: "TJ" },
+        { name: "Tanzania, United Republic of", code: "TZ" },
+        { name: "Thailand", code: "TH" },
+        { name: "Timor-Leste", code: "TL" },
+        { name: "Togo", code: "TG" },
+        { name: "Tokelau", code: "TK" },
+        { name: "Tonga", code: "TO" },
+        { name: "Trinidad and Tobago", code: "TT" },
+        { name: "Tunisia", code: "TN" },
+        { name: "Turkey", code: "TR" },
+        { name: "Turkmenistan", code: "TM" },
+        { name: "Turks and Caicos Islands", code: "TC" },
+        { name: "Tuvalu", code: "TV" },
+        { name: "Uganda", code: "UG" },
+        { name: "Ukraine", code: "UA" },
+        { name: "United Arab Emirates", code: "AE" },
+        { name: "United Kingdom", code: "GB" },
+        { name: "United States", code: "US" },
+        { name: "United States Minor Outlying Islands", code: "UM" },
+        { name: "Uruguay", code: "UY" },
+        { name: "Uzbekistan", code: "UZ" },
+        { name: "Vanuatu", code: "VU" },
+        { name: "Venezuela", code: "VE" },
+        { name: "Viet Nam", code: "VN" },
+        { name: "Virgin Islands, British", code: "VG" },
+        { name: "Virgin Islands, U.S.", code: "VI" },
+        { name: "Wallis and Futuna", code: "WF" },
+        { name: "Western Sahara", code: "EH" },
+        { name: "Yemen", code: "YE" },
+        { name: "Zambia", code: "ZM" },
+        { name: "Zimbabwe", code: "ZW" },
+    ]),
+    (Alysi.init = function () {
+        Alysi.header.init(),
+            Alysi.map.init(),
+            Alysi.minicart.init(),
+            Alysi.cart.init(),
+            Alysi.wishlist.init(),
+            Alysi.redirectFlow.init(),
+            Alysi.slider.init(),
+            Alysi.newsletter_popup.init(),
+            Alysi.newsletter.init(),
+            Alysi.checkMotivatorBar.init(),
+            AOS.init({ once: !0 }),
+            "page.press" === template && Alysi.press.init(),
+            "product" === template && Alysi.product.init(),
+            "article" === template && Alysi.article.init(),
+            ("collection" !== template && "collection.collection-alternate" !== template && "search" !== template) || Alysi.collection.init(),
+            0 <= template.indexOf("customer") && Alysi.customer.init(),
+            $(document).on("click", ".modal__close", function (e) {
+                e.stopPropagation(), Alysi.modal.close($(this).parents(".modal")[0]);
+            }),
+            $(document).on("click", ".modal", function (e) {
+                e.target === e.currentTarget && (Alysi.modal.close(this), $(".select-variant").hasClass("select-variant--fixed") || $(".overlay").removeClass("visible"));
+            });
+    }),
+    (Alysi.header = {
+        init: function () {
+            $(".menu li, .menu-xs li").click(function (e) {
+                e.stopPropagation(),
+                    e.stopImmediatePropagation(),
+                    $(this).hasClass("menu__1l-item--has-submenu") && !$(this).hasClass("menu__1l-item--active")
+                        ? (e.preventDefault(), $(".menu li, .menu-xs li").removeClass("menu__1l-item--active"), $(this).addClass("menu__1l-item--active"), $(this).find(".menu__2l").toggleClass("menu__2l--active"))
+                        : $(this).hasClass("menu__1l-item--has-submenu") && $(this).hasClass("menu__1l-item--active") && (e.preventDefault(), $(this).removeClass("menu__1l-item--active"));
+            }),
+                $(".open-menu-mobile").click(function (e) {
+                    $("body").toggleClass("menu-opened"), $("body").hasClass("menu-opened") ? scrollLock.disablePageScroll($(".menu-xs")[0]) : scrollLock.enablePageScroll($(".menu-xs")[0]);
+                }),
+                $(".menu-utility__item--account > a").on("click", function (e) {
+                    0 < $(".header__customer").length && (e.preventDefault(), $(".header__tool").not($(".header__customer")).removeClass("active"), $(".header__customer").toggleClass("active"));
+                }),
+                $(document).on("click", function (e) {
+                    var t = $(".menu-utility__item--account");
+                    t.is(e.target) || 0 !== t.has(e.target).length || $(".header__customer").removeClass("active");
+                }),
+                $(".menu-utility__item--search > button, .menu-xs__utility__item--search > button").on("click", function (e) {
+                    e.preventDefault(),
+                        $(".header__tool").not($(".header__search-box")).removeClass("active"),
+                        $(".header__search-box").toggleClass("active"),
+                        Alysi.isMobile(1024) && $(".header__search-box").hasClass("active") && $(".menu-xs").scrollTop(0);
+                });
+        },
+    }),
+    (Alysi.isAdmin = function () {
+        var e = !1;
+        window.location.hostname;
+        return window.location !== window.parent.location && (e = !0), e;
+    }),
+    (Alysi.modal = {
+        open: function (e) {
+            var t = $(e),
+                a = t.data("modal-overlay"),
+                i = t.data("modal-delay") || 0;
+            t.removeData("modal-overlay-hide-disabled"),
+                $(".overlay").hasClass("visible") && a && t.data("modal-overlay-hide-disabled", ""),
+                setTimeout(function () {
+                    t.addClass("modal--visible"), a && (t.insertAfter(".overlay"), $("body").toggleClass("modal-visible"), $(".overlay").addClass("visible"));
+                }, 1e3 * i),
+                $(".modal").trigger("modal-open", { modal: t });
+        },
+        close: function (e) {
+            var t = $(e),
+                a = t.data("modal-overlay"),
+                i = void 0 !== t.data("modal-overlay-hide-disabled");
+            t.removeClass("modal--visible"), $("body").toggleClass("modal-visible"), !i && a && $(".overlay").removeClass("visible"), $(".modal").trigger("modal-close", { modal: t });
+        },
+    }),
+    (Alysi.redirectFlow = {
+        init: function () {
+            console.log(Alysi.settings.redirect.is_enable),
+                !Alysi.isAdmin() &&
+                    Alysi.settings.redirect.is_enable &&
+                    (function () {
+                        var i = [],
+                            n = ".country-switcher__select",
+                            o = ".country-switcher__value";
+                        if (Alysi.settings.redirect.store1_countries)
+                            for (var e = Alysi.settings.redirect.store1_countries.replace(/\s/g, "").split(","), t = 0; t < e.length; t++) i.push({ store: "1", code: e[t], url: Alysi.settings.redirect.default_url[0] });
+                        if (Alysi.settings.redirect.store2_countries) {
+                            var a = Alysi.settings.redirect.store2_countries.replace(/\s/g, "").split(",");
+                            for (t = 0; t < a.length; t++) i.push({ store: "2", code: a[t], url: Alysi.settings.redirect.default_url[1] });
+                        }
+                        if (Alysi.settings.redirect.store3_countries) {
+                            var s = Alysi.settings.redirect.store3_countries.replace(/\s/g, "").split(",");
+                            for (t = 0; t < s.length; t++) i.push({ store: "3", code: s[t], url: Alysi.settings.redirect.default_url[2] });
+                        }
+                        for (t = 0; t < Alysi.country_list.length; t++) {
+                            var r = i.filter(function (e) {
+                                return e.code == Alysi.country_list[t].code;
+                            });
+                            r[0] &&
+                                $("<option/>")
+                                    .attr("data-href", r[0].url)
+                                    .attr("data-name", Alysi.country_list[t].name)
+                                    .attr("data-iso", Alysi.country_list[t].code)
+                                    .val(Alysi.country_list[t].code)
+                                    .html(Alysi.country_list[t].name)
+                                    .appendTo(n);
+                        }
+                        function c() {
+                            for (var e, t = [], a = window.location.href.slice(window.location.href.indexOf("?") + 1).split("&"), i = 0; i < a.length; i++) (e = a[i].split("=")), t.push(e[0]), (t[e[0]] = e[1]);
+                            return t;
+                        }
+                        var l = $("body").data("shop-url");
+                        const rf = !Alysi.settings.redirect.no_redirect_urls.includes(window.location.pathname);
+                        if (
+                            ("true" == c().redirect && (Cookies.set("countryRedirectAlysi", l, { expires: 60 }), c().shippingCountry && Cookies.set("countryAlysi", c().shippingCountry, { expires: 60 })),
+                            Cookies.get("countryAlysi") && Cookies.get("countryRedirectAlysi"))
+                        ) {
+                            var d = Cookies.get("countryRedirectAlysi");
+                            (d && d == l) || (d && d != l && rf && window.location.replace(d + "/?redirect=true&shippingCountry=" + Cookies.get("countryAlysi"))),
+                                $(n).val(
+                                    $(n)
+                                        .find('option[data-iso="' + Cookies.get("countryAlysi") + '"]')
+                                        .val()
+                                ),
+                                $(o).text(Cookies.get("countryAlysi"));
+                        } else
+                            $.ajax({
+                                url: "https://api.ipgeolocation.io/ipgeo?apiKey=def8ff0ace8e4af9a6a3c85a387318c7",
+                                type: "GET",
+                                success: function (t) {
+                                    Alysi.country_list.filter(function (e) {
+                                        return e.code == t.country_code2;
+                                    }),
+                                        Cookies.set("realCountryAlysi", t.country_code2),
+                                        c().shippingCountry
+                                            ? (Cookies.set("countryAlysi", c().shippingCountry, { expires: 60 }), Cookies.set("countryRedirectAlysi", l, { expires: 60 }))
+                                            : (null != Cookies.get("countryAlysi") && Cookies.get("countryAlysi") == t.country_code2) || Cookies.set("countryAlysi", t.country_code2, { expires: 60 });
+                                    var e = i.filter(function (e) {
+                                            return e.code == t.country_code2;
+                                        }),
+                                        a = Cookies.get("countryRedirectAlysi") || e[0].url;
+                                    $(n).val(
+                                        $(n)
+                                            .find('option[data-iso="' + t.country_code2 + '"]')
+                                            .val()
+                                    ),
+                                        $(o).text(Cookies.get("countryAlysi")),
+                                        (a && a == l) || (a && a != l ? rf && window.location.replace(a) : e[0].url == l && Cookies.set("countryRedirectAlysi", l, { expires: 60 }));
+                                },
+                            });
+                        $(n).on("change", function (e) {
+                            e.preventDefault();
+                            var t = $(this).find("option:selected").data("iso"),
+                                a = i.filter(function (e) {
+                                    return e.code == t;
+                                });
+                            Cookies.set("countryAlysi", a[0].code, { expires: 60 }),
+                                Cookies.set("countryRedirectAlysi", a[0].url, { expires: 60 }),
+                                $(o).text(a[0].code),
+                                window.location.replace(a[0].url + "?redirect=true&shippingCountry=" + a[0].code);
+                        });
+                    })();
+        },
+    }),
+    (Alysi.isMobile = function (e) {
+        var t = !1;
+        return /*/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)||*/ $(window).width() <= e && (t = !0), t;
+    }),
+    (Alysi.map = (function () {
+        var o = {
+            zoom: 17,
+            selector: ".google-maps",
+            styles: [
+                { featureType: "all", elementType: "geometry.fill", stylers: [{ weight: "2.00" }] },
+                { featureType: "all", elementType: "geometry.stroke", stylers: [{ color: "#9c9c9c" }] },
+                { featureType: "all", elementType: "labels.text", stylers: [{ visibility: "on" }] },
+                { featureType: "landscape", elementType: "all", stylers: [{ color: "#f2f2f2" }] },
+                { featureType: "landscape", elementType: "geometry.fill", stylers: [{ color: "#ffffff" }] },
+                { featureType: "landscape.man_made", elementType: "geometry.fill", stylers: [{ color: "#ffffff" }] },
+                { featureType: "landscape.man_made", elementType: "geometry.stroke", stylers: [{ visibility: "on" }, { weight: "1.98" }, { color: "#cacaca" }, { gamma: "3.37" }, { saturation: "-24" }, { lightness: "-18" }] },
+                { featureType: "landscape.man_made", elementType: "labels.text.stroke", stylers: [{ visibility: "on" }, { color: "#000000" }, { saturation: "-46" }, { lightness: "58" }, { gamma: "3.78" }, { weight: "1.82" }] },
+                { featureType: "poi", elementType: "all", stylers: [{ visibility: "off" }] },
+                { featureType: "road", elementType: "all", stylers: [{ saturation: -100 }, { lightness: 45 }] },
+                { featureType: "road", elementType: "geometry", stylers: [{ weight: "0.95" }] },
+                { featureType: "road", elementType: "geometry.fill", stylers: [{ color: "#eeeeee" }, { weight: "0.01" }, { gamma: "1.06" }, { saturation: "-100" }] },
+                { featureType: "road", elementType: "geometry.stroke", stylers: [{ visibility: "on" }, { weight: "6.15" }, { color: "#eeeeee" }] },
+                { featureType: "road", elementType: "labels.text.fill", stylers: [{ color: "#7b7b7b" }] },
+                { featureType: "road", elementType: "labels.text.stroke", stylers: [{ color: "#ffffff" }] },
+                { featureType: "road.highway", elementType: "all", stylers: [{ visibility: "simplified" }] },
+                { featureType: "road.arterial", elementType: "labels.icon", stylers: [{ visibility: "off" }] },
+                { featureType: "transit", elementType: "all", stylers: [{ visibility: "off" }] },
+                { featureType: "water", elementType: "all", stylers: [{ color: "#46bcec" }, { visibility: "on" }] },
+                { featureType: "water", elementType: "geometry.fill", stylers: [{ color: "#c8d7d4" }] },
+                { featureType: "water", elementType: "labels.text.fill", stylers: [{ color: "#070707" }] },
+                { featureType: "water", elementType: "labels.text.stroke", stylers: [{ color: "#ffffff" }] },
+            ],
+        };
+        function t() {
+            $.each($(o.selector), function () {
+                var e;
+                (e = $(this)),
+                    (function (a) {
+                        var i = $.Deferred(),
+                            e = new google.maps.Geocoder(),
+                            t = a.data("address-setting");
+                        return (
+                            e.geocode({ address: t }, function (e, t) {
+                                t !== google.maps.GeocoderStatus.OK && i.reject(t), i.resolve(a, e);
+                            }),
+                            i
+                        );
+                    })((e = $(e).find(".google-maps__container")))
+                        .then(function (e, t) {
+                            var a = { zoom: o.zoom, styles: o.styles, center: t[0].geometry.location, clickableIcons: !1, disableDoubleClickZoom: !0, disableDefaultUI: !0 },
+                                i = (e = new google.maps.Map(e[0], a)).getCenter(),
+                                n = new google.maps.Marker({ map: e, position: i, icon: Alysi.settings.marker });
+                            google.maps.event.addListener(n, "click", function () {
+                                window.open("https://maps.google.com/maps?&q=" + e.getCenter().lat() + "+" + e.getCenter().lng() + " ", "_blank");
+                            });
+                        })
+                        .fail(function (e) {
+                            console.log(e);
+                        });
+            });
+        }
+        return {
+            init: function () {
+                !(function () {
+                    var e = $(o.selector).data("api-key");
+                    if ("string" != typeof e || "" === e) return;
+                    0 === $('script[src*="' + e + '&"]').length
+                        ? $.getScript("https://maps.googleapis.com/maps/api/js?key=" + e).then(function () {
+                              t();
+                          })
+                        : t();
+                })();
+            },
+        };
+    })()),
+    (Alysi.checkMotivatorBar = {
+        init: function () {
+            var a;
+            (a = new MutationObserver(function (e) {
+                e.forEach(function (e) {
+                    if ($(e.target).hasClass("mwCMB__text") && $(e.target).text().trim()) {
+                        var t = $("#mwCMB").outerHeight() + $("header").outerHeight();
+                        $(".menu-xs").css("top", t),
+                            $("#PageContainer").css("padding-top", $("#mwCMB").outerHeight()),
+                            $(document).on("click", ".mwCMB__close", function () {
+                                $("#PageContainer").css("padding-top", 0), $(".menu-xs").css("top", "");
+                            }),
+                            a.disconnect();
+                    }
+                });
+            })).observe(document.body, { attributes: !0, childList: !0, subtree: !0, characterData: !0 });
+        },
+    }),
+    (Alysi.slider = {
+        init: function () {
+            $(".tiny-slider").each(function (e, t) {
+                $(this).hasClass("homepage--slider--1")
+                    ? Alysi.isMobile(1024)
+                        ? tns({
+                              container: t,
+                              items: 1.5,
+                              nav: !1,
+                              mouseDrag: !0,
+                              loop: !1,
+                              autoHeight: !1,
+                              center: !0,
+                              controlsText: [
+                                  '<span class="prev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240.5 158.4"><title>icone_svgRisorsa 1</title><g data-name="Livello 2"><g data-name="Livello 1"><path d="M239.3,76.3,164.2,1.2a4,4,0,0,0-5.7,0,4,4,0,0,0,0,5.7l68.3,68.3H4a4,4,0,0,0,0,8H226.9l-68.3,68.3a4,4,0,1,0,5.6,5.7l75.1-75.1a4,4,0,0,0,1.2-2.8A4.41,4.41,0,0,0,239.3,76.3Z"/></g></g></svg></span>',
+                                  '<span class="next"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 306.4 200.62"><title>icone_svgRisorsa 2</title><g data-name="Livello 2"><g data-name="Livello 1"><path d="M305.3,97.62,208.8,1.12a3.82,3.82,0,0,0-5.4,5.4l89.9,89.9H3.9a3.9,3.9,0,0,0,0,7.8H293.3l-89.9,89.9a3.8,3.8,0,0,0,0,5.4,3.62,3.62,0,0,0,2.7,1.1,3.86,3.86,0,0,0,2.7-1.1L305.3,103a3.62,3.62,0,0,0,1.1-2.7A3.86,3.86,0,0,0,305.3,97.62Z"/></g></g></svg></span>',
+                              ],
+                          })
+                        : $(this).removeClass("tiny-slider")
+                    : tns({
+                          container: t,
+                          items: 1,
+                          nav: !1,
+                          mouseDrag: !0,
+                          loop: !1,
+                          autoHeight: !1,
+                          center: !0,
+                          controlsText: [
+                              '<span class="prev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240.5 158.4"><title>icone_svgRisorsa 1</title><g data-name="Livello 2"><g data-name="Livello 1"><path d="M239.3,76.3,164.2,1.2a4,4,0,0,0-5.7,0,4,4,0,0,0,0,5.7l68.3,68.3H4a4,4,0,0,0,0,8H226.9l-68.3,68.3a4,4,0,1,0,5.6,5.7l75.1-75.1a4,4,0,0,0,1.2-2.8A4.41,4.41,0,0,0,239.3,76.3Z"/></g></g></svg></span>',
+                              '<span class="next"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 306.4 200.62"><title>icone_svgRisorsa 2</title><g data-name="Livello 2"><g data-name="Livello 1"><path d="M305.3,97.62,208.8,1.12a3.82,3.82,0,0,0-5.4,5.4l89.9,89.9H3.9a3.9,3.9,0,0,0,0,7.8H293.3l-89.9,89.9a3.8,3.8,0,0,0,0,5.4,3.62,3.62,0,0,0,2.7,1.1,3.86,3.86,0,0,0,2.7-1.1L305.3,103a3.62,3.62,0,0,0,1.1-2.7A3.86,3.86,0,0,0,305.3,97.62Z"/></g></g></svg></span>',
+                          ],
+                      });
+            });
+        },
+    }),
+    (Alysi.customer = {
+        init: function () {
+            $(document).on("click", ".toggle-new-address", function () {
+                $(".address_tables--container").toggle(), Shopify.CustomerAddress.toggleNewForm(), $("#action-new-address").toggle();
+            }),
+                $(".customer_address .checkbox-trigger label").on("click", function () {
+                    $(this).parent().find("input").trigger("click");
+                }),
+                $("ul.account-tabs")
+                    .not(".disabled")
+                    .each(function () {
+                        var t,
+                            a,
+                            e = $(this).find("a");
+                        (t = e.first().addClass("active")),
+                            (a = $(t.attr("href"))),
+                            e.not(":first").each(function () {
+                                $($(this).attr("href")).hide();
+                            }),
+                            $(this)
+                                .find("a")
+                                .parent()
+                                .click(function (e) {
+                                    return (
+                                        e.preventDefault(),
+                                        t.removeClass("active"),
+                                        a.hide(),
+                                        (t = $(this)),
+                                        (a = $($(this).find("a").attr("href"))),
+                                        t.addClass("active"),
+                                        a.show(),
+                                        history.pushState ? history.pushState(null, null, $(this).attr("href")) : (location.hash = $(this).attr("href")),
+                                        !1
+                                    );
+                                });
+                    }),
+                $(".account-links").attr("style", ""),
+                window.location.hash &&
+                    "/account" === window.location.pathname &&
+                    $(".account-tabs li a").each(function () {
+                        $(this).attr("href") === window.location.hash && $(this).trigger("click");
+                    });
+        },
+    }),
+    (Alysi.newsletter = {
+        init: function () {
+            $(".footer #contact_form").on("submit", function () {
+                var e = !0;
+                return (
+                    $(this).find(".error").remove(),
+                    0 < !$(this).find(".privacy input:checked").length &&
+                        ($(this)
+                            .find(".privacy")
+                            .append('<div class="error">' + Shopify.trans.newsletterFieldRequired + "</div>"),
+                        (e = !1)),
+                    e
+                );
+            });
+        },
+    }),
+    (Alysi.newsletter_popup = {
+        init: function () {
+            var e, t;
+            (e = document.getElementsByClassName("newsletter__popup--close")[0]),
+                (t = document.getElementsByClassName("newsletter__popup--container")[0]),
+                e.addEventListener("click", function (e) {
+                    t.remove(), Cookies.set("showed-newsletter-modal", 1, { expires: 60 });
+                }),
+                Cookies.get("showed-newsletter-modal") ? t.remove() : (t.style.display = "block");
+        },
+    }),
+    (Alysi.cookie_banner = {
+        init: function () {
+            -1 < window.location.href.indexOf("it-alysi")
+                ? $(
+                      '<script type="text/javascript"> var _iub = _iub || [];  _iub.csConfiguration = {"lang":"it","siteId":1815700,"cookiePolicyId":38026990, "banner":{ "acceptButtonDisplay":true,"customizeButtonDisplay":true,"position":"float-top-center" }}; </script><script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>'
+                  ).appendTo(document.body)
+                : $(
+                      '<script type="text/javascript"> var _iub = _iub || []; _iub.csConfiguration = {"lang":"en","siteId":1815700,"cookiePolicyId":24413948, "banner":{ "acceptButtonDisplay":true,"customizeButtonDisplay":true,"position":"float-top-center" }};</script> <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>'
+                  ).appendTo(document.body);
+        },
+    }),
+    (Alysi.product = {
+        init: function () {
+            var a, i, n, o;
+            Alysi.isMobile(1024) && tns({ container: ".product-slider", items: 1, nav: !1, loop: !1, controlsText: ['<span class=""><</span>', '<span class="">></span>'] }),
+                $(document).on("click", ".select-variant__link", function () {
+                    $(this).hasClass("select-variant__link--sold-out") ||
+                        $(this).hasClass("select-variant__link--selected") ||
+                        ((function (e, t) {
+                            e.addClass("select-variant__link--selected");
+                            var a = e.attr("data-value");
+                            t.find("option").each(function () {
+                                e.removeAttr("selected");
+                            }),
+                                t.val(a).trigger("change"),
+                                t
+                                    .find("option[value=" + a + "]")
+                                    .attr("selected", !0)
+                                    .trigger("change");
+                        })($(this), $(".select-variant__hidden")),
+                        $(this).siblings().removeClass("select-variant__link--selected"));
+                }),
+                $("body").on("click", ".product_form__quantity .js-change-quantity", function () {
+                    var e = $(this),
+                        t = $(this).siblings("input"),
+                        a = parseInt(t.val()),
+                        i = 1e29,
+                        n = t.attr("min") || 0;
+                    if (0 < $(".select-variant__link--selected").length)
+                        return (
+                            (i = $(".select-variant__link--selected").data("max")),
+                            isNaN(a) || a < n ? (t.val(n), !1) : i < a ? (t.val(i), !1) : ("plus" == e.data("func") ? a < i && t.val(a + 1) : n < a && t.val(a - 1), void t.trigger("change"))
+                        );
+                    var o = Shopify.trans.productsProductWarning,
+                        s = Shopify.trans.productsProductSelectSize;
+                    return Shopify.onError({ message: o, description: s }), !1;
+                }),
+                $(document).on("click", ".size-link", function () {
+                    Alysi.modal.open(".modal--size");
+                }),
+                $(document).on("click", ".add-to-cart-alert .continue-shopping", function () {
+                    $(".add-to-cart-alert").removeClass("visible"), $(".overlay").removeClass("visible");
+                }),
+                $(document).on("click", function (e) {
+                    var t = $(".add-to-cart-alert");
+                    t.is(e.target) || 0 !== t.has(e.target).length || ($(".add-to-cart-alert").hasClass("visible") && ($(".add-to-cart-alert").removeClass("visible"), $(".overlay").removeClass("visible")));
+                }),
+                (n = document.getElementById("leftSticky")),
+                (o = document.getElementById("rightSticky")),
+                $(window).on("load resize scroll", function () {
+                    if (!Alysi.isMobile(1023)) {
+                        var e = (20 * $(window).height()) / 100,
+                            t = (20 * $(window).height()) / 100;
+                        Alysi.isMobile(1280) && (e = (10 * $(window).height()) / 100),
+                            (a = new StickySidebar(n, { topSpacing: e, containerSelector: ".product-page", resizeSensor: !0 })),
+                            (i = new StickySidebar(o, { topSpacing: t, containerSelector: ".product-page", resizeSensor: !0 })),
+                            a.updateSticky(),
+                            i.updateSticky();
+                    }
+                }),
+                n.addEventListener("affix.top.stickySidebar", function () {
+                    $(n).css("opacity", 1);
+                }),
+                o.addEventListener("affix.top.stickySidebar", function () {
+                    $(o).css("opacity", 1);
+                });
+        },
+    }),
+    (Alysi.press = {
+        init: function () {
+            var e;
+            (e = $(".press__gallery").data("load-more")),
+                $(".press__load-more").on("click", function () {
+                    $(".press__item.hidden").slice(0, e).removeClass("hidden"), 0 == $(".press__item.hidden").length && $(".press__load-more").hide();
+                });
+        },
+    }),
+    (Alysi.wishlist = {
+        init: function () {
+            new MutationObserver(function (e) {
+                e.forEach(function (e) {
+                    $(e.target).is("#bookmarks") &&
+                        ($("header.header").css("cssText", "z-index: 9999 !important"),
+                        $("#bookmarks .product").each(function () {
+                            var e = $(this),
+                                t = e.find(".image a").attr("href");
+                            e.find(".image a").addClass("ratio-container"),
+                                e.find("img").addClass("lazyload"),
+                                e.parent().removeClass().addClass("product-container"),
+                                e.find(".addbutton").remove(),
+                                e.find(".buttons").insertAfter(e.find(".text")),
+                                e.find(".buttons").append('<a href="' + t + '" class="btn seeproduct">See Product</a>'),
+                                e.find(".removebutton").html("x");
+                        })),
+                        $(e.target).is("div#smartwishlist");
+                });
+            }).observe(document.body, { attributes: !0, childList: !0, subtree: !0, characterData: !0 }),
+                ($.fn.emulateTransitionEnd = function (e) {
+                    var t = !1,
+                        a = this;
+                    return (
+                        $(this).one("bsTransitionEnd", function () {
+                            t = !0;
+                        }),
+                        setTimeout(function () {
+                            t || $(a).trigger($.support.transition.end);
+                        }, e),
+                        this
+                    );
+                }),
+                $(function () {
+                    ($.support.transition = (function () {
+                        var e = document.createElement("bootstrap"),
+                            t = { WebkitTransition: "webkitTransitionEnd", MozTransition: "transitionend", OTransition: "oTransitionEnd otransitionend", transition: "transitionend" };
+                        for (var a in t) if (void 0 !== e.style[a]) return { end: t[a] };
+                        return !1;
+                    })()),
+                        $.support.transition &&
+                            ($.event.special.bsTransitionEnd = {
+                                bindType: $.support.transition.end,
+                                delegateType: $.support.transition.end,
+                                handle: function (e) {
+                                    if ($(e.target).is(this)) return e.handleObj.handler.apply(this, arguments);
+                                },
+                            });
+                });
+        },
+    }),
+    (Alysi.minicart = (function () {
+        var c = {
+            openMinicartSelector: ".menu-utility__item--cart, .minicart",
+            minicartSelector: ".minicart",
+            minicartContent: ".minicart__content",
+            minicartItemRemove: ".minicart__item-remove",
+            minicartTotals: ".minicart__totals",
+            minicartTotal: ".minicart__totals .total",
+            minicartTotalQty: ".minicart__totals .qty",
+            minicartClose: ".minicart__close",
+            minicartCounter: ".minicart__count",
+            moneyFormat: $("body").data("money-format"),
+            triggeredOpenMinicart: !1,
+        };
+        function t() {
+            $(c.minicartSelector).removeClass("visible"), Alysi.isMobile(1024) && $(".overlay").removeClass("visible");
+        }
+        function a() {
+            var r = [];
+            $.getJSON("/cart.js", function (s, e) {
+                if (($(c.minicartContent).empty(), (c.moneyFormat = $("body").data("money-format")), 0 === s.item_count))
+                    return $(c.minicartSelector).addClass("empty"), void $(c.minicartContent).append('<p class="minicart__empty-message">' + Shopify.trans.cartGeneralContinue_browsing_html + "</p>");
+                $(c.minicartSelector).removeClass("empty");
+                var t, a, i;
+                (t = s.items),
+                    $.each(t, function (e, a) {
+                        var t = "";
+                        if (
+                            ((t = null != a.image ? a.image.replace(/(\.[^.]*)$/, "_250x$1").replace("http:", "") : "//cdn.shopify.com/s/assets/admin/no-image-medium-cc9732cb976dd349a0df1d39816fbcc7.gif"),
+                            null !== a.properties &&
+                                $.each(a.properties, function (e, t) {
+                                    ("_" !== e.charAt(0) && t) || delete a.properties[e];
+                                }),
+                            0 !== a.line_level_discount_allocations.length)
+                        )
+                            for (var i in a.line_level_discount_allocations) {
+                                var n = a.line_level_discount_allocations[i].amount;
+                                a.line_level_discount_allocations[i].formattedAmount = Shopify.formatMoney(n, c.moneyFormat);
+                            }
+                        if (0 !== s.cart_level_discount_applications.length)
+                            for (var i in s.cart_level_discount_applications) {
+                                n = s.cart_level_discount_applications[i].total_allocated_amount;
+                                s.cart_level_discount_applications[i].formattedAmount = Shopify.formatMoney(n, c.moneyFormat);
+                            }
+                        var o = {
+                            key: a.key,
+                            line: e + 1,
+                            url: a.url,
+                            img: t,
+                            name: a.product_title,
+                            variation: a.variant_title ? a.variant_title : null,
+                            properties: a.properties,
+                            itemAdd: a.quantity + 1,
+                            itemMinus: a.quantity - 1,
+                            itemQty: a.quantity ? a.quantity : null,
+                            price: a.price ? Shopify.formatMoney(a.price, c.moneyFormat) : null,
+                            vendor: a.vendor,
+                            linePrice: Shopify.formatMoney(a.final_line_price, c.moneyFormat),
+                            originalLinePrice: Shopify.formatMoney(a.original_line_price, c.moneyFormat),
+                            discounts: a.line_level_discount_allocations,
+                            discountsApplied: 0 !== a.line_level_discount_allocations.length,
+                            variants: a.variants || null,
+                        };
+                        r.push(o),
+                            (function (e) {
+                                var t = "";
+                                t = e.discountsApplied ? '\n        <span class="price">' + e.linePrice + '\n          <span class="was_price">' + e.originalLinePrice + "</span>\n        </span>\n      " : e.originalLinePrice;
+                                var a =
+                                    '\n      <div class="minicart__item" data-line="' +
+                                    e.line +
+                                    '">\n        <div class="minicart__item-image">\n          <a class="ratio-container" href="' +
+                                    e.url +
+                                    '">\n            <img class="transition--fade-in lazyload" src="' +
+                                    e.img +
+                                    '"/>\n          </a>\n        </div>\n        <div class="minicart__item-info">\n          <div class="minicart__item-name">' +
+                                    e.name +
+                                    '</div>\n          <div class="minicart__item-size">' +
+                                    Shopify.trans.generalSize +
+                                    ": " +
+                                    e.variation +
+                                    '</div>\n          <div class="minicart__item-qty">' +
+                                    Shopify.trans.productsProductQuantityShort +
+                                    ": " +
+                                    e.itemQty +
+                                    '</div>\n          <div class="minicart__item-price">' +
+                                    t +
+                                    "</div>\n        </div>\n      </div>\n    ";
+                                $(c.minicartContent).append(a);
+                            })(o);
+                    }),
+                    (a = Shopify.formatMoney(s.total_price, c.moneyFormat)),
+                    (i = s.item_count),
+                    $(c.minicartTotal).text(a),
+                    $(c.minicartTotalQty).text(i),
+                    $(c.minicartCounter).text(s.item_count);
+            });
+        }
+        function i(e) {
+            setTimeout(function () {
+                a();
+            }, 150);
+        }
+        return {
+            init: function () {
+                a(),
+                    Alysi.isMobile(1024)
+                        ? $("body").on("click", c.minicartClose, function () {
+                              t();
+                          })
+                        : $(c.openMinicartSelector).hoverIntent({
+                              timeout: 160,
+                              interval: 60,
+                              over: function () {
+                                  $(c.minicartContent).scrollTop(0), $(c.minicartSelector).addClass("visible");
+                              },
+                              out: function () {
+                                  $(c.minicartSelector).is(":hover") || ($(c.minicartContent).scrollTop(0), $(c.minicartSelector).removeClass("visible"));
+                              },
+                          });
+            },
+            openMinicart: function () {
+                i(), $(c.minicartContent).scrollTop(0), Alysi.isMobile(1024) && ($(c.minicartSelector).insertAfter(".overlay"), $(".overlay").addClass("visible")), (c.triggeredOpenMinicart = !0), $(c.minicartSelector).addClass("visible");
+                var e = setTimeout(function () {
+                    (c.triggeredOpenMinicart = !1), t();
+                }, 5e3);
+                $(document).on("touchstart mouseover", ".minicart__content", function () {
+                    clearTimeout(e);
+                }),
+                    (c.triggeredOpenMinicart = !1);
+            },
+            refreshMinicart: i,
+        };
+    })()),
+    (Alysi.collection = {
+        init: function () {
+            !(function () {
+                if (((Shopify.queryParams = {}), location.search.length))
+                    for (var e, t = 0, a = location.search.substr(1).split("&"); t < a.length; t++) 1 < (e = a[t].split("=")).length && (Shopify.queryParams[decodeURIComponent(e[0])] = decodeURIComponent(e[1]));
+                if (Alysi.isMobile(1024)) $(".shop-filters__filter").removeClass("active").removeClass("first-filter");
+                else {
+                    var i = document.getElementsByClassName("shop-filters")[0];
+                    new StickySidebar(i, { topSpacing: 140, containerSelector: ".collection-page" });
+                }
+                $(".shop-filters").css("opacity", 1);
+                var n = Shopify.settings.size_separator.split("|"),
+                    o = [],
+                    s = {},
+                    r = [];
+                $.each(n, function (e, t) {
+                    var a = t.split(",");
+                    o.push(a);
+                }),
+                    $(".filter-size").each(function () {
+                        $(this)
+                            .find(".shop-filters__link")
+                            .each(function () {
+                                var e = [];
+                                (e.content = $(this)), (e.size = $(this).text().replace(/\s/g, "")), r.push(e);
+                            }),
+                            o.forEach(function (e, i) {
+                                (s[i] = []),
+                                    e.forEach(function (t) {
+                                        var a = !1;
+                                        r.filter(function (e) {
+                                            return !(!a && e.size == t && (s[i].push(e), (a = !0)));
+                                        });
+                                    });
+                            });
+                    });
+                var c = $(".shop-filters").find(".filter-size .shop-filters__content");
+                Alysi.isMobile(1024) && c.find("li").not(":first").remove();
+                var l = [];
+                $.each(r, function (e, a) {
+                    var i = !1;
+                    $.each(s, function (e, t) {
+                        $.each(t, function (e, t) {
+                            a.size == t.size && (i = !0);
+                        });
+                    }),
+                        i || l.push(a);
+                });
+                var d = 0,
+                    m = 0;
+                if (
+                    ($.each(s, function (e, t) {
+                        $.isEmptyObject(t) || d++;
+                    }),
+                    $.each(s, function (e, t) {
+                        for (var a = 0; a < t.length; a++) c.append(t[a].content[0]), $(t[a].content[0]).wrap("<li></li>");
+                        0 < t.length && (d != m + 1 || 0 < l.length) && (c.append('<li class="separator"></li>'), m++);
+                    }),
+                    0 < l.length)
+                )
+                    for (t = 0; t < l.length; t++) c.append(l[t].content[0]), $(l[t].content[0]).wrap("<li></li>");
+            })(),
+                $(document).on("click", function (e) {
+                    var t = $(".shop-filters__filter").not(".first-filter");
+                    t.is(e.target) || 0 !== t.has(e.target).length || t.removeClass("active");
+                }),
+                $(".shop-filters__filter").each(function () {
+                    $(this).find(".shop-filters__content").children().length < 2 && $(this).addClass("empty");
+                }),
+                $(".shop-filters__filter .shop-filters__title").on("click", function () {
+                    $(".shop-filters__filter")
+                        .not($(this).parent())
+                        .not(".first-filter")
+                        .each(function () {
+                            $(this).removeClass("active");
+                        }),
+                        $(".shop-filters__wrap").addClass("active"),
+                        $(".shop-filters__menu-title").parent().removeClass("active"),
+                        $(this).parent().hasClass("active") ? $(this).parent().removeClass("active") : $(this).parent().addClass("active");
+                }),
+                Alysi.isMobile(1024) &&
+                    ($(".shop-filters__wrap").css("min-height", $(".shop-filters__wrap").height()),
+                    $(document).on("click", function (e) {
+                        var t = $(".shop-filters__menu-wrap");
+                        t.is(e.target) || 0 !== t.has(e.target).length || t.removeClass("active");
+                    }),
+                    $(".shop-filters__menu-title").on("click", function () {
+                        $(".shop-filters__filter")
+                            .not(".first-filter")
+                            .each(function () {
+                                $(this).removeClass("active");
+                            }),
+                            $(".shop-filters__wrap").removeClass("active"),
+                            $(this).parent().hasClass("active") ? $(this).parent().removeClass("active") : $(this).parent().addClass("active");
+                    })),
+                (function () {
+                    if (
+                        ($(document).on("click", function (e) {
+                            var t = $(".sort-by");
+                            t.is(e.target) || 0 !== t.has(e.target).length || t.removeClass("active");
+                        }),
+                        $(".sort-by .sort-by__content a").on("click", function () {
+                            var e = $(this).data("value");
+                            $('.sort-by .sort-by__select option[value="' + e + '"]')
+                                .prop("selected", !0)
+                                .trigger("change"),
+                                $(".sort-by .sort-by__content a").removeClass("active"),
+                                $(this).addClass("active"),
+                                $(".sort-by").find(".sort-by__current-sorting").text($(this).text()),
+                                Alysi.isMobile(1024) && $(".sort-by__title .sort-by__caret-mobile").addClass("hidden");
+                        }),
+                        $(".sort-by .sort-by__title").on("click", function () {
+                            $(".shop-filters__filter")
+                                .not(".first-filter")
+                                .each(function () {
+                                    $(this).removeClass("active");
+                                }),
+                                $(".shop-filters__wrap").addClass("active"),
+                                $(this).parent().hasClass("active") ? $(this).parent().removeClass("active") : $(this).parent().addClass("active");
+                        }),
+                        "undefined" != Shopify.queryParams.custom_sort_by && null != Shopify.queryParams.custom_sort_by)
+                    ) {
+                        $(".sort-by .sort-by__content a").removeClass("active");
+                        var e = $('.sort-by .sort-by__content a[data-value="' + Shopify.queryParams.custom_sort_by + '"]').addClass("active");
+                        $(".sort-by").find(".sort-by__current-sorting").text(e.text()), Alysi.isMobile(1024) && $(".sort-by__title .sort-by__caret-mobile").addClass("hidden");
+                    } else Alysi.isMobile(1024) || ((e = $(".sort-by .sort-by__content a").first().addClass("active")), $(".sort-by").find(".sort-by__current-sorting").text(e.text()));
+                })(),
+                Alysi.isMobile(1024) && $(".collection-page__right").appendTo(".mobile-filters");
+        },
+    }),
+    (Alysi.cart = {
+        init: function () {
+            !(function () {
+                if (!Alysi.isMobile(1024)) {
+                    var e = document.getElementsByClassName("cart-page__totals");
+                    0 < e.length && new StickySidebar(e[0], { topSpacing: 70, containerSelector: ".cart-page__container" });
+                }
+            })(),
+                $("body").on("click", ".cart-item .js-change-quantity", function () {
+                    var e = $(this),
+                        t = $(this).siblings("input"),
+                        a = parseInt(t.val()),
+                        i = 1e29,
+                        n = t.attr("min") || 0;
+                    return null != t.attr("max") && (i = t.attr("max")), isNaN(a) || a < n ? (t.val(n), !1) : i < a ? (t.val(i), !1) : ("plus" == e.data("func") ? a < i && t.val(a + 1) : n < a && t.val(a - 1), void t.trigger("change"));
+                }),
+                $("#cart_form .add_to_cart").on("click", function () {
+                    var e = !0;
+                    return $(".cart-page__tos .checkbox").removeClass("error"), $('#cart_form input[name="policy"]').is(":checked") || ($(".cart-page__tos .checkbox").addClass("error"), (e = !1)), 1 == e && $(this).submit(), e;
+                });
+        },
+    }),
+    (Alysi.wishlist = {
+        init: function () {
+            new MutationObserver(function (e) {
+                e.forEach(function (e) {
+                    $(e.target).is("#bookmarks") &&
+                        ($("body").addClass("wishlist-page"),
+                        $(".wishlistpage").addClass("visible"),
+                        $("#bookmarks .product").each(function () {
+                            var e = $(this),
+                                t = e.find(".image a").attr("href");
+                            e.find(".image a").addClass("ratio-container"),
+                                e.find("img").addClass("lazyload"),
+                                e.parent().removeClass().addClass("product-container"),
+                                e.find(".addbutton").remove(),
+                                e.find(".buttons").insertAfter(e.find(".text")),
+                                e.find(".buttons").append('<a href="' + t + '" class="btn seeproduct">See Product</a>'),
+                                e.find(".removebutton").html("x");
+                        }),
+                        0 == $("#bookmarks .product").length && $("body").addClass("wishlist-page-empty")),
+                        $(e.target).is("div#smartwishlist");
+                });
+            }).observe(document.body, { attributes: !0, childList: !0, subtree: !0, characterData: !0 }),
+                ($.fn.emulateTransitionEnd = function (e) {
+                    var t = !1,
+                        a = this;
+                    return (
+                        $(this).one("bsTransitionEnd", function () {
+                            t = !0;
+                        }),
+                        setTimeout(function () {
+                            t || $(a).trigger($.support.transition.end);
+                        }, e),
+                        this
+                    );
+                }),
+                $(function () {
+                    ($.support.transition = (function () {
+                        var e = document.createElement("bootstrap"),
+                            t = { WebkitTransition: "webkitTransitionEnd", MozTransition: "transitionend", OTransition: "oTransitionEnd otransitionend", transition: "transitionend" };
+                        for (var a in t) if (void 0 !== e.style[a]) return { end: t[a] };
+                        return !1;
+                    })()),
+                        $.support.transition &&
+                            ($.event.special.bsTransitionEnd = {
+                                bindType: $.support.transition.end,
+                                delegateType: $.support.transition.end,
+                                handle: function (e) {
+                                    if ($(e.target).is(this)) return e.handleObj.handler.apply(this, arguments);
+                                },
+                            });
+                });
+        },
+    }),
+    (Alysi.article = {
+        init: function () {
+            Alysi.isMobile(1024)
+                ? tns({
+                      container: ".post__slider",
+                      items: 2,
+                      nav: !1,
+                      mouseDrag: !0,
+                      loop: !1,
+                      autoHeight: !1,
+                      gutter: 10,
+                      controlsText: [
+                          '<span class="prev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240.5 158.4"><title>icone_svgRisorsa 1</title><g data-name="Livello 2"><g data-name="Livello 1"><path d="M239.3,76.3,164.2,1.2a4,4,0,0,0-5.7,0,4,4,0,0,0,0,5.7l68.3,68.3H4a4,4,0,0,0,0,8H226.9l-68.3,68.3a4,4,0,1,0,5.6,5.7l75.1-75.1a4,4,0,0,0,1.2-2.8A4.41,4.41,0,0,0,239.3,76.3Z"/></g></g></svg></span>',
+                          '<span class="next"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 306.4 200.62"><title>icone_svgRisorsa 2</title><g data-name="Livello 2"><g data-name="Livello 1"><path d="M305.3,97.62,208.8,1.12a3.82,3.82,0,0,0-5.4,5.4l89.9,89.9H3.9a3.9,3.9,0,0,0,0,7.8H293.3l-89.9,89.9a3.8,3.8,0,0,0,0,5.4,3.62,3.62,0,0,0,2.7,1.1,3.86,3.86,0,0,0,2.7-1.1L305.3,103a3.62,3.62,0,0,0,1.1-2.7A3.86,3.86,0,0,0,305.3,97.62Z"/></g></g></svg></span>',
+                      ],
+                  })
+                : tns({
+                      container: ".post__slider",
+                      items: 3,
+                      nav: !1,
+                      mouseDrag: !0,
+                      loop: !1,
+                      autoHeight: !1,
+                      gutter: 20,
+                      controlsText: [
+                          '<span class="prev"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240.5 158.4"><title>icone_svgRisorsa 1</title><g data-name="Livello 2"><g data-name="Livello 1"><path d="M239.3,76.3,164.2,1.2a4,4,0,0,0-5.7,0,4,4,0,0,0,0,5.7l68.3,68.3H4a4,4,0,0,0,0,8H226.9l-68.3,68.3a4,4,0,1,0,5.6,5.7l75.1-75.1a4,4,0,0,0,1.2-2.8A4.41,4.41,0,0,0,239.3,76.3Z"/></g></g></svg></span>',
+                          '<span class="next"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 306.4 200.62"><title>icone_svgRisorsa 2</title><g data-name="Livello 2"><g data-name="Livello 1"><path d="M305.3,97.62,208.8,1.12a3.82,3.82,0,0,0-5.4,5.4l89.9,89.9H3.9a3.9,3.9,0,0,0,0,7.8H293.3l-89.9,89.9a3.8,3.8,0,0,0,0,5.4,3.62,3.62,0,0,0,2.7,1.1,3.86,3.86,0,0,0,2.7-1.1L305.3,103a3.62,3.62,0,0,0,1.1-2.7A3.86,3.86,0,0,0,305.3,97.62Z"/></g></g></svg></span>',
+                      ],
+                  });
+        },
+    }),
+    $(Alysi.init),
+    $(function () {
+        (Shopify.addItem = function (e, t, a) {
+            t = t || 1;
+            $.ajax({
+                type: "POST",
+                url: "/cart/add.js",
+                data: "quantity=" + t + "&id=" + e,
+                dataType: "json",
+                success: function (e) {
+                    "function" == typeof a
+                        ? a(e)
+                        : $.getJSON("/cart.js", function (e) {
+                              Shopify.refreshCart(e), Alysi.isMobile(1024) ? ($(".overlay").addClass("visible"), $(".add-to-cart-alert").addClass("visible")) : Alysi.minicart.openMinicart();
+                          });
+                },
+                error: function (e, t) {
+                    Shopify.onError(e.responseJSON, t);
+                },
+            });
+        }),
+            (Shopify.onError = function (e, t) {
+                var a = e.message,
+                    i = e.description;
+                if (window.Alysi) {
+                    var n =
+                        '\n      <div class="modal modal--messages" data-modal-overlay="true">\n        <div class="modal__wrapper">\n          <button class="modal__close">\n            <svg xmlns="http://www.w3.org/2000/svg" class="{{ icon }}-svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="8.485" height="8.485" viewBox="0 0 8.485 8.485" fill="#707070">\n              <defs>\n                <clipPath id="a">\n                  <rect class="a" width="8.485" height="8.485"/>\n                </clipPath>\n              </defs>\n              <g class="b">\n                <rect width="11" height="1" transform="translate(7.778 8.485) rotate(-135)"/>\n                <rect width="11" height="1" transform="translate(0 7.778) rotate(-45)"/>\n              </g>\n            </svg>\n          </button>\n          <div class="modal__title">\n            <h4>' +
+                        a +
+                        '</h4>\n          </div>\n          <div class="modal__content">\n            ' +
+                        i +
+                        "\n          </div>\n        </div>\n      </div>\n      ";
+                    $("body").append(n),
+                        Alysi.modal.open(".modal--messages"),
+                        $(".modal--messages").on("modal-close", function () {
+                            $(this).remove();
+                        });
+                } else alert(i);
+            }),
+            (Shopify.changeItem = function (e, t, a) {
+                var i = {
+                    type: "POST",
+                    url: "/cart/change.js",
+                    data: "quantity=" + t + "&line=" + e,
+                    dataType: "json",
+                    success: function (e) {
+                        "function" == typeof a && a(e);
+                    },
+                    error: function (e, t) {
+                        Shopify.onError(e, t);
+                    },
+                };
+                jQuery.ajax(i);
+            }),
+            (Shopify.ajaxSubmitCart = function (e) {
+                ($cart = e),
+                    $.ajax({
+                        url: "/cart/update.js",
+                        dataType: "json",
+                        cache: !1,
+                        type: "post",
+                        data: $cart.serialize(),
+                        success: function (e) {
+                            Shopify.refreshCart(e);
+                        },
+                    });
+            }),
+            (Shopify.ajaxUpdateCart = function (i, n, o, e) {
+                $.ajax({
+                    url: "/cart/change.js",
+                    dataType: "json",
+                    cache: !1,
+                    type: "post",
+                    data: { quantity: n, line: i },
+                    success: function (e) {
+                        Shopify.refreshCart(e), Alysi.minicart.refreshMinicart();
+                        var t = i - 1;
+                        if ((0 == n && location.reload(), void 0 === e.items[t])) var a = 0;
+                        else a = e.items[t].quantity;
+                        0 < n && n != a
+                            ? (Shopify.onError({ message: Shopify.trans.productsProductWarning, description: Shopify.trans.productsProductCart_quantity_message }), o.find("input[data-line-id='" + i + "']").val(a))
+                            : o.is("#cart_form");
+                    },
+                    error: function (e, t) {
+                        Shopify.onError(e.responseJSON, t), o.find("input[data-line-id='" + i + "']").val(parseInt(n - 1));
+                    },
+                });
+            }),
+            (Shopify.refreshCart = function (e) {
+                $(".cart-count").empty();
+                var t = $(".cart-count"),
+                    a = t.text() || "0",
+                    i = "";
+                t.text(a.replace(/[0-9]+/, e.item_count)),
+                    Alysi.minicart.refreshMinicart(),
+                    0 == e.item_count
+                        ? ($(".js-empty-cart__message").removeClass("hidden"), $(".js-cart_content__form").addClass("hidden"), $(".cart-count").empty(), $(".menu-utility__item--cart").removeClass("full"))
+                        : ($(".js-empty-cart__message").addClass("hidden"),
+                          $(".js-cart_content__form").removeClass("hidden"),
+                          $(".menu-utility__item--cart").addClass("full"),
+                          $.each(e.items, function (e, t) {
+                              $('.cart-item[data-item-id = "' + t.id + '"] .js-cart-item__price .money').text(Shopify.formatMoney(t.price * t.quantity, $("body").data("money-format")));
+                          }),
+                          (i += "<span>" + Shopify.trans.layoutGeneralSubtotal + '</span><span class="money">' + Shopify.formatMoney(e.total_price, $("body").data("money-format")) + "</span>")),
+                    $(".js-cart_subtotal").html(i);
+            }),
+            (Shopify.updateVariantSubtotal = function (e) {
+                var t = $("body").data("money-format"),
+                    a = $(e).parents("tr"),
+                    i = a.find(".select-variant__qty").val(),
+                    n = a.find(".js-price").data("price"),
+                    o = a.find(".js-subtotal"),
+                    s = n * i;
+                $(o).data("price", s).text(Shopify.formatMoney(s, t)), Shopify.sumVariantSubtotal();
+            }),
+            (Shopify.sumVariantSubtotal = function () {
+                var n = $("body").data("money-format");
+                0 < $(".js-linesubtotal").length &&
+                    $(".js-linesubtotal").each(function (e, t) {
+                        var i = 0,
+                            a = $(t).parents("table").find(".js-subtotal");
+                        0 < a.length &&
+                            (a.each(function (e, t) {
+                                var a = parseInt($(this).data("price"));
+                                i = parseInt(i) + a;
+                            }),
+                            $(t).text(Shopify.formatMoney(i, n)));
+                    });
+            }),
+            Shopify.sumVariantSubtotal(),
+            $("body").on("change", "#cart_form input.quantity", function () {
+                Shopify.ajaxUpdateCart($(this).data("line-id"), $(this).val(), $(this).parents("#cart_form"));
+            }),
+            $(document).on("click", "#cart_form .js-update-qty", function (e) {
+                var t = $(this).parents("tr").find(".select-variant__qty");
+                Shopify.ajaxUpdateCart(t.data("line-id"), t.val(), $(this).parents("#cart_form")), Shopify.updateVariantSubtotal(e.target);
+            }),
+            $(".select-variant__qty")
+                .focus(function () {
+                    0 === parseInt(this.value) && (this.value = "");
+                })
+                .keypress(function (e) {
+                    ((8 != e.which && 0 != e.which && e.which < 48) || 57 < e.which) && e.preventDefault();
+                })
+                .keyup(function () {
+                    this.value > parseInt($(this).attr("max")) && (this.value = parseInt($(this).attr("max")));
+                })
+                .blur(function () {
+                    "" === this.value && (this.value = 0);
+                }),
+            $("body").on("submit", ".product_form form, .shopify-product-form", function (e) {
+                e.preventDefault();
+                if (0 < !$(".select-variant__link--selected").length) {
+                    var t = Shopify.trans.productsProductWarning,
+                        a = Shopify.trans.productsProductSelectSize;
+                    return Shopify.onError({ message: t, description: a }), !1;
+                }
+                var i = $(this).find(".product_form__quantity--box input").val();
+                Shopify.addItem(this.id.value, i);
+            });
+    });

@@ -1,0 +1,229 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "custom_liquid_3LDBqk": {
+      "type": "custom-liquid",
+      "name": "t:sections.custom-liquid.name",
+      "settings": {
+        "color_scheme": "color-main",
+        "custom_liquid": "<style>\n  .immagine-centrata {\n    display: block;\n    margin: 0 auto;\n    max-width: 800px; /* dimensione max su desktop */\n    width: 100%;\n    height: auto;\n  }\n\n  /* Regole per schermi piccoli (mobile) */\n  @media (max-width: 767px) {\n    .immagine-centrata {\n      max-width: 400px; /* dimensione max su mobile */\n    }\n  }\n</style>\n\n<div style=\"text-align: center;\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0314/1848/2819/files/STD1_2d13aaf6-fddb-4c5e-b72f-74d9f4ea45ce.jpg?v=1757084818\" \n    alt=\"Descrizione immagine\"\n    class=\"immagine-centrata\"\n  >\n</div>",
+        "enable_full_width": false,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_hotspots_Ut3Ymy": {
+      "type": "image-with-hotspots",
+      "blocks": {
+        "image_PWhDYi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/STD1_2d13aaf6-fddb-4c5e-b72f-74d9f4ea45ce.jpg",
+            "video_url": "",
+            "media_toggle": "show_image",
+            "md_padding_top": 0,
+            "md_padding_bottom": 0,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_PWhDYi"
+      ],
+      "disabled": true,
+      "name": "t:sections.image-with-hotspots.name",
+      "settings": {
+        "color_scheme": "color-main",
+        "section_bg": "",
+        "numbered_hotspots": false,
+        "enable_full_width": false,
+        "media_position": "media_last",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-center",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-center",
+        "full_width_buttons": false,
+        "sm_down_hide_hotspot_titles": false,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "contact_form": {
+      "type": "contact-form",
+      "blocks": {
+        "template--16212602060989__3a48de0d-8d7b-4d18-8fac-44c00f552f27-title-1": {
+          "type": "title",
+          "settings": {
+            "title": "New Store, New City, New Party!",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "sm_margin_bottom": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "template--16212602060989__3a48de0d-8d7b-4d18-8fac-44c00f552f27-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>I campi contrassegnati da un asterisco (*) sono obbligatori e devono essere compilati.</p><p>Registrandoti all’evento, acconsenti alla condivisione dei tuoi dati personali con Alysi per finalità organizzative e di comunicazione. Se sarai presente all'evento, acconsenti inoltre a essere fotografato e ripreso durante la serata. Queste immagini e video potranno essere utilizzati e pubblicati sui canali web & social di Alysi  per scopi di comunicazione.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "sm_margin_bottom": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0,
+            "margin_bottom": 0
+          }
+        },
+        "template--16212602060989__3a48de0d-8d7b-4d18-8fac-44c00f552f27-input-1": {
+          "type": "input",
+          "settings": {
+            "label": "Nome",
+            "type": "text",
+            "width": "half-width",
+            "required": true
+          }
+        },
+        "input_9B99aX": {
+          "type": "input",
+          "settings": {
+            "label": "Cognome",
+            "type": "text",
+            "width": "half-width",
+            "required": true
+          }
+        },
+        "template--16212602060989__3a48de0d-8d7b-4d18-8fac-44c00f552f27-email-1": {
+          "type": "email",
+          "settings": {
+            "label": "Email",
+            "width": "full-width"
+          }
+        }
+      },
+      "block_order": [
+        "template--16212602060989__3a48de0d-8d7b-4d18-8fac-44c00f552f27-title-1",
+        "template--16212602060989__3a48de0d-8d7b-4d18-8fac-44c00f552f27-text-1",
+        "template--16212602060989__3a48de0d-8d7b-4d18-8fac-44c00f552f27-input-1",
+        "input_9B99aX",
+        "template--16212602060989__3a48de0d-8d7b-4d18-8fac-44c00f552f27-email-1"
+      ],
+      "custom_css": [
+        ".btn {background-color: #ddb593 !important;}"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_align": "text-align-center",
+        "md_padding_top": 104,
+        "md_padding_bottom": 104,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_WVzKEA": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_36EJg4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/mappa-parigi.jpg",
+            "video_url": "",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_image",
+            "media_link": "https://www.google.it/maps/place/ALYSI/@48.8531611,2.3080115,14z/data=!4m10!1m2!2m1!1salisi+parigi!3m6!1s0x47e671af0e236241:0xfbe5fc55455844e1!8m2!3d48.8530647!4d2.3287213!15sCgxhbGlzaSBwYXJpZ2mSAQhib3V0aXF1ZaoBTgoML2cvMTEzbHFmMzhnEAEqCSIFYWxpc2koBzIfEAEiG_MMT52rKCyy-UISYaSbUDcj0PUvWVBm9dLWaDIQEAIiDGFsaXNpIHBhcmlnaeABAA!16s%2Fg%2F11yc66x8td?hl=it&entry=ttu&g_ep=EgoyMDI1MDYyOS4wIKXMDSoASAFQAw%3D%3D"
+          }
+        },
+        "subtitle_Y7rpeB": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "alysi boutique",
+            "heading_tag": "h3",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "text_xFKidg": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Paris New Opening Party<br/></strong>Save the date 11th Sep<br/>From 5pm to 8pm<br/><a href=\"https://www.google.it/maps/place/ALYSI/@48.8531611,2.3080115,14z/data=!4m10!1m2!2m1!1salisi+parigi!3m6!1s0x47e671af0e236241:0xfbe5fc55455844e1!8m2!3d48.8530647!4d2.3287213!15sCgxhbGlzaSBwYXJpZ2mSAQhib3V0aXF1ZaoBTgoML2cvMTEzbHFmMzhnEAEqCSIFYWxpc2koBzIfEAEiG_MMT52rKCyy-UISYaSbUDcj0PUvWVBm9dLWaDIQEAIiDGFsaXNpIHBhcmlnaeABAA!16s%2Fg%2F11yc66x8td?hl=it&entry=ttu&g_ep=EgoyMDI1MDYyOS4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.it/maps/place/ALYSI/@48.8531611,2.3080115,14z/data=!4m10!1m2!2m1!1salisi+parigi!3m6!1s0x47e671af0e236241:0xfbe5fc55455844e1!8m2!3d48.8530647!4d2.3287213!15sCgxhbGlzaSBwYXJpZ2mSAQhib3V0aXF1ZaoBTgoML2cvMTEzbHFmMzhnEAEqCSIFYWxpc2koBzIfEAEiG_MMT52rKCyy-UISYaSbUDcj0PUvWVBm9dLWaDIQEAIiDGFsaXNpIHBhcmlnaeABAA!16s%2Fg%2F11yc66x8td?hl=it&entry=ttu&g_ep=EgoyMDI1MDYyOS4wIKXMDSoASAFQAw%3D%3D\">13 B, Rue de Grenelle, 75007 Paris, France</a></p><p></p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_36EJg4",
+        "subtitle_Y7rpeB",
+        "text_xFKidg"
+      ],
+      "name": "t:sections.image-with-text.name",
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "custom_liquid_QHtByb": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "name": "t:sections.custom-liquid.name",
+      "settings": {
+        "color_scheme": "color-main",
+        "custom_liquid": "<div style=\"text-align: center;\">\n  <img \n    src=\"https://cdn.shopify.com/s/files/1/0314/1848/2819/files/logo-rosa-hd.png?v=1757069785\" \n    alt=\"Descrizione immagine\" \n    style=\"max-width: 10%; height: auto;\"\n  >\n</div>",
+        "enable_full_width": false,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_3LDBqk",
+    "image_with_hotspots_Ut3Ymy",
+    "contact_form",
+    "image_with_text_WVzKEA",
+    "custom_liquid_QHtByb"
+  ]
+}

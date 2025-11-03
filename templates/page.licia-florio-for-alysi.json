@@ -1,0 +1,482 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "hero_7xPfAV": {
+      "type": "hero",
+      "blocks": {
+        "image_r7DVCB": {
+          "type": "image",
+          "settings": {
+            "media_link": "",
+            "media_toggle": "show_image",
+            "image": "shopify://shop_images/DSC03284.jpg",
+            "video_url": "",
+            "video_url_mobile": ""
+          }
+        },
+        "buttons_JGCNDN": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "classe di respirazione",
+            "button_link_1": "https://www.youtube.com/watch?v=vdSexPlBowU",
+            "button_style_1": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "",
+            "button_label_3": "",
+            "button_link_3": "",
+            "button_style_3": "",
+            "sm_full_width_buttons": false,
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 24,
+            "full_width_buttons": false,
+            "size_multiplier": "size--default",
+            "margin_top": 24
+          }
+        }
+      },
+      "block_order": [
+        "image_r7DVCB",
+        "buttons_JGCNDN"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "overlay_opacity": 0,
+        "enable_full_width": true,
+        "section_height_desktop": "by_pixels",
+        "section_pixel_height_desktop": 680,
+        "content_width": "col-sm-max-8",
+        "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 0,
+        "md_padding_bottom": 80,
+        "section_height": "by_pixels",
+        "section_pixel_height": 400,
+        "content_align_mobile": "vertical-center horizontal-center",
+        "mobile_alignment": "text-align-center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "54264903-7e7e-45fc-9df2-ac40219658f7": {
+      "type": "banner-grid",
+      "blocks": {
+        "template--20494408876366__54264903-7e7e-45fc-9df2-ac40219658f7-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/loghi-sito.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--20494408876366__54264903-7e7e-45fc-9df2-ac40219658f7-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/modifica_23a334ed-ead4-4e4b-9cf0-28e274ece530.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--20494408876366__54264903-7e7e-45fc-9df2-ac40219658f7-image-1",
+        "template--20494408876366__54264903-7e7e-45fc-9df2-ac40219658f7-image-3"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 0,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "0391254f-a00c-462e-8641-0dbedc8a4c0f": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_g77yP6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC03293_bd789599-b7fa-448d-abc8-0e8b290adbe5.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_xV3QUq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC03081.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC03258.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_g77yP6",
+        "image_xV3QUq",
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-2"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 4,
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 3,
+        "padding_top": 8,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_BKcfDU": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_GpP9wA": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "WELLNESS",
+            "richtext": "<p>In occasione della Wellness week di Milano, ALYSI presenta la sua prima capsule <em>Active Travel Collection</em>, pensata e disegnata in collaborazione con <a href=\"https://www.liciaflorio.com/?srsltid=AfmBOoreC8rnfdK6Q4m58EvzIlPbEg-urRLe-JL5RLRo1612Q7QSlQmx\" target=\"_blank\" title=\"https://www.liciaflorio.com/?srsltid=AfmBOoreC8rnfdK6Q4m58EvzIlPbEg-urRLe-JL5RLRo1612Q7QSlQmx\">Licia Florio.</a></p><p>Due realtà diverse ma accomunate dalla costante ricerca della BELLEZZA nell’ordinario, si fondono ora in un’unica visione estetica e pratica: il risultato è una collezione dalle linee pulite e dalla palette rilassata, che unisce stile e funzionalità.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        },
+        "image_WF6nhM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC03455.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_GpP9wA",
+        "image_WF6nhM"
+      ],
+      "settings": {
+        "block_aspect_ratio": "square",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 0,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 8
+      }
+    },
+    "banner_grid_gaTPAY": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_HCVxp6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC03337.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Tgfk3k": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC03336.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_YUc83B": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC03269.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_HCVxp6",
+        "image_Tgfk3k",
+        "image_YUc83B"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 3,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_Dr9UWE": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_wMVLpt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC03361.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "text_WLyr96": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "daily program",
+            "richtext": "<p>per dare il benvenuto alla wellness week, una mattinata totalmente dedicata al benessere: </p><ul><li>9:30  Arrivo e chiacchiere</li><li>10:00 Respirazione con <a href=\"https://www.instagram.com/liciaflorio/\" target=\"_blank\" title=\"https://www.instagram.com/liciaflorio/\">Licia</a></li><li>10:30 Breakfast</li><li>11:30 Face gym e massaggio Gua-Sha by <a href=\"https://www.instagram.com/paola_flowinglift/\" target=\"_blank\" title=\"https://www.instagram.com/paola_flowinglift/\">Paola</a></li><li>12:30 Light lunch by <a href=\"https://www.instagram.com/taleastudio/\" target=\"_blank\" title=\"https://www.instagram.com/taleastudio/\">Taleastudio</a></li></ul>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        }
+      },
+      "block_order": [
+        "image_wMVLpt",
+        "text_WLyr96"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 8,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 8,
+        "padding_bottom": 0
+      }
+    },
+    "62b9a1f6-c77f-4818-b73a-7818d6e876d5": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_d4NPHN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC03362.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--20494408876366__62b9a1f6-c77f-4818-b73a-7818d6e876d5-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC03376.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_d4NPHN",
+        "template--20494408876366__62b9a1f6-c77f-4818-b73a-7818d6e876d5-image-3"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 8
+      }
+    },
+    "rich_text_bWR4Kb": {
+      "type": "rich-text",
+      "blocks": {
+        "title_8gzVVb": {
+          "type": "title",
+          "settings": {
+            "title": "MASSAGGIO GUA-SHA",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "subtitle_n8YMgg": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "BY Paola",
+            "heading_tag": "h3",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "text_EtBMmB": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><p><em><strong>Consigli utili per il massaggio con la pietra Gua Sha.</strong></em></p><p>Usare il gua sha pleferibilmete la mattina per aiutare ad eliminare i gonfiori e drenare il viso, facendolo scivolare a 45° rispetto al viso.<br/>Detergere la pelle usando il tuo olio preferito, massaggiando il collo a destra con la mano sinistra dall’orecchio alla clavicola e viceversa per stimolare il sistema linfatico.</p><p><strong>Guance e zigomi</strong><br/>Mettere  la parte concava  del gua sha lungo la parte centrale del viso vicino a naso e bocca e scivolare fino alla parte laterale del viso per 8 volte. <br/><br/><strong>Occhi e palpebre</strong><br/>Drenare leggermente con la punta piú alta del cuore sotto l'occhio con leggeri sfioramenti 8 volte per occhio.<br/>Sollevare leggermente  con le dita una palpebra  e fare scorrere  sotto le sopracciglia  la parte alta della punta del gua sha per 8 volte e cambiare lato.<br/><br/><strong>Fronte</strong><br/>Partendo dal centro della fronte, la parte concava nel centro fronte scendere lateralmente e delicatamente quasi a toccare la pelle della fronte (mai in verticale)  per 8 volte arrivando fino attaccatura capelli e cambiare lato.  <br/>Finire drenando ogni lato viso con gua sha che scende dalla fronte ai lati fino alla clavicola.<br/></p><p><strong>Petto</strong><br/>Usare il lato concavo del gua-sha e farlo scivolare dal centro verso l’ascella sinistra per 8 volte e cambiare lato.<br/><br/><strong>Collo</strong><br/>Partendo dal retro collo dal basso a salire fino  all'attaccatura dei capelli per 8 volte e cambiare lato. Dal basso in alto. Con  la parte concava far sfiorare<br/>la pelle da sotto l'orecchio su tutta la parte laterale/frontale  del collo fino alla clavicola dall'alto in basso. <br/><br/><strong>Mento</strong><br/>Far scivolare la parte alta del cuore da metà mento fino all'orecchio per <br/>8 volte.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "title_8gzVVb",
+        "subtitle_n8YMgg",
+        "text_EtBMmB"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 95,
+        "desktop_content_alignment": "center",
+        "desktop_alignment": "sm-text-align-left",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_7xPfAV",
+    "54264903-7e7e-45fc-9df2-ac40219658f7",
+    "0391254f-a00c-462e-8641-0dbedc8a4c0f",
+    "banner_grid_BKcfDU",
+    "banner_grid_gaTPAY",
+    "banner_grid_Dr9UWE",
+    "62b9a1f6-c77f-4818-b73a-7818d6e876d5",
+    "rich_text_bWR4Kb"
+  ]
+}

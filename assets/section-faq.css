@@ -1,0 +1,10 @@
+.faq-item {
+  margin-top: calc(var(--gutter) * 0.4);
+}
+.faq-item:not(:last-of-type) {
+  border-bottom: 1px solid var(--primary-borders);
+}
+.faq-item__body {
+  padding-top: calc(var(--gutter) * 0.3);
+  padding-bottom: var(--gutter);
+}

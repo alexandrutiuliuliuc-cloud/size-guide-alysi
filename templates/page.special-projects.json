@@ -1,0 +1,581 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "image_with_text_fwdJtM": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_kAhfM8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cover_special-project.jpg",
+            "video_url": "",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "title_tYUrWX": {
+          "type": "title",
+          "settings": {
+            "title": "EDICOLA ERNO X ALYSI",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "text_aB4PBr": {
+          "type": "text",
+          "settings": {
+            "text": "<p>L'edicola Romana Non Ordinaria in piazza Americo Capponi, diventa per un weekend l'<em>Edicola Alysi</em>! <br/></p><p>Il viaggio creativo della FW'25 ha come prima tappa Roma. <br/>La capsule \"Ti amo Roma\" è un omaggio viscerale alla città che ci ospita e ci ispira, fatto di segni, strade, simboli e luce.<br/></p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 40,
+            "size_multiplier": "size--default",
+            "margin_top": 40
+          }
+        },
+        "button_x6AYEz": {
+          "type": "button",
+          "settings": {
+            "button_label": "Scopri di più",
+            "button_link": "shopify://pages/edicola-erno-x-alysi",
+            "button_style": "link",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 24,
+            "size_multiplier": "size--default",
+            "margin_top": 24
+          }
+        }
+      },
+      "block_order": [
+        "image_kAhfM8",
+        "title_tYUrWX",
+        "text_aB4PBr",
+        "button_x6AYEz"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 80,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 64,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_9LUJpP": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_8aA7iV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/covermdw.jpg",
+            "video_url": "",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "title_3erJAM": {
+          "type": "title",
+          "settings": {
+            "title": "The skin i live in",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "text_AtN6B3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La pelle che ci avvolge è materia, memoria, gesto. È un confine e un rifugio, superficie e sostanza. <em><strong>The Skin I Live In </strong></em>esplora il dialogo tra corpo e spazio, tra tessuto e forma, tra abito e arredo.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 40,
+            "size_multiplier": "size--default",
+            "margin_top": 40
+          }
+        },
+        "button_tmfgcW": {
+          "type": "button",
+          "settings": {
+            "button_label": "Scopri di più",
+            "button_link": "shopify://pages/the-skin-i-live-in",
+            "button_style": "link",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 24,
+            "size_multiplier": "size--default",
+            "margin_top": 24
+          }
+        }
+      },
+      "block_order": [
+        "image_8aA7iV",
+        "title_3erJAM",
+        "text_AtN6B3",
+        "button_tmfgcW"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 80,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 64,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_nfgggh": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_CWyRMW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/covermadlen.jpg",
+            "video_url": "",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "title_hg9XpL": {
+          "type": "title",
+          "settings": {
+            "title": "madlen.ceramics",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "text_mTGtLN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Cristina imprime sulla ceramica memoria e identità, la sua è una ricerca che parte dalla pelle e arriva all’anima degli oggetti.<br/>Le creazioni dell'atelier sono <em>weightless</em>, senza peso, come la Casa che le accoglie, frutto di una filosofia progettuale che è anche uno stile di vita.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 40,
+            "size_multiplier": "size--default",
+            "margin_top": 40
+          }
+        },
+        "button_FeHdTa": {
+          "type": "button",
+          "settings": {
+            "button_label": "Scopri di più",
+            "button_link": "shopify://pages/madlen-ceramics",
+            "button_style": "link",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 24,
+            "size_multiplier": "size--default",
+            "margin_top": 24
+          }
+        }
+      },
+      "block_order": [
+        "image_CWyRMW",
+        "title_hg9XpL",
+        "text_mTGtLN",
+        "button_FeHdTa"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 80,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 64,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_8eKMJk": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_6itCek": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/coverlicia.jpg",
+            "video_url": "",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "title_9BNP4n": {
+          "type": "title",
+          "settings": {
+            "title": "LICIA FLORIO x ALYSI",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "text_WGqz3J": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In occasione della Wellness week di Milano, ALYSI presenta la sua prima capsule <em>Active Travel Collection</em>, pensata e disegnata in collaborazione con <a href=\"https://www.liciaflorio.com/?srsltid=AfmBOoreC8rnfdK6Q4m58EvzIlPbEg-urRLe-JL5RLRo1612Q7QSlQmx\" target=\"_blank\" title=\"https://www.liciaflorio.com/?srsltid=AfmBOoreC8rnfdK6Q4m58EvzIlPbEg-urRLe-JL5RLRo1612Q7QSlQmx\">Licia Florio.</a></p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 40,
+            "size_multiplier": "size--default",
+            "margin_top": 40
+          }
+        },
+        "button_EQMJd6": {
+          "type": "button",
+          "settings": {
+            "button_label": "Scopri di più",
+            "button_link": "shopify://pages/licia-florio-x-alysi",
+            "button_style": "link",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 24,
+            "size_multiplier": "size--default",
+            "margin_top": 24
+          }
+        }
+      },
+      "block_order": [
+        "image_6itCek",
+        "title_9BNP4n",
+        "text_WGqz3J",
+        "button_EQMJd6"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 80,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 64,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_C6xpzg": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_bMxCzi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cover_wunderkammer.jpg",
+            "video_url": "",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "title_CH4nWD": {
+          "type": "title",
+          "settings": {
+            "title": "WUNDERKAMMER",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "text_NGKnPQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Alysi presenta, in occasione della Design Week 2024 a tema “Materia Natura”, un’installazione curata dalla set designer Martina Sanzarello presso la boutique in Brera District, che emula una Wunderkammer.</p><p>Una vera e propria Cabinet de curiosites diventa scenario per la presentazione della collezione di profumi del brand scandinavo <a href=\"https://eu.bjorkandberries.com/?gad_source=1&gclid=Cj0KCQjwq86wBhDiARIsAJhuphkuA15d53xOA_bSW03luMdbV7RuHY1_gNdKo8yo1SuFj7GmguZ9u-YaAro7EALw_wcB\" target=\"_blank\" title=\"https://eu.bjorkandberries.com/?gad_source=1&gclid=Cj0KCQjwq86wBhDiARIsAJhuphkuA15d53xOA_bSW03luMdbV7RuHY1_gNdKo8yo1SuFj7GmguZ9u-YaAro7EALw_wcB\">björk and berries </a>e per i  bicchieri di design Martini shot glasses in vetro borosilicato firmati <a href=\"https://traga.it/\" target=\"_blank\" title=\"https://traga.it/\">TRAGA.</a></p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 40,
+            "size_multiplier": "size--default",
+            "margin_top": 40
+          }
+        },
+        "button_rMJxMK": {
+          "type": "button",
+          "settings": {
+            "button_label": "Scopri di più",
+            "button_link": "shopify://pages/collab",
+            "button_style": "link",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 24,
+            "size_multiplier": "size--default",
+            "margin_top": 24
+          }
+        }
+      },
+      "block_order": [
+        "image_bMxCzi",
+        "title_CH4nWD",
+        "text_NGKnPQ",
+        "button_rMJxMK"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 80,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 64,
+        "padding_bottom": 0
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "image_with_text_DgFDNt": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_Utk4pf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cover_casabalandra.jpg",
+            "video_url": "",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "title_WcpV3w": {
+          "type": "title",
+          "settings": {
+            "title": "memoria collettiva",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "text_8pUwpy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Alla scoperta di Palma di Maiorca attraverso gli occhi sofisticati di un gruppo di donne ispiranti e curiose, per recuperare e trasmettere i valori di manualità e manifattura, alla base dell’attitude di ALYSI e della cultura dell’isola.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 40,
+            "size_multiplier": "size--default",
+            "margin_top": 40
+          }
+        },
+        "button_Nky3qM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Scopri di più",
+            "button_link": "shopify://pages/campaign-3",
+            "button_style": "link",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 24,
+            "size_multiplier": "size--default",
+            "margin_top": 24
+          }
+        }
+      },
+      "block_order": [
+        "image_Utk4pf",
+        "title_WcpV3w",
+        "text_8pUwpy",
+        "button_Nky3qM"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 80,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 64,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_zCHE66": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_XpFngV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/coverdxs.jpg",
+            "video_url": "",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "title_gEKHXa": {
+          "type": "title",
+          "settings": {
+            "title": "women's empowerment",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "text_yVCfwc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"Accadono cose incredibili quando le donne si supportano a vicenda” recitava lo slogan sulle T-shirt in limited edition andate a ruba un anno fa.</p><p>Di nuovo ALYSI e \"donne x strada\" si uniscono forze e voce per cambiare insieme l’attuale condizione femminile, ancora troppo penalizzante.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 40,
+            "size_multiplier": "size--default",
+            "margin_top": 40
+          }
+        },
+        "button_aRb8nh": {
+          "type": "button",
+          "settings": {
+            "button_label": "Scopri di più",
+            "button_link": "shopify://pages/collab",
+            "button_style": "link",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 24,
+            "size_multiplier": "size--default",
+            "margin_top": 24
+          }
+        }
+      },
+      "block_order": [
+        "image_XpFngV",
+        "title_gEKHXa",
+        "text_yVCfwc",
+        "button_aRb8nh"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 80,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 64,
+        "padding_bottom": 0
+      }
+    },
+    "image_with_text_gN4yWU": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_RqjHCU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/a4de2e6b421d1afd4bb1fcaedd3a111e.webp",
+            "video_url": "",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "title_FdKK3J": {
+          "type": "title",
+          "settings": {
+            "title": "COLOUR: UNKNOWN",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "text_qR8dNP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lo showroom di ALYSI diventa un vivaio dove crescono nuove visioni.<br/>Una combinazione di esperienze interattive e proposte espositive creano un nuovo format ibrido e inaspettato.</p><p>COLOUR: UNKNOWN è una serie di eventi<br/>dedicati alla curiosità, orientati alla sorpresa e all’osservazione sensoriale, curati da Sara Maragotto di Studio Fludd e ospitati dalla Garden House di ALYSI.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 40,
+            "size_multiplier": "size--default",
+            "margin_top": 40
+          }
+        },
+        "button_fD6AWn": {
+          "type": "button",
+          "settings": {
+            "button_label": "Scopri di più",
+            "button_link": "shopify://blogs/garden-house/lorem-ipsum-1",
+            "button_style": "link",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 24,
+            "size_multiplier": "size--default",
+            "margin_top": 24
+          }
+        }
+      },
+      "block_order": [
+        "image_RqjHCU",
+        "title_FdKK3J",
+        "text_qR8dNP",
+        "button_fD6AWn"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 80,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 64,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "image_with_text_fwdJtM",
+    "image_with_text_9LUJpP",
+    "image_with_text_nfgggh",
+    "image_with_text_8eKMJk",
+    "image_with_text_C6xpzg",
+    "main",
+    "image_with_text_DgFDNt",
+    "image_with_text_zCHE66",
+    "image_with_text_gN4yWU"
+  ]
+}

@@ -1,0 +1,54 @@
+{%- liquid
+assign color_str = 'products.product.color_swatch_identifiers' | t | downcase
+
+capture the_swatches
+  for option in product.options_with_values
+    assign opt_name = option.name | downcase
+    if color_str contains opt_name
+
+      for color in option.values
+        assign option_position_str = 'option' | append: option.position
+        assign color_variant = product.variants | where: option_position_str, color | first
+        if color_variant 
+          assign variant_url = product.url | append: '?variant=' | append: color_variant.id
+        else
+          assign variant_url = product.url
+        endif
+        
+        #Downcase PNG attempt
+        assign url = color | handleize | append: '.png'
+        assign file_url = images[url]
+        
+        # Downcase JPG attempt
+        if file_url == blank
+          assign url = color | handleize | append: '.jpg' 
+          assign file_url = images[url]
+        endif   
+
+        if file_url == blank
+          assign file_url = false
+        else
+          assign file_url = url | file_img_url: '32x32'
+        endif
+
+        assign downcased_color = color | handleize
+        echo '<a class="swatch" href="' | append: variant_url | append: '">'
+          if file_url
+            echo '<img src="' | append: file_url | append: '" alt="' | append: color | append: ';" width="16" height="16" loading="lazy" decoding="async" class="color" />'
+          else
+            echo '<span class="color" style="--color:transparent"></span>' | replace: 'transparent', downcased_color
+          endif
+          echo '<span class="visually-hidden">' | append: color | append: '</span>'
+        echo '</a>'
+      endfor
+      break
+    endif
+  endfor
+endcapture -%}
+
+{%- if the_swatches != empty -%}
+  <div class="mt-12 swatches flex" style="gap: 0.6rem;">
+    <span class="visually-hidden">{{ 'products.product.available_in' | t }}</span>
+    {{ the_swatches }}
+  </div>
+{%- endif -%}

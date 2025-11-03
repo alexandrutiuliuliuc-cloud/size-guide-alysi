@@ -1,0 +1,936 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "rich_text_WcXHAD": {
+      "type": "rich-text",
+      "blocks": {
+        "title_6Hixzc": {
+          "type": "title",
+          "settings": {
+            "title": "Milan city guide",
+            "heading_tag": "h1",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "title_6Hixzc"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 100,
+        "desktop_content_alignment": "center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 64,
+        "md_padding_bottom": 64,
+        "mobile_alignment": "text-align-center",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_hotspots_APmPDK": {
+      "type": "image-with-hotspots",
+      "blocks": {
+        "image_tXJPQQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/city_map-milano.jpg",
+            "video_url": "",
+            "media_toggle": "show_image",
+            "md_padding_top": 0,
+            "md_padding_bottom": 0,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "hotspot_yxr4MP": {
+          "type": "hotspot",
+          "settings": {
+            "title": "ALYSI BOUTIQUE",
+            "title_position": "right",
+            "color_scheme": "color-main",
+            "vertical_position": 30,
+            "horizontal_position": 6,
+            "image": "shopify://shop_images/milan-Studiopepe-Alysi-300dpi-02_1920x_0fe5f6dd-bac3-49fe-9ba9-6adb814d1090.webp",
+            "video_url": "",
+            "text": "<p><strong>1. ALYSI BOUTIQUE</strong></p><p>Aperta nel 2018, la boutique ALYSI di Brera si inserisce nel quartiere più creativo di Milano, punto d’incontro tra moda, arte e design. 130 mq in una palazzina seicentesca trasformati da Studiopepe in una boutique dal design sofisticato e contemporaneo. Spazi distinti, palette naturali e materiali preziosi guidano il visitatore in un percorso cromatico che unisce capi e interni in un’atmosfera femminile e moderna.</p><p><a href=\"https://www.google.com/maps/place/ALYSI+Milano/@45.469252,9.1829787,17z/data=!3m1!5s0x4786c6b2cb9ba317:0x3ec190c3d3d1f44!4m6!3m5!1s0x4786c75628fc7dbb:0xbf2637b2e0bb72aa!8m2!3d45.469252!4d9.185559!16s%2Fg%2F11ghfvxm00?entry=ttu&g_ep=EgoyMDI1MDkwMy4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.com/maps/place/ALYSI+Milano/@45.469252,9.1829787,17z/data=!3m1!5s0x4786c6b2cb9ba317:0x3ec190c3d3d1f44!4m6!3m5!1s0x4786c75628fc7dbb:0xbf2637b2e0bb72aa!8m2!3d45.469252!4d9.185559!16s%2Fg%2F11ghfvxm00?entry=ttu&g_ep=EgoyMDI1MDkwMy4wIKXMDSoASAFQAw%3D%3D\"><em>ALYSI, Via Ponte Vetero, 6, 20121 Milano MI</em></a></p>"
+          }
+        },
+        "hotspot_eziAf8": {
+          "type": "hotspot",
+          "settings": {
+            "title": "ORTO BOTANICO DI BRERA",
+            "title_position": "right",
+            "color_scheme": "color-main",
+            "vertical_position": 15,
+            "horizontal_position": 15,
+            "image": "shopify://shop_images/IMG_8312.jpg",
+            "video_url": "",
+            "text": "<p><strong>2. ORTO BOTANICO DI BRERA</strong></p><p>Nascosto dietro la facciata sud del Palazzo di Brera, l’Orto Botanico è un'oasi verde nel cuore di Milano. Fondato nel XVIII secolo, si estende per circa 5.000 m², ospitando serre, aiuole tematiche e alberi maestosi. Gestito dall’Università degli Studi di Milano, funge da museo vivente e centro di attività scientifiche, educative e culturali, con accesso libero, visite guidate, laboratori e altri eventi.</p><p>L'orto botanico di Brera restituisce alla città un angolo in cui godere del verde. Qui, come nella Garden House di Alysi, l’architettura industriale si fonde con un giardino, creando un’atmosfera sospesa tra contemporaneità e quiete. Uno spazio che non si visita, ma si vive, dove il silenzio, la luce e i materiali stimolano i 5 sensi e contrastano il trambusto della Città.</p><p><a href=\"https://www.google.com/maps/place/Orto+Botanico+di+Brera/@45.4719619,9.1829762,17z/data=!3m1!4b1!4m6!3m5!1s0x4786c6b3a4335f3d:0x5a8416a365c3a6c9!8m2!3d45.471962!4d9.1878417!16s%2Fm%2F03wfvy5?entry=ttu&g_ep=EgoyMDI1MDkwNy4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.com/maps/place/Orto+Botanico+di+Brera/@45.4719619,9.1829762,17z/data=!3m1!4b1!4m6!3m5!1s0x4786c6b3a4335f3d:0x5a8416a365c3a6c9!8m2!3d45.471962!4d9.1878417!16s%2Fm%2F03wfvy5?entry=ttu&g_ep=EgoyMDI1MDkwNy4wIKXMDSoASAFQAw%3D%3D\"><em>Orto Botanico, Via Brera, 28, 20121 Milano</em></a></p>"
+          }
+        },
+        "hotspot_M3DXE7": {
+          "type": "hotspot",
+          "settings": {
+            "title": "SUGO",
+            "title_position": "right",
+            "color_scheme": "color-main",
+            "vertical_position": 83,
+            "horizontal_position": 15,
+            "image": "shopify://shop_images/IMG_8305.jpg",
+            "video_url": "",
+            "text": "<p><strong>3. SUGO</strong></p><p>Sugo Milano è una trattoria contemporanea che reinterpreta i grandi classici della cucina italiana in chiave moderna. L’ambiente accogliente, con arredi vintage e un bancone conviviale, crea un’atmosfera intima e rilassata, ideale per gustare piatti autentici.</p><p>Una vaschetta di sugo, un gesto semplice al bancone, il calore del servizio. Sugo Milano è uno spazio dove la convivialità diventa forma di bellezza, eliminando il superfluo per lasciare spazio a ciò che davvero conta.</p><p><a href=\"https://www.google.com/maps/place/Sugo+Milano+-+Duomo/@45.4618509,9.1848926,17z/data=!3m1!4b1!4m6!3m5!1s0x4786c783412589af:0x2fb49f606d018b31!8m2!3d45.4618509!4d9.1874729!16s%2Fg%2F11spw7dll4?entry=ttu&g_ep=EgoyMDI1MDkwNy4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.com/maps/place/Sugo+Milano+-+Duomo/@45.4618509,9.1848926,17z/data=!3m1!4b1!4m6!3m5!1s0x4786c783412589af:0x2fb49f606d018b31!8m2!3d45.4618509!4d9.1874729!16s%2Fg%2F11spw7dll4?entry=ttu&g_ep=EgoyMDI1MDkwNy4wIKXMDSoASAFQAw%3D%3D\"><em>Via dell'Unione, 11, 20123 Milano</em></a></p>"
+          }
+        },
+        "hotspot_7qcP3K": {
+          "type": "hotspot",
+          "settings": {
+            "title": "BUILDING GALLERY",
+            "title_position": "right",
+            "color_scheme": "color-main",
+            "vertical_position": 22,
+            "horizontal_position": 27,
+            "image": "shopify://shop_images/IMG_8336.jpg",
+            "video_url": "",
+            "text": "<p><strong>4. BUILDING GALLERY</strong></p><p>Building Gallery è uno spazio d’arte contemporanea installato all’interno di un edificio composto da tre livelli espositivi. Inaugurata nel 2017, la galleria ospita progetti singoli e collettivi curati, dedicati ad artisti emergenti e affermati, con un linguaggio visivo teso al dialogo tra generazioni e tra discipline.</p><p>Building Gallery incarna un approccio che ALYSI sostiene: valorizzare la contaminazione, mescolare codici estetici e storie visive. In questo spazio, la sperimentazione artistica dialoga con l’architettura, generando connessioni.</p><p><a href=\"https://www.google.com/maps/place/Building+Gallery/@45.470204,9.189047,17z/data=!3m2!4b1!5s0x4786c6b17cfcaa1b:0xcf7c0d8032536711!4m6!3m5!1s0x4786c6b17ce21385:0xa090cac36e48a04b!8m2!3d45.470204!4d9.1916273!16s%2Fg%2F11f_1j34y4?entry=ttu&g_ep=EgoyMDI1MDkwNy4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.com/maps/place/Building+Gallery/@45.470204,9.189047,17z/data=!3m2!4b1!5s0x4786c6b17cfcaa1b:0xcf7c0d8032536711!4m6!3m5!1s0x4786c6b17ce21385:0xa090cac36e48a04b!8m2!3d45.470204!4d9.1916273!16s%2Fg%2F11f_1j34y4?entry=ttu&g_ep=EgoyMDI1MDkwNy4wIKXMDSoASAFQAw%3D%3D\"><em>Via Monte di Pietà, 23, 20121 Milano</em></a></p>"
+          }
+        },
+        "hotspot_LqRAVf": {
+          "type": "hotspot",
+          "settings": {
+            "title": "TEATRO GEROLAMO",
+            "title_position": "right",
+            "color_scheme": "color-main",
+            "vertical_position": 69,
+            "horizontal_position": 42,
+            "image": "shopify://shop_images/teatro1.jpg",
+            "video_url": "",
+            "text": "<p><strong>5. TEATRO GEROLAMO</strong></p><p>L'antico Teatro Gerolamo è un gioiello ottocentesco inaugurato nel 1868. Originariamente concepito come una “Scala in miniatura”, questa piccola sala in legno ospitava spettacoli di marionette e rappresentazioni dialettali, divenendo un crocevia di tradizione e cultura popolare. Dopo anni di chiusura, è stato restaurato e riaperto nel 2017 con una capienza di circa 209 posti, ritrovando nuova vita come spazio teatrale contemporaneo dedicato a musica, cabaret, recital e iniziative culturali.</p><p>Teatro Girolamo è un luogo in cui si celebra dialogo e cultura, ALYSI riconosce in questo spazio una fonte di ispirazione e un punto d’incontro arte, architettura e design.</p><p><a href=\"https://www.google.com/maps/place/Teatro+Gerolamo/@45.4641667,9.1918641,17z/data=!3m1!4b1!4m6!3m5!1s0x4786c6af7b247697:0xf40b2a60b6990bba!8m2!3d45.4641667!4d9.1944444!16s%2Fg%2F11g6rchyb9?entry=ttu&g_ep=EgoyMDI1MDkwNy4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.com/maps/place/Teatro+Gerolamo/@45.4641667,9.1918641,17z/data=!3m1!4b1!4m6!3m5!1s0x4786c6af7b247697:0xf40b2a60b6990bba!8m2!3d45.4641667!4d9.1944444!16s%2Fg%2F11g6rchyb9?entry=ttu&g_ep=EgoyMDI1MDkwNy4wIKXMDSoASAFQAw%3D%3D\"><em>P.za Cesare Beccaria, 8, 20122 Milano</em></a></p>"
+          }
+        },
+        "hotspot_mkVaxq": {
+          "type": "hotspot",
+          "settings": {
+            "title": "TERROIR",
+            "title_position": "left",
+            "color_scheme": "color-main",
+            "vertical_position": 50,
+            "horizontal_position": 96,
+            "image": "shopify://shop_images/IMG_8316.jpg",
+            "video_url": "",
+            "text": "<p><strong>6. TERRIOR</strong></p><p>Terroir è una bottega di gastronomia naturale nata nel 2017. Il negozio seleziona artigianalmente prodotti alimentari: dal vino naturale al cioccolato “bean-to-bar”, dal caffè specialty ai tè d’eccellenza. È uno spazio ricercato e genuino, dove si possono assaggiare paste pregiate e scoprire vini biodinamici e tè rari, in un'atmosfera semplice ma raffinata.</p><p>Il Terrior è uno spazio in cui un caffè, una conversazione, un incontro diventano momenti preziosi. Ogni gesto quotidiano diventa un’esperienza: è lo stesso sguardo che ALYSI dedica alle piccole cose, capaci di rendere speciale ciò che è ordinario.</p><p><a href=\"https://www.google.com/maps/place/Terroir+Milano/@45.4667198,9.2102999,17z/data=!3m1!4b1!4m6!3m5!1s0x4786c69747df952b:0xbd9fe747257cc69f!8m2!3d45.4667198!4d9.2128802!16s%2Fg%2F11f1wh71wt?entry=ttu&g_ep=EgoyMDI1MDkwNy4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.com/maps/place/Terroir+Milano/@45.4667198,9.2102999,17z/data=!3m1!4b1!4m6!3m5!1s0x4786c69747df952b:0xbd9fe747257cc69f!8m2!3d45.4667198!4d9.2128802!16s%2Fg%2F11f1wh71wt?entry=ttu&g_ep=EgoyMDI1MDkwNy4wIKXMDSoASAFQAw%3D%3D\"><em>Via Macedonio Melloni, 33, 20129 Milano</em></a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_tXJPQQ",
+        "hotspot_yxr4MP",
+        "hotspot_eziAf8",
+        "hotspot_M3DXE7",
+        "hotspot_7qcP3K",
+        "hotspot_LqRAVf",
+        "hotspot_mkVaxq"
+      ],
+      "name": "t:sections.image-with-hotspots.name",
+      "settings": {
+        "color_scheme": "color-main",
+        "section_bg": "",
+        "numbered_hotspots": true,
+        "enable_full_width": true,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 0,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "sm_down_hide_hotspot_titles": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "0391254f-a00c-462e-8641-0dbedc8a4c0f": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_dd7EpX": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "1. ALYSI BOUTIQUE",
+            "richtext": "<p>Aperta nel 2018, la boutique ALYSI di Brera si inserisce nel quartiere più creativo di Milano, punto d’incontro tra moda, arte e design. 130 mq in una palazzina seicentesca trasformati da Studiopepe in una boutique dal design sofisticato e contemporaneo. Spazi distinti, palette naturali e materiali preziosi guidano il visitatore in un percorso cromatico che unisce capi e interni in un’atmosfera femminile e moderna.</p><p><a href=\"https://www.google.com/maps/place/ALYSI+Milano/@45.469252,9.1829787,17z/data=!3m1!5s0x4786c6b2cb9ba317:0x3ec190c3d3d1f44!4m6!3m5!1s0x4786c75628fc7dbb:0xbf2637b2e0bb72aa!8m2!3d45.469252!4d9.185559!16s%2Fg%2F11ghfvxm00?entry=ttu&g_ep=EgoyMDI1MDkwMy4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.com/maps/place/ALYSI+Milano/@45.469252,9.1829787,17z/data=!3m1!5s0x4786c6b2cb9ba317:0x3ec190c3d3d1f44!4m6!3m5!1s0x4786c75628fc7dbb:0xbf2637b2e0bb72aa!8m2!3d45.469252!4d9.185559!16s%2Fg%2F11ghfvxm00?entry=ttu&g_ep=EgoyMDI1MDkwMy4wIKXMDSoASAFQAw%3D%3D\"><em>ALYSI, Via Ponte Vetero, 6, 20121 Milano MI</em></a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        },
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/milan-Studiopepe-Alysi-300dpi-02_1920x_0fe5f6dd-bac3-49fe-9ba9-6adb814d1090.webp",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_dd7EpX",
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-1"
+      ],
+      "settings": {
+        "block_aspect_ratio": "landscape",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 80,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_zLtnka": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_6MmPPH": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "2. Orto botanico di brera",
+            "richtext": "<p>Nascosto dietro la facciata sud del Palazzo di Brera, l’Orto Botanico è un'oasi verde nel cuore di Milano. Fondato nel XVIII secolo, si estende per circa 5.000 m², ospitando serre, aiuole tematiche e alberi maestosi. Gestito dall’Università degli Studi di Milano, funge da museo vivente e centro di attività scientifiche, educative e culturali, con accesso libero, visite guidate, laboratori e altri eventi.</p><p>L'orto botanico di Brera restituisce alla città un angolo in cui godere del verde. Qui, come nella <a href=\"/pages/garden-house\" target=\"_blank\" title=\"Garden House\">Garden House</a> di Alysi, l’architettura industriale si fonde con un giardino, creando un’atmosfera sospesa tra contemporaneità e quiete. Uno spazio che non si visita, ma si vive, dove il silenzio, la luce e i materiali stimolano i 5 sensi e contrastano il trambusto della Città.</p><p><a href=\"https://www.google.com/maps/place/Orto+Botanico+di+Brera/@45.4719619,9.1829762,17z/data=!3m1!4b1!4m6!3m5!1s0x4786c6b3a4335f3d:0x5a8416a365c3a6c9!8m2!3d45.471962!4d9.1878417!16s%2Fm%2F03wfvy5?entry=ttu&g_ep=EgoyMDI1MDkwNy4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.com/maps/place/Orto+Botanico+di+Brera/@45.4719619,9.1829762,17z/data=!3m1!4b1!4m6!3m5!1s0x4786c6b3a4335f3d:0x5a8416a365c3a6c9!8m2!3d45.471962!4d9.1878417!16s%2Fm%2F03wfvy5?entry=ttu&g_ep=EgoyMDI1MDkwNy4wIKXMDSoASAFQAw%3D%3D\"><em>Orto Botanico, Via Brera, 28, 20121 Milano</em></a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        },
+        "image_8YnEHC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8312.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_6MmPPH",
+        "image_8YnEHC"
+      ],
+      "settings": {
+        "block_aspect_ratio": "square",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_hnYUxx": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_yntdLQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8313.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_xpia78": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8309.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_eCPqDK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8310.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_yntdLQ",
+        "image_xpia78",
+        "image_eCPqDK"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 5,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 104,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 3,
+        "section_columns_mobile": 3,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_gPcLmC": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_7hVQqj": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "3. SUGO",
+            "richtext": "<p>Sugo Milano è una trattoria contemporanea che reinterpreta i grandi classici della cucina italiana in chiave moderna. L’ambiente accogliente, con arredi vintage e un bancone conviviale, crea un’atmosfera intima e rilassata, ideale per gustare piatti autentici.</p><p>Una vaschetta di sugo, un gesto semplice al bancone, il calore del servizio. Sugo Milano è uno spazio dove la convivialità diventa forma di bellezza, eliminando il superfluo per lasciare spazio a ciò che davvero conta.</p><p><a href=\"https://www.google.com/maps/place/Sugo+Milano+-+Duomo/@45.4618509,9.1848926,17z/data=!3m1!4b1!4m6!3m5!1s0x4786c783412589af:0x2fb49f606d018b31!8m2!3d45.4618509!4d9.1874729!16s%2Fg%2F11spw7dll4?entry=ttu&g_ep=EgoyMDI1MDkwNy4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.com/maps/place/Sugo+Milano+-+Duomo/@45.4618509,9.1848926,17z/data=!3m1!4b1!4m6!3m5!1s0x4786c783412589af:0x2fb49f606d018b31!8m2!3d45.4618509!4d9.1874729!16s%2Fg%2F11spw7dll4?entry=ttu&g_ep=EgoyMDI1MDkwNy4wIKXMDSoASAFQAw%3D%3D\"><em>Via dell'Unione, 11, 20123 Milano</em></a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 32,
+            "text_position": "start",
+            "text_alignment": "text-align-left"
+          }
+        },
+        "image_fWFm64": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8305.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_7hVQqj",
+        "image_fWFm64"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 104,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "banner_grid_fYeGVz": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_VPmzYc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8306.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_X8ihBJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8307.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_yJbtkV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8308.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_VPmzYc",
+        "image_X8ihBJ",
+        "image_yJbtkV"
+      ],
+      "settings": {
+        "block_aspect_ratio": "square",
+        "grid_gap": 5,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 3,
+        "section_columns_mobile": 3,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_P3g9VR": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_cJjBHW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8334.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "text_KHJgjE": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "4. BUILDING GALLERY",
+            "richtext": "<p>Building Gallery è uno spazio d’arte contemporanea installato all’interno di un edificio composto da tre livelli espositivi. Inaugurata nel 2017, la galleria ospita progetti singoli e collettivi curati, dedicati ad artisti emergenti e affermati, con un linguaggio visivo teso al dialogo tra generazioni e tra discipline.</p><p>Building Gallery incarna un approccio che ALYSI sostiene: valorizzare la contaminazione, mescolare codici estetici e storie visive. In questo spazio, la sperimentazione artistica dialoga con l’architettura, generando connessioni.</p><p><a href=\"https://www.google.com/maps/place/Building+Gallery/@45.470204,9.189047,17z/data=!3m2!4b1!5s0x4786c6b17cfcaa1b:0xcf7c0d8032536711!4m6!3m5!1s0x4786c6b17ce21385:0xa090cac36e48a04b!8m2!3d45.470204!4d9.1916273!16s%2Fg%2F11f_1j34y4?entry=ttu&g_ep=EgoyMDI1MDkwNy4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.com/maps/place/Building+Gallery/@45.470204,9.189047,17z/data=!3m2!4b1!5s0x4786c6b17cfcaa1b:0xcf7c0d8032536711!4m6!3m5!1s0x4786c6b17ce21385:0xa090cac36e48a04b!8m2!3d45.470204!4d9.1916273!16s%2Fg%2F11f_1j34y4?entry=ttu&g_ep=EgoyMDI1MDkwNy4wIKXMDSoASAFQAw%3D%3D\"><em>Via Monte di Pietà, 23, 20121 Milano</em></a></p>",
+            "button_label": "",
+            "button_link": "https://www.google.it/maps/place/14+Rue+des+Filles+du+Calvaire,+75003+Paris,+Francia/@48.8626665,2.3633171,17.04z/data=!4m6!3m5!1s0x47e66e0712ba976d:0xbccb18eecd7719eb!8m2!3d48.8625838!4d2.366124!16s%2Fg%2F11c5h_xjgc?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        }
+      },
+      "block_order": [
+        "image_cJjBHW",
+        "text_KHJgjE"
+      ],
+      "settings": {
+        "block_aspect_ratio": "landscape",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 104,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_GHyCaY": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_KTWVEX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8332.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Lfqp6j": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8336.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_bcCBqD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8335.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_MC8eNg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8333.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_KTWVEX",
+        "image_Lfqp6j",
+        "image_bcCBqD",
+        "image_MC8eNg"
+      ],
+      "name": "t:sections.banner-grid.name",
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 4,
+        "md_padding_top": 40,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 4,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_tQddE6": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_k8rmc8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/teatro1.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "text_GnbXpc": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "5. TEATRO GEROLAMO",
+            "richtext": "<p>L'antico Teatro Gerolamo è un gioiello ottocentesco inaugurato nel 1868. Originariamente concepito come una “Scala in miniatura”, questa piccola sala in legno ospitava spettacoli di marionette e rappresentazioni dialettali, divenendo un crocevia di tradizione e cultura popolare. Dopo anni di chiusura, è stato restaurato e riaperto nel 2017 con una capienza di circa 209 posti, ritrovando nuova vita come spazio teatrale contemporaneo dedicato a musica, cabaret, recital e iniziative culturali.</p><p>Teatro Girolamo è un luogo in cui si celebra dialogo e cultura, ALYSI riconosce in questo spazio una fonte di ispirazione e un punto d’incontro tra arte, architettura e design.</p><p><a href=\"https://www.google.com/maps/place/Teatro+Gerolamo/@45.4641667,9.1918641,17z/data=!3m1!4b1!4m6!3m5!1s0x4786c6af7b247697:0xf40b2a60b6990bba!8m2!3d45.4641667!4d9.1944444!16s%2Fg%2F11g6rchyb9?entry=ttu&g_ep=EgoyMDI1MDkwNy4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.com/maps/place/Teatro+Gerolamo/@45.4641667,9.1918641,17z/data=!3m1!4b1!4m6!3m5!1s0x4786c6af7b247697:0xf40b2a60b6990bba!8m2!3d45.4641667!4d9.1944444!16s%2Fg%2F11g6rchyb9?entry=ttu&g_ep=EgoyMDI1MDkwNy4wIKXMDSoASAFQAw%3D%3D\"><em>P.za Cesare Beccaria, 8, 20122 Milano</em></a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        }
+      },
+      "block_order": [
+        "image_k8rmc8",
+        "text_GnbXpc"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 80,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_WnUX98": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_fxLXdL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/teatro2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Gd6T8A": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/teatro_gerolamo3.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_fxLXdL",
+        "image_Gd6T8A"
+      ],
+      "settings": {
+        "block_aspect_ratio": "landscape",
+        "grid_gap": 5,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_yVfaCL": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_GbjHbY": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "6. TERROIR",
+            "richtext": "<p>Terroir è una bottega di gastronomia naturale nata nel 2017. Il negozio seleziona artigianalmente prodotti alimentari: dal vino naturale al cioccolato “bean-to-bar”, dal caffè specialty ai tè d’eccellenza. È uno spazio ricercato e genuino, dove si possono assaggiare paste pregiate e scoprire vini biodinamici e tè rari, in un'atmosfera semplice ma raffinata.</p><p>Il Terrior è uno spazio in cui un caffè, una conversazione, un incontro diventano momenti preziosi. Ogni gesto quotidiano diventa un’esperienza: è lo stesso sguardo che ALYSI dedica alle piccole cose, capaci di rendere speciale ciò che è ordinario.</p><p><a href=\"https://www.google.com/maps/place/Terroir+Milano/@45.4667198,9.2102999,17z/data=!3m1!4b1!4m6!3m5!1s0x4786c69747df952b:0xbd9fe747257cc69f!8m2!3d45.4667198!4d9.2128802!16s%2Fg%2F11f1wh71wt?entry=ttu&g_ep=EgoyMDI1MDkwNy4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.com/maps/place/Terroir+Milano/@45.4667198,9.2102999,17z/data=!3m1!4b1!4m6!3m5!1s0x4786c69747df952b:0xbd9fe747257cc69f!8m2!3d45.4667198!4d9.2128802!16s%2Fg%2F11f1wh71wt?entry=ttu&g_ep=EgoyMDI1MDkwNy4wIKXMDSoASAFQAw%3D%3D\"><em>Via Macedonio Melloni, 33, 20129 Milano</em></a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        },
+        "image_C6kPNV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8316.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_GbjHbY",
+        "image_C6kPNV"
+      ],
+      "settings": {
+        "block_aspect_ratio": "square",
+        "grid_gap": 5,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 104,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 8
+      }
+    },
+    "banner_grid_pXxtGf": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_z9TeXT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Terroir-Milano-esterno-negozio.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_z6zeRz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8315.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_bq4HFL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8314.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_z9TeXT",
+        "image_z6zeRz",
+        "image_bq4HFL"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 5,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 3,
+        "section_columns_mobile": 3,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_or_products_qz7iVc": {
+      "type": "featured-collection-or-products",
+      "blocks": {
+        "section_header_PKiLP9": {
+          "type": "section_header",
+          "settings": {
+            "subtitle": "",
+            "subtitle_tag": "h3",
+            "title": "",
+            "title_tag": "h2",
+            "text": "",
+            "text_alignment": "text-align-center",
+            "sm_size_multiplier": "sm-size--default",
+            "size_multiplier": "size--default"
+          }
+        }
+      },
+      "block_order": [
+        "section_header_PKiLP9"
+      ],
+      "name": "t:sections.featured-collection-or-products.name",
+      "settings": {
+        "color_scheme": "color-main",
+        "collection": "",
+        "product_list": [
+          "165439a5033lt",
+          "365674a5110gz"
+        ],
+        "product_limit": 12,
+        "view_all": true,
+        "enable_full_width": false,
+        "sm_enable_card_thumbnail": false,
+        "layout_desktop": "slide",
+        "products_per_row_desktop": 2,
+        "sm_custom_gap": -1,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "products_per_row_tablet": 2,
+        "sm_down_enable_card_thumbnail": false,
+        "layout_mobile": "slide peek",
+        "products_per_row_mobile": 2,
+        "custom_gap": -1,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "banner_grid_NDzMpr": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_XzU9MR": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "",
+            "richtext": "",
+            "button_label": "Paris city guide",
+            "button_link": "shopify://pages/paris-city-guide",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 0,
+            "text_position": "center",
+            "text_alignment": "text-align-center"
+          }
+        },
+        "text_ddbXBi": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "",
+            "richtext": "",
+            "button_label": "Rome city guide",
+            "button_link": "shopify://pages/rome-city-guide",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-center"
+          }
+        }
+      },
+      "block_order": [
+        "text_XzU9MR",
+        "text_ddbXBi"
+      ],
+      "name": "t:sections.banner-grid.name",
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 2,
+        "md_padding_top": 0,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_WcXHAD",
+    "image_with_hotspots_APmPDK",
+    "0391254f-a00c-462e-8641-0dbedc8a4c0f",
+    "banner_grid_zLtnka",
+    "banner_grid_hnYUxx",
+    "banner_grid_gPcLmC",
+    "banner_grid_fYeGVz",
+    "banner_grid_P3g9VR",
+    "banner_grid_GHyCaY",
+    "banner_grid_tQddE6",
+    "banner_grid_WnUX98",
+    "banner_grid_yVfaCL",
+    "banner_grid_pXxtGf",
+    "featured_collection_or_products_qz7iVc",
+    "banner_grid_NDzMpr"
+  ]
+}

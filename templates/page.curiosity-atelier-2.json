@@ -1,0 +1,230 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "rich_text_WcXHAD": {
+      "type": "rich-text",
+      "blocks": {
+        "title_6Hixzc": {
+          "type": "title",
+          "settings": {
+            "title": "curiosity atelier",
+            "heading_tag": "h1",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "title_6Hixzc"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 100,
+        "desktop_content_alignment": "center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "mobile_alignment": "text-align-center",
+        "padding_top": 64,
+        "padding_bottom": 40
+      }
+    },
+    "0391254f-a00c-462e-8641-0dbedc8a4c0f": {
+      "type": "banner-grid",
+      "blocks": {
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/VISB2542_web.jpg",
+            "media_link": "shopify://products/105422p5212lt",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "text_CkPqeK": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "\"Pantelleria - una guida in memoria poetica\"",
+            "title": "èRATO mediterraneo",
+            "richtext": "<p>Per la rubrica Curiosity Atelier Alysi presenta Èrato Mediterraneo, un progetto di Claudia Caruso e Sofia Melandri.</p><p>Una realtà nata su Instagram, con l’obiettivo di condividere i loro personali incontri con l’ordinaria (straordinaria) bellezza.<br/>Progetto che varca le soglie del digitale, approdando nel mondo fisico, con la pubblicazione di \"Pantelleria, una guida in memoria poetica\", un racconto fotografico sulla perla nera del Mediterraneo.<br/></p><p>Una selezione di scatti di Claudia Caruso, Sofia Melandri e il fotografo locale Samuel Gorgone hanno dato vita a queste stampe fotografiche.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-1",
+        "text_CkPqeK"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 0,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_PcprT9": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_wtVcc6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pantelleria_2.jpg",
+            "media_link": "shopify://products/305662p5119pa",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_xBbtTk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pantelleria_4.jpg",
+            "media_link": "shopify://products/305662p5119pa",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_qxVBF9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/c66b6c9f72a7bc8cb6d599709ab13811.jpg",
+            "media_link": "shopify://products/305662p5119pa",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_wtVcc6",
+        "image_xBbtTk",
+        "image_qxVBF9"
+      ],
+      "name": "t:sections.banner-grid.name",
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 80,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 3,
+        "section_columns_mobile": 3,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_or_products_ERWA4U": {
+      "type": "featured-collection-or-products",
+      "blocks": {
+        "section_header_NrzFew": {
+          "type": "section_header",
+          "settings": {
+            "subtitle": "",
+            "subtitle_tag": "h3",
+            "title": "",
+            "title_tag": "h2",
+            "text": "",
+            "text_alignment": "text-align-center",
+            "sm_size_multiplier": "sm-size--default",
+            "size_multiplier": "size--default"
+          }
+        }
+      },
+      "block_order": [
+        "section_header_NrzFew"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "collection": "",
+        "product_list": [
+          "105355p5233in",
+          "105283p5233choco",
+          "105026p5233choco",
+          "105186p5233choco",
+          "105422p5212lt"
+        ],
+        "product_limit": 8,
+        "view_all": true,
+        "enable_full_width": false,
+        "sm_enable_card_thumbnail": false,
+        "layout_desktop": "grid",
+        "products_per_row_desktop": 5,
+        "sm_custom_gap": -1,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "products_per_row_tablet": 4,
+        "sm_down_enable_card_thumbnail": false,
+        "layout_mobile": "slide peek",
+        "products_per_row_mobile": 2,
+        "custom_gap": -1,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_WcXHAD",
+    "0391254f-a00c-462e-8641-0dbedc8a4c0f",
+    "banner_grid_PcprT9",
+    "featured_collection_or_products_ERWA4U"
+  ]
+}

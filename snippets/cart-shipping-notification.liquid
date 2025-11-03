@@ -1,0 +1,37 @@
+{%- if settings.free_shipping_threshold != blank -%}
+  {%- liquid
+    # cart.total_price returns price in cents while free shipping threshold does not so we multiply it with 100.
+    assign free_shipping_threshold = settings.free_shipping_threshold | times: 1.00 | times: 100
+    assign amount_left = free_shipping_threshold | minus: cart.total_price
+    assign amount_left_with_currency = amount_left | money
+
+    if free_shipping_threshold < 0 or cart.item_count == 0
+      assign hide_shipping_banner = true
+    endif
+
+    if cart.total_price >= free_shipping_threshold
+      assign free_shipping_acquired = true
+    else
+      assign free_shipping_acquired = false
+    endif
+  -%}
+  <div id="cart-shipping-notification">
+    <div 
+      data-price="{{- cart.total_price -}}"
+      data-threshold="{{- free_shipping_threshold -}}"
+      data-amount-left="{{- amount_left -}}"
+      data-string-to-replace="{{- amount_left_with_currency -}}"
+      class="shipping-notification{% if free_shipping_acquired %} threshold-reached{% endif %}"
+      {% if hide_shipping_banner %}hidden{% endif %}
+    >
+      {% render 'icon-checkmark' %}
+      <span>
+        {%- if free_shipping_acquired -%}
+          {{ 'sections.cart.shipping_free' | t }}
+        {%- else -%}
+          {{ 'sections.cart.shipping_not_free' | t: amount: amount_left_with_currency }}
+        {%- endif -%}
+      </span>
+    </div>
+  </div>
+{%- endif -%}

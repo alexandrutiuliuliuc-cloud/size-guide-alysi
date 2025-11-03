@@ -1,0 +1,349 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "b3cba5f0-cd36-44fa-8a85-34ec77de9170": {
+          "type": "breadcrumb",
+          "settings": {}
+        },
+        "the-title": {
+          "type": "title",
+          "settings": {
+            "margin_top": 8
+          }
+        },
+        "custom_liquid_k3JcqJ": {
+          "type": "custom_liquid",
+          "disabled": true,
+          "settings": {
+            "custom_liquid": "{% assign country = customer.country %}\n{% assign price = product.price | plus: 0 %}\n\n{% if country == \"Austria\" or country == \"Germany\" %}\n  {% assign rounded_price = price | round: 0.5 %}\n{% else %}\n  {% assign rounded_price = price | ceil %}\n{% endif %}\n\n{{ rounded_price | money }}",
+            "margin_top": 8
+          }
+        },
+        "the-price": {
+          "type": "price",
+          "settings": {
+            "margin_top": 8
+          }
+        },
+        "custom_liquid_AkrqzV": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{% assign price = product.price %}\n\n{% assign rounded_price = price | ceil %}",
+            "margin_top": 32
+          }
+        },
+        "the-variant-picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button",
+            "cross_out_unavailable": true,
+            "margin_top": 24
+          }
+        },
+        "the-buy-buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": true,
+            "add_multipliers": "",
+            "add_multipliers_layout": "single-line",
+            "margin_top": 28
+          }
+        },
+        "02c5bcb4-a48e-4db4-b565-2ac460df0ffe": {
+          "type": "shopify://apps/klarna-on-site-messaging/blocks/app-block/b95936a9-74b6-4a95-8103-6a1b6459c25e",
+          "settings": {
+            "data_key": "credit-promotion-badge",
+            "theme": "light",
+            "topPadding": "25",
+            "bottomPadding": "25",
+            "messagePrefix": ""
+          }
+        },
+        "the-description": {
+          "type": "description",
+          "settings": {
+            "enable_collapsible": false,
+            "margin_top": 24
+          }
+        },
+        "the-pickup-availability": {
+          "type": "pickup_availability",
+          "settings": {
+            "margin_top": 24
+          }
+        },
+        "c89d135b-62bb-4744-88a4-7e87b692126e": {
+          "type": "complementary",
+          "settings": {
+            "title": "COMPLETA IL LOOK",
+            "margin_top": 48,
+            "product_list_limit": 10
+          }
+        }
+      },
+      "block_order": [
+        "b3cba5f0-cd36-44fa-8a85-34ec77de9170",
+        "the-title",
+        "custom_liquid_k3JcqJ",
+        "the-price",
+        "custom_liquid_AkrqzV",
+        "the-variant-picker",
+        "the-buy-buttons",
+        "02c5bcb4-a48e-4db4-b565-2ac460df0ffe",
+        "the-description",
+        "the-pickup-availability",
+        "c89d135b-62bb-4744-88a4-7e87b692126e"
+      ],
+      "custom_css": [
+        ".product-block__title h1 {font-size: 24px;}",
+        "@media screen and (max-width: 767px) {.product-block__title h1 {font-size: 18px; }}"
+      ],
+      "settings": {
+        "product_image_aspect_ratio": "natural",
+        "media_fill_rule": "cover",
+        "color_scheme": "color-main",
+        "section_bg": "",
+        "media_col_bg": "",
+        "content_col_bg": "",
+        "border_radius": 0,
+        "product_media_bg": "rgba(0,0,0,0)",
+        "media_border_radius": 0,
+        "enable_full_width": true,
+        "sm-p": 0,
+        "media_col_width": "narrow",
+        "media_layout": "one-column",
+        "sm_media_gap": 25,
+        "md_padding_top": 104,
+        "md_padding_bottom": 104,
+        "enable_slider_peek": false,
+        "show_thumbnails_sm_down": false,
+        "media_gap": 3,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "the-product-recommendations": {
+      "type": "product-recommendations",
+      "blocks": {
+        "e1c222e2-92ff-41b3-9688-b4eb9a61b8f4": {
+          "type": "section_header",
+          "settings": {
+            "subtitle": "I CLIENTI CHE HANNO COMPRATO QUESTO PRODOTTO HANNO COMPRATO ANCHE",
+            "subtitle_tag": "h5",
+            "title": "",
+            "title_tag": "h2",
+            "text": "",
+            "text_alignment": "text-align-center",
+            "sm_size_multiplier": "sm-size--default",
+            "size_multiplier": "size--default"
+          }
+        }
+      },
+      "block_order": [
+        "e1c222e2-92ff-41b3-9688-b4eb9a61b8f4"
+      ],
+      "settings": {
+        "product_limit": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "sm_enable_card_thumbnail": false,
+        "layout_desktop": "grid",
+        "products_per_row_desktop": 4,
+        "sm_custom_gap": -1,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "products_per_row_tablet": 3,
+        "sm_down_enable_card_thumbnail": false,
+        "layout_mobile": "slide peek",
+        "products_per_row_mobile": 1,
+        "custom_gap": -1,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "ece07e47-248d-4d75-a70c-dec1a976ccef": {
+      "type": "size-modal",
+      "blocks": {
+        "d5019b2f-9e6b-4ad5-b9a2-7b43a1e18196": {
+          "type": "size_conversion",
+          "settings": {
+            "description": "Per identificare la tua taglia abbiamo convertito indicativamente in questa tabella la taglia riportata sull'etichetta del prodotto selezionato. se hai già acquistato un prodotto del nostro brand, ti consigliamo di scegliere la stessa taglia.",
+            "name": "conversione taglie"
+          }
+        },
+        "88d06cbc-1080-4152-8f6f-32a9f7f4d04f": {
+          "type": "body_measurements",
+          "settings": {
+            "description": "",
+            "name": "Misure del Corpo"
+          }
+        },
+        "175fbf85-5939-464f-b987-ce45ad9c9668": {
+          "type": "footwear_size_conversion",
+          "settings": {
+            "description": "La modella è alta 1,77 e porta la taglia 42 (IT)",
+            "name": "Taglie Calzature"
+          }
+        }
+      },
+      "block_order": [
+        "d5019b2f-9e6b-4ad5-b9a2-7b43a1e18196",
+        "88d06cbc-1080-4152-8f6f-32a9f7f4d04f",
+        "175fbf85-5939-464f-b987-ce45ad9c9668"
+      ],
+      "settings": {
+        "heading": "",
+        "size_guide_description": "",
+        "sizeGuideLabel_1": "STD",
+        "sizeGuideLabel_2": "IT",
+        "sizeGuideLabel_3": "EU",
+        "sizeGuideLabel_4": "",
+        "sizeGuideLabel_5": "FR",
+        "sizeGuideLabel_6": "US",
+        "sizeGuideLabel_7": "UK",
+        "sizeGuideLabel_8": "",
+        "bodyMeasurementLabel_1": "busto",
+        "bodyMeasurementLabel_2": "vita",
+        "bodyMeasurementLabel_3": "fianchi",
+        "footwearSizeLabel_1": "IT",
+        "footwearSizeLabel_2": "FR/EU",
+        "footwearSizeLabel_3": "UK",
+        "footwearSizeLabel_4": "US",
+        "footwearSizeLabel_5": "",
+        "size_guide_Row_one_1": "XS",
+        "size_guide_Row_one_2": "S",
+        "size_guide_Row_one_3": "M",
+        "size_guide_Row_one_4": "L",
+        "size_guide_Row_one_5": "XL",
+        "size_guide_Row_one_6": "XXL",
+        "size_guide_Row_one_7": "",
+        "size_guide_Row_two_1": "38",
+        "size_guide_Row_two_2": "40",
+        "size_guide_Row_two_3": "42",
+        "size_guide_Row_two_4": "44",
+        "size_guide_Row_two_5": "46",
+        "size_guide_Row_two_6": "48",
+        "size_guide_Row_two_7": "",
+        "size_guide_Row_three_1": "34",
+        "size_guide_Row_three_2": "36",
+        "size_guide_Row_three_3": "38",
+        "size_guide_Row_three_4": "40",
+        "size_guide_Row_three_5": "42",
+        "size_guide_Row_three_6": "44",
+        "size_guide_Row_three_7": "",
+        "size_guide_Row_four_1": "",
+        "size_guide_Row_four_2": "",
+        "size_guide_Row_four_3": "",
+        "size_guide_Row_four_4": "",
+        "size_guide_Row_four_5": "",
+        "size_guide_Row_four_6": "",
+        "size_guide_Row_four_7": "",
+        "size_guide_Row_five_1": "34",
+        "size_guide_Row_five_2": "36",
+        "size_guide_Row_five_3": "38",
+        "size_guide_Row_five_4": "40",
+        "size_guide_Row_five_5": "42",
+        "size_guide_Row_five_6": "44",
+        "size_guide_Row_five_7": "",
+        "size_guide_Row_six_1": "2",
+        "size_guide_Row_six_2": "4",
+        "size_guide_Row_six_3": "6",
+        "size_guide_Row_six_4": "8",
+        "size_guide_Row_six_5": "10",
+        "size_guide_Row_six_6": "12",
+        "size_guide_Row_six_7": "",
+        "size_guide_Row_seven_1": "6",
+        "size_guide_Row_seven_2": "8",
+        "size_guide_Row_seven_3": "10",
+        "size_guide_Row_seven_4": "12",
+        "size_guide_Row_seven_5": "14",
+        "size_guide_Row_seven_6": "16",
+        "size_guide_Row_seven_7": "",
+        "size_guide_Row_8_1": "",
+        "size_guide_Row_8_2": "",
+        "size_guide_Row_8_3": "",
+        "size_guide_Row_8_4": "",
+        "size_guide_Row_8_5": "",
+        "size_guide_Row_8_6": "",
+        "size_guide_Row_8_7": "",
+        "size_guide_Row_8_8": "",
+        "body_measurement_Row_one_1": "77",
+        "body_measurement_Row_one_2": "81",
+        "body_measurement_Row_one_3": "85",
+        "body_measurement_Row_one_4": "89",
+        "body_measurement_Row_one_5": "93",
+        "body_measurement_Row_one_6": "97",
+        "body_measurement_Row_one_7": "",
+        "body_measurement_Row_one_8": "27",
+        "body_measurement_Row_two_1": "58",
+        "body_measurement_Row_two_2": "62",
+        "body_measurement_Row_two_3": "66",
+        "body_measurement_Row_two_4": "70",
+        "body_measurement_Row_two_5": "74",
+        "body_measurement_Row_two_6": "78",
+        "body_measurement_Row_two_7": "",
+        "body_measurement_Row_two_8": "27",
+        "body_measurement_Row_three_1": "84",
+        "body_measurement_Row_three_2": "88",
+        "body_measurement_Row_three_3": "92",
+        "body_measurement_Row_three_4": "96",
+        "body_measurement_Row_three_5": "100",
+        "body_measurement_Row_three_6": "104",
+        "body_measurement_Row_three_7": "",
+        "body_measurement_Row_three_8": "",
+        "footWear_Row_1_1": "36",
+        "footWear_Row_1_2": "37",
+        "footWear_Row_1_3": "38",
+        "footWear_Row_1_4": "39",
+        "footWear_Row_1_5": "40",
+        "footWear_Row_1_6": "41",
+        "footWear_Row_1_7": "",
+        "footWear_Row_2_1": "36",
+        "footWear_Row_2_2": "37",
+        "footWear_Row_2_3": "38",
+        "footWear_Row_2_4": "39",
+        "footWear_Row_2_5": "40",
+        "footWear_Row_2_6": "41",
+        "footWear_Row_2_7": "",
+        "footWear_Row_3_1": "3,5",
+        "footWear_Row_3_2": "4",
+        "footWear_Row_3_3": "5",
+        "footWear_Row_3_4": "5,5",
+        "footWear_Row_3_5": "6,5",
+        "footWear_Row_3_6": "7",
+        "footWear_Row_3_7": "",
+        "footWear_Row_4_1": "6",
+        "footWear_Row_4_2": "6,5",
+        "footWear_Row_4_3": "7,5",
+        "footWear_Row_4_4": "8",
+        "footWear_Row_4_5": "9",
+        "footWear_Row_4_6": "9,5",
+        "footWear_Row_4_7": "",
+        "footWear_Row_5_1": "",
+        "footWear_Row_5_2": "",
+        "footWear_Row_5_3": "",
+        "footWear_Row_5_4": "",
+        "footWear_Row_5_5": "",
+        "footWear_Row_5_6": "",
+        "footWear_Row_5_7": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "the-product-recommendations",
+    "ece07e47-248d-4d75-a70c-dec1a976ccef"
+  ]
+}

@@ -1,0 +1,162 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "rich_text_WcXHAD": {
+      "type": "rich-text",
+      "blocks": {
+        "title_6Hixzc": {
+          "type": "title",
+          "settings": {
+            "title": "curiosity atelier",
+            "heading_tag": "h1",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "title_6Hixzc"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 100,
+        "desktop_content_alignment": "center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "mobile_alignment": "text-align-center",
+        "padding_top": 64,
+        "padding_bottom": 40
+      }
+    },
+    "0391254f-a00c-462e-8641-0dbedc8a4c0f": {
+      "type": "banner-grid",
+      "blocks": {
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/missgoffetown.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "text_CkPqeK": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "miss goffetown",
+            "richtext": "<p>Fulvia  Monguzzi  vive a Milano. Studia all’accademia di belle arti di brera, partecipa a collettive personali e organizza workshop.<br/></p><p>Dal collage all’acrilico, il suo manifesto è ironico e drammatico con uno sguardo sentimentale sul quotidiano. Un lavoro costante, frutto della sua necessità di vedere il pensiero in immagine.</p><p></p><p>\"Fanfara\" - acrilici su carta</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-1",
+        "text_CkPqeK"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 9,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 0,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_or_products_ERWA4U": {
+      "type": "featured-collection-or-products",
+      "blocks": {
+        "section_header_NrzFew": {
+          "type": "section_header",
+          "settings": {
+            "subtitle": "",
+            "subtitle_tag": "h3",
+            "title": "",
+            "title_tag": "h2",
+            "text": "",
+            "text_alignment": "text-align-center",
+            "sm_size_multiplier": "sm-size--default",
+            "size_multiplier": "size--default"
+          }
+        }
+      },
+      "block_order": [
+        "section_header_NrzFew"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "collection": "",
+        "product_list": [
+          "105325p5050fan",
+          "105226p5050fan",
+          "105158p5050fan",
+          "105411p5050lt"
+        ],
+        "product_limit": 12,
+        "view_all": true,
+        "enable_full_width": false,
+        "sm_enable_card_thumbnail": false,
+        "layout_desktop": "grid",
+        "products_per_row_desktop": 4,
+        "sm_custom_gap": -1,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "products_per_row_tablet": 4,
+        "sm_down_enable_card_thumbnail": false,
+        "layout_mobile": "grid",
+        "products_per_row_mobile": 2,
+        "custom_gap": -1,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_WcXHAD",
+    "0391254f-a00c-462e-8641-0dbedc8a4c0f",
+    "featured_collection_or_products_ERWA4U"
+  ]
+}

@@ -1,0 +1,1480 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "a08a00f6-a6d1-41ff-9d40-074c6ca03714": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_MEqCfP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC00506-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "968d7e78-e21a-41a7-a516-4fd841b45b9c": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "alysi opening party",
+            "richtext": "<p>What a night! Thank you to everyone who joined us.<br/>ALYSI PARIS is officially open, we can't wait to welcome you in our new Parisian home.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        }
+      },
+      "block_order": [
+        "image_MEqCfP",
+        "968d7e78-e21a-41a7-a516-4fd841b45b9c"
+      ],
+      "settings": {
+        "block_aspect_ratio": "landscape",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 160,
+        "md_padding_bottom": 160,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ae9c3793-1c92-4eed-a108-5a862908639d": {
+      "type": "banner-grid",
+      "blocks": {
+        "9b1fe3ba-a4cd-4c6f-b49e-3b7f8f117b31": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC08331-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "6d8414e0-d6e1-4de5-aed4-a952d106cccd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC00327-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "80365a25-fafc-4849-888f-6e31e929315c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC08568-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "9b1fe3ba-a4cd-4c6f-b49e-3b7f8f117b31",
+        "6d8414e0-d6e1-4de5-aed4-a952d106cccd",
+        "80365a25-fafc-4849-888f-6e31e929315c"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 3,
+        "section_columns_mobile": 3,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_pUaDkX": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_AgkkTf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC00070-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_BikzXA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC00316-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_AgkkTf",
+        "image_BikzXA"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 160,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 56,
+        "padding_bottom": 0
+      }
+    },
+    "5f69405a-fd2f-45b7-b5da-2b5b98a5b94c": {
+      "type": "banner-grid",
+      "blocks": {
+        "96f003d1-f889-447c-b78d-27bb24f7f88c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC00420-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "4e59134b-0434-4cb3-8b9b-8c3f90d86456": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC08252-3.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "96f003d1-f889-447c-b78d-27bb24f7f88c",
+        "4e59134b-0434-4cb3-8b9b-8c3f90d86456"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 160,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 3,
+        "section_columns_mobile": 2,
+        "padding_top": 56,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_AtKBEe": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_kRYDRJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC00239-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Lmni6d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC07999-2-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_tekntX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC07879-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_kRYDRJ",
+        "image_Lmni6d",
+        "image_tekntX"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 160,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 3,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "banner_grid_EP9PcY": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_xwDWwz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC08315-2-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_ejjRDq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC08669.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_xwDWwz",
+        "image_ejjRDq"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 160,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_wtrbFW": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_7NnCer": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC09675.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_rB4HYy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC08781.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_7NnCer",
+        "image_rB4HYy"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 160,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 56,
+        "padding_bottom": 0
+      }
+    },
+    "8a9fedcf-dbe8-4cd5-b6f3-53fb8c4b9393": {
+      "type": "banner-grid",
+      "blocks": {
+        "cc58e63f-8965-4db8-b3da-613de97ff149": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC09549-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "a73df340-9afd-4a6a-967f-2a992448d0e4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC07538-4.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "cc58e63f-8965-4db8-b3da-613de97ff149",
+        "a73df340-9afd-4a6a-967f-2a992448d0e4"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 160,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 56,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_DpqTY4": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_hHVWAq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC09127-2.jpg",
+            "media_link": "shopify://products/105263p5202ptl",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_VXqkP9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC08498-3-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_A6fU86": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC08624-2-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_hHVWAq",
+        "image_VXqkP9",
+        "image_A6fU86"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 160,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 3,
+        "section_columns_mobile": 3,
+        "padding_top": 56,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_MaRkkY": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_CTDgVM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC00213-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_M3zmQX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC00106-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_CTDgVM",
+        "image_M3zmQX"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 160,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 3,
+        "section_columns_mobile": 2,
+        "padding_top": 56,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_Gw69rP": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_yJFdm6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC00291-2-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_k9rVVH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC00322-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_txiAgW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC07762-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_XpGQbU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC09486.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_yJFdm6",
+        "image_k9rVVH",
+        "image_txiAgW",
+        "image_XpGQbU"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 4,
+        "md_padding_top": 160,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 4,
+        "section_columns_mobile": 2,
+        "padding_top": 56,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_zYkxdn": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_CtT8yW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC00346-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_9HKFTD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC00674-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_CtT8yW",
+        "image_9HKFTD"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 160,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "banner_grid_KkTWRe": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_HYKE79": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC07520-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_gJCxVj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC08441-2-2-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_KaxiRF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC08058-2-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_tjEECz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC08259-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_HYKE79",
+        "image_gJCxVj",
+        "image_KaxiRF",
+        "image_tjEECz"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 4,
+        "md_padding_top": 160,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 4,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "87bf661e-efea-4ddd-807a-46d6b7865aee": {
+      "type": "banner-grid",
+      "blocks": {
+        "58620d98-523a-4fa9-8348-a3b2f6fa7900": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC08063-2.jpg",
+            "media_link": "shopify://products/105283p5233choco",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "58620d98-523a-4fa9-8348-a3b2f6fa7900"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 160,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "banner_grid_aQJyDn": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_hpiwjW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC08652-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Uxm8Vm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC08204-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_3J4eKf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC09154-3.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_hpiwjW",
+        "image_Uxm8Vm",
+        "image_3J4eKf"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 160,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 3,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_MA8ckj": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_DthKth": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC08766-2-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_itGGY9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC08775-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_6kJXhp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC09009-2-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_w74VWz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC08804-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_DthKth",
+        "image_itGGY9",
+        "image_6kJXhp",
+        "image_w74VWz"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 4,
+        "md_padding_top": 160,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 4,
+        "section_columns_mobile": 2,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "banner_grid_Jn7FdF": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_r33RVN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC08965.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_mB3nUK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC09016-2-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_zDEeGm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC08993-2-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_r33RVN",
+        "image_mB3nUK",
+        "image_zDEeGm"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 160,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 3,
+        "section_columns_mobile": 3,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_zzgcrj": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_iEMWWF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC09302-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_DjEXQb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC09700-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_iEMWWF",
+        "image_DjEXQb"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 160,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 56,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_TV9Amg": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_HzbghF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC08855-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_emA3Hm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC07801-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_jUcDMy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC09341-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_HzbghF",
+        "image_emA3Hm",
+        "image_jUcDMy"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 160,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 3,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_bqJqNm": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_DRNh7E": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC09410-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_yeXNhz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC09471-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_PnbyUC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC09459-2-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_gFUP7K": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC09429-2-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_DRNh7E",
+        "image_yeXNhz",
+        "image_PnbyUC",
+        "image_gFUP7K"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 4,
+        "md_padding_top": 160,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 56,
+        "padding_bottom": 56
+      }
+    },
+    "banner_grid_GwWq8c": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_tzWUkK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC09196-2-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_pDiQmx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC09608-2-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_kNTd7h": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC09542-2-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_tzWUkK",
+        "image_pDiQmx",
+        "image_kNTd7h"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 160,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 3,
+        "section_columns_mobile": 3,
+        "padding_top": 0,
+        "padding_bottom": 56
+      }
+    },
+    "banner_grid_x7migx": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_jBRcex": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC00030-2-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_jBRcex"
+      ],
+      "settings": {
+        "block_aspect_ratio": "landscape",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 160,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 56
+      }
+    },
+    "banner_grid_iVpbFg": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_R9knjE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC09400-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_WmeFBp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC08873-2-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_R9knjE",
+        "image_WmeFBp"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 160,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 56
+      }
+    },
+    "banner_grid_a9XeUA": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_LpdMHe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC00321-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_gqxLrT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC00612-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_LQqhFD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC00648-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_xEE7p6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DSC09026-2-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_LpdMHe",
+        "image_gqxLrT",
+        "image_LQqhFD",
+        "image_xEE7p6"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 4,
+        "md_padding_top": 160,
+        "md_padding_bottom": 80,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 56
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a08a00f6-a6d1-41ff-9d40-074c6ca03714",
+    "ae9c3793-1c92-4eed-a108-5a862908639d",
+    "banner_grid_pUaDkX",
+    "5f69405a-fd2f-45b7-b5da-2b5b98a5b94c",
+    "banner_grid_AtKBEe",
+    "banner_grid_EP9PcY",
+    "banner_grid_wtrbFW",
+    "8a9fedcf-dbe8-4cd5-b6f3-53fb8c4b9393",
+    "banner_grid_DpqTY4",
+    "banner_grid_MaRkkY",
+    "banner_grid_Gw69rP",
+    "banner_grid_zYkxdn",
+    "banner_grid_KkTWRe",
+    "87bf661e-efea-4ddd-807a-46d6b7865aee",
+    "banner_grid_aQJyDn",
+    "banner_grid_MA8ckj",
+    "banner_grid_Jn7FdF",
+    "banner_grid_zzgcrj",
+    "banner_grid_TV9Amg",
+    "banner_grid_bqJqNm",
+    "banner_grid_GwWq8c",
+    "banner_grid_x7migx",
+    "banner_grid_iVpbFg",
+    "banner_grid_a9XeUA"
+  ]
+}

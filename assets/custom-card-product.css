@@ -1,0 +1,26 @@
+.product-form__input input[type="radio"]:checked + label {
+  border: none;
+}
+.card.card-with-greater-media.card--product:hover .swiper-slide-active:not(:last-of-type){
+  display: none;
+}
+.product-grid-actions .icon--round {
+    background-color: #c3a492;
+}
+@media only screen and (max-width: 570px) {
+  h3 .card-title .h5 .custom-card-title {
+    font-size: 10px;
+  }
+  .custom-product-card-price {
+    font-size: 16px;
+  }
+  .product-block h1 {
+    font-size: 20px;
+  }
+  .product__tax.caption {
+    font-size: 18px;
+  }
+  .rte p {
+    font-size: 18px;
+  }
+}

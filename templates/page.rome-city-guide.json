@@ -1,0 +1,918 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "rich_text_WcXHAD": {
+      "type": "rich-text",
+      "blocks": {
+        "title_6Hixzc": {
+          "type": "title",
+          "settings": {
+            "title": "Rome city guide",
+            "heading_tag": "h1",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "title_6Hixzc"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 100,
+        "desktop_content_alignment": "center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 64,
+        "md_padding_bottom": 64,
+        "mobile_alignment": "text-align-center",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_hotspots_APmPDK": {
+      "type": "image-with-hotspots",
+      "blocks": {
+        "image_tXJPQQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/city_maps-rome.jpg",
+            "video_url": "",
+            "media_toggle": "show_image",
+            "md_padding_top": 0,
+            "md_padding_bottom": 0,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "hotspot_yxr4MP": {
+          "type": "hotspot",
+          "settings": {
+            "title": "ALYSI BOUTIQUE",
+            "title_position": "right",
+            "color_scheme": "color-main",
+            "vertical_position": 12,
+            "horizontal_position": 36,
+            "image": "shopify://shop_images/negozio.jpg",
+            "video_url": "",
+            "text": "<p><strong>1. ALYSI BOUTIQUE</strong></p><p>Nel cuore di Roma, in Via Borgognona 42, Alysi apre la sua prima boutique monomarca nel 2015. Uno spazio raffinato di circa 130 m² in un edificio storico del XVII secolo. L’ambiente, intimo e curato nei dettagli, invita a rallentare il passo e concedersi una pausa. Un luogo che diventa una tappa piacevole durante una passeggiata tra le vie di Roma, dove scoprire le collezioni in un contesto che riflette la stessa cura e autenticità che caratterizzano il brand.</p><p><a href=\"https://www.google.it/maps/dir//Alysi+Roma,+Via+Borgognona,+42,+00187+Roma+RM/@41.9043784,12.4800423,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x132f6054694927eb:0xadcbad603463b021!2m2!1d12.4800423!2d41.9043784?entry=ttu&g_ep=EgoyMDI1MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.it/maps/dir//Alysi+Roma,+Via+Borgognona,+42,+00187+Roma+RM/@41.9043784,12.4800423,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x132f6054694927eb:0xadcbad603463b021!2m2!1d12.4800423!2d41.9043784?entry=ttu&g_ep=EgoyMDI1MDgzMC4wIKXMDSoASAFQAw%3D%3D\"><em>ALYSI, Via Borgognona, 42, 00187 Roma RM</em></a></p>"
+          }
+        },
+        "hotspot_eziAf8": {
+          "type": "hotspot",
+          "settings": {
+            "title": "EMPORIO CENTRALE",
+            "title_position": "right",
+            "color_scheme": "color-main",
+            "vertical_position": 58,
+            "horizontal_position": 18,
+            "image": "shopify://shop_images/IMG_8121_2.jpg",
+            "video_url": "",
+            "text": "<p><strong>2. EMPORIO CENTRALE</strong></p><p>Nascosto tra le vie storiche di Roma, Emporio Centrale è un concept store dallo charme retrò che mescola utensili per la cucina, profumi per la casa, cartoleria, cosmetici vintage e giochi, tutti rigorosamente Made in Italy. L’atmosfera è essenziale ma curata, con oggetti selezionati per il loro design e la capacità di raccontare una storia.</p><p>Per Alysi, Emporio Centrale è un luogo emblematico: rispecchia l’attitudine del brand alla curiosità come guida creativa, valorizza la qualità dei dettagli e celebra la bellezza degli oggetti con un’anima. Questo spazio è perfetto per chi condivide l’approccio ALYSI di scoprire il nuovo attraverso una ricerca attenta e raffinata.</p><p><a href=\"https://www.google.it/maps/dir//Emporio+Centrale,+Largo+del+Teatro+Valle,+1,+00186+Roma+RM/@41.8969085,12.4743163,20.82z/data=!4m8!4m7!1m0!1m5!1m1!1s0x132f61576a56a873:0x5cce765000cc2687!2m2!1d12.4745087!2d41.8969339?entry=ttu&g_ep=EgoyMDI1MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.it/maps/dir//Emporio+Centrale,+Largo+del+Teatro+Valle,+1,+00186+Roma+RM/@41.8969085,12.4743163,20.82z/data=!4m8!4m7!1m0!1m5!1m1!1s0x132f61576a56a873:0x5cce765000cc2687!2m2!1d12.4745087!2d41.8969339?entry=ttu&g_ep=EgoyMDI1MDgzMC4wIKXMDSoASAFQAw%3D%3D\"><em>Emporio Centrale, Largo del Teatro Valle, 1, 00186 Roma RM</em></a></p>"
+          }
+        },
+        "hotspot_M3DXE7": {
+          "type": "hotspot",
+          "settings": {
+            "title": "SPAZIO GIALLO INTERIORS",
+            "title_position": "right",
+            "color_scheme": "color-main",
+            "vertical_position": 51,
+            "horizontal_position": 7,
+            "image": "shopify://shop_images/IMG_8124.jpg",
+            "video_url": "",
+            "text": "<p><strong>2. SPAZIO GIALLO INTERIORS</strong></p><p>Immerso nell’atmosfera creativa di Trastevere, Spazio Giallo è un hub poliedrico che unisce interior design, mostre, vendita di pezzi unici, consulenza sul colore e workshop. Pensato come una Wunderkammer contemporanea, ospita design sperimentale e opere colorate di talenti affermati e emergenti, trasformando lo spazio in luogo di scoperta e partecipazione sensoriale </p><p>Spazio Giallo è la tappa ideale per chi, come ALYSI, ama lasciare che l’ispirazione nasca dalla creatività vissuta in prima persona, dove la selezione di designer e progetti è audace e originale, e dove l’incontro tra colore, artigianalità e innovazione diventa esperienza.</p><p><a href=\"https://www.google.it/maps/dir//Spazio+Giallo+Interiors,+Piazza+de'+Ricci,+Roma,+RM/@41.8960834,12.4279504,12.99z/data=!4m8!4m7!1m0!1m5!1m1!1s0x132f61ac252090e1:0xb2f931a1c99be511!2m2!1d12.4684712!2d41.8965608?entry=ttu&g_ep=EgoyMDI1MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.it/maps/dir//Spazio+Giallo+Interiors,+Piazza+de'+Ricci,+Roma,+RM/@41.8960834,12.4279504,12.99z/data=!4m8!4m7!1m0!1m5!1m1!1s0x132f61ac252090e1:0xb2f931a1c99be511!2m2!1d12.4684712!2d41.8965608?entry=ttu&g_ep=EgoyMDI1MDgzMC4wIKXMDSoASAFQAw%3D%3D\"><em>Spazio Giallo Interiors, Piazza de' Ricci, 126/C, 00186 Roma RM</em></a></p>"
+          }
+        },
+        "hotspot_7qcP3K": {
+          "type": "hotspot",
+          "settings": {
+            "title": "EDDART",
+            "title_position": "right",
+            "color_scheme": "color-main",
+            "vertical_position": 36,
+            "horizontal_position": 12,
+            "image": "shopify://shop_images/IMG_8799_2.jpg",
+            "video_url": "",
+            "text": "<p><strong>3. EDDART</strong></p><p>Fondata nel 2018, EDDart è una galleria di arte moderna e contemporanea, con una forte connessione alla città di Roma e ai suoi protagonisti artistici. </p><p>EDDart incarna il rigore estetico e il valore culturale che ALYSI apprezza: un luogo dove la storia dell’arte contemporanea dialoga con le nuove generazioni, e dove qualità cultura e storia si incontrano. Uno spazio perfetto Perfetta per chi ama la ricerca, il design con radici culturali e l’arte che racconta un’identità forte senza perdere slancio verso il futuro.</p><p><a href=\"https://www.google.it/maps/dir//EDDart+-+Palazzo+Taverna,+Via+di+Monte+Giordano,+Roma,+RM/@41.8998497,12.4272718,13z/data=!3m2!4b1!5s0x132f6045a9aaf2c5:0x21c3a5b8e30d8f4f!4m8!4m7!1m0!1m5!1m1!1s0x132f6133ddb7f221:0xb67219df82116b79!2m2!1d12.4684711!2d41.8998571?entry=ttu&g_ep=EgoyMDI1MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.it/maps/dir//EDDart+-+Palazzo+Taverna,+Via+di+Monte+Giordano,+Roma,+RM/@41.8998497,12.4272718,13z/data=!3m2!4b1!5s0x132f6045a9aaf2c5:0x21c3a5b8e30d8f4f!4m8!4m7!1m0!1m5!1m1!1s0x132f6133ddb7f221:0xb67219df82116b79!2m2!1d12.4684711!2d41.8998571?entry=ttu&g_ep=EgoyMDI1MDgzMC4wIKXMDSoASAFQAw%3D%3D\"><em>EDDart - Palazzo Taverna, Via di Monte Giordano, 36, 00186 Roma RM</em></a></p>"
+          }
+        },
+        "hotspot_LqRAVf": {
+          "type": "hotspot",
+          "settings": {
+            "title": "CASA MONTI",
+            "title_position": "right",
+            "color_scheme": "color-main",
+            "vertical_position": 53,
+            "horizontal_position": 71,
+            "image": "shopify://shop_images/IMG_8143.jpg",
+            "video_url": "",
+            "text": "<p><strong>5. CASA MONTI</strong></p><p>Nel cuore del rione Monti, Casa Monti è un boutique hotel che unisce ospitalità e design. Le camere e gli spazi comuni sono caratterizzati da dettagli creativi, arredi su misura e un’estetica contemporanea che dialoga con l’anima storica del quartiere. Al suo interno si trovano anche un ristorante, un rooftop bar e una spa firmata Susanne Kaufmann.</p><p>Casa Monti valorizza la collaborazione con artisti e talenti emergenti, trasformando la ricerca estetica in esperienza quotidiana in un'atmosfera elegante e rilassata. È un luogo che riflette lo stesso sguardo curioso e la stessa attenzione al dettaglio che guidano Alysi.</p><p><a href=\"https://www.google.it/maps/dir//Hotel+Casa+Monti+Roma,+Via+Panisperna,+210%2F212,+00184+Roma+RM/@41.8964978,12.4508629,13z/data=!3m1!5s0x132f6045a9aaf2c5:0x21c3a5b8e30d8f4f!4m8!4m7!1m0!1m5!1m1!1s0x132f6113330c014f:0x1256c43aece7b435!2m2!1d12.4922702!2d41.8965983?entry=ttu&g_ep=EgoyMDI1MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.it/maps/dir//Hotel+Casa+Monti+Roma,+Via+Panisperna,+210%2F212,+00184+Roma+RM/@41.8964978,12.4508629,13z/data=!3m1!5s0x132f6045a9aaf2c5:0x21c3a5b8e30d8f4f!4m8!4m7!1m0!1m5!1m1!1s0x132f6113330c014f:0x1256c43aece7b435!2m2!1d12.4922702!2d41.8965983?entry=ttu&g_ep=EgoyMDI1MDgzMC4wIKXMDSoASAFQAw%3D%3D\"><em>Hotel Casa Monti Roma, Via Panisperna, 210/212, 00184 Roma RM</em></a></p>"
+          }
+        },
+        "hotspot_mkVaxq": {
+          "type": "hotspot",
+          "settings": {
+            "title": "forno conti & co",
+            "title_position": "left",
+            "color_scheme": "color-main",
+            "vertical_position": 74,
+            "horizontal_position": 98,
+            "image": "shopify://shop_images/IMG_8141.jpg",
+            "video_url": "",
+            "text": "<p><strong>6. FORNO CONTI & CO</strong></p><p>All’Esquilino, Forno Conti & Co. è una panetteria artigianale dove pane, pizza e dolci nascono da farine biologiche e lievito madre. Lo spazio dal design essenziale, firmato da uno studio romano al femminile, è pensato come un rifugio dalla frenesia urbana: un luogo in cui fermarsi, rallentare e vivere il cibo come esperienza.</p><p>Forno Conti & Co. mette al centro il tempo dedicato a ogni gesto, trasformando la pausa in un rito prezioso, fatto di semplicità e attenzione da dedicare </p><p><a href=\"https://www.google.it/maps/dir//Forno+Conti+%26+Co.,+Via+Giusti,+Roma,+RM/@41.8923524,12.4619334,13z/data=!3m2!4b1!5s0x132f6045a9aaf2c5:0x21c3a5b8e30d8f4f!4m8!4m7!1m0!1m5!1m1!1s0x132f616eb8bdd0ed:0xe68ad8ce3152c9e0!2m2!1d12.5031327!2d41.8923598?entry=ttu&g_ep=EgoyMDI1MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.it/maps/dir//Forno+Conti+%26+Co.,+Via+Giusti,+Roma,+RM/@41.8923524,12.4619334,13z/data=!3m2!4b1!5s0x132f6045a9aaf2c5:0x21c3a5b8e30d8f4f!4m8!4m7!1m0!1m5!1m1!1s0x132f616eb8bdd0ed:0xe68ad8ce3152c9e0!2m2!1d12.5031327!2d41.8923598?entry=ttu&g_ep=EgoyMDI1MDgzMC4wIKXMDSoASAFQAw%3D%3D\"><em>Forno Conti & Co., Via Giusti, 18, 00185 Roma RM</em></a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_tXJPQQ",
+        "hotspot_yxr4MP",
+        "hotspot_eziAf8",
+        "hotspot_M3DXE7",
+        "hotspot_7qcP3K",
+        "hotspot_LqRAVf",
+        "hotspot_mkVaxq"
+      ],
+      "name": "t:sections.image-with-hotspots.name",
+      "settings": {
+        "color_scheme": "color-main",
+        "section_bg": "",
+        "numbered_hotspots": true,
+        "enable_full_width": true,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 0,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "sm_down_hide_hotspot_titles": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "0391254f-a00c-462e-8641-0dbedc8a4c0f": {
+      "type": "banner-grid",
+      "blocks": {
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/negozio.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "text_dd7EpX": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "1. ALYSI BOUTIQUE",
+            "richtext": "<p>Nel cuore di Roma, in Via Borgognona 42, Alysi apre la sua prima boutique monomarca nel 2015. L’ambiente, intimo e curato nei dettagli, invita a rallentare il passo e concedersi una pausa. Un luogo che diventa una tappa piacevole durante una passeggiata tra le vie di Roma, dove scoprire le collezioni in un contesto che riflette la stessa cura e autenticità che caratterizzano il brand.</p><p><a href=\"https://www.google.it/maps/dir//Alysi+Roma,+Via+Borgognona,+42,+00187+Roma+RM/@41.9043784,12.4800423,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x132f6054694927eb:0xadcbad603463b021!2m2!1d12.4800423!2d41.9043784?entry=ttu&g_ep=EgoyMDI1MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.it/maps/dir//Alysi+Roma,+Via+Borgognona,+42,+00187+Roma+RM/@41.9043784,12.4800423,17z/data=!4m8!4m7!1m0!1m5!1m1!1s0x132f6054694927eb:0xadcbad603463b021!2m2!1d12.4800423!2d41.9043784?entry=ttu&g_ep=EgoyMDI1MDgzMC4wIKXMDSoASAFQAw%3D%3D\"><em>ALYSI, Via Borgognona, 42, 00187 Roma RM</em></a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-1",
+        "text_dd7EpX"
+      ],
+      "settings": {
+        "block_aspect_ratio": "landscape",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 80,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_tQddE6": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_GnbXpc": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "2. EMPORIO CENTRALE",
+            "richtext": "<p>Nascosto tra le vie storiche di Roma, Emporio Centrale è un concept store dallo charme retrò che mescola utensili per la cucina, profumi per la casa, cartoleria, cosmetici vintage e giochi, tutti rigorosamente Made in Italy. L’atmosfera è essenziale ma curata, con oggetti selezionati per il loro design e la capacità di raccontare una storia.</p><p>Per Alysi, Emporio Centrale è un luogo emblematico: rispecchia l’attitudine del brand alla curiosità come guida creativa, valorizza la qualità dei dettagli e celebra la bellezza degli oggetti con un’anima. Questo spazio è perfetto per chi condivide l’approccio ALYSI di scoprire il nuovo attraverso una ricerca attenta e raffinata.</p><p><a href=\"https://www.google.it/maps/dir//Emporio+Centrale,+Largo+del+Teatro+Valle,+1,+00186+Roma+RM/@41.8969085,12.4743163,20.82z/data=!4m8!4m7!1m0!1m5!1m1!1s0x132f61576a56a873:0x5cce765000cc2687!2m2!1d12.4745087!2d41.8969339?entry=ttu&g_ep=EgoyMDI1MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.it/maps/dir//Emporio+Centrale,+Largo+del+Teatro+Valle,+1,+00186+Roma+RM/@41.8969085,12.4743163,20.82z/data=!4m8!4m7!1m0!1m5!1m1!1s0x132f61576a56a873:0x5cce765000cc2687!2m2!1d12.4745087!2d41.8969339?entry=ttu&g_ep=EgoyMDI1MDgzMC4wIKXMDSoASAFQAw%3D%3D\"><em>Emporio Centrale, Largo del Teatro Valle, 1, 00186 Roma RM</em></a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        },
+        "image_k8rmc8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8121_2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_GnbXpc",
+        "image_k8rmc8"
+      ],
+      "settings": {
+        "block_aspect_ratio": "square",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 80,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_yVfaCL": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_GbjHbY": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "3. SPAZIO GIALLO INTERIORS",
+            "richtext": "<p>Immerso nell’atmosfera creativa di Trastevere, Spazio Giallo è un hub poliedrico che unisce interior design, mostre, vendita di pezzi unici, consulenza sul colore e workshop. Pensato come una Wunderkammer contemporanea, ospita design sperimentale e opere colorate di talenti affermati e emergenti, trasformando lo spazio in luogo di scoperta e partecipazione sensoriale </p><p>Spazio Giallo è la tappa ideale per chi, come ALYSI, ama lasciare che l’ispirazione nasca dalla creatività vissuta in prima persona, dove la selezione di designer e progetti è audace e originale, e dove l’incontro tra colore, artigianalità e innovazione diventa esperienza.</p><p><a href=\"https://www.google.it/maps/dir//Spazio+Giallo+Interiors,+Piazza+de'+Ricci,+Roma,+RM/@41.8960834,12.4279504,12.99z/data=!4m8!4m7!1m0!1m5!1m1!1s0x132f61ac252090e1:0xb2f931a1c99be511!2m2!1d12.4684712!2d41.8965608?entry=ttu&g_ep=EgoyMDI1MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.it/maps/dir//Spazio+Giallo+Interiors,+Piazza+de'+Ricci,+Roma,+RM/@41.8960834,12.4279504,12.99z/data=!4m8!4m7!1m0!1m5!1m1!1s0x132f61ac252090e1:0xb2f931a1c99be511!2m2!1d12.4684712!2d41.8965608?entry=ttu&g_ep=EgoyMDI1MDgzMC4wIKXMDSoASAFQAw%3D%3D\"><em>Spazio Giallo Interiors, Piazza de' Ricci, 126/C, 00186 Roma RM</em></a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        },
+        "image_C6kPNV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8125.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_GbjHbY",
+        "image_C6kPNV"
+      ],
+      "settings": {
+        "block_aspect_ratio": "square",
+        "grid_gap": 5,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 104,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 8
+      }
+    },
+    "banner_grid_pXxtGf": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_z9TeXT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8124.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_z6zeRz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/spaziogiallo2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_bq4HFL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8123.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_z9TeXT",
+        "image_z6zeRz",
+        "image_bq4HFL"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 5,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 3,
+        "section_columns_mobile": 3,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_gPcLmC": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_7hVQqj": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "4. EDDart",
+            "richtext": "<p>Fondata nel 2018, EDDart è una galleria di arte moderna e contemporanea, con una forte connessione alla città di Roma e ai suoi protagonisti artistici. </p><p>EDDart incarna il rigore estetico e il valore culturale che ALYSI apprezza: un luogo dove la storia dell’arte contemporanea dialoga con le nuove generazioni, e dove qualità cultura e storia si incontrano. Uno spazio perfetto Perfetta per chi ama la ricerca, il design con radici culturali e l’arte che racconta un’identità forte senza perdere slancio verso il futuro.</p><p><a href=\"https://www.google.it/maps/dir//EDDart+-+Palazzo+Taverna,+Via+di+Monte+Giordano,+Roma,+RM/@41.8998497,12.4272718,13z/data=!3m2!4b1!5s0x132f6045a9aaf2c5:0x21c3a5b8e30d8f4f!4m8!4m7!1m0!1m5!1m1!1s0x132f6133ddb7f221:0xb67219df82116b79!2m2!1d12.4684711!2d41.8998571?entry=ttu&g_ep=EgoyMDI1MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.it/maps/dir//EDDart+-+Palazzo+Taverna,+Via+di+Monte+Giordano,+Roma,+RM/@41.8998497,12.4272718,13z/data=!3m2!4b1!5s0x132f6045a9aaf2c5:0x21c3a5b8e30d8f4f!4m8!4m7!1m0!1m5!1m1!1s0x132f6133ddb7f221:0xb67219df82116b79!2m2!1d12.4684711!2d41.8998571?entry=ttu&g_ep=EgoyMDI1MDgzMC4wIKXMDSoASAFQAw%3D%3D\"><em>EDDart - Palazzo Taverna, Via di Monte Giordano, 36, 00186 Roma RM</em></a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        },
+        "image_fWFm64": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8799_2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_7hVQqj",
+        "image_fWFm64"
+      ],
+      "settings": {
+        "block_aspect_ratio": "square",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 104,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "banner_grid_fYeGVz": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_X8ihBJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8664.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_yJbtkV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8800.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_yn8LtA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8131.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_X8ihBJ",
+        "image_yJbtkV",
+        "image_yn8LtA"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 5,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 3,
+        "section_columns_mobile": 3,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_zLtnka": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_6MmPPH": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "5. CASA MONTI",
+            "richtext": "<p>Nel cuore del rione Monti, Casa Monti è un boutique hotel che unisce ospitalità e design. Le camere e gli spazi comuni sono caratterizzati da dettagli creativi, arredi su misura e un’estetica contemporanea che dialoga con l’anima storica del quartiere. Al suo interno si trovano anche un ristorante, un rooftop bar e una spa firmata Susanne Kaufmann.</p><p>Casa Monti valorizza la collaborazione con artisti e talenti emergenti, trasformando la ricerca estetica in esperienza quotidiana in un'atmosfera elegante e rilassata. È un luogo che riflette lo stesso sguardo curioso e la stessa attenzione al dettaglio che guidano Alysi.</p><p><a href=\"https://www.google.it/maps/dir//Hotel+Casa+Monti+Roma,+Via+Panisperna,+210%2F212,+00184+Roma+RM/@41.8964978,12.4508629,13z/data=!3m1!5s0x132f6045a9aaf2c5:0x21c3a5b8e30d8f4f!4m8!4m7!1m0!1m5!1m1!1s0x132f6113330c014f:0x1256c43aece7b435!2m2!1d12.4922702!2d41.8965983?entry=ttu&g_ep=EgoyMDI1MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.it/maps/dir//Hotel+Casa+Monti+Roma,+Via+Panisperna,+210%2F212,+00184+Roma+RM/@41.8964978,12.4508629,13z/data=!3m1!5s0x132f6045a9aaf2c5:0x21c3a5b8e30d8f4f!4m8!4m7!1m0!1m5!1m1!1s0x132f6113330c014f:0x1256c43aece7b435!2m2!1d12.4922702!2d41.8965983?entry=ttu&g_ep=EgoyMDI1MDgzMC4wIKXMDSoASAFQAw%3D%3D\"><em>Hotel Casa Monti Roma, Via Panisperna, 210/212, 00184 Roma RM</em></a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        },
+        "image_8YnEHC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8143.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_6MmPPH",
+        "image_8YnEHC"
+      ],
+      "settings": {
+        "block_aspect_ratio": "square",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 104,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_hnYUxx": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_yntdLQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8145.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_xpia78": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8142.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_eCPqDK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8144.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_yntdLQ",
+        "image_xpia78",
+        "image_eCPqDK"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 5,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 3,
+        "section_columns_mobile": 3,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "banner_grid_P3g9VR": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_cJjBHW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8141.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "text_KHJgjE": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "6. FORNO CONTI & CO",
+            "richtext": "<p>All’Esquilino, Forno Conti & Co. è una panetteria artigianale dove pane, pizza e dolci nascono da farine biologiche e lievito madre. Lo spazio dal design essenziale, firmato da uno studio romano al femminile, è pensato come un rifugio dalla frenesia urbana: un luogo in cui fermarsi, rallentare e vivere il cibo come esperienza.</p><p>Forno Conti & Co. mette al centro il tempo dedicato a ogni gesto, trasformando la pausa in un rito prezioso, fatto di semplicità e attenzione da dedicare </p><p><a href=\"https://www.google.it/maps/dir//Forno+Conti+%26+Co.,+Via+Giusti,+Roma,+RM/@41.8923524,12.4619334,13z/data=!3m2!4b1!5s0x132f6045a9aaf2c5:0x21c3a5b8e30d8f4f!4m8!4m7!1m0!1m5!1m1!1s0x132f616eb8bdd0ed:0xe68ad8ce3152c9e0!2m2!1d12.5031327!2d41.8923598?entry=ttu&g_ep=EgoyMDI1MDgzMC4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.it/maps/dir//Forno+Conti+%26+Co.,+Via+Giusti,+Roma,+RM/@41.8923524,12.4619334,13z/data=!3m2!4b1!5s0x132f6045a9aaf2c5:0x21c3a5b8e30d8f4f!4m8!4m7!1m0!1m5!1m1!1s0x132f616eb8bdd0ed:0xe68ad8ce3152c9e0!2m2!1d12.5031327!2d41.8923598?entry=ttu&g_ep=EgoyMDI1MDgzMC4wIKXMDSoASAFQAw%3D%3D\"><em>Forno Conti & Co., Via Giusti, 18, 00185 Roma RM</em></a></p>",
+            "button_label": "",
+            "button_link": "https://www.google.it/maps/place/14+Rue+des+Filles+du+Calvaire,+75003+Paris,+Francia/@48.8626665,2.3633171,17.04z/data=!4m6!3m5!1s0x47e66e0712ba976d:0xbccb18eecd7719eb!8m2!3d48.8625838!4d2.366124!16s%2Fg%2F11c5h_xjgc?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        }
+      },
+      "block_order": [
+        "image_cJjBHW",
+        "text_KHJgjE"
+      ],
+      "settings": {
+        "block_aspect_ratio": "square",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 80,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_GHyCaY": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_AhMrXB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8140.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_KTWVEX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/af65e5ad-02a0-49b8-ab33-8806b75fc93d.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_MC8eNg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_8662.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_AhMrXB",
+        "image_KTWVEX",
+        "image_MC8eNg"
+      ],
+      "name": "t:sections.banner-grid.name",
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 3,
+        "section_columns_mobile": 3,
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
+    "featured_collection_or_products_Dx4UGp": {
+      "type": "featured-collection-or-products",
+      "blocks": {
+        "section_header_eJ9PCR": {
+          "type": "section_header",
+          "settings": {
+            "subtitle": "",
+            "subtitle_tag": "h3",
+            "title": "",
+            "title_tag": "h2",
+            "text": "",
+            "text_alignment": "text-align-center",
+            "sm_size_multiplier": "sm-size--default",
+            "size_multiplier": "size--default"
+          }
+        }
+      },
+      "block_order": [
+        "section_header_eJ9PCR"
+      ],
+      "name": "t:sections.featured-collection-or-products.name",
+      "settings": {
+        "color_scheme": "color-main",
+        "collection": "",
+        "product_list": [
+          "165440a5033lt",
+          "365672a5110gz"
+        ],
+        "product_limit": 12,
+        "view_all": true,
+        "enable_full_width": false,
+        "sm_enable_card_thumbnail": false,
+        "layout_desktop": "slide",
+        "products_per_row_desktop": 2,
+        "sm_custom_gap": -1,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "products_per_row_tablet": 2,
+        "sm_down_enable_card_thumbnail": false,
+        "layout_mobile": "slide peek",
+        "products_per_row_mobile": 2,
+        "custom_gap": -1,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "featured_collection_or_products_xArfkA": {
+      "type": "featured-collection-or-products",
+      "blocks": {
+        "section_header_tgRyMa": {
+          "type": "section_header",
+          "settings": {
+            "subtitle": "",
+            "subtitle_tag": "h3",
+            "title": "",
+            "title_tag": "h2",
+            "text": "",
+            "text_alignment": "text-align-center",
+            "sm_size_multiplier": "sm-size--default",
+            "size_multiplier": "size--default"
+          }
+        }
+      },
+      "block_order": [
+        "section_header_tgRyMa"
+      ],
+      "name": "t:sections.featured-collection-or-products.name",
+      "settings": {
+        "color_scheme": "color-main",
+        "collection": "",
+        "product_list": [
+          "265452a5027mix",
+          "165420a5031tiamo",
+          "165403a5033lt"
+        ],
+        "product_limit": 12,
+        "view_all": true,
+        "enable_full_width": false,
+        "sm_enable_card_thumbnail": false,
+        "layout_desktop": "slide",
+        "products_per_row_desktop": 3,
+        "sm_custom_gap": -1,
+        "md_padding_top": 0,
+        "md_padding_bottom": 40,
+        "products_per_row_tablet": 3,
+        "sm_down_enable_card_thumbnail": false,
+        "layout_mobile": "slide peek",
+        "products_per_row_mobile": 2,
+        "custom_gap": -1,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "banner_grid_DGHKWX": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_gUfpzr": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "",
+            "richtext": "",
+            "button_label": "Milan city guide",
+            "button_link": "shopify://pages/milan-city-guide",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 0,
+            "text_position": "center",
+            "text_alignment": "text-align-center"
+          }
+        },
+        "text_7a4XXJ": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "",
+            "richtext": "",
+            "button_label": "Paris city guide",
+            "button_link": "shopify://pages/paris-city-guide",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 0,
+            "text_position": "center",
+            "text_alignment": "text-align-center"
+          }
+        }
+      },
+      "block_order": [
+        "text_gUfpzr",
+        "text_7a4XXJ"
+      ],
+      "name": "t:sections.banner-grid.name",
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 2,
+        "md_padding_top": 0,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_WcXHAD",
+    "image_with_hotspots_APmPDK",
+    "0391254f-a00c-462e-8641-0dbedc8a4c0f",
+    "banner_grid_tQddE6",
+    "banner_grid_yVfaCL",
+    "banner_grid_pXxtGf",
+    "banner_grid_gPcLmC",
+    "banner_grid_fYeGVz",
+    "banner_grid_zLtnka",
+    "banner_grid_hnYUxx",
+    "banner_grid_P3g9VR",
+    "banner_grid_GHyCaY",
+    "featured_collection_or_products_Dx4UGp",
+    "featured_collection_or_products_xArfkA",
+    "banner_grid_DGHKWX"
+  ]
+}

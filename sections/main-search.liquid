@@ -1,0 +1,162 @@
+{%- liquid
+  assign sort_by = search.sort_by | default: search.default_sort_by
+  assign show_filters = section.settings.enable_filtering
+  assign show_count = section.settings.show_count
+  assign show_sort_by = section.settings.enable_sorting
+  
+  assign actions_items_count = 0
+  
+  if show_filters
+    assign actions_items_count = 1
+  endif
+  if show_count
+    assign actions_items_count = actions_items_count | plus: 1
+  endif
+  if show_sort_by
+    assign actions_items_count = actions_items_count | plus: 1
+  endif
+-%}
+
+<div data-ajax-parent class="container custom-child-for-animation">
+  <header class="pt-40 pb-40 text-center">
+    {%- if search.performed -%}
+      <h1>{{ 'templates.search.search_for' | t: terms: search.terms }}</h1>
+    {%- else -%}
+      <h1>{{ 'general.search.search' | t }}</h1>
+    {%- endif -%}
+  </header>
+
+  {%- if search.performed -%}
+    {%- if search.filters != empty -%}
+      {%- if actions_items_count > 0 -%}
+        <div class="product-grid-actions items-count-{{ actions_items_count }}">
+          {%- if section.settings.show_count -%}
+            <p class="products-count size--tiny {% if show_filters and show_sort_by == false %}--to-right{% endif %} " id="products-count-ajax">
+              {{ 'templates.search.results_with_count' | t: count: search.results_count }}
+            </p>
+          {%- endif -%}
+          {%- if section.settings.enable_filtering -%}
+            <a class="btn btn--link size--small btn--with-icon filters-button" href="#drawer-filter">{{ 'products.facets.filter_button' | t }} <span class="link-icon icon--round">{%- render 'icon-caret' -%}</span></a>
+          {%- endif -%}
+          {%- if section.settings.enable_sorting -%}
+            <label for="sort-by" class="sort-by">
+              <span class="visually-hidden">{{ 'products.facets.sort_button' | t }}</span>
+              <sort-by>
+                <select id="sort-by" class="btn btn--link size--small">
+                  {%- for option in search.sort_options -%}
+                    <option value="{{ option.value }}" {%- if option.value == sort_by -%}selected="selected"{%- endif -%}>
+                      {{ option.name }}
+                    </option>
+                  {%- endfor -%}
+                </select>
+                <span class="link-icon icon--round">{%- render 'icon-caret' -%}</span>
+              </sort-by>
+            </label>
+          {%- endif -%}
+        </div>
+        {%- if section.settings.enable_filtering -%}
+          {%- render 'current-facets', context: search -%}
+        {%- endif -%}
+      {%- endif -%}
+    {%- endif -%}
+
+    <div id="product-grid-ajax" class="mt-24 sm-mt-gutter">
+      {% paginate search.results by 24 %}
+        <div class="template-search__results collection page-width" id="product-grid" data-id="{{ section.id }}">
+          <div class="loading-overlay gradient"></div>
+          <ul class="grid grid--products grid-cols-{{ section.settings.results_per_row_mobile }} sm-grid-cols-{{ section.settings.results_per_row_desktop }}" role="list">
+            {%- if search.results_count > 0 -%}
+              {%- liquid
+                for item in search.results
+                  assign lazy_load = false 
+                  if forloop.index > 2
+                    assign lazy_load = true 
+                  endif 
+                  
+                  case item.object_type
+                    when 'product'
+                      render 'card-product', product: item, lazyload: lazy_load
+                    when 'article'
+                      render 'card-article', article: item, aspect_ratio: settings.product_card_aspect_ratio, lazyload: lazy_load, section: section 
+                    when 'page'
+                      render 'card-article', article: item, aspect_ratio: settings.product_card_aspect_ratio, lazyload: lazy_load, section: section
+                  endcase
+                endfor
+                render 'loading'
+              -%}
+            {%- else -%}
+              <div class="mt-gutter mb-gutter">
+                <p role="status">{{ 'templates.search.results_with_count_and_term' | t: terms: search.terms, count: search.results_count }}</p>
+                <a class="link" href="{{ routes.root_url }}">{{ 'general.continue_shopping' | t }}</a>
+              </div>
+            {%- endif -%}
+          </ul>
+          
+          <div id="pagination-ajax">
+            {%- liquid
+              if paginate.pages > 1 
+                render 'pagination', paginate: paginate, anchor: '' 
+              endif 
+            -%}
+          </div>
+        </div>
+      {% endpaginate %}
+    </div>
+  {%- endif -%}
+</div>
+
+{%- if section.settings.enable_filtering and search.results.size > 0 -%}
+  {%- render 'drawer-filters', context: 'search' -%}
+  <script type="text/javascript" data-loading="lazy" data-src="{{ 'component-facets.js' | asset_url }}"></script>
+{%- endif -%}
+
+{% schema %}
+  {
+    "name": "t:sections.main-search.name",
+    "class": "anim-custom-child pb-gutter",
+    "settings": [
+      {
+        "type": "range",
+        "id": "results_per_page",
+        "min": 1,
+        "max": 50,
+        "default": 16,
+        "label": "t:sections.main-search.settings.results_per_page.label"
+      },
+      {
+        "type": "range",
+        "id": "results_per_row_desktop",
+        "min": 1,
+        "max": 6,
+        "default": 4,
+        "label": "t:sections.main-search.settings.results_per_row_desktop.label"
+      },
+      {
+        "type": "range",
+        "id": "results_per_row_mobile",
+        "min": 1,
+        "max": 6,
+        "default": 1,
+        "label": "t:sections.main-search.settings.results_per_row_mobile.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_count",
+        "default": true,
+        "label": "t:sections.main-search.settings.show_count.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_sorting",
+        "default": true,
+        "label": "t:sections.main-search.settings.enable_sorting.label"
+      },
+      {
+        "type": "checkbox",
+        "id": "enable_filtering",
+        "default": true,
+        "label": "t:sections.main-search.settings.enable_filtering.label"
+      }
+    ]
+  }
+{% endschema %}

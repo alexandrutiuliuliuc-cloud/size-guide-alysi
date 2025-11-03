@@ -1,0 +1,19 @@
+.section-divider {
+  z-index: 1;
+}
+.divider-graphics {
+  width: 100%;
+  pointer-events: none;
+  overflow: hidden;
+}
+.divider-graphics svg {
+  display: block;
+}
+.divider-graphics.top-previous,
+.divider-graphics.top-next {
+  position: absolute;  
+  z-index: 100;
+}
+
+.divider-graphics.top-previous { bottom: -1px }
+.divider-graphics.top-next { top: -1px }

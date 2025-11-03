@@ -1,0 +1,429 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "54264903-7e7e-45fc-9df2-ac40219658f7": {
+      "type": "banner-grid",
+      "blocks": {
+        "template--20494408876366__54264903-7e7e-45fc-9df2-ac40219658f7-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/VETROFANIA.png",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--20494408876366__54264903-7e7e-45fc-9df2-ac40219658f7-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MG_5624_post_silviasirpresi.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--20494408876366__54264903-7e7e-45fc-9df2-ac40219658f7-image-1",
+        "template--20494408876366__54264903-7e7e-45fc-9df2-ac40219658f7-image-3"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 8
+      }
+    },
+    "0391254f-a00c-462e-8641-0dbedc8a4c0f": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_xV3QUq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MG_5545_post_silviasirpresi.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_g77yP6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MG_5605_post_silviasirpresi.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MG_5511_post_silviasirpresi.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_xV3QUq",
+        "image_g77yP6",
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-2"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 4,
+        "md_padding_top": 8,
+        "md_padding_bottom": 8,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 3,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_BKcfDU": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_GpP9wA": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "Cabinet de curiosités",
+            "richtext": "<p>Alysi presenta, in occasione della Design Week 2024 a tema “Materia Natura”, un’installazione curata dalla set designer Martina Sanzarello presso la boutique in Brera District, che emula una Wunderkammer.</p><p>Una vera e propria Cabinet de curiosités diventa scenario per la presentazione della collezione di profumi del brand scandinavo <a href=\"https://eu.bjorkandberries.com/?gad_source=1&gclid=Cj0KCQjwq86wBhDiARIsAJhuphkuA15d53xOA_bSW03luMdbV7RuHY1_gNdKo8yo1SuFj7GmguZ9u-YaAro7EALw_wcB\" target=\"_blank\" title=\"https://eu.bjorkandberries.com/?gad_source=1&gclid=Cj0KCQjwq86wBhDiARIsAJhuphkuA15d53xOA_bSW03luMdbV7RuHY1_gNdKo8yo1SuFj7GmguZ9u-YaAro7EALw_wcB\">björk and berries</a>, arricchita visivamente da oggetti naturali che richiamano la composizione delle profumazioni. </p><p>I bicchieri di design Martini shot glasses in vetro borosilicato firmati <a href=\"https://traga.it/\" target=\"_blank\" title=\"https://traga.it/\">TRAGA</a> si decontestualizzano dalla loro funzione innata, inserendosi in un contesto di archivio, richiamando visivamente ampolle di laboratorio per la conservazione di oggetti preziosi e unici.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        },
+        "image_WF6nhM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/POST.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_GpP9wA",
+        "image_WF6nhM"
+      ],
+      "settings": {
+        "block_aspect_ratio": "square",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 8
+      }
+    },
+    "featured_collection_or_products_YFUnqB": {
+      "type": "featured-collection-or-products",
+      "blocks": {
+        "section_header_ceDMCf": {
+          "type": "section_header",
+          "settings": {
+            "subtitle": "",
+            "subtitle_tag": "h3",
+            "title": "",
+            "title_tag": "h2",
+            "text": "",
+            "text_alignment": "text-align-center",
+            "sm_size_multiplier": "sm-size--default",
+            "size_multiplier": "size--default"
+          }
+        }
+      },
+      "block_order": [
+        "section_header_ceDMCf"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "collection": "bjork-and-berries",
+        "product_list": [],
+        "product_limit": 12,
+        "view_all": true,
+        "enable_full_width": false,
+        "sm_enable_card_thumbnail": false,
+        "layout_desktop": "slide",
+        "products_per_row_desktop": 4,
+        "sm_custom_gap": -1,
+        "md_padding_top": 0,
+        "md_padding_bottom": 80,
+        "products_per_row_tablet": 4,
+        "sm_down_enable_card_thumbnail": false,
+        "layout_mobile": "slide",
+        "products_per_row_mobile": 1,
+        "custom_gap": -1,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "banner_grid_gaTPAY": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_Tgfk3k": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_WUNDERKAMMER5905_post_silviasirpresi.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_YUc83B": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_WUNDERKAMMER5974_psd_post_silviasirpresi.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_HCVxp6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_WUNDERKAMMER5991_post_silviasirpresi.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_Tgfk3k",
+        "image_YUc83B",
+        "image_HCVxp6"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 4,
+        "md_padding_top": 8,
+        "md_padding_bottom": 8,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 3,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "62b9a1f6-c77f-4818-b73a-7818d6e876d5": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_MtEJVG": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "ricercare e meravigliarsi",
+            "richtext": "<p>Curiosità come attitudine, istinto senza confini che spinge a rubare con gli occhi, a percepire ogni minimo cambiamento.</p><p>Attenzione alle lavorazioni, scelta dei tessuti, ricerca di forme e materiali, studio dei volumi, sperimentazione di accostamenti insoliti di colori e trame nelle stampe.</p><p>In accordo con la tradizione del Made in Italy, l’attenzione ai dettagli e le lavorazioni accurate rendono speciali anche i capi dalla linea più semplice ed essenziale. Contemporanea, eclettica e raffinata, la donna Alysi sa rendere sofisticata anche la quotidianità metropolitana.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        },
+        "image_d4NPHN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MG_5579_post_silviasirpresi.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--20494408876366__62b9a1f6-c77f-4818-b73a-7818d6e876d5-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_WUNDERKAMMER5999_2_post_silviasirpresi.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_MtEJVG",
+        "image_d4NPHN",
+        "template--20494408876366__62b9a1f6-c77f-4818-b73a-7818d6e876d5-image-3"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 8
+      }
+    },
+    "banner_grid_Dr9UWE": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_wMVLpt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MG_5603_post_silviasirpresi.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "text_WLyr96": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "brands on view",
+            "richtext": "<p>ABOUT BJORK AND BERRIES<br/>Nasce come piccolo progetto locale nella Svezia settentrionale con il desiderio di preservare la magia della natura del posto, la sua bellezza, i suoi profumi e le sue proprietà curative. <br/>Il brand raccoglie a mano foglie e bacche per catturare l’essenza della flora svedese presente nel loro primo profumo naturale e con quello getta le basi per ciò che björk and berries è oggi.</p><p>ABOUT TRAGA<br/>Nuovo brand di Design, nato a Milano, che ridefinisce gli oggetti di utilità quotidiana.  I prodotti sono incentrati su oggetti in<br/>vetro, multiuso e progettati per “creare una conversazione”. La parola “Traga”, di origine slava, significa proprio “traccia”, un segno come le sottili macchie e impronte che i bicchieri lasciano sulla biancheria da tavola dopo una vivace serata.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        }
+      },
+      "block_order": [
+        "image_wMVLpt",
+        "text_WLyr96"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 8,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "54264903-7e7e-45fc-9df2-ac40219658f7",
+    "0391254f-a00c-462e-8641-0dbedc8a4c0f",
+    "banner_grid_BKcfDU",
+    "featured_collection_or_products_YFUnqB",
+    "banner_grid_gaTPAY",
+    "62b9a1f6-c77f-4818-b73a-7818d6e876d5",
+    "banner_grid_Dr9UWE"
+  ]
+}

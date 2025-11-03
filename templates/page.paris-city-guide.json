@@ -1,0 +1,819 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "rich_text_WcXHAD": {
+      "type": "rich-text",
+      "blocks": {
+        "title_6Hixzc": {
+          "type": "title",
+          "settings": {
+            "title": "Paris city guide",
+            "heading_tag": "h1",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "title_6Hixzc"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 100,
+        "desktop_content_alignment": "center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 64,
+        "md_padding_bottom": 64,
+        "mobile_alignment": "text-align-center",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_hotspots_APmPDK": {
+      "type": "image-with-hotspots",
+      "blocks": {
+        "image_tXJPQQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MAPPA-PARIGI-senzapin_c97dd0fd-764c-4b42-904b-b8e704375657.jpg",
+            "video_url": "",
+            "media_toggle": "show_image",
+            "md_padding_top": 0,
+            "md_padding_bottom": 0,
+            "padding_top": 0,
+            "padding_bottom": 0
+          }
+        },
+        "hotspot_yxr4MP": {
+          "type": "hotspot",
+          "settings": {
+            "title": "ALYSI BOUTIQUE",
+            "title_position": "right",
+            "color_scheme": "color-main",
+            "vertical_position": 60,
+            "horizontal_position": 13,
+            "image": "shopify://shop_images/Andrea_Ferrari_DSC_7322.jpg",
+            "video_url": "",
+            "text": "<p>Alysi apre la sua terza boutique monomarca a Parigi, nel quartiere Saint Germain. La boutique rispecchia l'identità di Alysi: gli interni sono un mix tra elementi urbani e raffinatezze artistiche, con superfici grezze e dettagli sofisticati, come la scelta di pezzi iconici. Il design, che richiama le atmosfere degli anni '70 e '80, è stato pensato per creare un ambiente dinamico e immersivo. Il progetto si arricchisce di materiali ricercati come il marmo onice verde e di un'attenta selezione di arredi vintage.</p><p><a href=\"https://www.google.it/maps/place/ALYSI/@48.8530239,2.3242057,16.97z/data=!4m6!3m5!1s0x47e671af0e236241:0xfbe5fc55455844e1!8m2!3d48.8530647!4d2.3287213!16s%2Fg%2F11yc66x8td?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.it/maps/place/ALYSI/@48.8530239,2.3242057,16.97z/data=!4m6!3m5!1s0x47e671af0e236241:0xfbe5fc55455844e1!8m2!3d48.8530647!4d2.3287213!16s%2Fg%2F11yc66x8td?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D\"><em>13bis Rue De Grenelle, 75007 Paris, Francia</em></a></p>"
+          }
+        },
+        "hotspot_eziAf8": {
+          "type": "hotspot",
+          "settings": {
+            "title": "Poilane boulangerie",
+            "title_position": "right",
+            "color_scheme": "color-main",
+            "vertical_position": 77,
+            "horizontal_position": 13,
+            "image": "shopify://shop_images/poilane.jpg",
+            "video_url": "",
+            "text": "<p><strong>1. BOULANGERIE POILÂNE</strong></p><p>Situata dal 1932 in rue du Cherche-Midi, nel cuore di Saint-Germain-des-Prés, la Boulangerie Poilâne è un'istituzione parigina dove tradizione e artigianato convivono n un'atmosfera sospesa nel tempo. Le celebri miche cotte a legna, incise con la \"p\" sono il simbolo di un savoir-faire autentico e senza tempo. Poilâne, come Alysi, tonde art de vivre, creatività e cura per i dettagli. Un'esperienza di gusto che racconta Parigi con la stessa eleganza e cura che contraddistinguono Alysi.</p><p><a href=\"https://www.google.it/maps/place/Boulangerie+Poil%C3%A2ne/@48.8521993,2.326894,17z/data=!3m1!5s0x47e671d1343ff857:0x51949db25d0e0822!4m10!1m2!2m1!1zUG9pbMOibmU!3m6!1s0x47e671d6d2badc49:0xc22d212412585ed0!8m2!3d48.8512944!4d2.3289972!15sCghQb2lsw6JuZSIDiAEBWgoiCHBvaWzDom5lkgEGYmFrZXJ5qgFMCg0vZy8xMWI3Y3JoNHdsCgsvZy8xdGc3OGMybBABMh4QASIa4zWSMVqIpjC1zYHkJD09dbZfupWX-YvagB4yDBACIghwb2lsw6JuZeABAA!16s%2Fg%2F1tg78c2l?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.it/maps/place/Boulangerie+Poil%C3%A2ne/@48.8521993,2.326894,17z/data=!3m1!5s0x47e671d1343ff857:0x51949db25d0e0822!4m10!1m2!2m1!1zUG9pbMOibmU!3m6!1s0x47e671d6d2badc49:0xc22d212412585ed0!8m2!3d48.8512944!4d2.3289972!15sCghQb2lsw6JuZSIDiAEBWgoiCHBvaWzDom5lkgEGYmFrZXJ5qgFMCg0vZy8xMWI3Y3JoNHdsCgsvZy8xdGc3OGMybBABMh4QASIa4zWSMVqIpjC1zYHkJD09dbZfupWX-YvagB4yDBACIghwb2lsw6JuZeABAA!16s%2Fg%2F1tg78c2l?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D\"><em>8 Rue du Cherche-Midi, 75006 Paris, Francia</em></a></p>"
+          }
+        },
+        "hotspot_M3DXE7": {
+          "type": "hotspot",
+          "settings": {
+            "title": "Galerie Amelie du chalard",
+            "title_position": "right",
+            "color_scheme": "color-main",
+            "vertical_position": 54,
+            "horizontal_position": 39,
+            "image": "shopify://shop_images/galerie.jpg",
+            "video_url": "",
+            "text": "<p><strong>2. GALERIE AMELIE DU CHALARD</strong></p><p>Fondata nel 2015 da Amélie du Chalard, la Galerie Amélie du Chalard a Parigi reinterpreta la galleria d'arte come una casa accogliente: uno spazio vivo, immerso nella luce e pensato come una residenza curata, dove ogni opera dialoga con l'ambiente domestico. Qui, l'arte astratta di circa ottanta artisti internazionali (pittura, scultura, fotogratia, installazioni e ceramica) si integra in allestimenti che uniscono estetica e familiarità. La galleria, accoglie collezionisti che cercano autenticità e ispirazione in un contesto caloroso e raffinato.</p><p>Come Alysi, Amélie du Chalard celebra l'arte come espressione di vita: ogni visita è una scoperta personale, ogni opera un invito a vivere l'arte con eleganza e semplicità.</p><p><a href=\"https://www.google.it/maps/place/Galerie+Am%C3%A9lie+du+Chalard/@48.8537136,2.3387123,16z/data=!3m1!4b1!4m6!3m5!1s0x47e66fd59673ffff:0x2feab2fd75e453a6!8m2!3d48.8537136!4d2.3412872!16s%2Fg%2F11g6qj7d8f?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.it/maps/place/Galerie+Am%C3%A9lie+du+Chalard/@48.8537136,2.3387123,16z/data=!3m1!4b1!4m6!3m5!1s0x47e66fd59673ffff:0x2feab2fd75e453a6!8m2!3d48.8537136!4d2.3412872!16s%2Fg%2F11g6qj7d8f?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D\"><em>18 Rue Séguier, 75006 Paris, Francia</em></a></p>"
+          }
+        },
+        "hotspot_7qcP3K": {
+          "type": "hotspot",
+          "settings": {
+            "title": "Cinema saint andre des arts",
+            "title_position": "right",
+            "color_scheme": "color-main",
+            "vertical_position": 65,
+            "horizontal_position": 42,
+            "image": "shopify://shop_images/cinema.jpg",
+            "video_url": "",
+            "text": "<p><strong>3. CINEMA SAINT ANDRE DES ARTS</strong></p><p>Situato nel cuore del Quartiere Latino, il Cinéma Saint-André des Arts è un punto di riferimento per il cinema d'arte sin dal 197. Con le sue tre sale, proietta opere d'autore, documentari e cinema sperimentale.</p><p>Lo spirito del luogo, indipendente, culturale e accogliente, riflette pertettamente la visione di Alysi: un cinema che valorizza la creatività, la curiosità e l'esperienza autentica. Ogni visita è un invito a vivere un'esperienza intellettuale ed emozionale, proprio come il mondo di Alysi.</p><p><a href=\"https://www.google.it/maps/place/Cin%C3%A9ma+Saint-Andr%C3%A9+des+Arts/@48.8537971,2.3373513,16.17z/data=!4m6!3m5!1s0x47e671defbbd6d59:0xc279e968409616c2!8m2!3d48.8533859!4d2.3420633!16s%2Fg%2F1224nhzp?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.it/maps/place/Cin%C3%A9ma+Saint-Andr%C3%A9+des+Arts/@48.8537971,2.3373513,16.17z/data=!4m6!3m5!1s0x47e671defbbd6d59:0xc279e968409616c2!8m2!3d48.8533859!4d2.3420633!16s%2Fg%2F1224nhzp?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D\"><em>30 Rue Saint-André des Arts, 75006 Paris, Francia</em></a></p>"
+          }
+        },
+        "hotspot_LqRAVf": {
+          "type": "hotspot",
+          "settings": {
+            "title": "Musee national Picasso",
+            "title_position": "left",
+            "color_scheme": "color-main",
+            "vertical_position": 32,
+            "horizontal_position": 88,
+            "image": "shopify://shop_images/picasso5.jpg",
+            "video_url": "",
+            "text": "<p><strong>5. MUSÉE NATIONAL PICASSO</strong></p><p>Nel cuore del Marais, il Musée national Picasso-Paris trastorma l'elegante Hôtel Salé in un' esperienza immersiva tra oltre 5.000 opere dell'artista, tra dipinti, sculture e documenti d'archivio.</p><p>Alysi riconosce nella curiosità un valore fondamentale: come il museo che svela le molteplici sfaccettature di Picasso, anche il brand invita a esplorare il mondo con uno sguardo raffinato e aperto, tatto di autenticità e creatività. Le sale, arricchite da arredi originali di Diego Giacometti, uniscono arte e design in un dialogo intimo, un invito a vivere ogni scoperta con eleganza e profondità.</p><p><a href=\"https://www.google.it/maps/place/Mus%C3%A9e+National+Picasso/@48.8598809,2.35971,17z/data=!4m15!1m8!3m7!1s0x47e66e015d03dd6f:0x1869404b5a4ddf8f!2sh%C3%B4tel+Sal%C3%A9,+5+Rue+de+Thorigny,+75003+Paris,+Francia!3b1!8m2!3d48.8598774!4d2.3622849!16s%2Fg%2F121v23ck!3m5!1s0x47e66e0142746b4b:0xc191da9af2fc6df7!8m2!3d48.8598775!4d2.362285!16zL20vMDR4Znpm?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.it/maps/place/Mus%C3%A9e+National+Picasso/@48.8598809,2.35971,17z/data=!4m15!1m8!3m7!1s0x47e66e015d03dd6f:0x1869404b5a4ddf8f!2sh%C3%B4tel+Sal%C3%A9,+5+Rue+de+Thorigny,+75003+Paris,+Francia!3b1!8m2!3d48.8598774!4d2.3622849!16s%2Fg%2F121v23ck!3m5!1s0x47e66e0142746b4b:0xc191da9af2fc6df7!8m2!3d48.8598775!4d2.362285!16zL20vMDR4Znpm?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D\"><em>5 Rue de Thorigny, 75003 Paris, Francia</em></a></p>"
+          }
+        },
+        "hotspot_mkVaxq": {
+          "type": "hotspot",
+          "settings": {
+            "title": "Librarie yvon lambert",
+            "title_position": "left",
+            "color_scheme": "color-main",
+            "vertical_position": 11,
+            "horizontal_position": 92,
+            "image": "shopify://shop_images/yvon.jpg",
+            "video_url": "",
+            "text": "<p><strong>5. LIBRAIRIE YVON LAMBERT</strong></p><p>Nel cuore del Marais, la Librairie Yvon Lambert è un rifugio per chi cerca libri d'artista, cataloghi d'esposizione e oggetti d'arte contemporanea. Fondata nel 1967 da Yvon Lambert, la libreria ha evoluto la sua missione, integrando anche una galleria e una casa editrice. Dal 2017, il nuovo spazio, progettato dall'architetto Dominique Perrault, offre un ambiente rattinato e stimolante, dove arte e letteratura si incontrano in un dialogo continuo.</p><p>Perfetto per la curiosità di Alysi, qui si possono scoprire opere e pubblicazioni esclusive che ispirano uno sguardo innovativo e rattinato sul mondo dell'arte contemporanea.</p><p><a href=\"https://www.google.it/maps/place/Yvon+Lambert+Gallery/@48.8626302,2.3634577,16z/data=!3m1!4b1!4m6!3m5!1s0x47e66e06b4345f55:0x8a6c22b1c6d55d91!8m2!3d48.8626302!4d2.3660326!16s%2Fm%2F09glpgs?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.it/maps/place/Yvon+Lambert+Gallery/@48.8626302,2.3634577,16z/data=!3m1!4b1!4m6!3m5!1s0x47e66e06b4345f55:0x8a6c22b1c6d55d91!8m2!3d48.8626302!4d2.3660326!16s%2Fm%2F09glpgs?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D\"><em>14 Rue des Filles du Calvaire, 75003 Paris, Francia</em></a></p>"
+          }
+        }
+      },
+      "block_order": [
+        "image_tXJPQQ",
+        "hotspot_yxr4MP",
+        "hotspot_eziAf8",
+        "hotspot_M3DXE7",
+        "hotspot_7qcP3K",
+        "hotspot_LqRAVf",
+        "hotspot_mkVaxq"
+      ],
+      "name": "t:sections.image-with-hotspots.name",
+      "settings": {
+        "color_scheme": "color-main",
+        "section_bg": "",
+        "numbered_hotspots": true,
+        "enable_full_width": true,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 0,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "sm_down_hide_hotspot_titles": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "0391254f-a00c-462e-8641-0dbedc8a4c0f": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_dd7EpX": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "1. ALYSI BOUTIQUE",
+            "richtext": "<p>Situata dal 1932 in rue du Cherche-Midi, nel cuore di Saint-Germain-des-Prés, la Boulangerie Poilâne è un'istituzione parigina dove tradizione e artigianato convivono n un'atmosfera sospesa nel tempo. Le celebri miche cotte a legna, incise con la \"p\" sono il simbolo di un savoir-faire autentico e senza tempo. Poilâne, come Alysi, tonde art de vivre, creatività e cura per i dettagli. Un'esperienza di gusto che racconta Parigi con la stessa eleganza e cura che contraddistinguono Alysi.</p><p><a href=\"https://www.google.it/maps/place/Boulangerie+Poil%C3%A2ne/@48.8521993,2.326894,17z/data=!3m1!5s0x47e671d1343ff857:0x51949db25d0e0822!4m10!1m2!2m1!1zUG9pbMOibmU!3m6!1s0x47e671d6d2badc49:0xc22d212412585ed0!8m2!3d48.8512944!4d2.3289972!15sCghQb2lsw6JuZSIDiAEBWgoiCHBvaWzDom5lkgEGYmFrZXJ5qgFMCg0vZy8xMWI3Y3JoNHdsCgsvZy8xdGc3OGMybBABMh4QASIa4zWSMVqIpjC1zYHkJD09dbZfupWX-YvagB4yDBACIghwb2lsw6JuZeABAA!16s%2Fg%2F1tg78c2l?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.it/maps/place/Boulangerie+Poil%C3%A2ne/@48.8521993,2.326894,17z/data=!3m1!5s0x47e671d1343ff857:0x51949db25d0e0822!4m10!1m2!2m1!1zUG9pbMOibmU!3m6!1s0x47e671d6d2badc49:0xc22d212412585ed0!8m2!3d48.8512944!4d2.3289972!15sCghQb2lsw6JuZSIDiAEBWgoiCHBvaWzDom5lkgEGYmFrZXJ5qgFMCg0vZy8xMWI3Y3JoNHdsCgsvZy8xdGc3OGMybBABMh4QASIa4zWSMVqIpjC1zYHkJD09dbZfupWX-YvagB4yDBACIghwb2lsw6JuZeABAA!16s%2Fg%2F1tg78c2l?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D\"><em>8 Rue du Cherche-Midi, 75006 Paris, Francia</em></a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        },
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Andrea_Ferrari_DSC_7322.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_dd7EpX",
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-1"
+      ],
+      "settings": {
+        "block_aspect_ratio": "landscape",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 80,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_tQddE6": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_GnbXpc": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "2. BOULANGERIE POILÂNE",
+            "richtext": "<p>Situata dal 1932 in rue du Cherche-Midi, nel cuore di Saint-Germain-des-Prés, la Boulangerie Poilâne è un'istituzione parigina dove tradizione e artigianato convivono n un'atmosfera sospesa nel tempo. Le celebri miche cotte a legna, incise con la \"p\" sono il simbolo di un savoir-faire autentico e senza tempo. Poilâne, come Alysi, tonde art de vivre, creatività e cura per i dettagli. Un'esperienza di gusto che racconta Parigi con la stessa eleganza e cura che contraddistinguono Alysi.</p><p><a href=\"https://www.google.it/maps/place/Boulangerie+Poil%C3%A2ne/@48.8521993,2.326894,17z/data=!3m1!5s0x47e671d1343ff857:0x51949db25d0e0822!4m10!1m2!2m1!1zUG9pbMOibmU!3m6!1s0x47e671d6d2badc49:0xc22d212412585ed0!8m2!3d48.8512944!4d2.3289972!15sCghQb2lsw6JuZSIDiAEBWgoiCHBvaWzDom5lkgEGYmFrZXJ5qgFMCg0vZy8xMWI3Y3JoNHdsCgsvZy8xdGc3OGMybBABMh4QASIa4zWSMVqIpjC1zYHkJD09dbZfupWX-YvagB4yDBACIghwb2lsw6JuZeABAA!16s%2Fg%2F1tg78c2l?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.it/maps/place/Boulangerie+Poil%C3%A2ne/@48.8521993,2.326894,17z/data=!3m1!5s0x47e671d1343ff857:0x51949db25d0e0822!4m10!1m2!2m1!1zUG9pbMOibmU!3m6!1s0x47e671d6d2badc49:0xc22d212412585ed0!8m2!3d48.8512944!4d2.3289972!15sCghQb2lsw6JuZSIDiAEBWgoiCHBvaWzDom5lkgEGYmFrZXJ5qgFMCg0vZy8xMWI3Y3JoNHdsCgsvZy8xdGc3OGMybBABMh4QASIa4zWSMVqIpjC1zYHkJD09dbZfupWX-YvagB4yDBACIghwb2lsw6JuZeABAA!16s%2Fg%2F1tg78c2l?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D\"><em>8 Rue du Cherche-Midi, 75006 Paris, Francia</em></a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        },
+        "image_k8rmc8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/poilane.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_GnbXpc",
+        "image_k8rmc8"
+      ],
+      "settings": {
+        "block_aspect_ratio": "square",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 80,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_aJycpq": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_9GXBmd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/poilane2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_YnBNeD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/poilane3.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_K9k9NF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/poilane4.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_mxeeJY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/polane5.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_9GXBmd",
+        "image_YnBNeD",
+        "image_K9k9NF",
+        "image_mxeeJY"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 5,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 4,
+        "md_padding_top": 40,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 4,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_yVfaCL": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_GbjHbY": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "3. GALERIE AMELIE DU CHALARD",
+            "richtext": "<p>Fondata nel 2015 da Amélie du Chalard, la Galerie Amélie du Chalard a Parigi reinterpreta la galleria d'arte come una casa accogliente: uno spazio vivo, immerso nella luce e pensato come una residenza curata, dove ogni opera dialoga con l'ambiente domestico. Qui, l'arte astratta di circa ottanta artisti internazionali (pittura, scultura, fotogratia, installazioni e ceramica) si integra in allestimenti che uniscono estetica e familiarità. La galleria, accoglie collezionisti che cercano autenticità e ispirazione in un contesto caloroso e raffinato.</p><p>Come Alysi, Amélie du Chalard celebra l'arte come espressione di vita: ogni visita è una scoperta personale, ogni opera un invito a vivere l'arte con eleganza e semplicità.</p><p><a href=\"https://www.google.it/maps/place/Galerie+Am%C3%A9lie+du+Chalard/@48.8537136,2.3387123,16z/data=!3m1!4b1!4m6!3m5!1s0x47e66fd59673ffff:0x2feab2fd75e453a6!8m2!3d48.8537136!4d2.3412872!16s%2Fg%2F11g6qj7d8f?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.it/maps/place/Galerie+Am%C3%A9lie+du+Chalard/@48.8537136,2.3387123,16z/data=!3m1!4b1!4m6!3m5!1s0x47e66fd59673ffff:0x2feab2fd75e453a6!8m2!3d48.8537136!4d2.3412872!16s%2Fg%2F11g6qj7d8f?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D\"><em>18 Rue Séguier, 75006 Paris, Francia</em></a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        },
+        "image_C6kPNV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/galerie.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_GbjHbY",
+        "image_C6kPNV"
+      ],
+      "settings": {
+        "block_aspect_ratio": "square",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 104,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_pXxtGf": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_z9TeXT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/galerie2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_z6zeRz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/galerie3.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_bq4HFL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/galerie4.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_z9TeXT",
+        "image_z6zeRz",
+        "image_bq4HFL"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 5,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 3,
+        "section_columns_mobile": 3,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_gPcLmC": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_7hVQqj": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "4. CINEMA SAINT ANDRE DES ARTS",
+            "richtext": "<p>Situato nel cuore del Quartiere Latino, il Cinéma Saint-André des Arts è un punto di riferimento per il cinema d'arte sin dal 197. Con le sue tre sale, proietta opere d'autore, documentari e cinema sperimentale.</p><p>Lo spirito del luogo, indipendente, culturale e accogliente, riflette pertettamente la visione di Alysi: un cinema che valorizza la creatività, la curiosità e l'esperienza autentica. Ogni visita è un invito a vivere un'esperienza intellettuale ed emozionale, proprio come il mondo di Alysi.</p><p><a href=\"https://www.google.it/maps/place/Cin%C3%A9ma+Saint-Andr%C3%A9+des+Arts/@48.8537971,2.3373513,16.17z/data=!4m6!3m5!1s0x47e671defbbd6d59:0xc279e968409616c2!8m2!3d48.8533859!4d2.3420633!16s%2Fg%2F1224nhzp?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.it/maps/place/Cin%C3%A9ma+Saint-Andr%C3%A9+des+Arts/@48.8537971,2.3373513,16.17z/data=!4m6!3m5!1s0x47e671defbbd6d59:0xc279e968409616c2!8m2!3d48.8533859!4d2.3420633!16s%2Fg%2F1224nhzp?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D\"><em>30 Rue Saint-André des Arts, 75006 Paris, Francia</em></a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        },
+        "image_fWFm64": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cinema.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_7hVQqj",
+        "image_fWFm64"
+      ],
+      "settings": {
+        "block_aspect_ratio": "square",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 104,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "banner_grid_fYeGVz": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_X8ihBJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cinema2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_yn8LtA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cinema3.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_X8ihBJ",
+        "image_yn8LtA"
+      ],
+      "settings": {
+        "block_aspect_ratio": "square",
+        "grid_gap": 5,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_zLtnka": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_6MmPPH": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "5. MUSÉE NATIONAL PICASSO",
+            "richtext": "<p>Nel cuore del Marais, il Musée national Picasso-Paris trastorma l'elegante Hôtel Salé in un' esperienza immersiva tra oltre 5.000 opere dell'artista, tra dipinti, sculture e documenti d'archivio.</p><p>Alysi riconosce nella curiosità un valore fondamentale: come il museo che svela le molteplici sfaccettature di Picasso, anche il brand invita a esplorare il mondo con uno sguardo raffinato e aperto, tatto di autenticità e creatività. Le sale, arricchite da arredi originali di Diego Giacometti, uniscono arte e design in un dialogo intimo, un invito a vivere ogni scoperta con eleganza e profondità.</p><p><a href=\"https://www.google.it/maps/place/Mus%C3%A9e+National+Picasso/@48.8598809,2.35971,17z/data=!4m15!1m8!3m7!1s0x47e66e015d03dd6f:0x1869404b5a4ddf8f!2sh%C3%B4tel+Sal%C3%A9,+5+Rue+de+Thorigny,+75003+Paris,+Francia!3b1!8m2!3d48.8598774!4d2.3622849!16s%2Fg%2F121v23ck!3m5!1s0x47e66e0142746b4b:0xc191da9af2fc6df7!8m2!3d48.8598775!4d2.362285!16zL20vMDR4Znpm?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.it/maps/place/Mus%C3%A9e+National+Picasso/@48.8598809,2.35971,17z/data=!4m15!1m8!3m7!1s0x47e66e015d03dd6f:0x1869404b5a4ddf8f!2sh%C3%B4tel+Sal%C3%A9,+5+Rue+de+Thorigny,+75003+Paris,+Francia!3b1!8m2!3d48.8598774!4d2.3622849!16s%2Fg%2F121v23ck!3m5!1s0x47e66e0142746b4b:0xc191da9af2fc6df7!8m2!3d48.8598775!4d2.362285!16zL20vMDR4Znpm?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D\"><em>5 Rue de Thorigny, 75003 Paris, Francia</em></a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        },
+        "image_8YnEHC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/picasso.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_6MmPPH",
+        "image_8YnEHC"
+      ],
+      "settings": {
+        "block_aspect_ratio": "landscape",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 104,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_hnYUxx": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_yntdLQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/picasso2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_xpia78": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/picasso3.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_eCPqDK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/picasso4.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_L6HHx6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/picasso5.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_yntdLQ",
+        "image_xpia78",
+        "image_eCPqDK",
+        "image_L6HHx6"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 5,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 4,
+        "md_padding_top": 40,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 4,
+        "section_columns_mobile": 2,
+        "padding_top": 40,
+        "padding_bottom": 64
+      }
+    },
+    "banner_grid_P3g9VR": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_cJjBHW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/yvon.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "text_KHJgjE": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "6. LIBRAIRIE YVON LAMBERT",
+            "richtext": "<p>Nel cuore del Marais, la Librairie Yvon Lambert è un rifugio per chi cerca libri d'artista, cataloghi d'esposizione e oggetti d'arte contemporanea. Fondata nel 1967 da Yvon Lambert, la libreria ha evoluto la sua missione, integrando anche una galleria e una casa editrice. Dal 2017, il nuovo spazio, progettato dall'architetto Dominique Perrault, offre un ambiente rattinato e stimolante, dove arte e letteratura si incontrano in un dialogo continuo.</p><p>Perfetto per la curiosità di Alysi, qui si possono scoprire opere e pubblicazioni esclusive che ispirano uno sguardo innovativo e rattinato sul mondo dell'arte contemporanea.</p><p><a href=\"https://www.google.it/maps/place/Yvon+Lambert+Gallery/@48.8626302,2.3634577,16z/data=!3m1!4b1!4m6!3m5!1s0x47e66e06b4345f55:0x8a6c22b1c6d55d91!8m2!3d48.8626302!4d2.3660326!16s%2Fm%2F09glpgs?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D\" target=\"_blank\" title=\"https://www.google.it/maps/place/Yvon+Lambert+Gallery/@48.8626302,2.3634577,16z/data=!3m1!4b1!4m6!3m5!1s0x47e66e06b4345f55:0x8a6c22b1c6d55d91!8m2!3d48.8626302!4d2.3660326!16s%2Fm%2F09glpgs?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D\"><em>14 Rue des Filles du Calvaire, 75003 Paris, Francia</em></a></p>",
+            "button_label": "",
+            "button_link": "https://www.google.it/maps/place/14+Rue+des+Filles+du+Calvaire,+75003+Paris,+Francia/@48.8626665,2.3633171,17.04z/data=!4m6!3m5!1s0x47e66e0712ba976d:0xbccb18eecd7719eb!8m2!3d48.8625838!4d2.366124!16s%2Fg%2F11c5h_xjgc?hl=it&entry=ttu&g_ep=EgoyMDI1MDcyMS4wIKXMDSoASAFQAw%3D%3D",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        }
+      },
+      "block_order": [
+        "image_cJjBHW",
+        "text_KHJgjE"
+      ],
+      "settings": {
+        "block_aspect_ratio": "landscape",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 80,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "hero_pkmTDF": {
+      "type": "hero",
+      "blocks": {
+        "image_jVKhbR": {
+          "type": "image",
+          "settings": {
+            "media_link": "",
+            "media_toggle": "show_image",
+            "image": "shopify://shop_images/yvon2.jpg",
+            "video_url": "",
+            "video_url_mobile": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jVKhbR"
+      ],
+      "name": "t:sections.hero.name",
+      "settings": {
+        "color_scheme": "color-main",
+        "overlay_opacity": 0,
+        "enable_full_width": false,
+        "section_height_desktop": "by_pixels",
+        "section_pixel_height_desktop": 690,
+        "content_width": "col-sm-max-8",
+        "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 40,
+        "md_padding_bottom": 0,
+        "section_height": "by_pixels",
+        "section_pixel_height": 400,
+        "content_align_mobile": "vertical-center horizontal-center",
+        "mobile_alignment": "text-align-center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_WcXHAD",
+    "image_with_hotspots_APmPDK",
+    "0391254f-a00c-462e-8641-0dbedc8a4c0f",
+    "banner_grid_tQddE6",
+    "banner_grid_aJycpq",
+    "banner_grid_yVfaCL",
+    "banner_grid_pXxtGf",
+    "banner_grid_gPcLmC",
+    "banner_grid_fYeGVz",
+    "banner_grid_zLtnka",
+    "banner_grid_hnYUxx",
+    "banner_grid_P3g9VR",
+    "hero_pkmTDF"
+  ]
+}

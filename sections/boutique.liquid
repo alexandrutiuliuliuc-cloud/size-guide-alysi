@@ -1,0 +1,292 @@
+<div class="boutiques">
+  <div class="boutiques__content">
+    {% comment %} Banner 1 {% endcomment %}
+    <div class="boutiques__banner boutiques__banner--1" id="milan">
+      <div class="boutiques__banner__info">
+        <div class="boutiques__banner__info-container">
+          <div class="boutiques__banner__title">
+            <h1>{{ section.settings.banner_1_title }}</h1>
+          </div>
+          <div class="boutiques__banner__text">
+            {% assign parts = section.settings.banner_1_text | split: '<!-- separator -->' %}
+            {% for part in parts %}
+              <p>{{ part }}</p>
+            {% endfor %}
+
+            {% if section.settings.banner_1_link != blank %}
+              <div class="boutiques__banner__url">
+                <a class="btn" href="{{ section.settings.banner_1_link }}">{{ section.settings.banner_1_link_text }}</a>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+
+      <div class="boutiques__banner__maps google-maps" data-api-key="AIzaSyCkBE3XJnszvKB4VcMPN7sTXf2ax5vAQU8">
+        <div
+          class="google-maps__container"
+          data-address-setting="{{ section.settings.map_address_1 }}"
+        ></div>
+      </div>
+    </div>
+
+    {% comment %} Banner 2 {% endcomment %}
+    <div class="boutiques__banner boutiques__banner--2">
+      <div class="boutiques__banner__images">
+        {% if section.settings.image_banner_2 != blank %}
+          <picture class="boutiques__banner__image ratio-container ratio-container--boutiques-1">
+            {% if section.settings.image_mobile_banner_2 != blank %}
+              <source
+                media="(max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.19)"
+                data-srcset="{{ section.settings.image_mobile_banner_2  | img_url: '1025x' }}"
+              >
+            {% endif %}
+            <source media="(min-width: 1024px)" data-srcset="{{ section.settings.image_banner_2 | img_url: '1920x' }}">
+            <img
+              class="lazyload transition--fade-in"
+              data-src="{{ section.settings.image_banner_2 | img_url: '1920x' }}"
+              alt=""
+            >
+          </picture>
+        {% endif %}
+      </div>
+      <div class="boutiques__banner__info">
+        <div class="boutiques__banner__info-container">
+          <div class="boutiques__banner__text">
+            {{ section.settings.banner_2_text }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% comment %} Slider 1 {% endcomment %}
+    {% if section.blocks != blank %}
+      <div class="boutiques__banner boutiques__banner--3">
+        <div class="container container--2">
+          <div class="boutiques__banner__slider tiny-slider">
+            {% for block in section.blocks %}
+              {% if block.settings.slider1_or_slider2 == 'one' %}
+                <div>
+                  <img class="lazyload" data-src="{{ block.settings.image_slider | img_url: '1920x' }}">
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    {% endif %}
+
+    {% comment %} Banner 4 {% endcomment %}
+    <div class="boutiques__banner boutiques__banner--4" id="rome">
+      <div class="boutiques__banner__info">
+        <div class="boutiques__banner__info-container">
+          <div class="boutiques__banner__title">
+            <h1>{{ section.settings.banner_4_title }}</h1>
+          </div>
+          <div class="boutiques__banner__text">
+            {% assign parts = section.settings.banner_4_text | split: '<!-- separator -->' %}
+            {% for part in parts %}
+              <p>{{ part }}</p>
+            {% endfor %}
+
+            {% if section.settings.banner_4_link != blank %}
+              <div class="boutiques__banner__url">
+                <a class="btn" href="{{ section.settings.banner_4_link }}">{{ section.settings.banner_4_link_text }}</a>
+              </div>
+            {% endif %}
+          </div>
+        </div>
+      </div>
+
+      <div class="boutiques__banner__maps google-maps" data-api-key="{{ settings.maps_api_key }}">
+        <div
+          class="google-maps__container"
+          data-address-setting="{{ section.settings.map_address_4 }}"
+        ></div>
+      </div>
+    </div>
+
+    {% comment %} Banner 5 {% endcomment %}
+    <div class="boutiques__banner boutiques__banner--5">
+      <div class="boutiques__banner__images">
+        {% if section.settings.image_banner_5 != blank %}
+          <picture class="boutiques__banner__image ratio-container ratio-container--boutiques-1">
+            {% if section.settings.image_mobile_banner_2 != blank %}
+              <source
+                media="(max-width: 1023px) and (-webkit-min-device-pixel-ratio: 1.19)"
+                data-srcset="{{ section.settings.image_mobile_banner_5  | img_url: '1025x' }}"
+              >
+            {% endif %}
+            <source media="(min-width: 1024px)" data-srcset="{{ section.settings.image_banner_5 | img_url: '1920x' }}">
+            <img
+              class="lazyload transition--fade-in {% if section.settings.enable_shadow %} shadow {% endif %}"
+              data-src="{{ section.settings.image_banner_5 | img_url: '1920x' }}"
+              alt=""
+            >
+          </picture>
+        {% endif %}
+      </div>
+      <div class="boutiques__banner__info">
+        <div class="boutiques__banner__info-container">
+          <div class="boutiques__banner__text">
+            {{ section.settings.banner_5_text }}
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {% comment %} Slider 2 {% endcomment %}
+    {% if section.blocks != blank %}
+      <div class="boutiques__banner boutiques__banner--6">
+        <div class="container container--2">
+          <div class="boutiques__banner__slider tiny-slider">
+            {% for block in section.blocks %}
+              {% if block.settings.slider1_or_slider2 == 'two' %}
+                <div>
+                  <img class="lazyload" data-src="{{ block.settings.image_slider | img_url: '1920x' }}">
+                </div>
+              {% endif %}
+            {% endfor %}
+          </div>
+        </div>
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+{% schema %}
+{
+    "name": "Boutique",
+    "settings": [
+        {
+            "type": "checkbox",
+            "id": "enable_shadow",
+            "default": true,
+            "label": "Enable shadows"
+        },
+        {
+            "type": "header",
+            "content": "Banner 1"
+        },
+        {
+            "type":"text",
+            "id":"banner_1_title",
+            "label": "Title Banner 1"
+        },
+        {
+            "type":"textarea",
+            "id":"banner_1_text",
+            "label": "Text Banner 1"
+        },
+        {
+            "type":"url",
+            "id":"banner_1_link",
+            "label": "Link Banner 1"
+        },
+        {
+            "type":"text",
+            "id":"banner_1_link_text",
+            "label": "Link Text Banner 1"
+        },
+        {
+            "type":"text",
+            "id":"map_address_1",
+            "label": "Address Banner 1"
+        },
+        {
+            "type": "header",
+            "content": "Banner 2"
+        },
+        {
+            "type":"textarea",
+            "id":"banner_2_text",
+            "label": "Text Banner 2"
+        },
+        {
+            "type":"image_picker",
+            "id":"image_banner_2",
+            "label": "Image Banner 2"
+        },
+        {
+            "type":"image_picker",
+            "id":"image_mobile_banner_2",
+            "label": "Image Mobile Banner 2"
+        },
+        {
+            "type": "header",
+            "content": "Banner 4"
+        },
+        {
+            "type":"text",
+            "id":"banner_4_title",
+            "label": "Title Banner 4"
+        },
+        {
+            "type":"textarea",
+            "id":"banner_4_text",
+            "label": "Text Banner 4"
+        },
+        {
+            "type":"url",
+            "id":"banner_4_link",
+            "label": "Link Banner 4"
+        },
+        {
+            "type":"text",
+            "id":"banner_4_link_text",
+            "label": "Link Text Banner 4"
+        },
+        {
+            "type":"text",
+            "id":"map_address_4",
+            "label": "Address Banner 4"
+        },
+        {
+            "type": "header",
+            "content": "Banner 5"
+        },
+        {
+            "type":"textarea",
+            "id":"banner_5_text",
+            "label": "Text Banner 5"
+        },
+        {
+            "type":"image_picker",
+            "id":"image_banner_5",
+            "label": "Image Banner 5"
+        },
+        {
+            "type":"image_picker",
+            "id":"image_mobile_banner_5",
+            "label": "Image Mobile Banner 5"
+        }
+    ],
+    "blocks":[
+        {
+         "type":"Images",
+         "name": "image",
+         "settings": [
+            {
+                "type":"image_picker",
+                "id":"image_slider",
+                "label": "Image"
+            },
+            {
+                "type": "radio",
+                "id": "slider1_or_slider2",
+                "label": "Is an image for slider 1 or slider 2",
+                "options": [
+                    { "value": "one", "label": "1" },
+                    { "value": "two", "label": "2" }
+                ]
+            }
+        ]
+      }
+    ],
+    "presets": [
+    {
+      "name": "Boutique Section"
+    }
+  ]
+}
+{% endschema %}

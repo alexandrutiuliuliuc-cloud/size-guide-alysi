@@ -1,0 +1,85 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:section_groups.footer",
+  "type": "footer",
+  "sections": {
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "footer-0": {
+          "type": "link_list",
+          "settings": {
+            "title": "MENU",
+            "menu": "footer",
+            "column_width": "col-md-3"
+          }
+        },
+        "c1c3d002-a8a3-4520-9e7d-ffe54b14a855": {
+          "type": "link_list",
+          "settings": {
+            "title": "LINK VELOCI",
+            "menu": "footer-menu-2",
+            "column_width": "col-md-3"
+          }
+        },
+        "c68ffd7d-d41b-4e3b-a42a-7538c62456ea": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p>CUSTOMER SERVICE & ONLINE SUPPORT<br/>Phone: +39 335 5317761<br/>email: customerservice@alysi.it</p><p>ALYSI HEADQUARTER<br/>Viale Alexandre Gustave Eiffel, 100<br/>Isola H/31-32-33 00148 - Rome<br/>Phone: +39 06602151<br/>email: alysi@alysi.it</p>",
+            "column_width": "col-md-3"
+          }
+        },
+        "3a84795e-df66-41d4-9abf-a77f349671ab": {
+          "type": "text",
+          "settings": {
+            "title": "Alysi Showroom",
+            "text": "<p>Garden House<br/>Via Tortona,12<br/>20144 - Milano<br/>Phone: +39 02473412<br/>email: showroom@alysi.it</p>",
+            "column_width": "col-md-3"
+          }
+        },
+        "87bb233f-6ac1-4a90-8cab-cf17812423ea": {
+          "type": "custom_payment_icon",
+          "settings": {
+            "image": "shopify://shop_images/2560px-Klarna_Payment_Badge_svg_55faf686-b727-4fc0-aa8c-ba519f55ff2e.png",
+            "svg": ""
+          }
+        }
+      },
+      "block_order": [
+        "footer-0",
+        "c1c3d002-a8a3-4520-9e7d-ffe54b14a855",
+        "c68ffd7d-d41b-4e3b-a42a-7538c62456ea",
+        "3a84795e-df66-41d4-9abf-a77f349671ab",
+        "87bb233f-6ac1-4a90-8cab-cf17812423ea"
+      ],
+      "custom_css": [
+        "@media only screen and (max-width: 767px) {p {font-size: 14px; }}"
+      ],
+      "settings": {
+        "payment_enable": true,
+        "show_copyright": true,
+        "copyright_text": "@ ALYSI P.IVA 05159441004",
+        "show_social": true,
+        "enable_language_selector": false,
+        "enable_country_selector": false,
+        "enable_follow_on_shop": false,
+        "md_padding_top": 64,
+        "md_padding_bottom": 80,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}

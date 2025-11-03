@@ -1,0 +1,82 @@
+<style>
+  .collab2 {
+    width: 98.79vw;
+    background-color: #c3a492;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+    position: absolute;
+    left: 0;
+    height: 128px;
+    margin-top: 60px;
+  }
+  .middle2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  @media only screen and (max-width: 810px) {
+    .collab2 {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .imgs2 {
+      display: none;
+    }
+  }
+</style>
+
+{% if section.settings.link != blank %}
+  <a class="collab2" href="{{ section.settings.link }}">
+    <img src="{{ 'banner sx.svg' | asset_url }}" width="80px" class="imgs2" style="filter: invert(1);">
+    <div class="middle2">
+      <svg
+        version="1.1"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        viewBox="0 0 850.4 170.1"
+        style="fill:#b83abf;margin-right:30px"
+        width="128px"
+        xml:space="preserve"
+      >
+        <g>
+          <path d="M99.4,4.4h27.2l95.7,161.2h-24.7l-20-34.1H48.5l-20,34.1H3.7L99.4,4.4z M113,22.2l-54.1,91.5h108.2L113,22.2z"></path>
+          <path d="M247.1,4.4h21.8v143.4H394v17.8h-147V4.4z"></path>
+          <path d="M463.7,97.5L371.3,4.4h29.4l73.9,74.8l73.9-74.8H578l-92.4,93.1v68.1h-21.8V97.5z"></path>
+          <path d="M599.3,114.9h20.5v11.4c0,15.8,8.5,23.4,35.6,23.4h67.7c31.6,0,41-6.7,41-29.8c0-20.3-8-25.4-35.2-25.4h-41.4
+            c-66.6,0-88.4-4-88.4-46.8c0-36.7,21.8-45,66.8-45h47c54.1,0,67.7,13.8,67.7,42.5v5.6h-20.5c-0.4-25.6-3.1-30.3-60.3-30.3h-23.2
+            c-42.1,0-57,2.2-57,28.7c0,19.2,6,25.6,40.1,25.6h64.6c42.5,0,60.3,12.2,60.3,39.6v10.5c0,39.6-32.5,42.5-64.8,42.5h-60.6
+            c-31.8,0-59.9-5.6-59.9-40.7V114.9z"></path>
+          <path d="M823.8,4.4h21.8v161.2h-21.8V4.4z"></path>
+        </g>
+      </svg>
+      <div style="width:1px;height:64px;background-color:#b83abf"></div>
+      <img src="{{ 'logo-dxs-1.png' | asset_url }}" width="128px" style="margin-left: 30px">
+    </div>
+    <img src="{{ 'banner dx.svg' | asset_url }}" width="128px" class="imgs2" style="filter: invert(1);">
+  </a>
+  <div style="height:256px">&nbsp;</div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Collab 2",
+  "settings": [
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collab 2"
+    }
+  ]
+}
+{% endschema %}
+
+{% javascript %}
+{% endjavascript %}

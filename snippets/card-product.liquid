@@ -1,0 +1,220 @@
+{{ 'custom-card-product.css' | asset_url | stylesheet_tag }}
+{%- liquid
+  #  Renders a product card
+  #
+  #  ** Parameters **
+  #  product       =>  OPTIONAL | product object
+  #  lazyload      =>  OPTIONAL | boolean | default: true | layload images
+  #  aspect_ratio  =>  OPTIONAL | string | default: settings.product_card_aspect_ratio | 'natural','portrait','landscape','square'
+  #  ipr_desktop   =>  OPTIONAL | integer/string | default:3 | items per row on desktop
+  #  ipr_tablet    =>  OPTIONAL | integer/string | ipr_desktop | items per row on desktop
+  #  ipr_mobile    =>  OPTIONAL | integer/string | default:1 | items per row on mobile
+  #  text_align    =>  OPTIONAL | string | default: settings.product_card_text_alignment | product card text align class
+  #  class         =>  OPTIONAL | string | 'sm-item-span-2'
+
+  if lazyload == null
+    assign lazyload = true
+  endif
+  assign aspect_ratio = aspect_ratio | default: settings.product_card_aspect_ratio
+  assign text_align = text_align | default: settings.product_card_text_alignment
+  assign ipr_desktop = ipr_desktop | default: 3
+  assign ipr_tablet = ipr_tablet | default: ipr_desktop
+  assign ipr_mobile = ipr_mobile | default: 1
+  assign sizing_rule = sizing_rule | default: settings.product_card_fill_rule
+
+  unless sizes
+    assign desktop_sizes = 'calc(100vw / ' | append: ipr_desktop | append: ')'
+    assign tablet_sizes = '(max-width: 1023px) calc(100vw / ' | append: ipr_tablet | append: ')'
+    assign mobile_sizes = '(max-width: 767px) calc(100vw / ' | append: ipr_mobile | append: ')'
+    assign sizes = mobile_sizes | append: ', ' | append: tablet_sizes | append: ', ' | append: desktop_sizes
+  endunless
+
+  assign card_type = card_type | default: settings.product_card_options
+
+  # Card media
+  comment
+    capture card_images
+      for media in product.media
+        if product.media[forloop.index]
+          render 'img', forLoopIndex: forloop.index, src: product.media[forloop.index], aspect_ratio: aspect_ratio, lazyload: true, sizes: sizes, placeholder: 'product-1', sizing_rule: sizing_rule
+
+        elsif product.media[forloop.index] == blank and forloop.index == 1
+          render 'img', forLoopIndex: forloop.index, src: product.media[forloop.index], aspect_ratio: aspect_ratio, lazyload: true, sizes: sizes, placeholder: 'product-1', sizing_rule: sizing_rule
+        endif
+      endfor
+    endcapture
+  endcomment
+  capture card_images
+    render 'img', src: product.featured_image, aspect_ratio: aspect_ratio, lazyload: lazyload, sizes: sizes, placeholder: 'product-1', sizing_rule: sizing_rule
+    if product.media.size > 1 and settings.product_card_show_secondary_image == true
+      assign secondary_image = product.images[1]
+      render 'img', src: secondary_image, aspect_ratio: aspect_ratio, lazyload: true, sizes: sizes, placeholder: 'product-2', sizing_rule: sizing_rule
+    endif
+  endcapture
+
+  # Product bages
+  if settings.product_card_badges
+    capture product_badges
+      render 'product-badges', product: product
+    endcapture
+  endif
+-%}
+
+{% comment %}
+     render 'img', src: product.featured_image, aspect_ratio: aspect_ratio, lazyload: lazyload, sizes: sizes, placeholder: 'product-1', sizing_rule: sizing_rule
+  if product.media.size > 1 and settings.product_card_show_secondary_image == true
+    assign secondary_image = product.media[1]
+    render 'img', src: secondary_image, aspect_ratio: aspect_ratio, lazyload: true, sizes: sizes, placeholder: 'product-2', sizing_rule: sizing_rule
+  endif
+{% endcomment %}
+{%- if product and product != empty -%}
+{% comment %}Added/Modified by Limoni Apps on 17/06/25 to support Discount Ninja{% endcomment %}
+
+  <div 
+  data-la-dn-product-handle="{{ product.handle }}" 
+data-la-dn-product-id="{{ product.id }}" 
+data-la-dn-product-collection-handles="{{ product.collections | map: 'handle' | join: ',' | default: '[[--NONE--]]' }}" 
+data-la-dn-product-collection-ids="{{ product.collections | map: 'id' | join: ',' | default: '[[--NONE--]]' }}" 
+data-la-dn-product-available="{{ product.available}}" 
+data-la-dn-product-price="{{ product.first_available_variant.price | default: product.price }}"
+data-la-dn-product-compare-at-price="{{ product.first_available_variant.compare_at_price | default: product.first_available_variant.price | default: product.compare_at_price | default: product.price }}" 
+data-la-dn-product-price-varies="{{ product.price_varies }}" 
+data-la-dn-product-compare-at-price-varies="{{ product.compare_at_price_varies }}"
+data-la-dn-product-price-min="{{ product.price_min }}"
+data-la-dn-product-tags="{{ product.tags | join: ',' | escape | default: '[[--NONE--]]' }}"
+  class="card {% if product.media.size > 1 %} card-with-greater-media {% endif %}card--product card--{{ card_type }}{% if card_layout_class != blank %} {{ card_layout_class }}{% endif %}{% if secondary_image %} on-hover{% endif %} {{ class }}">
+    <a href="{{ collection.handle }}{{ product.url }}" class="card-media">
+      {% comment %}
+        {%- if secondary_image -%}
+          <div class="card-hover-images">{{ card_images }}</div>
+        {%- else -%}
+          {{ card_images }}
+        {%- endif -%}
+      {% endcomment %}
+      <div class="swiper-card-initialization-{{ block_id }}">
+        <div class="swiper-wrapper">
+          {%- if secondary_image -%}
+            <div class="card-hover-images">{{ card_images }}</div>
+          {%- else -%}
+            {{ card_images }}
+          {%- endif -%}
+        </div>
+      </div>
+      <div class="card-media-overlay">
+        {{ product_badges }}
+      </div>
+    </a>
+{% comment %}Added/Modified by Limoni Apps on 18/06/25 to support Discount Ninja{% endcomment %}
+
+    <div class="card-body {{ text_align }}">
+      {% if card_layout_class != blank %}
+        {{ product_badges }}
+      {% endif %}
+      {%- if settings.product_card_show_vendor -%}
+        <span class="card-vendor size--tiny">{{ product.vendor }}</span>
+      {%- endif -%}
+      <h3 class="card-title h5 custom-card-title" style="font-size: 12px;">
+        <a href="{{ product.url }}">{{ product.title }}</a>
+      </h3>
+      {% comment %}Added/Modified by Limoni Apps on 18/06/25 to support Discount Ninja{% endcomment %}
+
+     <span data-la-dn-price> {%- render 'price', product: product, price_class: 'size--small' -%}</span>
+      {%- if settings.enable_swatches -%}
+        {%- render 'product-card-swatches', product: product -%}
+      {%- endif -%}
+
+      {%- if settings.product_card_custom_fields != blank -%}
+        {% assign fields_array = settings.product_card_custom_fields | remove: ' ' | split: ',' %}
+        {%- capture custom_fields -%}
+          {%- for field in fields_array -%}
+            {%- if field contains '|' -%}
+              {%- assign field_title = field | split: '|' | first -%}
+              {%- assign field_namespace = field | split: '|' | last | split: '.' | first -%}
+              {%- assign field_key = field | split: '|' | last | split: '.' | last -%}
+            {%- else -%}
+              {%- assign field_title = false -%}
+              {%- assign field_namespace = field | split: '.' | first -%}
+              {%- assign field_key = field | split: '.' | last -%}
+            {%- endif -%}
+            
+            {%- assign the_metafield = product.metafields[field_namespace][field_key] -%}
+
+            {%- if the_metafield != blank -%}
+            <div class="custom-field metafield--{{ field_namespace }}-{{ field_key }} type--{{ the_metafield.type | handleize }} size--tiny mt-8">
+              {%- if field_title -%}
+              <span class="custom-field-title style--subdued">{{ field_title }}: </span>
+              {%- endif -%}
+              {{- the_metafield | metafield_tag -}}
+            </div>
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endcapture -%}
+        {%- if custom_fields != blank -%}
+          <div class="card-custom-fields mt-16">
+            {{ custom_fields }}
+          </div>
+        {%- endif -%}
+      {%- endif -%}
+    </div>
+
+    {%- if settings.product_card_quick_buy and number == blank -%}
+      <quick-buy data-product="{{ product.id }}" data-url="{{ product.url }}" class="js quick-buy">
+        <a
+          class="btn size--small btn--primary btn--color-main btn--full quick-buy_link"
+          data-product-handle="{{ product.handle }}"
+          href="{{ '#modal-' | append: product.id | append: '-product' }}"
+          ><span class="quick-buy_text">{{ 'products.quick_buy_label' | t }}</span
+          ><span class="quick-buy_icon">{% render 'icon-plus' %}</span></a
+        >
+      </quick-buy>
+    {%- elsif number != blank -%}
+      <a href="{{ product.url }}" class="btn hotspot btn--primary size--small btn--{{ number_color_scheme }}">
+        {{ number }}
+      </a>
+    {%- endif -%}
+  </div>
+{%- else -%}
+  <div class="card card--product card--{{ card_type }}{% if card_layout_class != blank %} {{ card_layout_class }}{% endif %}">
+    <div class="card-media">
+      <figure class="media media--empty">
+        {%- assign svg_name = svg_name | default: 'product-1' -%}
+        {{ svg_name | placeholder_svg_tag: 'placeholder-svg' }}
+      </figure>
+    </div>
+    <div class="card-body {{ text_align }}">
+      {%- if settings.product_card_show_vendor -%}
+        <span class="card-vendor size--tiny">{{ 'products.product.vendor' | t }}</span>
+      {%- endif -%}
+      <h3 class="card-title h5">{{ 'onboarding.product_title' | t }}</h3>
+      {%- render 'price' -%}
+      {%- if settings.product_card_custom_liquid != blank -%}
+        {{ settings.product_card_custom_liquid }}
+      {%- endif -%}
+    </div>
+  </div>
+{%- endif -%}
+{% comment %}
+  <script>
+      const swiper_{{block_id}} = new Swiper('.swiper-card-initialization-{{ block_id }}', {
+      // Optional parameters
+      // direction: 'vertical',
+      loop: true,
+
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+
+      // And if we need scrollbar
+      scrollbar: {
+        el: '.swiper-scrollbar',
+      },
+    });
+  </script>
+{% endcomment %}

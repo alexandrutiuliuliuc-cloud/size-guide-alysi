@@ -1,0 +1,38 @@
+<localization-form>
+  {%- form 'localization', id: 'FooterCountryForm', class: 'localization-form' -%}
+    <div class="no-js-hidden">
+      <div class="disclosure">
+        <button type="button" class="btn localization-form__select btn--with-icon btn--with-icon-last" aria-expanded="false" aria-controls="FooterCountryList" aria-describedby="FooterCountryLabel">
+          {{ localization.country.iso_code }} ({{ localization.country.currency.iso_code }} {{ localization.country.currency.symbol }})
+          {% render 'icon-caret' %}
+        </button>
+
+        <div class="disclosure__list-wrapper" hidden>
+          <ul id="FooterCountryList" role="list" class="disclosure__list link-list">
+            {%- for country in localization.available_countries -%}
+              <li class="disclosure__item" tabindex="-1">
+                <a class="disclosure__link {% if country.iso_code == localization.country.iso_code %} disclosure__link--active{% endif %}" href="#"{% if country.iso_code == localization.country.iso_code %} aria-current="true"{% endif %} data-value="{{ country.iso_code }}">
+                  {{ country.name }} <span class="localization-form__currency">({{ country.currency.iso_code }} {{ country.currency.symbol }})</span>
+                </a>
+              </li>
+            {%- endfor -%}
+          </ul>
+        </div>
+      </div>
+      <input type="hidden" name="country_code" value="{{ localization.country.iso_code }}">
+    </div>
+  {%- endform -%}
+</localization-form>
+<noscript>
+  {%- form 'localization', id: 'FooterCountryFormNoScript', class: 'localization-form' -%}
+    <h2 class="visually-hidden" id="FooterCountryLabelNoScript">{{ 'localization.country_label' | t }}</h2>
+    <select class="link" name="country_code" aria-labelledby="FooterCountryLabelNoScript">
+      {%- for country in localization.available_countries -%}
+        <option value="{{ country.iso_code }}" {%- if country.iso_code == localization.country.iso_code %} selected{% endif %}>
+          {{ country.name }} ({{ country.currency.iso_code }} {{ country.currency.symbol }})
+        </option>
+      {%- endfor -%}
+    </select>
+    <button class="btn btn--secondary">{{ 'localization.update_country' | t }}</button>
+  {%- endform -%}
+</noscript>

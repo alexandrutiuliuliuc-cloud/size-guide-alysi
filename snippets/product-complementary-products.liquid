@@ -1,0 +1,88 @@
+{{ 'component-card.css' | asset_url | stylesheet_tag }}
+<product-complementary class="complementary-products quick-add-hidden js" data-url="{{ routes.product_recommendations_url }}?section_id={{ section.id }}&product_id={{ product.id }}&limit={{ block.settings.product_list_limit }}&intent=complementary">
+  {%- if recommendations.performed and recommendations.products_count > 0 -%}
+    <aside aria-label="{{ 'accessibility.complementary_products' | t }}" {{ block.shopify_attributes }}>
+      <div class="complementary-products__container">
+        <div class="summary__title">
+          <h2 class="h5 mb-16">{{ block.settings.title }}</h2>
+        </div>
+        <div class="complementary-products__grid">
+          <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+            {%- for product in recommendations.products -%}
+              {%- assign card_id = 'complementary-product-' | append: forloop.index -%}
+              {%- render 'card-product',
+                product: product,
+                card_id: card_id,
+                card_layout_class: 'layout--thumbnail',
+                lazyload: true -%}
+            {%- endfor -%}
+          </div>
+        </div>
+      </div>
+    </aside>
+  {%- endif -%}
+</product-complementary>
+
+<script>
+class ProductComplementary extends HTMLElement {
+  constructor() {
+    super();
+  }
+
+  connectedCallback() {
+    const handleIntersection = (entries, observer) => {
+      if (!entries[0].isIntersecting) return;
+      observer.unobserve(this);
+
+      fetch(this.dataset.url)
+        .then((response) => response.text())
+        .then((text) => {
+          const html = document.createElement("div");
+          html.innerHTML = text;
+          const complementary = html.querySelector("product-complementary");
+
+          if (complementary && complementary.innerHTML.trim().length) {
+            this.innerHTML = complementary.innerHTML;
+          }
+
+          if (!this.querySelector(".grid")) {
+            this.remove();
+          }
+
+          if (html.querySelector(".grid__item")) {
+            this.classList.add("product-complementary--loaded");
+          }
+        })
+        .catch((e) => {
+          console.error(e);
+        });
+    };
+
+    new IntersectionObserver(handleIntersection.bind(this), {
+      rootMargin: "0px 0px 400px 0px",
+    }).observe(this);
+  }
+}
+
+customElements.define("product-complementary", ProductComplementary);
+</script>
+
+<style>
+.complementary-products__grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.complementary-products__grid .grid {
+    display: grid !important;
+    grid-template-columns: repeat(1, 1fr) !important;
+    gap: 16px !important;
+}
+
+@media only screen and (max-width: 767px) {
+  .complementary-products__grid {
+    display: block;
+  }
+}
+</style>

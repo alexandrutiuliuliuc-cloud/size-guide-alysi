@@ -1,0 +1,217 @@
+.homepage__banner--2 {
+    padding-top: 70px;
+    padding-bottom: 10%;
+}
+@media only screen and (min-width: 1024px) {
+  .homepage__banner--2 {
+    padding-left: 145px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+}
+@media only screen and (min-width: 1601px) {
+  .homepage__banner--2 {
+    padding-left: 230px;
+  }
+}
+.homepage__slider__content {
+    display: flex;
+    position: relative;
+    padding-bottom: 16%;
+}
+.homepage__slider__left {
+  display: flex;
+}
+.homepage__slider__right {
+  display: flex;
+  position: relative;
+}
+.homepage__slider__text {
+  font-weight: 300;
+  margin-bottom: 0;
+  position: relative;
+}
+.homepage__slider__link {
+  margin-top: 20px;
+  font-size: 15px;
+}
+.homepage__slider__link a {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.homepage__slider__product--1 {
+  max-width: 65%;
+  margin: 10px auto 0;
+  position: relative;
+}
+.homepage__slider__product--2 {
+  display: none;
+}
+.homepage__slider__product__info {
+  position: absolute;
+  max-width: 250px;
+}
+.homepage__slider__product__title {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.homepage__slider__product__price {
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+[data-limoniapps-discountninja-product-handle], .limoniapps-discountninja-collectionbadge, .la-dn-collectionbadge, .la-dn-collection-badge {
+    position: static !important;
+}
+
+/* .homepage__slider__product--2 img {
+  max-width: 65%;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translate(20%, 0); /* Sposta leggermente a sinistra */
+} */
+
+.homepage__slider__product--2 img {
+    max-width: 65%;
+    position: absolute;
+    right: 0%;
+    bottom: -40%;
+}
+
+
+.swiper-button-next:after, .swiper-button-prev:after {
+    content: none !important;
+}
+.swiper-button-next, .swiper-button-prev {
+    width: auto !important;
+}
+.homepage__slider__title .h3, .homepage__slider__title h3 {
+    font-size: 25px;
+    line-height: 27px;
+    text-transform: uppercase;
+}
+  .home-next {
+    right: 20px;
+    top: 60%;
+}
+  .home-prev{
+    left: 45px;
+    top: 60%;
+  }
+  .home-next svg {
+    width: 25px;
+}
+  .home-prev svg {
+    width: 25px;
+    transform: rotate(180deg);
+}
+
+@media only screen and (min-width: 1024px) {
+  .home-next {
+    right: 12%;
+    top: 38%;
+}
+  .home-prev {
+    left: 5%;
+    top: 40%;
+}
+  .home-next svg {
+    width: 40px;
+}
+  .home-prev svg {
+    width: 40px;
+}
+  .homepage__slider__left,
+  .homepage__slider__right {
+    -moz-flex: 0 0 50%;
+    flex: 0 0 50%;
+  }
+  .homepage__slider__main-image {
+    -moz-flex: 0 0 65%;
+    flex: 0 0 65%;
+  }
+  .homepage__slider__text {
+    -moz-flex: 0 0 45%;
+    flex: 0 0 45%;
+    padding-left: 30px;
+  }
+  .homepage__slider__product--1 {
+    margin: 10% 0 0;
+  }
+  .homepage__slider__product--2 {
+    display: block;
+  }
+  .homepage__slider__product--1 .homepage__slider__product__info {
+    top: 10%;
+    right: -12%;
+  }
+  .homepage__slider__product__title {
+    font-size: 16px;
+    line-height: 21px;
+  }
+  .homepage__slider__product__price {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .homepage__slider__product--2 .homepage__slider__product__info {
+    bottom: -10%;
+    left: 10%;
+  }
+  /* .homepage__slider__product--2 img {
+    max-width: 65%;
+    position: absolute;
+    right: 8%;
+    bottom: -23%;
+} */
+  .homepage__slider__product--2 img {
+    max-width: 65%;
+    position: absolute;
+    right: 20%;
+    bottom: -34%;
+}
+  .homepage__slider__title .h3, .homepage__slider__title h3 {
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: 1px;
+}
+}
+
+@media only screen and (max-width: 1023px) {
+  .homepage__banner--2 {
+    padding-left: 25px;
+    padding-right: 0;
+}
+  .homepage__slider__content {
+    -moz-flex-direction: column;
+    flex-direction: column;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+    
+  }
+  .homepage__slider__left {
+    -moz-flex-direction: column;
+    flex-direction: column;
+  }
+  .homepage__slider__right {
+    -moz-flex-direction: column;
+    flex-direction: column;
+  }
+  .homepage__slider__main-image {
+    order: 2;
+    position: absolute;
+    width: 40vw;
+    right: 0;
+    bottom: 0;
+  }
+  .homepage__slider__text {
+    order: 1;
+    max-width: 75%;
+  }
+}
+span.was_price .money {
+    text-decoration: line-through;
+}
+

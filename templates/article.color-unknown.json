@@ -1,0 +1,406 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "c41fc66f-d09e-4514-a1ab-ed88e344c28c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20406164029774__c41fc66f-d09e-4514-a1ab-ed88e344c28c-title-1": {
+          "type": "title",
+          "settings": {
+            "title": "COLOUR: UNKNOWN",
+            "heading_tag": "h1",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "template--20406164029774__c41fc66f-d09e-4514-a1ab-ed88e344c28c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>IN COLLABORAZIONE CON STUDIO FLUDD</p>",
+            "sm_size_multiplier": "sm-size--large",
+            "sm_margin_top": 24,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--20406164029774__c41fc66f-d09e-4514-a1ab-ed88e344c28c-title-1",
+        "template--20406164029774__c41fc66f-d09e-4514-a1ab-ed88e344c28c-text-1"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 100,
+        "desktop_content_alignment": "center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 80,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "0ca577ad-1b0e-4512-8639-ae534c4c2aa5": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20406164029774__0ca577ad-1b0e-4512-8639-ae534c4c2aa5-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/main.webp",
+            "video_url": "",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "template--20406164029774__0ca577ad-1b0e-4512-8639-ae534c4c2aa5-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>It is the best possible sign of a color when nobody who sees it knows what to call it. John Ruskin, 1859</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--20406164029774__0ca577ad-1b0e-4512-8639-ae534c4c2aa5-image-1",
+        "template--20406164029774__0ca577ad-1b0e-4512-8639-ae534c4c2aa5-text-1"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 80,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "enable_full_width": true,
+            "media_aspect_ratio": "square",
+            "margin_top": 0
+          }
+        },
+        "details": {
+          "type": "details",
+          "settings": {
+            "show_author": false,
+            "show_date": true,
+            "margin_top": 36
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "margin_top": 8
+          }
+        },
+        "hr_1": {
+          "type": "hr",
+          "settings": {
+            "margin_top": 24
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+            "margin_top": 24
+          }
+        },
+        "hr_2": {
+          "type": "hr",
+          "settings": {
+            "margin_top": 24
+          }
+        },
+        "tags": {
+          "type": "tags",
+          "settings": {
+            "margin_top": 24
+          }
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "details",
+        "title",
+        "hr_1",
+        "content",
+        "hr_2",
+        "tags"
+      ],
+      "disabled": true,
+      "settings": {
+        "md_padding_top": 0,
+        "md_padding_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "539f7253-91c2-4337-b9ac-2ad8daf0737c": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20406164029774__539f7253-91c2-4337-b9ac-2ad8daf0737c-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_dc9c99a3-037c-4d7f-bffb-dc7c29063828.webp",
+            "video_url": "",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "template--20406164029774__539f7253-91c2-4337-b9ac-2ad8daf0737c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lo showroom di ALYSI diventa un vivaio dove crescono nuove visioni. Una combinazione di esperienze interattive e proposte espositive creano un nuovo format ibrido e inaspettato. COLOUR: UNKNOWN è una serie di eventi dedicati alla curiosità, orientati alla sorpresa e all’osservazione sensoriale, curati da Sara Maragotto di Studio Fludd e ospitati dalla Garden House di ALYSI.</p><p>Il tema centrale del progetto è la valorizzazione delle caratteristiche peculiari della mente femminile: l’integrazione di aspetti contraddittori, l’attitudine all’evoluzione e all’eclettismo, la complessità delle emozioni. Il colore - aspetto che caratterizza fortemente la ricerca stilistica di ALYSI - diventa strumento esplorativo dell’inesauribile territorio delle cose quotidiane e universali, talvolta inafferrabili alla mente, ma fonte di continui spunti visivi.</p>",
+            "sm_size_multiplier": "sm-size--large",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--20406164029774__539f7253-91c2-4337-b9ac-2ad8daf0737c-image-1",
+        "template--20406164029774__539f7253-91c2-4337-b9ac-2ad8daf0737c-text-1"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "4eedb5b8-624a-44df-8789-dfdf5474a4a7": {
+      "type": "image-with-text",
+      "blocks": {
+        "33e0d997-d7f4-4a5a-97cc-f62024d814ad": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_6491d0c3-2a75-4058-bfd8-930de34f3a44.webp",
+            "video_url": "",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "33e0d997-d7f4-4a5a-97cc-f62024d814ad"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_last",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "af2f1024-f8d4-4619-95cd-1e7045657509": {
+      "type": "image-with-text",
+      "blocks": {
+        "1f4280dd-6e9f-4eeb-9f0c-f0a26dce6a0f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_c2bc6c86-72c5-4887-b3eb-6cc6af347880.webp",
+            "video_url": "",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "0d77f4b4-3c6f-4b8c-ab01-6c80f4ed903e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Questa dimensione intuitiva ed estetica accomuna la visione del brand italiano ad altre voci in ambito creativo, con le quali vuole inaugurare uno scambio e la creazione di un playground comune, aperto a tutti. L’esperienza diretta sarà la forma più spontanea di coinvolgimento, con un’installazione sensoriale e interattiva curata da Studio Fludd ed Eleonora Diana, che svilupperà il tema del colore cangiante in maniera empirica.</p><p>Per il suo esordio, il progetto espositivo COLOUR : UNKNOWN parte dal conosciuto per arrivare all’ignoto: la bellezza della complessità sarà ricercata nella sua espressione più immediata e affascinante. Il primo episodio vede un intervento inedito di un’ospite d’eccezione: l’artista olandese Ruth Van Beek, nota per il suo immaginario di figure tanto ordinarie, quanto imprevedibili e caleidoscopiche. A partire da materiale d’archivio, Ruth crea mondi completamente reinventati attraverso la manipolazione, il taglio, la piega, l’aggiunta di campi di colore e di elementi stranianti. La materialità del colore, le texture e la combinazione di materiali, l’atmosfera sofisticata ed insieme ironica sono temi e pratiche proprie delle collezioni ALYSI, che hanno ispirato l’artista nelle sue opere.</p><p>Nello spazio trasformato dello showroom, il mondo ALYSI si espanderà in un dialogo coinvolgente con l’artista e con il pubblico, mettendo al centro il proprio atteggiamento guida: Curiosity is an attitude.</p>",
+            "sm_size_multiplier": "sm-size--large",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "1f4280dd-6e9f-4eeb-9f0c-f0a26dce6a0f",
+        "0d77f4b4-3c6f-4b8c-ab01-6c80f4ed903e"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "d4e9f06d-335e-4b63-99e9-222e6278e4e1": {
+      "type": "image-with-text",
+      "blocks": {
+        "f0bd3597-f90e-4b6c-b11d-bc73484ac834": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_493eb405-eb04-47a1-a465-9e279561e1ee.webp",
+            "video_url": "",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "f0bd3597-f90e-4b6c-b11d-bc73484ac834"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_last",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "article-navigation": {
+      "type": "article-navigation",
+      "disabled": true,
+      "settings": {
+        "show_back_to_blog": true,
+        "show_article_images": true,
+        "md_padding_top": 0,
+        "md_padding_bottom": 80,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "950c60d7-4a3d-453a-954c-f649804853df": {
+      "type": "hero",
+      "blocks": {
+        "template--20406164029774__950c60d7-4a3d-453a-954c-f649804853df-image-1": {
+          "type": "image",
+          "settings": {
+            "media_link": "",
+            "media_toggle": "show_image",
+            "image": "shopify://shop_images/5_caa2a7a6-2edd-491b-b36b-9e3aa372289b.webp",
+            "video_url": "",
+            "video_url_mobile": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20406164029774__950c60d7-4a3d-453a-954c-f649804853df-image-1"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "overlay_opacity": 0,
+        "enable_full_width": false,
+        "section_height_desktop": "by_pixels",
+        "section_pixel_height_desktop": 600,
+        "content_width": "col-sm-max-8",
+        "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 0,
+        "md_padding_bottom": 0,
+        "section_height": "by_pixels",
+        "section_pixel_height": 400,
+        "content_align_mobile": "vertical-center horizontal-center",
+        "mobile_alignment": "text-align-center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ada14c9c-d183-4069-97d1-d420fb5faaaf": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20406164029774__ada14c9c-d183-4069-97d1-d420fb5faaaf-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Concept a cura di Sara Maragotto. Installazione e allestimento a cura di Studio Fludd, con la direzione tecnica di Eleonora Diana. Guest artist: Ruth Van Beek. Identità visiva Studio Fludd + Chiara Costa. Pr: Luisa Bertoldo</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--20406164029774__ada14c9c-d183-4069-97d1-d420fb5faaaf-text-1"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 100,
+        "desktop_content_alignment": "center",
+        "desktop_alignment": "sm-text-align-left",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "c41fc66f-d09e-4514-a1ab-ed88e344c28c",
+    "0ca577ad-1b0e-4512-8639-ae534c4c2aa5",
+    "main",
+    "539f7253-91c2-4337-b9ac-2ad8daf0737c",
+    "4eedb5b8-624a-44df-8789-dfdf5474a4a7",
+    "af2f1024-f8d4-4619-95cd-1e7045657509",
+    "d4e9f06d-335e-4b63-99e9-222e6278e4e1",
+    "article-navigation",
+    "950c60d7-4a3d-453a-954c-f649804853df",
+    "ada14c9c-d183-4069-97d1-d420fb5faaaf"
+  ]
+}

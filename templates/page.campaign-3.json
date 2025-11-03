@@ -1,0 +1,527 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "a52e8046-8a7a-4e77-a9a6-98186032f89b": {
+      "type": "hero",
+      "blocks": {
+        "template--19929230442830__a52e8046-8a7a-4e77-a9a6-98186032f89b-image-1": {
+          "type": "image",
+          "settings": {
+            "media_link": "",
+            "media_toggle": "show_image",
+            "image": "shopify://shop_images/invitocover.webp",
+            "video_url": "",
+            "video_url_mobile": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19929230442830__a52e8046-8a7a-4e77-a9a6-98186032f89b-image-1"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "overlay_opacity": 30,
+        "enable_full_width": true,
+        "section_height_desktop": "auto",
+        "section_pixel_height_desktop": 600,
+        "content_width": "col-sm-max-8",
+        "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 0,
+        "md_padding_bottom": 0,
+        "section_height": "auto",
+        "section_pixel_height": 400,
+        "content_align_mobile": "vertical-center horizontal-center",
+        "mobile_alignment": "text-align-center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "f84c9728-47cc-4a06-9ac0-626971e3d5d3": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19920269115726__f84c9728-47cc-4a06-9ac0-626971e3d5d3-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/patch-1_1920x_b5c0082e-4932-48e3-8612-1e2e08d60bde.jpg",
+            "video_url": "",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "d1cc054b-25b1-48f0-99ad-03b4a89a3f1e": {
+          "type": "title",
+          "settings": {
+            "title": "MEMORIA COLLETTIVA\nAn ancestral experience",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--tiny",
+            "sm_margin_top": 60,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "template--19920269115726__f84c9728-47cc-4a06-9ac0-626971e3d5d3-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>An ancestral experience</p><p> </p><p>Alla scoperta di Palma di Maiorca attraverso gli occhi sofisticati di un gruppo di donne ispiranti e curiose, per recuperare e trasmettere i valori di manualità e manifattura, alla base dell’attitude di ALYSI e della cultura dell’isola.</p><p> </p><p>A fare da sfondo a questa esperienza c’è Casa Balandra, una residenza creativa appena fuori la città vecchia, che con la sua estetica delicata e le palette naturali diventa il luogo perfetto per sperimentare il brand.</p><p> </p><p>L’artisan cook Lucia Gaspari accompagna le ospiti in una cena speciale, fatta di ricette tradizionali e seguendo l’arte antica di creare e modellare il cibo nella terra e con le mani. Un momento di MEMORIA COLLETTIVA condiviso intorno a una tavola stesa sull’erba, apparecchiata dell’essenziale, solo per il piacere della condivisione e dello scambio.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 25,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--19920269115726__f84c9728-47cc-4a06-9ac0-626971e3d5d3-image-1",
+        "d1cc054b-25b1-48f0-99ad-03b4a89a3f1e",
+        "template--19920269115726__f84c9728-47cc-4a06-9ac0-626971e3d5d3-text-1"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 160,
+        "md_padding_bottom": 160,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 32,
+        "padding_bottom": 24
+      }
+    },
+    "1d66ac48-8885-49d5-b225-d6e0a07788e4": {
+      "type": "banner-grid",
+      "blocks": {
+        "template--19920269115726__1d66ac48-8885-49d5-b225-d6e0a07788e4-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/001316970018_a8c4798c-bf8f-40f3-8be7-9e73a6642185.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--19920269115726__1d66ac48-8885-49d5-b225-d6e0a07788e4-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/001316970011_2d2fd179-a9c2-4c9d-a077-4e2eef499545.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_6bji8J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/001316970023.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_9x3dPQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/001316870032_aecb7e9d-4301-42ed-8e7c-f40ce705bead.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--19920269115726__1d66ac48-8885-49d5-b225-d6e0a07788e4-image-1",
+        "template--19920269115726__1d66ac48-8885-49d5-b225-d6e0a07788e4-image-2",
+        "image_6bji8J",
+        "image_9x3dPQ"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 4,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "e0a8e192-8d5c-4459-83fe-36f01ff0fe9c": {
+      "type": "sliding-text",
+      "blocks": {
+        "template--19920269115726__e0a8e192-8d5c-4459-83fe-36f01ff0fe9c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "ALYSI experience",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19920269115726__e0a8e192-8d5c-4459-83fe-36f01ff0fe9c-text-1"
+      ],
+      "settings": {
+        "content_order": "horizontal",
+        "font": "base",
+        "text_color": "#111111",
+        "text_gradient_color": "",
+        "background_color": "#ffffff",
+        "direction": "normal",
+        "speed": 30,
+        "pause_on_hover": false,
+        "sm_size_multiplier": "sm-size--gigantic",
+        "sm_item_gap": 96,
+        "sm_padding": 24,
+        "md_padding_top": 0,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "item_gap": 24,
+        "padding": 24,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "d5588b6b-d977-458b-ac74-03e932ff1787": {
+      "type": "banner-grid",
+      "blocks": {
+        "template--19920269115726__d5588b6b-d977-458b-ac74-03e932ff1787-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Tavola_da_disegno_2_1920x_8ad51980-020b-4f99-9da0-9e6f1853d1b6.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--19920269115726__d5588b6b-d977-458b-ac74-03e932ff1787-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Tavola_da_disegno_6_1920x_65c62473-5e72-4eb8-91de-6171f62baf42.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--19920269115726__d5588b6b-d977-458b-ac74-03e932ff1787-image-1",
+        "template--19920269115726__d5588b6b-d977-458b-ac74-03e932ff1787-image-2"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 40,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "d332fb32-8372-4678-9b80-83d5f8bb7f13": {
+      "type": "banner-grid",
+      "blocks": {
+        "b0e5b981-ba86-44c6-9a34-55f8a792e3ca": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/001316930012.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "13e27a55-f842-4c9e-a819-102e48e92da8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/001316960011.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_NicQ47": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/001316850019_a808eee7-13d2-464f-8402-3246db323a4e.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Y7Riiq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/001316850009.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "b0e5b981-ba86-44c6-9a34-55f8a792e3ca",
+        "13e27a55-f842-4c9e-a819-102e48e92da8",
+        "image_NicQ47",
+        "image_Y7Riiq"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 4,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "03458907-2e0c-4e8a-abab-687cd424e4ea": {
+      "type": "banner-grid",
+      "blocks": {
+        "76564574-520c-428c-9655-61f78efb33fc": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "",
+            "richtext": "<p>Place to be when in Mallorca:- Fondazione Juan Miró, per perdersi nel mondo surrealista, fra forme libere e colori primari- Bottega dell’artigiano Pep Toni Ferrer per ammirare l’arte dell’intreccio- Mercat de l’Olivar- Colmado Sant Jaume- Passeggiata a Dejà, con pit stop d’obbligo presso lo shop De monΪo- Un giro a Valdemossa, in cui visitare la Finca Son Muragues e lo shop Obsolete- Pranzo a CA NA TO NE TA, ristorante a gestione femminile che basa il suo menù sull’uso di prodotti freschi locali, cucinati seguendo ricette ispirate alla tradizione ma con tecniche di cottura moderne.Segui i nostri travel-tips e entra nello spirito dell’isola, visitando i luoghi in cui l’artigianalità e il legame con la terra sono i punti cardine.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 16,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        },
+        "c5c1019c-5f30-4a68-84d5-8f0e2165d4fd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Tavola-da-4_1920x_559f2f5f-635f-4c53-b6ee-6260a21c2f25.webp",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "1c942e59-50e5-4c3f-b736-2f403f54524e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Tavola_da_disegno_3_1920x_60e03293-5d03-4b63-b5ab-290b5dae37b3.webp",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "76564574-520c-428c-9655-61f78efb33fc",
+        "c5c1019c-5f30-4a68-84d5-8f0e2165d4fd",
+        "1c942e59-50e5-4c3f-b736-2f403f54524e"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 40,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "534a5097-1d6d-4d07-9a1e-2bd3a0cb60d8": {
+      "type": "hero",
+      "blocks": {
+        "template--19929230442830__534a5097-1d6d-4d07-9a1e-2bd3a0cb60d8-image-1": {
+          "type": "image",
+          "settings": {
+            "media_link": "",
+            "media_toggle": "show_image",
+            "image": "shopify://shop_images/orizz-patch_1920x_44aeb99f-1822-4fac-9243-fb3264b2d924.webp",
+            "video_url": "",
+            "video_url_mobile": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19929230442830__534a5097-1d6d-4d07-9a1e-2bd3a0cb60d8-image-1"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "overlay_opacity": 0,
+        "enable_full_width": false,
+        "section_height_desktop": "auto",
+        "section_pixel_height_desktop": 600,
+        "content_width": "col-sm-max-8",
+        "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 0,
+        "md_padding_bottom": 0,
+        "section_height": "auto",
+        "section_pixel_height": 400,
+        "content_align_mobile": "vertical-center horizontal-center",
+        "mobile_alignment": "text-align-center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "00179b10-27fd-4f93-a577-3ea3c6df0ae9": {
+      "type": "banner-grid",
+      "blocks": {
+        "ee8a7f9f-fc6b-407d-a2a7-3dcb7b2a5d30": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Tavola_da_disegno_1_1920x_df8e9261-be14-4b69-8ab3-d1d111bdefec.webp",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "7e8bc56a-04e2-4cc6-8d21-f7fa3b95e428": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Tavola_da_disegno_6_1920x_749ee06b-0269-448f-9703-5edd4b2edc78.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "ee8a7f9f-fc6b-407d-a2a7-3dcb7b2a5d30",
+        "7e8bc56a-04e2-4cc6-8d21-f7fa3b95e428"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 40,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 96,
+        "md_padding_bottom": 96,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a52e8046-8a7a-4e77-a9a6-98186032f89b",
+    "f84c9728-47cc-4a06-9ac0-626971e3d5d3",
+    "1d66ac48-8885-49d5-b225-d6e0a07788e4",
+    "e0a8e192-8d5c-4459-83fe-36f01ff0fe9c",
+    "d5588b6b-d977-458b-ac74-03e932ff1787",
+    "d332fb32-8372-4678-9b80-83d5f8bb7f13",
+    "03458907-2e0c-4e8a-abab-687cd424e4ea",
+    "534a5097-1d6d-4d07-9a1e-2bd3a0cb60d8",
+    "00179b10-27fd-4f93-a577-3ea3c6df0ae9"
+  ]
+}

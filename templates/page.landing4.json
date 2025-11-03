@@ -1,0 +1,289 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "banner_grid_NinVHy": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_gkkDMk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/241120_ALYSI_CREME_FW25_LOOK_32_02810.jpg",
+            "media_link": "shopify://products/265002a5021rst",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_8wJVmx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/241120_ALYSI_CREME_FW25_LOOK_32_02816.jpg",
+            "media_link": "shopify://products/265437a5028rst",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_gkkDMk",
+        "image_8wJVmx"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 5,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 80,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_or_products_ciykY9": {
+      "type": "featured-collection-or-products",
+      "blocks": {
+        "section_header_7Q7nKR": {
+          "type": "section_header",
+          "settings": {
+            "subtitle": "",
+            "subtitle_tag": "h3",
+            "title": "",
+            "title_tag": "h2",
+            "text": "",
+            "text_alignment": "text-align-center",
+            "sm_size_multiplier": "sm-size--default",
+            "size_multiplier": "size--default"
+          }
+        }
+      },
+      "block_order": [
+        "section_header_7Q7nKR"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "collection": "",
+        "product_list": [
+          "265437a5028rst",
+          "265002a5021rst",
+          "365619a5100ne"
+        ],
+        "product_limit": 12,
+        "view_all": true,
+        "enable_full_width": false,
+        "sm_enable_card_thumbnail": false,
+        "layout_desktop": "slide",
+        "products_per_row_desktop": 3,
+        "sm_custom_gap": -1,
+        "md_padding_top": 0,
+        "md_padding_bottom": 40,
+        "products_per_row_tablet": 3,
+        "sm_down_enable_card_thumbnail": false,
+        "layout_mobile": "slide peek",
+        "products_per_row_mobile": 2,
+        "custom_gap": -1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_tkz8w6": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_QzJGfJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/241120_ALYSI_CREME_FW25_LOOK_06_509.jpg",
+            "media_link": "shopify://products/265404a5022rst",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "product_AWCcAp": {
+          "type": "product",
+          "settings": {
+            "product": "265404a5022rst",
+            "product_card_content": "",
+            "text_alignment": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_QzJGfJ",
+        "product_AWCcAp"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 5,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 16,
+        "md_padding_bottom": 80,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_D3tqjb": {
+      "type": "banner-grid",
+      "blocks": {
+        "product_Wn4j3Q": {
+          "type": "product",
+          "settings": {
+            "product": "365665a5233fuoco",
+            "product_card_content": "",
+            "text_alignment": ""
+          }
+        },
+        "product_gWqfiX": {
+          "type": "product",
+          "settings": {
+            "product": "365653a5233fuoco",
+            "product_card_content": "",
+            "text_alignment": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_Wn4j3Q",
+        "product_gWqfiX"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 5,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 80,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_7acJUm": {
+      "type": "banner-grid",
+      "blocks": {
+        "product_bhMzPe": {
+          "type": "product",
+          "settings": {
+            "product": "265623a5028rst",
+            "product_card_content": "",
+            "text_alignment": ""
+          }
+        },
+        "product_Lqqrym": {
+          "type": "product",
+          "settings": {
+            "product": "365614a5100rst",
+            "product_card_content": "",
+            "text_alignment": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_bhMzPe",
+        "product_Lqqrym"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 5,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 24,
+        "md_padding_bottom": 80,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "9b9017ee-7120-4c4f-b75a-2f0d10a1dc25": {
+      "type": "banner-grid",
+      "blocks": {
+        "product_rUKTh7": {
+          "type": "product",
+          "settings": {
+            "product": "165222a5024rst",
+            "product_card_content": "",
+            "text_alignment": ""
+          }
+        },
+        "product_QaCVax": {
+          "type": "product",
+          "settings": {
+            "product": "165122a5024rst",
+            "product_card_content": "",
+            "text_alignment": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_rUKTh7",
+        "product_QaCVax"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 5,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 24,
+        "md_padding_bottom": 24,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 48,
+        "padding_bottom": 40
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    }
+  },
+  "order": [
+    "banner_grid_NinVHy",
+    "featured_collection_or_products_ciykY9",
+    "banner_grid_tkz8w6",
+    "banner_grid_D3tqjb",
+    "9b9017ee-7120-4c4f-b75a-2f0d10a1dc25",
+    "banner_grid_7acJUm",
+    "main"
+  ]
+}

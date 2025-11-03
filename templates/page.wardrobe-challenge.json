@@ -1,0 +1,462 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "hero_dNFCim": {
+      "type": "hero",
+      "blocks": {
+        "image_QU8aLa": {
+          "type": "image",
+          "settings": {
+            "media_link": "",
+            "media_toggle": "show_image",
+            "image": "shopify://shop_images/2c6d8881d37372522fd18616db76c107.jpg",
+            "video_url": "",
+            "video_url_mobile": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_QU8aLa"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "overlay_opacity": 0,
+        "enable_full_width": true,
+        "section_height_desktop": "by_pixels",
+        "section_pixel_height_desktop": 600,
+        "content_width": "col-sm-max-8",
+        "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 0,
+        "md_padding_bottom": 0,
+        "section_height": "by_pixels",
+        "section_pixel_height": 400,
+        "content_align_mobile": "vertical-center horizontal-center",
+        "mobile_alignment": "text-align-center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "03458907-2e0c-4e8a-abab-687cd424e4ea": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_GRXjRr": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "MADLEN.CERAMICS è Cristina Firotto, designer e ceramista romana.",
+            "title": "",
+            "richtext": "<p>Le creazioni dell'atelier sono <em>weightless</em>, senza peso, come la Casa che le accoglie, frutto di una filosofia progettuale che è anche uno stile di vita.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        },
+        "c5c1019c-5f30-4a68-84d5-8f0e2165d4fd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/logo-img.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_GRXjRr",
+        "c5c1019c-5f30-4a68-84d5-8f0e2165d4fd"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 80,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "featured_look_f8HTFF": {
+      "type": "featured-look",
+      "blocks": {
+        "section_header_aBhJep": {
+          "type": "section_header",
+          "settings": {
+            "subtitle": "Cristina imprime sulla ceramica memoriae identità, la sua è una ricerca che parte dalla pelle e arriva all’anima degli oggetti.",
+            "subtitle_tag": "h4",
+            "title": "",
+            "title_tag": "h2",
+            "text": "<p>Le parole, le gestualità e i riti, la natura, il vissuto quotidiano della designer, le sue passioni e i suoi ricordi, sono l'ispirazione da cui le collezioni prendono vita, pronte a popolare gli spazi degli altri.</p>",
+            "text_alignment": "text-align-left",
+            "sm_size_multiplier": "sm-size--default",
+            "size_multiplier": "size--default"
+          }
+        },
+        "product_xr8zme": {
+          "type": "product",
+          "settings": {
+            "product": "454753a4450av",
+            "color_scheme": "color-main-inverted",
+            "vertical_position": 25,
+            "horizontal_position": 25
+          }
+        },
+        "product_3enECP": {
+          "type": "product",
+          "settings": {
+            "product": "454755a4450av",
+            "color_scheme": "color-main-inverted",
+            "vertical_position": 75,
+            "horizontal_position": 75
+          }
+        }
+      },
+      "block_order": [
+        "section_header_aBhJep",
+        "product_xr8zme",
+        "product_3enECP"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/15d3a4f4f4ca76371e887e0e1966118d.jpg",
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "d332fb32-8372-4678-9b80-83d5f8bb7f13": {
+      "type": "banner-grid",
+      "blocks": {
+        "b0e5b981-ba86-44c6-9a34-55f8a792e3ca": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/76dad3593e1c8113ce139d29c09206f0.jpg",
+            "media_link": "shopify://products/454750a4450bi",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "13e27a55-f842-4c9e-a819-102e48e92da8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9389.jpg",
+            "media_link": "shopify://products/454760a4450te",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_CX3kyt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/e785cdaf7e0545a1d9499369eb7efd8b.jpg",
+            "media_link": "#",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_fXabBb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/b6830ed34afb6dbcd2af2f0b754923aa.jpg",
+            "media_link": "shopify://products/454755a4450av",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "b0e5b981-ba86-44c6-9a34-55f8a792e3ca",
+        "13e27a55-f842-4c9e-a819-102e48e92da8",
+        "image_CX3kyt",
+        "image_fXabBb"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 4,
+        "md_padding_top": 40,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_or_products_JVr4QQ": {
+      "type": "featured-collection-or-products",
+      "blocks": {
+        "section_header_PTAD8P": {
+          "type": "section_header",
+          "settings": {
+            "subtitle": "",
+            "subtitle_tag": "h3",
+            "title": "",
+            "title_tag": "h2",
+            "text": "",
+            "text_alignment": "text-align-center",
+            "sm_size_multiplier": "sm-size--default",
+            "size_multiplier": "size--default"
+          }
+        }
+      },
+      "block_order": [
+        "section_header_PTAD8P"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "collection": "madlen-ceramics",
+        "product_list": [],
+        "product_limit": 12,
+        "view_all": true,
+        "enable_full_width": false,
+        "sm_enable_card_thumbnail": false,
+        "layout_desktop": "slide",
+        "products_per_row_desktop": 4,
+        "sm_custom_gap": -1,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "products_per_row_tablet": 4,
+        "sm_down_enable_card_thumbnail": false,
+        "layout_mobile": "slide",
+        "products_per_row_mobile": 2,
+        "custom_gap": -1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "00179b10-27fd-4f93-a577-3ea3c6df0ae9": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_WHiqTk": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "Le ceramiche abbracciano l’imperfezione, lasciano che la luce entri in ogni crepa.",
+            "title": "",
+            "richtext": "<p>Lo studio prende il nome dalle madeleine di Proust, le leccornie che con il loro sapore attivano memorie del passato, e si ispira a un'idea di lentezza terapeutica.</p><p>Alla base delle creazioni c'è il rapporto tra la pelle e l<strong>’</strong>argilla, materia che si tramuta e si trasforma, viva e vibrante, in ogni fase della lavorazione. </p><p>Le forme valorizzano pieni e vuoti, accolgono la bellezza dell’autenticità.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        },
+        "7e8bc56a-04e2-4cc6-8d21-f7fa3b95e428": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/7642f430bcc214578e33a0bd495e41f3.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_WHiqTk",
+        "7e8bc56a-04e2-4cc6-8d21-f7fa3b95e428"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 64,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "featured_collection_or_products_6bQrpT": {
+      "type": "featured-collection-or-products",
+      "blocks": {
+        "section_header_CiWtit": {
+          "type": "section_header",
+          "settings": {
+            "subtitle": "",
+            "subtitle_tag": "h3",
+            "title": "",
+            "title_tag": "h2",
+            "text": "",
+            "text_alignment": "text-align-center",
+            "sm_size_multiplier": "sm-size--default",
+            "size_multiplier": "size--default"
+          }
+        }
+      },
+      "block_order": [
+        "section_header_CiWtit"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "collection": "",
+        "product_list": [
+          "454761a4450mix",
+          "454760a4450ru",
+          "454759a4450te",
+          "454755a4450av"
+        ],
+        "product_limit": 12,
+        "view_all": true,
+        "enable_full_width": false,
+        "sm_enable_card_thumbnail": false,
+        "layout_desktop": "slide",
+        "products_per_row_desktop": 4,
+        "sm_custom_gap": -1,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "products_per_row_tablet": 4,
+        "sm_down_enable_card_thumbnail": false,
+        "layout_mobile": "slide",
+        "products_per_row_mobile": 2,
+        "custom_gap": -1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_DWnjgQ": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_MzGrMN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3295acc361dc3738c6696d559f361357.jpg",
+            "media_link": "shopify://products/454751a4450bi",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_PERt4C": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9380.jpg",
+            "media_link": "shopify://products/454759a4450te",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_cePf7E": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_9400.jpg",
+            "media_link": "shopify://products/454761a4450te",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_MzGrMN",
+        "image_PERt4C",
+        "image_cePf7E"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 80,
+        "section_columns_tablet": 3,
+        "section_columns_mobile": 3,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_dNFCim",
+    "03458907-2e0c-4e8a-abab-687cd424e4ea",
+    "featured_look_f8HTFF",
+    "d332fb32-8372-4678-9b80-83d5f8bb7f13",
+    "featured_collection_or_products_JVr4QQ",
+    "00179b10-27fd-4f93-a577-3ea3c6df0ae9",
+    "featured_collection_or_products_6bQrpT",
+    "banner_grid_DWnjgQ"
+  ]
+}

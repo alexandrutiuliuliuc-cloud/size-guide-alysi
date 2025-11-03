@@ -1,0 +1,646 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "banner_grid_TPgthe": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_MNaBWM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240120_ALYSI_CHOCOLATE_FW24_LOOK_15_049.jpg",
+            "media_link": "shopify://products/254479a4215",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_b79Kmy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240120_ALYSI_CHOCOLATE_FW24_LOOK_15_042.jpg",
+            "media_link": "shopify://products/154338a4227",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_MNaBWM",
+        "image_b79Kmy"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 14,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "featured_collection_or_products_4MHa36": {
+      "type": "featured-collection-or-products",
+      "blocks": {
+        "section_header_VYaEB6": {
+          "type": "section_header",
+          "settings": {
+            "subtitle": "",
+            "subtitle_tag": "h3",
+            "title": "",
+            "title_tag": "h2",
+            "text": "",
+            "text_alignment": "text-align-center",
+            "sm_size_multiplier": "sm-size--default",
+            "size_multiplier": "size--default"
+          }
+        }
+      },
+      "block_order": [
+        "section_header_VYaEB6"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "collection": "",
+        "product_list": [
+          "254479a4215",
+          "154338a4227",
+          "354647a4238"
+        ],
+        "product_limit": 12,
+        "view_all": true,
+        "enable_full_width": false,
+        "sm_enable_card_thumbnail": false,
+        "layout_desktop": "slide",
+        "products_per_row_desktop": 3,
+        "sm_custom_gap": -1,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "products_per_row_tablet": 4,
+        "sm_down_enable_card_thumbnail": false,
+        "layout_mobile": "slide peek",
+        "products_per_row_mobile": 2,
+        "custom_gap": -1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "sliding_text_rdEUFV": {
+      "type": "sliding-text",
+      "blocks": {
+        "text_gbxeMk": {
+          "type": "text",
+          "settings": {
+            "text": "NEW YEARS EVE outfit ideas",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_gbxeMk"
+      ],
+      "settings": {
+        "content_order": "horizontal",
+        "font": "base",
+        "text_color": "#000000",
+        "text_gradient_color": "",
+        "background_color": "#ffffff",
+        "direction": "normal",
+        "speed": 30,
+        "pause_on_hover": false,
+        "sm_size_multiplier": "sm-size--huge",
+        "sm_item_gap": 80,
+        "sm_padding": 24,
+        "md_padding_top": 0,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "item_gap": 24,
+        "padding": 24,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_riN9dR": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_M67qN4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240120_ALYSI_CHOCOLATE_FW24_LOOK_08_031.jpg",
+            "media_link": "shopify://products/154258a4227",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_kc4KqT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/154033_ALYSI_CHOCOLATE_FW24_LOOK_08_090.jpg",
+            "media_link": "shopify://products/154033a4227",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_GGNkNW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/154258_ALYSI_CHOCOLATE_FW24_LOOK_08_030.jpg",
+            "media_link": "shopify://products/154258a4227",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_jzy6FH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240120_ALYSI_CHOCOLATE_FW24_STILLS_020_0564245e-405b-492b-b779-8506030f1b9f.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_M67qN4",
+        "image_kc4KqT",
+        "image_GGNkNW",
+        "image_jzy6FH"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 6,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 4,
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 80
+      }
+    },
+    "banner_grid_ayyXaa": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_7grYBg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240120_ALYSI_CHOCOLATE_FW24_LOOK_20_027.jpg",
+            "media_link": "shopify://products/154823a4203",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_iqgaPf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240120_ALYSI_CHOCOLATE_FW24_LOOK_20_008.jpg",
+            "media_link": "shopify://products/154145a4241",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_7grYBg",
+        "image_iqgaPf"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 6,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "featured_collection_or_products_f8DW7i": {
+      "type": "featured-collection-or-products",
+      "blocks": {
+        "section_header_Nm3mt6": {
+          "type": "section_header",
+          "settings": {
+            "subtitle": "",
+            "subtitle_tag": "h3",
+            "title": "",
+            "title_tag": "h2",
+            "text": "",
+            "text_alignment": "text-align-center",
+            "sm_size_multiplier": "sm-size--default",
+            "size_multiplier": "size--default"
+          }
+        }
+      },
+      "block_order": [
+        "section_header_Nm3mt6"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "collection": "",
+        "product_list": [
+          "154823a4203",
+          "154254a4237",
+          "154145a4241",
+          "354645a4107"
+        ],
+        "product_limit": 12,
+        "view_all": true,
+        "enable_full_width": false,
+        "sm_enable_card_thumbnail": false,
+        "layout_desktop": "slide",
+        "products_per_row_desktop": 4,
+        "sm_custom_gap": -1,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "products_per_row_tablet": 4,
+        "sm_down_enable_card_thumbnail": false,
+        "layout_mobile": "slide peek",
+        "products_per_row_mobile": 2,
+        "custom_gap": -1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_BdRVp3": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_JEi8xq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240120_ALYSI_CHOCOLATE_FW24_LOOK_18_093.jpg",
+            "media_link": "shopify://products/254906a4226",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_6aPpEb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240120_ALYSI_CHOCOLATE_FW24_LOOK_18_132.jpg",
+            "media_link": "shopify://products/154253a4229",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_XnqBKY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240120_ALYSI_CHOCOLATE_FW24_LOOK_18_119.jpg",
+            "media_link": "shopify://products/154027a4229",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_JEi8xq",
+        "image_6aPpEb",
+        "image_XnqBKY"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 6,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 3,
+        "section_columns_mobile": 3,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "banner_grid_rJpBmy": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_zUtbN9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/231117_ALYSI_CREME_FW24_LOOK_15_038.jpg",
+            "media_link": "shopify://products/154306a4004",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "product_4pGbQx": {
+          "type": "product",
+          "settings": {
+            "product": "154306a4004",
+            "product_card_content": "",
+            "text_alignment": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_zUtbN9",
+        "product_4pGbQx"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_VPynEm": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_6LWPXa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240120_ALYSI_CHOCOLATE_FW24_LOOK_04_024.jpg",
+            "media_link": "shopify://products/154324a4214",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_JnMpPb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240120_ALYSI_CHOCOLATE_FW24_LOOK_04_072.jpg",
+            "media_link": "shopify://products/154324a4214",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_dMgBEH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240120_ALYSI_CHOCOLATE_FW24_LOOK_13_132_7e018c4c-ef62-4cbe-9dcf-c8081d36807b.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#FFFFFF",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_htVjV8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240120_ALYSI_CHOCOLATE_FW24_LOOK_13_057_7da0473e-ae89-4b7e-9dc8-6862986a36dc.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#FFFFFF",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_6LWPXa",
+        "image_JnMpPb",
+        "image_dMgBEH",
+        "image_htVjV8"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 4,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 4,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_Qiq8yx": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_7FrV4x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240120_ALYSI_CHOCOLATE_FW24_LOOK_34_032.jpg",
+            "media_link": "shopify://products/154326a4205",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_TTTXA9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240120_ALYSI_CHOCOLATE_FW24_LOOK_06_024.jpg",
+            "media_link": "shopify://products/154418a4228",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_BHjxK9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240120_ALYSI_CHOCOLATE_FW24_LOOK_23_062.jpg",
+            "media_link": "shopify://products/154325a4237",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_7FrV4x",
+        "image_TTTXA9",
+        "image_BHjxK9"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 3,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_JLtctt": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_Yy8LNf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240120_ALYSI_CHOCOLATE_FW24_LOOK_19_028.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "product_zVpQeF": {
+          "type": "product",
+          "settings": {
+            "product": "354642a4106",
+            "product_card_content": "",
+            "text_alignment": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Yy8LNf",
+        "product_zVpQeF"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner_grid_TPgthe",
+    "featured_collection_or_products_4MHa36",
+    "sliding_text_rdEUFV",
+    "banner_grid_riN9dR",
+    "banner_grid_ayyXaa",
+    "featured_collection_or_products_f8DW7i",
+    "banner_grid_BdRVp3",
+    "banner_grid_rJpBmy",
+    "banner_grid_VPynEm",
+    "banner_grid_Qiq8yx",
+    "banner_grid_JLtctt"
+  ]
+}

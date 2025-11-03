@@ -1,0 +1,231 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "disabled": true,
+      "settings": {
+        "posts_per_page": 16,
+        "show_blog_title": true,
+        "enable_filtering": true,
+        "center_text": false,
+        "grid_gap": 24,
+        "md_items_per_row": 4,
+        "md_padding_top": 0,
+        "md_padding_bottom": 80,
+        "sm_items_per_row": 4,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "276ccf37-af5f-457f-b2d4-a5a2cc668ba0": {
+      "type": "hero",
+      "blocks": {
+        "template--19885734527310__276ccf37-af5f-457f-b2d4-a5a2cc668ba0-image-1": {
+          "type": "image",
+          "settings": {
+            "media_link": "",
+            "media_toggle": "show_image",
+            "image": "shopify://shop_images/1_1920x_51c7ef5f-c449-402b-a766-27dd6208896d.webp",
+            "video_url": "",
+            "video_url_mobile": ""
+          }
+        },
+        "template--19885734527310__276ccf37-af5f-457f-b2d4-a5a2cc668ba0-title-1": {
+          "type": "title",
+          "settings": {
+            "title": "GARDEN HOUSE",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--huge",
+            "sm_margin_top": 60,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "template--19885734527310__276ccf37-af5f-457f-b2d4-a5a2cc668ba0-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Alysi Garden House è uno spazio inedito e poliedrico, più che un semplice Showroom: l’architettura industriale di inizio 900 è stata impreziosita da un giardino interno, che crea un’atmosfera sofisticata e contemporanea, in cui collezioni, natura e materiali convivono in un’armonia perfetta.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 60,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--19885734527310__276ccf37-af5f-457f-b2d4-a5a2cc668ba0-image-1",
+        "template--19885734527310__276ccf37-af5f-457f-b2d4-a5a2cc668ba0-title-1",
+        "template--19885734527310__276ccf37-af5f-457f-b2d4-a5a2cc668ba0-text-1"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "overlay_opacity": 40,
+        "enable_full_width": true,
+        "section_height_desktop": "by_pixels",
+        "section_pixel_height_desktop": 880,
+        "content_width": "col-sm-max-4",
+        "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+        "desktop_alignment": "sm-text-align-left",
+        "md_padding_top": 0,
+        "md_padding_bottom": 0,
+        "section_height": "by_pixels",
+        "section_pixel_height": 400,
+        "content_align_mobile": "vertical-center horizontal-center",
+        "mobile_alignment": "text-align-left",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "d626d082-156d-4bab-a452-a84dfe43e89a": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19885734527310__d626d082-156d-4bab-a452-a84dfe43e89a-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/a4de2e6b421d1afd4bb1fcaedd3a111e.webp",
+            "video_url": "",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "template--19885734527310__d626d082-156d-4bab-a452-a84dfe43e89a-title-1": {
+          "type": "title",
+          "settings": {
+            "title": "COLOUR: UNKNOWN",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "template--19885734527310__d626d082-156d-4bab-a452-a84dfe43e89a-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lo showroom di ALYSI diventa un vivaio dove crescono nuove visioni.<br/>Una combinazione di esperienze interattive e proposte espositive creano un nuovo format ibrido e inaspettato.</p><p>COLOUR: UNKNOWN è una serie di eventi<br/>dedicati alla curiosità, orientati alla sorpresa e all’osservazione sensoriale,<br/>curati da Sara Maragotto di Studio Fludd e ospitati dalla Garden House di<br/>ALYSI.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 40,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "template--19885734527310__d626d082-156d-4bab-a452-a84dfe43e89a-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "SCOPRI DI PIÙ",
+            "button_link": "shopify://blogs/garden-house/lorem-ipsum-1",
+            "button_style": "link",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 24,
+            "size_multiplier": "size--default",
+            "margin_top": 24
+          }
+        }
+      },
+      "block_order": [
+        "template--19885734527310__d626d082-156d-4bab-a452-a84dfe43e89a-image-1",
+        "template--19885734527310__d626d082-156d-4bab-a452-a84dfe43e89a-title-1",
+        "template--19885734527310__d626d082-156d-4bab-a452-a84dfe43e89a-text-1",
+        "template--19885734527310__d626d082-156d-4bab-a452-a84dfe43e89a-button-1"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 104,
+        "md_padding_bottom": 104,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "2a83bd1d-d6c0-4269-92be-4e8fe899b0b4": {
+      "type": "image-with-text",
+      "blocks": {
+        "e460d6b2-cce8-46a2-bcca-f10a99144589": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Giuseppe_Dinnella_DSC8135_ae44ec07-389d-4b83-a5db-05f2b8948e95.jpg",
+            "video_url": "",
+            "media_aspect_ratio": "square",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "41d39d26-68c1-456b-85a8-f551c31a5b67": {
+          "type": "title",
+          "settings": {
+            "title": "ALYSI GARDEN HOUSE",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "80ab5086-a450-415f-b093-0c3d087c5a8b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La Garden House di ALYSI è uno spazio inedito, più che un semplice Showroom: l’architettura industriale di inizio 900 è stata impreziosita da un giardino interno, che conferisce allo spazio un’atmosfera sofisticata e contemporanea; le collezioni, la natura e i materiali selezionati convivono in un’armonia perfetta.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 40,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "54e906ab-940b-4a96-8dc4-babc3f8fe9df": {
+          "type": "button",
+          "settings": {
+            "button_label": "SCOPRI DI PIÙ",
+            "button_link": "shopify://blogs/garden-house/lorem-ipsum-2",
+            "button_style": "link",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 24,
+            "size_multiplier": "size--default",
+            "margin_top": 24
+          }
+        }
+      },
+      "block_order": [
+        "e460d6b2-cce8-46a2-bcca-f10a99144589",
+        "41d39d26-68c1-456b-85a8-f551c31a5b67",
+        "80ab5086-a450-415f-b093-0c3d087c5a8b",
+        "54e906ab-940b-4a96-8dc4-babc3f8fe9df"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_last",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 104,
+        "md_padding_bottom": 104,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "main",
+    "276ccf37-af5f-457f-b2d4-a5a2cc668ba0",
+    "d626d082-156d-4bab-a452-a84dfe43e89a",
+    "2a83bd1d-d6c0-4269-92be-4e8fe899b0b4"
+  ]
+}

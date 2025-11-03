@@ -1,0 +1,344 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "c3edae58-958e-4b8b-9dea-0310c944722e": {
+      "type": "hero",
+      "blocks": {
+        "template--20494408876366__c3edae58-958e-4b8b-9dea-0310c944722e-image-1": {
+          "type": "image",
+          "settings": {
+            "media_link": "",
+            "media_toggle": "show_image",
+            "image": "shopify://shop_images/cover-desktop.jpg",
+            "video_url": "",
+            "image_mobile": "shopify://shop_images/cover-mobile.jpg",
+            "video_url_mobile": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20494408876366__c3edae58-958e-4b8b-9dea-0310c944722e-image-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "color-main",
+        "overlay_opacity": 0,
+        "enable_full_width": true,
+        "section_height_desktop": "auto",
+        "section_pixel_height_desktop": 200,
+        "content_width": "col-sm-max-8",
+        "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 0,
+        "md_padding_bottom": 0,
+        "section_height": "auto",
+        "section_pixel_height": 200,
+        "content_align_mobile": "vertical-center horizontal-center",
+        "mobile_alignment": "text-align-center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_k8iKj4": {
+      "type": "banner-grid",
+      "blocks": {
+        "video_zzETHV": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/47452e86f82a49418b454b6e92e2a77e.mp4",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 0,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "text_pFjJjj": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "Curiosity is an attitude",
+            "richtext": "<p>La curiosità è un’attitudine, un istinto. L’irresistibile voglia di scoperta che ti spinge ad abbracciare il mondo con tutti i sensi. Quell’incontrollabile energia che si accende durante l’entusiasmante viaggio verso l’inaspettato.</p><p>La <strong>Box artigianale ALYSI</strong> è un'esperienza sensoriale completa che permette di scoprire il vero DNA del brand. Pensata per coinvolgere i cinque sensi, questa box offre un viaggio unico, dove ogni elemento è studiato per stimolare le emozioni.<br/>Ma c'è un senso in più che rende l'esperienza davvero speciale: la <strong>curiosità</strong>, che è il senso più importante, quello che ci spinge a non fermarci alla superficie, ad andare alla ricerca di nuove connessioni, ispirazioni e possibilità.</p><p>ALYSI abbraccia questa visione, incoraggiando tutti a esplorare senza paura, a scoprire e a reinventare continuamente noi stessi e il mondo intorno.</p>",
+            "button_label": "vieni a scoprirla in boutique!",
+            "button_link": "shopify://pages/boutiques-1",
+            "button_style": "link",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "start",
+            "text_alignment": "text-align-left"
+          }
+        }
+      },
+      "block_order": [
+        "video_zzETHV",
+        "text_pFjJjj"
+      ],
+      "settings": {
+        "block_aspect_ratio": "square",
+        "grid_gap": 40,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_jpjCMY": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_frP3Jj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SAL2024048_0074.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_TqHhtr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SAL2024048_1198.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_6jJAyW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2.curiosity_mensole.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_9Bwd4e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SAL2024048_0058.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_frP3Jj",
+        "image_TqHhtr",
+        "image_6jJAyW",
+        "image_9Bwd4e"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 4,
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_99MYXq": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_brMRdb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SAL2024048_0032.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_jQjCHx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SAL2024048_0040.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "text_t4LzPV": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "made in alysi",
+            "richtext": "<p>La qualità è un concetto che prende forma  attraverso l’uso attento e rispettoso delle materie, che diventano il vero cuore delle creazioni. Ogni capo è il risultato di una continua ricerca, che fonde la tradizione sartoriale con uno sguardo sempre curioso verso l'innovazione.</p><p>“Made in ALYSI” è la capacità di realizzare un prodotto che non è solo esteticamente raffinato, ma anche ricercato nei minimi dettagli e creato con cura e passione. Ognuno ha bisogno di qualcosa di speciale per distinguersi in modo delicato, intraprendendo con naturalezza l'esaltazione della propria personalità.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "start",
+            "text_alignment": "text-align-left"
+          }
+        }
+      },
+      "block_order": [
+        "image_brMRdb",
+        "image_jQjCHx",
+        "text_t4LzPV"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 80,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_CEQNC9": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_fmVDFt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI-STUDIO-2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "text_9piNAK": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "Alysi meaning",
+            "richtext": "<p>Partiamo dal termine \"-lisi\", che deriva dal greco \"lisis\" e significa scioglimento, separazione. Ma cosa succede quando aggiungiamo il prefisso \"a\"? Esattamente come l’alfa privativa in greco, che indica \"mancanza di\", otteniamo un significato potente: <strong>ALYSI</strong> rappresenta qualcosa che non si può sciogliere, qualcosa di indissolubile, un simbolo di solidità.<br/>Va oltre il concetto di tendenza nutrendosi al tempo stesso di contemporaneità.</p><p></p><p><strong>A</strong> L’accento cade qui per dare carattere alla parola</p><p><strong>L</strong> Proporzioni perfette, ma incompiute, come un quadrato solo a metà</p><p><strong>Y</strong> Tratti forti, maschili e determinati, si incontrano in un insieme di angoli</p><p><strong>S</strong> Eccezione di linea dolce e continua, l’anima femminile è l’equilibrio tra contrasti</p><p><strong>I</strong> Il puntino non è necessario, l’essenzialità è bellezza</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        }
+      },
+      "block_order": [
+        "image_fmVDFt",
+        "text_9piNAK"
+      ],
+      "settings": {
+        "block_aspect_ratio": "landscape",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "video_mErjmX": {
+      "type": "video",
+      "custom_css": [
+        "button.btn.video-play {border: none !important; box-shadow: none !important; background: none !important;}",
+        "svg.feather.feather-play {stroke: #fff !important; width: 40px !important; height: 40px !important;}"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "cover_image": "shopify://shop_images/nicchia4.jpg",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/2cd9d6554ed44925933ea6a575954a9d.mp4",
+        "title": "",
+        "text": "",
+        "align_content": "text-align-left",
+        "position_content": "above",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c3edae58-958e-4b8b-9dea-0310c944722e",
+    "banner_grid_k8iKj4",
+    "banner_grid_jpjCMY",
+    "banner_grid_99MYXq",
+    "banner_grid_CEQNC9",
+    "video_mErjmX"
+  ]
+}

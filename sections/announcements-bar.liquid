@@ -1,0 +1,85 @@
+{% if section.blocks.size > 0 %}
+  <style>
+    .announcements-bar {
+      font-size: var(--font-announcement-size);
+      font-family: var(--font-announcement-family); 
+      font-style: var(--font-announcement-style);
+      font-weight: var(--font-announcement-weight);
+      text-transform: var(--font-announcement-text-transform);
+      letter-spacing: var(--font-announcement-letter-spacing);
+      color: {{ section.settings.text_color }};
+      background: {{ section.settings.background_color }};
+    }
+    .announcement { 
+      max-width: none;
+      padding: 8px;
+    }
+    .announcement a {
+      text-decoration: underline;
+    }
+  </style>
+
+  {%- case section.blocks.size -%}
+    {%- when 1 -%}
+      {%- assign md_cols = 1 -%}
+    {%- when 2 -%}
+      {%- assign md_cols = 1 -%}
+    {%- else -%}
+      {%- assign md_cols = 1 -%}
+  {%- endcase -%}
+
+  <div class="announcements-bar">
+    <gridy-slider
+      class="gridy-slider"
+      data-mobile-enabled="true"
+      data-tablet-enabled="true"
+      data-desktop-enabled="true"
+      data-ipr-mobile="1"
+      data-ipr-tablet="1"
+      data-ipr-desktop="1"
+      data-autoplay="true"
+      data-autoplay-delay="5000">
+      <div class="gridy-track disable-scroll grid grid-cols-1 md-grid-cols-{{ md_cols }}" style="--gap:0px;">
+        {% for announcement in section.blocks %}
+        <div class="announcement flex center-center text-center"><p>{{ announcement.settings.title }}</p>
+        </div>
+      {% endfor %}
+      </div>
+    </gridy-slider>
+  </div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "t:sections.announcements-bar.name",
+  "settings": [
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "t:sections.colors.text_color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "t:sections.colors.background",
+      "default": "#000000"
+    }
+  ],
+  "blocks": [
+    {
+      "name": "t:sections.announcements-bar.blocks.announcement.name",
+      "type": "announcement",
+      "limit": 6,
+      "settings": [
+        {
+          "type": "inline_richtext",
+          "id": "title",
+          "label": "t:sections.inputs.text.title",
+          "default": "Use announcements for promotions, campaigns and general info."
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

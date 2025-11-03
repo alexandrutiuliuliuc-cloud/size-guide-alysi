@@ -1,0 +1,712 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "rich_text_WcXHAD": {
+      "type": "rich-text",
+      "blocks": {
+        "title_6Hixzc": {
+          "type": "title",
+          "settings": {
+            "title": "Curiosity\nis an\nattitude",
+            "heading_tag": "h1",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "title_6Hixzc"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 100,
+        "desktop_content_alignment": "center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "mobile_alignment": "text-align-center",
+        "padding_top": 64,
+        "padding_bottom": 64
+      }
+    },
+    "video_PDnirD": {
+      "type": "video",
+      "custom_css": [
+        "button.btn.video-play {border: none !important; box-shadow: none !important; background: none !important;}",
+        "svg.feather.feather-play {stroke: #fff !important; width: 40px !important; height: 40px !important;}"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "cover_image": "shopify://shop_images/cover_dee85f85-d3cd-4e3f-aa09-a6043bdb5dd7.jpg",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/155b56865ae0487f985e0d12277df8d3.mp4",
+        "title": "",
+        "text": "",
+        "align_content": "text-align-left",
+        "position_content": "above",
+        "md_padding_top": 0,
+        "md_padding_bottom": 40,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "hero_Gt3f6C": {
+      "type": "hero",
+      "blocks": {
+        "image_jQkT3G": {
+          "type": "image",
+          "settings": {
+            "media_link": "https://cdn.shopify.com/videos/c/o/v/155b56865ae0487f985e0d12277df8d3.mp4",
+            "media_toggle": "show_video",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/155b56865ae0487f985e0d12277df8d3.mp4",
+            "video_url_mobile": "https://cdn.shopify.com/videos/c/o/v/e7a925f17f0f4922b8782212b20f4cb0.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "image_jQkT3G"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "color-main",
+        "overlay_opacity": 0,
+        "enable_full_width": true,
+        "section_height_desktop": "by_pixels",
+        "section_pixel_height_desktop": 600,
+        "content_width": "col-sm-max-8",
+        "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 0,
+        "md_padding_bottom": 0,
+        "section_height": "by_pixels",
+        "section_pixel_height": 600,
+        "content_align_mobile": "vertical-center horizontal-center",
+        "mobile_alignment": "text-align-center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_ddf9hE": {
+      "type": "rich-text",
+      "blocks": {
+        "text_QhM4tU": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>La curiosità è l’attitudine che ci spinge a vedere oltre il visibile, a non fermarci mai all’ovvio, a vivere ogni momento come un’opportunità di scoperta! </strong></p><p>È un istinto che ci invita ad esplorare il mondo con tutti i sensi, a cercare nuovi significati anche nelle cose più semplici. È l’energia che accende il nostro viaggio verso l’inaspettato, quella spinta primordiale che il nostro bambino interiore vuole trattenere negli occhi e fra le mani.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_QhM4tU"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 40,
+        "desktop_content_alignment": "center",
+        "desktop_alignment": "sm-text-align-left",
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "mobile_alignment": "text-align-left",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "banner_grid_BBgAT8": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_ANTyAX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/05_8213f497-d2e5-45e2-81a7-4e869a673f03.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_aXwVa6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/06_aedb73b8-8ee1-44a3-b7a3-c73b4f87e126.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 0,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_ANTyAX",
+        "image_aXwVa6"
+      ],
+      "settings": {
+        "block_aspect_ratio": "landscape",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 80,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 80
+      }
+    },
+    "rich_text_hKzaG7": {
+      "type": "rich-text",
+      "blocks": {
+        "subtitle_gGmLWT": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "La curiosità è il sesto senso, il desiderio di scoprire e di connetterci con il mondo in modo autentico.",
+            "heading_tag": "h3",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_gGmLWT"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 50,
+        "desktop_content_alignment": "center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "mobile_alignment": "text-align-left",
+        "padding_top": 0,
+        "padding_bottom": 80
+      }
+    },
+    "banner_grid_T9wMDR": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_7FzeR8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/08.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_jkRrEP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/03_9009f5fa-dfaa-4ce8-b106-fd6d034073b9.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 0,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_7FzeR8",
+        "image_jkRrEP"
+      ],
+      "settings": {
+        "block_aspect_ratio": "landscape",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_TJfteU": {
+      "type": "rich-text",
+      "blocks": {
+        "text_MfMgwP": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>È la continua ricerca che invita a osare, a trasformare l’impossibile in possibile!</strong></p><p>Ogni passo verso l’ignoto è un’esperienza che ci arricchisce, che ci permette di andare oltre la superficie e scoprire il calore della conoscenza. </p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_MfMgwP"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 40,
+        "desktop_content_alignment": "center",
+        "desktop_alignment": "sm-text-align-left",
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "mobile_alignment": "text-align-left",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "image_with_text_JT3LzP": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_TVhTPB": {
+          "type": "image",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/a8147f2e993f4c42b8e805560de85602.mp4",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_video",
+            "media_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_TVhTPB"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_rUreR9": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_F4tWY8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/05_b16bbe1e-0aa5-4dbc-b12f-95c81dd3d217.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_qArEKV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/07_3ffa7a79-9dd0-408d-9cf1-d9f917bd27c6.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_piqXKA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/06_e719268e-5e7c-4d4f-9967-941fa99010c0.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_F4tWY8",
+        "image_qArEKV",
+        "image_piqXKA"
+      ],
+      "settings": {
+        "block_aspect_ratio": "landscape",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "hero_3GnLj3": {
+      "type": "hero",
+      "blocks": {
+        "image_LTDhkf": {
+          "type": "image",
+          "settings": {
+            "media_link": "",
+            "media_toggle": "show_video",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/79d6d1388d1c466ca7cc9f6072c0893b.mp4",
+            "video_url_mobile": "https://cdn.shopify.com/videos/c/o/v/7b94059ea7d6431cbf90ea307ad8ebd2.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "image_LTDhkf"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "overlay_opacity": 0,
+        "enable_full_width": false,
+        "section_height_desktop": "auto",
+        "section_pixel_height_desktop": 800,
+        "content_width": "col-sm-max-8",
+        "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "section_height": "by_pixels",
+        "section_pixel_height": 600,
+        "content_align_mobile": "vertical-center horizontal-center",
+        "mobile_alignment": "text-align-center",
+        "padding_top": 80,
+        "padding_bottom": 80
+      }
+    },
+    "banner_grid_reVUXG": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_ywVMbG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/01_a8225139-a80b-4616-aed9-382bcf727628.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_N4FFgc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/02_38771dcf-3d3d-4ecf-843d-4db7085e6352.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 0,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_ywVMbG",
+        "image_N4FFgc"
+      ],
+      "settings": {
+        "block_aspect_ratio": "landscape",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "rich_text_9weWrA": {
+      "type": "rich-text",
+      "blocks": {
+        "title_LWNKK7": {
+          "type": "title",
+          "settings": {
+            "title": "un viaggio, una scoperta, un’emozione",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "title_LWNKK7"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 70,
+        "desktop_content_alignment": "center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_Hitb8F": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_8UMr9Y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/04_1a688334-d7bb-46ae-acc6-1bfa5a5764dc.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_xNpkLK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/05_f60541f9-ae63-4860-93c4-e2f2c7bf2f43.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 0,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_8UMr9Y",
+        "image_xNpkLK"
+      ],
+      "settings": {
+        "block_aspect_ratio": "landscape",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "rich_text_twpYiF": {
+      "type": "rich-text",
+      "blocks": {
+        "text_HyNPrc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Non accontentarsi mai: curiosità è forza di abbracciare il cambiamento, quel motore che trasforma il quotidiano in un’avventura.</p><p><strong>Ogni giorno è un’opportunità per andare oltre, per sorprendersi, per vivere di più.</strong></p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_HyNPrc"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 50,
+        "desktop_content_alignment": "center",
+        "desktop_alignment": "sm-text-align-left",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "image_with_text_r7pQKA": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_TEATRb": {
+          "type": "image",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/920e8495dad34256bfcd0d0a56e94a06.mp4",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_video",
+            "media_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_TEATRb"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "banner_grid_VmiY4R": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_YDRGQ8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/02_cee6c99f-f4f3-406c-aaa5-db4864fdf6f0.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_xAaYaE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/04_972f9381-0af9-4fae-add5-68987bf6cb53.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_i3TcwQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/06_1b23935a-0ec4-48cb-85e2-5a79f19ef0bf.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_YDRGQ8",
+        "image_xAaYaE",
+        "image_i3TcwQ"
+      ],
+      "settings": {
+        "block_aspect_ratio": "landscape",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 80
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_WcXHAD",
+    "video_PDnirD",
+    "hero_Gt3f6C",
+    "rich_text_ddf9hE",
+    "banner_grid_BBgAT8",
+    "rich_text_hKzaG7",
+    "banner_grid_T9wMDR",
+    "rich_text_TJfteU",
+    "image_with_text_JT3LzP",
+    "banner_grid_rUreR9",
+    "hero_3GnLj3",
+    "banner_grid_reVUXG",
+    "rich_text_9weWrA",
+    "banner_grid_Hitb8F",
+    "rich_text_twpYiF",
+    "image_with_text_r7pQKA",
+    "banner_grid_VmiY4R"
+  ]
+}

@@ -1,0 +1,1200 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "a08a00f6-a6d1-41ff-9d40-074c6ca03714": {
+      "type": "banner-grid",
+      "blocks": {
+        "template--19900466037070__a08a00f6-a6d1-41ff-9d40-074c6ca03714-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_17_1071_6707ae3f-f906-4da0-b920-b89bd943476b.jpg",
+            "media_link": "shopify://products/104910p4024",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "968d7e78-e21a-41a7-a516-4fd841b45b9c": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "CRÈME",
+            "richtext": "<p>E' il nome della Pre-collection proprio per il gusto morbido e delicato, la proposta più quotidiana e informale dal sapore casual. </p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--19900466037070__a08a00f6-a6d1-41ff-9d40-074c6ca03714-image-1",
+        "968d7e78-e21a-41a7-a516-4fd841b45b9c"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 128,
+        "md_padding_bottom": 160,
+        "section_columns_tablet": 3,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 8
+      }
+    },
+    "ae9c3793-1c92-4eed-a108-5a862908639d": {
+      "type": "banner-grid",
+      "blocks": {
+        "6d8414e0-d6e1-4de5-aed4-a952d106cccd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_17_1104_2e408f3f-588a-461b-b0b9-f534c0af7583.jpg",
+            "media_link": "shopify://products/104005p4023",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "80365a25-fafc-4849-888f-6e31e929315c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_11_698_ed522647-2274-49a3-bf14-273f23cb167d.jpg",
+            "media_link": "shopify://products/104604p4021",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "9b1fe3ba-a4cd-4c6f-b49e-3b7f8f117b31": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_11_700_5de69c60-30bc-496c-ac1e-de3ab018b062.jpg",
+            "media_link": "shopify://products/104322p4024",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "6d8414e0-d6e1-4de5-aed4-a952d106cccd",
+        "80365a25-fafc-4849-888f-6e31e929315c",
+        "9b1fe3ba-a4cd-4c6f-b49e-3b7f8f117b31"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 0,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_pUaDkX": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_AgkkTf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_23_1390_d097b6ea-f355-47f9-9f08-0fb7ac81e943.jpg",
+            "media_link": "shopify://products/104321p4028",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_BikzXA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_19_1163_c5a3d750-a2a2-4847-a904-246b218a8bca.jpg",
+            "media_link": "shopify://products/104223p4023",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_AgkkTf",
+        "image_BikzXA"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "5f69405a-fd2f-45b7-b5da-2b5b98a5b94c": {
+      "type": "banner-grid",
+      "blocks": {
+        "96f003d1-f889-447c-b78d-27bb24f7f88c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_14_892_7a469250-8f88-4f02-a9b8-040f0071410e.jpg",
+            "media_link": "shopify://products/104325p4016",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "4e59134b-0434-4cb3-8b9b-8c3f90d86456": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS240075_8a321a75-0fdd-46f2-96cf-5c9ae0ac8c5d.jpg",
+            "media_link": "shopify://products/104906p4023",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_gg8Wfm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_19_1181_101f2113-8de7-4b64-85f0-72c66f1fb3df.jpg",
+            "media_link": "shopify://products/204805p4035",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "96f003d1-f889-447c-b78d-27bb24f7f88c",
+        "4e59134b-0434-4cb3-8b9b-8c3f90d86456",
+        "image_gg8Wfm"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 0,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_3VarT3": {
+      "type": "rich-text",
+      "blocks": {
+        "title_zPWWVi": {
+          "type": "title",
+          "settings": {
+            "title": "CRÈME COLLECTION",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "text_iiDpkG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Natura, luce e forme nella donna contemporanea.</p><p>La luce illumina le trame della Spring/Summer 24. Luce, curiosità, naturale delicatezza, infatti, gli elementi che caratterizzano una Primavera tanto urbana e concreta quanto eterea e leggera. Attraversa il caos della città, mimetizzando silhouette con le ombre timide del sole di Marzo: una femminilità leggera che brilla di luce propria fra il grigio dell’asfalto.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "title_zPWWVi",
+        "text_iiDpkG"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 100,
+        "desktop_content_alignment": "center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-center",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "3bcf0557-eec4-49c9-9335-f7b642197356": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_fi7mFC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_06_354_ca1babfb-176f-4ec2-8688-67b53fbac839.jpg",
+            "media_link": "shopify://products/104135p4016",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "55380b93-9a41-4b8e-8758-d3971fbff433": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_16_1045.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "51148b21-5708-4043-a870-ce02ebe011f6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS240016.jpg",
+            "media_link": "shopify://products/304620p4101",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "0b755950-6137-46d6-b5f9-9be7fc6537e7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS240032.jpg",
+            "media_link": "shopify://products/104130p4031",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "b3f1707c-8e23-4341-b77a-299b4decbf52": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_24_1433.jpg",
+            "media_link": "shopify://products/104331p4034",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "b8e28247-e928-41af-8cc5-8b2471497c75": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_08_484.jpg",
+            "media_link": "shopify://products/204905p4014",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_fi7mFC",
+        "55380b93-9a41-4b8e-8758-d3971fbff433",
+        "51148b21-5708-4043-a870-ce02ebe011f6",
+        "0b755950-6137-46d6-b5f9-9be7fc6537e7",
+        "b3f1707c-8e23-4341-b77a-299b4decbf52",
+        "b8e28247-e928-41af-8cc5-8b2471497c75"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 32
+      }
+    },
+    "595b45d0-fda9-4205-bddc-b181ef37bacf": {
+      "type": "banner-grid",
+      "blocks": {
+        "4a23e2aa-6880-4a6b-82a0-d145318bf569": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_15_955.jpg",
+            "media_link": "shopify://products/104312p4048",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "4d99d0f6-bab7-444f-8915-a414250c4d92": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS240013_6c77cb7d-f972-487a-a80f-ebacd464f8e2.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "e8f376de-d403-4d3b-9b84-442a66134123": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS240056_f58c6b46-e5ed-45a1-bd88-f0e9ad6a9640.jpg",
+            "media_link": "shopify://products/104906p4023",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "4a23e2aa-6880-4a6b-82a0-d145318bf569",
+        "4d99d0f6-bab7-444f-8915-a414250c4d92",
+        "e8f376de-d403-4d3b-9b84-442a66134123"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "487d7333-7b47-42a5-9341-b36c6a3d1f95": {
+      "type": "banner-grid",
+      "blocks": {
+        "ffc886ef-ee5b-40ad-a978-6fa795be7235": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_15_986.jpg",
+            "media_link": "shopify://products/104312p4048",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "66999a53-6c8b-46ac-a9bd-785a466ff700": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS240049.jpg",
+            "media_link": "shopify://products/104822p4031",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "text_C7mKFD": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "",
+            "richtext": "<p>Nuances solarizzate, neutre, acquose trovano il giusto balance nel mix con i toni brillanti e le superfici metallizzate, che insieme a ricami e applicazioni speciali handmade, impreziosiscono anche la più semplice routine quotidiana.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        }
+      },
+      "block_order": [
+        "ffc886ef-ee5b-40ad-a978-6fa795be7235",
+        "66999a53-6c8b-46ac-a9bd-785a466ff700",
+        "text_C7mKFD"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "8a9fedcf-dbe8-4cd5-b6f3-53fb8c4b9393": {
+      "type": "banner-grid",
+      "blocks": {
+        "cc58e63f-8965-4db8-b3da-613de97ff149": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_06_360.jpg",
+            "media_link": "shopify://products/204418p4026",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "a73df340-9afd-4a6a-967f-2a992448d0e4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_13_812.jpg",
+            "media_link": "shopify://products/204501p4010",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "cc58e63f-8965-4db8-b3da-613de97ff149",
+        "a73df340-9afd-4a6a-967f-2a992448d0e4"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "03ce68bc-b6f8-473c-83c0-fea16fadee7e": {
+      "type": "banner-grid",
+      "blocks": {
+        "b099e77d-3326-44c2-805e-143a14a22ef9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_27_1536.jpg",
+            "media_link": "shopify://products/204005p4035",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "4fce2fee-8c58-49e2-9c82-57d6b2ac358a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_10_610_4ec94492-086b-4c9a-b990-f71bc0a6e662.jpg",
+            "media_link": "shopify://products/204103p4011",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "07b22eb3-b21a-42ed-9b52-a20577755c8f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_23_1410.jpg",
+            "media_link": "shopify://products/104321p4028",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "b099e77d-3326-44c2-805e-143a14a22ef9",
+        "4fce2fee-8c58-49e2-9c82-57d6b2ac358a",
+        "07b22eb3-b21a-42ed-9b52-a20577755c8f"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 0,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "5a50fcae-aa16-4af2-b8db-c7a9243798e8": {
+      "type": "banner-grid",
+      "blocks": {
+        "ff8deee0-e0be-4126-8e28-9593a1e85812": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_22_1334.jpg",
+            "media_link": "shopify://products/104808p4033",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "a65bc060-de10-424e-b04b-630c6af1d54b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_12_777_59b68da9-6f93-43db-aaab-ecbacf0e792a.jpg",
+            "media_link": "shopify://products/104329p4045",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_N93EeQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_21_1260.jpg",
+            "media_link": "shopify://products/204807p4020",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "ff8deee0-e0be-4126-8e28-9593a1e85812",
+        "a65bc060-de10-424e-b04b-630c6af1d54b",
+        "image_N93EeQ"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "87bf661e-efea-4ddd-807a-46d6b7865aee": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_KxWPpA": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "",
+            "richtext": "<p>Le stampe corrono tra libera ispirazione pop, macro e micro motivi floreali, grafismi fluttuanti nello spazio: il risultato è un tripudio di forme e colori che raggiungono l’equilibrio perfetto nella versatilità del loro impiego, tra basi tessuto diverse e silhouette ricercate accompagnano le donne in un viaggio giornaliero di benessere, relax visivo e scoperta di sè. </p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        },
+        "58620d98-523a-4fa9-8348-a3b2f6fa7900": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS240008_801838d6-ce1d-40a1-b410-434df9ba81fc.jpg",
+            "media_link": "shopify://products/104812p4015",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_KxWPpA",
+        "58620d98-523a-4fa9-8348-a3b2f6fa7900"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_jLH8Xd": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_JnxfbQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_18_1144_76d29317-8e8c-49b6-8005-d215c9d39a5a.jpg",
+            "media_link": "shopify://products/204806p4001",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Xb8Edt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS240010_1.jpg",
+            "media_link": "shopify://products/104324p4005",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_j36GEj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_13_825_c2a55280-5de0-4d6e-965d-5a8020fc6f3d.jpg",
+            "media_link": "shopify://products/204501p4010",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_JnxfbQ",
+        "image_Xb8Edt",
+        "image_j36GEj"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 0,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "11a7ddf8-2a10-48a3-bd3b-4e4b28df48d6": {
+      "type": "banner-grid",
+      "blocks": {
+        "24c35533-5b7d-4d1a-8548-a144c0277fbc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_16_1022.jpg",
+            "media_link": "shopify://products/204908p4013",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "d1769ccb-7192-4834-a0a8-2533f4594e30": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_29_1601.jpg",
+            "media_link": "shopify://products/104218p4021",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "edb2ab2a-e476-4747-9b2e-e37d194e2b01": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_31_1695.jpg",
+            "media_link": "shopify://products/104902p4015",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "1a8437e8-0173-49c8-8e70-f65cae96c966": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_STILL_01_1640.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "c22ddb5f-bcb7-4ef7-97de-076e29cb5266": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_26_1505_2180b334-0b2f-4604-b1e0-186b53230e55.jpg",
+            "media_link": "shopify://products/104911p4024",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "10dae02c-7b26-44de-a72c-fa7d34fdd95f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_08_523.jpg",
+            "media_link": "shopify://products/204905p4014",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "24c35533-5b7d-4d1a-8548-a144c0277fbc",
+        "d1769ccb-7192-4834-a0a8-2533f4594e30",
+        "edb2ab2a-e476-4747-9b2e-e37d194e2b01",
+        "1a8437e8-0173-49c8-8e70-f65cae96c966",
+        "c22ddb5f-bcb7-4ef7-97de-076e29cb5266",
+        "10dae02c-7b26-44de-a72c-fa7d34fdd95f"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "77e364e1-f659-44c7-90c8-894c383ba425": {
+      "type": "banner-grid",
+      "blocks": {
+        "d9bbcfe9-6a17-4752-b627-619e049ee9b1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_25_1468.jpg",
+            "media_link": "shopify://products/204902p4035",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "c2a9c537-0720-4f6d-87e4-0589908b8842": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS240098.jpg",
+            "media_link": "shopify://products/104009p4016",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "90c9b293-a169-4f40-b02d-a8344a8d2747": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_32_1759_b85b5be8-7b92-46c5-8d2a-dbc4e2ef06d8.jpg",
+            "media_link": "shopify://products/104901p4034",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "d9bbcfe9-6a17-4752-b627-619e049ee9b1",
+        "c2a9c537-0720-4f6d-87e4-0589908b8842",
+        "90c9b293-a169-4f40-b02d-a8344a8d2747"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_LGPpLW": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_9kEm4N": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_30_1659_cd0757bf-d26f-4f49-a0ec-b886e6aebca9.jpg",
+            "media_link": "shopify://products/104812p4015",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_kci8RG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_09_545_bdecc5c5-5299-4528-b44c-99f0d6e7e217.jpg",
+            "media_link": "shopify://products/204803p4011",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_9kEm4N",
+        "image_kci8RG"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "82bab4b2-3315-45d0-9177-dc40a96ac0f8": {
+      "type": "banner-grid",
+      "blocks": {
+        "template--20494408810830__82bab4b2-3315-45d0-9177-dc40a96ac0f8-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_20_1236_1366e5a1-1029-4dd0-8d0b-8a0353ea35ba.jpg",
+            "media_link": "shopify://products/204802p4011",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--20494408810830__82bab4b2-3315-45d0-9177-dc40a96ac0f8-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_26_1516_3102e7c9-4599-4a2b-b233-491b837f97fb.jpg",
+            "media_link": "shopify://products/104911p4024",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "c805b772-3dd1-4593-bbe6-0e4ce1609641": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS24_LOOK_28_1595.jpg",
+            "media_link": "shopify://products/204907p4013",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--20494408810830__82bab4b2-3315-45d0-9177-dc40a96ac0f8-image-2",
+        "template--20494408810830__82bab4b2-3315-45d0-9177-dc40a96ac0f8-image-3",
+        "c805b772-3dd1-4593-bbe6-0e4ce1609641"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_FtDYUt": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_8Hrpf4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS240001.jpg",
+            "media_link": "shopify://products/304609p4100",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_98JgKj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/230525_ALYSI_CREME_SS240027.jpg",
+            "media_link": "shopify://products/204904p4001",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_8Hrpf4",
+        "image_98JgKj"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a08a00f6-a6d1-41ff-9d40-074c6ca03714",
+    "ae9c3793-1c92-4eed-a108-5a862908639d",
+    "banner_grid_pUaDkX",
+    "5f69405a-fd2f-45b7-b5da-2b5b98a5b94c",
+    "rich_text_3VarT3",
+    "3bcf0557-eec4-49c9-9335-f7b642197356",
+    "595b45d0-fda9-4205-bddc-b181ef37bacf",
+    "487d7333-7b47-42a5-9341-b36c6a3d1f95",
+    "8a9fedcf-dbe8-4cd5-b6f3-53fb8c4b9393",
+    "03ce68bc-b6f8-473c-83c0-fea16fadee7e",
+    "5a50fcae-aa16-4af2-b8db-c7a9243798e8",
+    "87bf661e-efea-4ddd-807a-46d6b7865aee",
+    "banner_grid_jLH8Xd",
+    "11a7ddf8-2a10-48a3-bd3b-4e4b28df48d6",
+    "77e364e1-f659-44c7-90c8-894c383ba425",
+    "banner_grid_LGPpLW",
+    "82bab4b2-3315-45d0-9177-dc40a96ac0f8",
+    "banner_grid_FtDYUt"
+  ]
+}

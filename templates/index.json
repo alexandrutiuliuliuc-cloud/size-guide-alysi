@@ -1,0 +1,664 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "hero_gtrUjq": {
+      "type": "hero",
+      "blocks": {
+        "image_Ywhw6K": {
+          "type": "image",
+          "settings": {
+            "media_link": "shopify://collections/fallwinter-25",
+            "media_toggle": "show_video",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/89753f2eb67a4674b9a7303c3d833e5f.mp4",
+            "video_url_mobile": "https://cdn.shopify.com/videos/c/o/v/89753f2eb67a4674b9a7303c3d833e5f.mp4"
+          }
+        }
+      },
+      "block_order": [
+        "image_Ywhw6K"
+      ],
+      "name": "t:sections.hero.name",
+      "settings": {
+        "color_scheme": "color-main",
+        "overlay_opacity": 0,
+        "enable_full_width": true,
+        "section_height_desktop": "by_pixels",
+        "section_pixel_height_desktop": 600,
+        "content_width": "col-sm-max-8",
+        "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 0,
+        "md_padding_bottom": 0,
+        "section_height": "by_pixels",
+        "section_pixel_height": 400,
+        "content_align_mobile": "vertical-center horizontal-center",
+        "mobile_alignment": "text-align-center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_akdFpJ": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_djnyw9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240718_ALYSI_CHOCOLAT_SS25_LOOK_33_053.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Wj7yya": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240718_ALYSI_CHOCOLAT_SS25_LOOK_11_014.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_djnyw9",
+        "image_Wj7yya"
+      ],
+      "disabled": true,
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "231b18e4-acc8-48af-bc94-33df85cb1b19": {
+      "type": "sliding-text",
+      "blocks": {
+        "template--19885734494542__231b18e4-acc8-48af-bc94-33df85cb1b19-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "curiosity is an attitude",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19885734494542__231b18e4-acc8-48af-bc94-33df85cb1b19-text-1"
+      ],
+      "settings": {
+        "content_order": "horizontal",
+        "font": "base",
+        "text_color": "#111111",
+        "text_gradient_color": "",
+        "background_color": "rgba(0,0,0,0)",
+        "direction": "normal",
+        "speed": 79,
+        "pause_on_hover": false,
+        "sm_size_multiplier": "sm-size--gigantic",
+        "sm_item_gap": 120,
+        "sm_padding": 40,
+        "md_padding_top": 16,
+        "md_padding_bottom": 0,
+        "size_multiplier": "size--huge",
+        "item_gap": 24,
+        "padding": 24,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_HtMEgW": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_K6JFUN": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "",
+            "richtext": "<p>Scopri la collezione Fall/Winter '25</p>",
+            "button_label": "Discover more",
+            "button_link": "shopify://collections/fallwinter-25",
+            "button_style": "secondary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-center"
+          }
+        },
+        "image_pRRz3d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/250119_ALYSI_CHOCOLAT_FW25_LOOK_22_0057.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_EwqpVN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/250119_ALYSI_CHOCOLAT_FW25_LOOK_22_0042.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_K6JFUN",
+        "image_pRRz3d",
+        "image_EwqpVN"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 10,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 8,
+        "md_padding_bottom": 104,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 32,
+        "padding_bottom": 0
+      }
+    },
+    "f7f70170-3780-444a-aa2a-245192c02bc5": {
+      "type": "homepage-banner",
+      "blocks": {
+        "98617e22-936e-48ec-b6f3-42f69b84dc97": {
+          "type": "Block",
+          "settings": {
+            "image_1": "shopify://shop_images/250119_ALYSI_CHOCOLAT_FW25_LOOK_07_0003.jpg",
+            "title": "MUST HAVES",
+            "block_text": "",
+            "block_link": "shopify://collections/fallwinter-25",
+            "block_label_link": "SCOPRI DI PIÙ",
+            "image_2": "shopify://shop_images/SLife-210.png",
+            "product_1": "265921a5252choco",
+            "image_3": "shopify://shop_images/SLife-135.png",
+            "product_2": "165150a5212cb"
+          }
+        },
+        "block_kFdG6D": {
+          "type": "Block",
+          "settings": {
+            "image_1": "shopify://shop_images/250119_ALYSI_CHOCOLAT_FW25_LOOK_34_0006_4759788a-725b-46f0-8e1e-ac48f625f582.jpg",
+            "title": "MUST HAVES",
+            "block_text": "",
+            "block_link": "shopify://collections/fallwinter-25",
+            "block_label_link": "SCOPRI DI PIÙ",
+            "image_2": "shopify://shop_images/SLife-156.png",
+            "product_1": "165839a5220mos",
+            "image_3": "shopify://shop_images/SLife-157.png",
+            "product_2": "165166a5220mos"
+          }
+        },
+        "block_rRfYRt": {
+          "type": "Block",
+          "settings": {
+            "image_1": "shopify://shop_images/250119_ALYSI_CHOCOLAT_FW25_LOOK_05_0044.jpg",
+            "title": "MUST HAVES",
+            "block_text": "",
+            "block_link": "shopify://collections/fallwinter-25",
+            "block_label_link": "SCOPRI DI PIÙ",
+            "image_2": "shopify://shop_images/SLife-178.png",
+            "product_1": "165932a5231fume",
+            "image_3": "shopify://shop_images/SLife-172.png",
+            "product_2": "165152a5228fume"
+          }
+        },
+        "block_AUwidQ": {
+          "type": "Block",
+          "settings": {
+            "image_1": "shopify://shop_images/250119_ALYSI_CHOCOLAT_FW25_LOOK_18_0010.jpg",
+            "title": "MUST HAVES",
+            "block_text": "",
+            "block_link": "shopify://collections/shop",
+            "block_label_link": "SCOPRI DI PIÙ",
+            "image_2": "shopify://shop_images/SLife-134.png",
+            "product_1": "165826a5212cb",
+            "image_3": "shopify://shop_images/SLife-136.png",
+            "product_2": "165831a5212cb"
+          }
+        }
+      },
+      "block_order": [
+        "98617e22-936e-48ec-b6f3-42f69b84dc97",
+        "block_kFdG6D",
+        "block_rRfYRt",
+        "block_AUwidQ"
+      ],
+      "custom_css": [
+        "{margin-top: -80px !important; margin-bottom: -95px !important;}"
+      ],
+      "settings": {}
+    },
+    "banner_grid_cKEcLp": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_TEhXKD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_roma_18novembre5344.png",
+            "media_link": "shopify://products/365611a5100camel",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "video_nCpLxe": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/e0fc0bb88aab405d8bf780b73cbbfe7e.mp4",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "text_aUi9xw": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "",
+            "richtext": "",
+            "button_label": "BACK TO OFFICE",
+            "button_link": "shopify://pages/back-to-office",
+            "button_style": "link",
+            "color_scheme": "color-main",
+            "padding": 16,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        }
+      },
+      "block_order": [
+        "image_TEhXKD",
+        "video_nCpLxe",
+        "text_aUi9xw"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 6,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 0,
+        "md_padding_bottom": 48,
+        "section_columns_tablet": 3,
+        "section_columns_mobile": 3,
+        "padding_top": 56,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_T9AhAV": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_qDHFrd": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "alysi boutiques",
+            "title": "",
+            "richtext": "<p>Parigi - 13bis, Rue de Grenelle<br/>Milano - Via Ponte Vetero 6<strong><br/></strong>Roma - Via Borgongona 42<br/><br/></p>",
+            "button_label": "discover the boutiques",
+            "button_link": "shopify://pages/boutiques-1",
+            "button_style": "secondary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        },
+        "image_iPw4p6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Andrea_Ferrari_DSC_7322.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_VW8GCJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_c48ec617-e2f2-479f-9840-ad2e3dfcd0ba.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_qDHFrd",
+        "image_iPw4p6",
+        "image_VW8GCJ"
+      ],
+      "name": "t:sections.banner-grid.name",
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 3,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 64
+      }
+    },
+    "image_text_overlay_xHBkcK": {
+      "type": "image-text-overlay",
+      "blocks": {
+        "image_ankrNd": {
+          "type": "image",
+          "settings": {
+            "media_toggle": "show_image",
+            "image": "shopify://shop_images/241120_ALYSI-CREME-FW25_LOOK_21_01909.jpg",
+            "video_url": "",
+            "image_mobile": "shopify://shop_images/241120_ALYSI_CREME_FW25_LOOK_02_00224.jpg",
+            "video_url_mobile": ""
+          }
+        },
+        "title_Eyn4Hg": {
+          "type": "title",
+          "settings": {
+            "title": "explore the COLLECTION",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "text_Nbj4AW": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><p>Per la collezione Fall/Winter '25, ALYSI firma una lettera a Roma: un racconto personale, quasi intimo, che si traduce in capi e dettagli.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "button_Kdkw9H": {
+          "type": "button",
+          "settings": {
+            "button_label": "creme",
+            "button_link": "shopify://pages/creme",
+            "button_style": "secondary",
+            "sm_size_multiplier": "sm-size--tiny",
+            "sm_margin_top": 24,
+            "size_multiplier": "size--tiny",
+            "margin_top": 24
+          }
+        },
+        "button_CUYLUa": {
+          "type": "button",
+          "settings": {
+            "button_label": "chocolat",
+            "button_link": "shopify://pages/chocolat",
+            "button_style": "secondary",
+            "sm_size_multiplier": "sm-size--tiny",
+            "sm_margin_top": 13,
+            "size_multiplier": "size--tiny",
+            "margin_top": 13
+          }
+        }
+      },
+      "block_order": [
+        "image_ankrNd",
+        "title_Eyn4Hg",
+        "text_Nbj4AW",
+        "button_Kdkw9H",
+        "button_CUYLUa"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "color_scheme_content": "color-main",
+        "enable_full_width": true,
+        "section_height_desktop": "by_pixels",
+        "section_pixel_height_desktop": 750,
+        "content_width": "col-sm-max-4",
+        "content_align_desktop": "sm-vertical-center sm-horizontal-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "section_height": "auto",
+        "section_pixel_height": 200,
+        "content_align_mobile": "horizontal-center vertical-center",
+        "full_width_buttons": false,
+        "padding_top": 0,
+        "padding_bottom": 120
+      }
+    },
+    "621da0b7-1b35-40a7-b6da-adcd1208d68b": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19885734494542__621da0b7-1b35-40a7-b6da-adcd1208d68b-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/10_1920x_d4600dad-ac7c-4514-961d-6d6e24f1cb58.webp",
+            "video_url": "",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "template--19885734494542__621da0b7-1b35-40a7-b6da-adcd1208d68b-title-1": {
+          "type": "title",
+          "settings": {
+            "title": "GARDEN HOUSE",
+            "heading_tag": "h1",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "template--19885734494542__621da0b7-1b35-40a7-b6da-adcd1208d68b-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Alysi Garden House è uno spazio inedito e poliedrico, più che un semplice Showroom: l’architettura industriale di inizio 900 è stata impreziosita da un giardino interno, che crea un’atmosfera sofisticata e contemporanea, in cui collezioni, natura e materiali convivono in un’armonia perfetta.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 25,
+            "size_multiplier": "size--default",
+            "margin_top": 25
+          }
+        },
+        "template--19885734494542__621da0b7-1b35-40a7-b6da-adcd1208d68b-button-1": {
+          "type": "button",
+          "settings": {
+            "button_label": "LASCIATI ISPIRARE",
+            "button_link": "shopify://pages/garden-house",
+            "button_style": "link",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 24,
+            "size_multiplier": "size--default",
+            "margin_top": 24
+          }
+        }
+      },
+      "block_order": [
+        "template--19885734494542__621da0b7-1b35-40a7-b6da-adcd1208d68b-image-1",
+        "template--19885734494542__621da0b7-1b35-40a7-b6da-adcd1208d68b-title-1",
+        "template--19885734494542__621da0b7-1b35-40a7-b6da-adcd1208d68b-text-1",
+        "template--19885734494542__621da0b7-1b35-40a7-b6da-adcd1208d68b-button-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 96,
+        "md_padding_bottom": 96,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "f7c5f84b-cd80-4c01-9d2c-364f3d48f3a8": {
+      "type": "collab-2",
+      "settings": {
+        "link": ""
+      }
+    },
+    "banner_link_T7KRQr": {
+      "type": "banner-link",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/banner-desktop_b10c474c-eef8-44d3-8035-13a4825e051c.jpg",
+        "image2": "shopify://shop_images/banner-mobile_9c9f1995-7572-4aea-b367-1629559baa11.jpg",
+        "link": "https://alysi.com/pages/collab"
+      }
+    },
+    "1751275279001f5e30": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_email_marketing_sms_form_embed_block_yneMTi": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "RyHVBu"
+          }
+        },
+        "klaviyo_email_marketing_sms_form_embed_block_73jt4U": {
+          "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/form-embed-block/2632fe16-c075-4321-a88b-50b567f42507",
+          "settings": {
+            "formId": "TpQPEs"
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_email_marketing_sms_form_embed_block_yneMTi",
+        "klaviyo_email_marketing_sms_form_embed_block_73jt4U"
+      ],
+      "settings": {}
+    },
+    "2df1b162-0707-49f6-9b33-202e6ab997d6": {
+      "type": "newsletter",
+      "blocks": {
+        "template--19885734494542__2df1b162-0707-49f6-9b33-202e6ab997d6-title-1": {
+          "type": "title",
+          "settings": {
+            "title": "Subscribe to our emails",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "template--19885734494542__2df1b162-0707-49f6-9b33-202e6ab997d6-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 16,
+            "size_multiplier": "size--default",
+            "margin_top": 16
+          }
+        },
+        "template--19885734494542__2df1b162-0707-49f6-9b33-202e6ab997d6-email_form-1": {
+          "type": "email_form",
+          "settings": {
+            "sm_margin_top": 16,
+            "margin_top": 16
+          }
+        }
+      },
+      "block_order": [
+        "template--19885734494542__2df1b162-0707-49f6-9b33-202e6ab997d6-title-1",
+        "template--19885734494542__2df1b162-0707-49f6-9b33-202e6ab997d6-text-1",
+        "template--19885734494542__2df1b162-0707-49f6-9b33-202e6ab997d6-email_form-1"
+      ],
+      "disabled": true,
+      "custom_css": [
+        ".text-center.pl-gutter.pr-gutter {color: #fff;}",
+        "*:not(.card-media):focus-visible,input:focus-visible + label:not(.field__label) {outline: 1pt solid #fff !important;}"
+      ],
+      "settings": {
+        "color_scheme": "color-accent",
+        "md_padding_top": 104,
+        "md_padding_bottom": 104,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "hero_gtrUjq",
+    "banner_grid_akdFpJ",
+    "231b18e4-acc8-48af-bc94-33df85cb1b19",
+    "banner_grid_HtMEgW",
+    "f7f70170-3780-444a-aa2a-245192c02bc5",
+    "banner_grid_cKEcLp",
+    "banner_grid_T9AhAV",
+    "image_text_overlay_xHBkcK",
+    "621da0b7-1b35-40a7-b6da-adcd1208d68b",
+    "f7c5f84b-cd80-4c01-9d2c-364f3d48f3a8",
+    "banner_link_T7KRQr",
+    "1751275279001f5e30",
+    "2df1b162-0707-49f6-9b33-202e6ab997d6"
+  ]
+}

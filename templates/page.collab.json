@@ -1,0 +1,918 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "hero_QYPkkT": {
+      "type": "hero",
+      "blocks": {
+        "image_qM9gLw": {
+          "type": "image",
+          "settings": {
+            "media_link": "",
+            "media_toggle": "show_image",
+            "image": "shopify://shop_images/SAL2024017_0045_67c26dc5-cb10-4902-8f1a-6d3d1008c784.jpg",
+            "video_url": "",
+            "image_mobile": "shopify://shop_images/SAL2024017_0045-margini.jpg",
+            "video_url_mobile": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_qM9gLw"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "overlay_opacity": 0,
+        "enable_full_width": true,
+        "section_height_desktop": "auto",
+        "section_pixel_height_desktop": 850,
+        "content_width": "col-sm-max-8",
+        "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 0,
+        "md_padding_bottom": 0,
+        "section_height": "by_pixels",
+        "section_pixel_height": 400,
+        "content_align_mobile": "vertical-center horizontal-center",
+        "mobile_alignment": "text-align-center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_LeMPgK": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_9cjcMA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MG_4083-post_silviasirpresi.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_neKx9t": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MG_4116-post_silviasirpresi.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_9cjcMA",
+        "image_neKx9t"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 4,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 80,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "rich_text_PRnqaN": {
+      "type": "rich-text",
+      "blocks": {
+        "text_B4NJz7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Pensa che bello sarebbe il Mondo se solo guardandolo da una lente viola, le donne potessero all’improvviso camminare sicure in strada a qualsiasi ora del giorno e della notte, vestite e truccate come vogliono, senza giustificarsi con nessuno per le proprie scelte estetiche o dover subire catcalling o molestie. Che bello sarebbe se il gender gap fosse solo un ricordo lontano; se i rapporti basati sul controllo e sul patriarcato restassero solo nei racconti delle bisnonne. Se non esistessero pregiudizi, clichè o stereotipi che condizionano le scelte libere di ogni donna. </p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_B4NJz7"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 100,
+        "desktop_content_alignment": "center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 40,
+        "md_padding_bottom": 0,
+        "mobile_alignment": "text-align-center",
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_NFLQqf": {
+      "type": "rich-text",
+      "blocks": {
+        "text_YM7ecB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ALYSI e DonnexStrada vogliono pensare che questo Mondo Nuovo può e deve esistere. </p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_YM7ecB"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 100,
+        "desktop_content_alignment": "center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 24,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-center",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_rfaWXq": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_athTxU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MG_4072-post_silviasirpresi.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_mpL6wi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MG_4008-post_silviasirpresi.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "text_LNJKid": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "",
+            "richtext": "<p>“Accadono cose incredibili quando le donne si supportano a vicenda” – recitava lo slogan sulle T-shirt in limited edition andate a ruba un anno fa.</p><p>Di nuovo i due team di donne uniscono forze e voce per cambiare insieme l’attuale condizione femminile, ancora troppo penalizzante. </p><p></p><p>Le due flagship boutique di Milano – Ponte Vetero 6 e Roma – Borgognona 42 diventano da oggi PUNTI VIOLA.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 24,
+            "text_position": "start",
+            "text_alignment": "text-align-left"
+          }
+        }
+      },
+      "block_order": [
+        "image_athTxU",
+        "image_mpL6wi",
+        "text_LNJKid"
+      ],
+      "custom_css": [],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 3,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 8
+      }
+    },
+    "sliding_text_Baijqx": {
+      "type": "sliding-text",
+      "blocks": {
+        "text_c7fpj4": {
+          "type": "text",
+          "settings": {
+            "text": "\"Accadono cose incredibili quando le donne si supportano a vicenda\"",
+            "link": ""
+          }
+        },
+        "text_GdUFkT": {
+          "type": "text",
+          "settings": {
+            "text": "ALYSI | DXS",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_c7fpj4",
+        "text_GdUFkT"
+      ],
+      "settings": {
+        "content_order": "horizontal",
+        "font": "base",
+        "text_color": "#ffffff",
+        "text_gradient_color": "",
+        "background_color": "#ddb593",
+        "direction": "normal",
+        "speed": 30,
+        "pause_on_hover": false,
+        "sm_size_multiplier": "sm-size--large",
+        "sm_item_gap": 120,
+        "sm_padding": 24,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "item_gap": 24,
+        "padding": 24,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_LA7bTz": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_QwExM3": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "",
+            "richtext": "<p>Luoghi sicuri, che fanno parte di una fitta rete di attività commerciali sparse su tutto il territorio Nazionale, in cui il personale è formato per accogliere con empatia richieste d’aiuto da parte di donne vittime di violenza di genere o per dare un primo supporto concreto a chi si trova in una situazione di pericolo imminente in strada. </p><p></p><p>La violenza di genere è una responsabilità sociale, e solo con l’informazione e la sensibilizzazione di tutti si può arginare e prevenire.</p><p>Perché camminare libere e senza paura per le nostre città non sia più un atto di coraggio ma, finalmente, la normalità.</p>",
+            "button_label": "PUNTI VIOLA",
+            "button_link": "https://donnexstrada.org/punti-viola/",
+            "button_style": "link",
+            "color_scheme": "color-main",
+            "padding": 24,
+            "text_position": "start",
+            "text_alignment": "text-align-left"
+          }
+        },
+        "image_6g9A7b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SAL2024017_0070.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_DjPxmQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SAL2024017_0002.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_QwExM3",
+        "image_6g9A7b",
+        "image_DjPxmQ"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "banner_grid_ybMeMM": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_dYGbnt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MG_4152-post_silviasirpresi.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_hQzQLY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SAL2024017_0137.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_VBnfjE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SAL2024017_0150.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_HGh3N4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MG_4095-post_silviasirpresi.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_dYGbnt",
+        "image_hQzQLY",
+        "image_VBnfjE",
+        "image_HGh3N4"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 4,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 80
+      }
+    },
+    "a52e8046-8a7a-4e77-a9a6-98186032f89b": {
+      "type": "hero",
+      "blocks": {
+        "template--19929230442830__a52e8046-8a7a-4e77-a9a6-98186032f89b-image-1": {
+          "type": "image",
+          "settings": {
+            "media_link": "",
+            "media_toggle": "show_video",
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/7e9ad00a873d41fbb868c1e31b82af70.mp4",
+            "video_url_mobile": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19929230442830__a52e8046-8a7a-4e77-a9a6-98186032f89b-image-1"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "overlay_opacity": 0,
+        "enable_full_width": true,
+        "section_height_desktop": "auto",
+        "section_pixel_height_desktop": 600,
+        "content_width": "col-sm-max-8",
+        "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 0,
+        "md_padding_bottom": 0,
+        "section_height": "auto",
+        "section_pixel_height": 400,
+        "content_align_mobile": "vertical-center horizontal-center",
+        "mobile_alignment": "text-align-center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_jAwPXE": {
+      "type": "rich-text",
+      "blocks": {
+        "subtitle_XiaeYH": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "DONNEXSTRADA",
+            "heading_tag": "h1",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "text_6iBaEA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>È un'associazione no profit fondata e gestita da donne giovanissime che lavorano per la sensibilizzazione contro la violenza di genere sulle strade, perché camminare da sole nella propria città non sia più un atto di coraggio.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 10,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_XiaeYH",
+        "text_6iBaEA"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 100,
+        "desktop_content_alignment": "left",
+        "desktop_alignment": "sm-text-align-left",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "f84c9728-47cc-4a06-9ac0-626971e3d5d3": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19920269115726__f84c9728-47cc-4a06-9ac0-626971e3d5d3-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Tavola_da_disegno_2.png",
+            "video_url": "",
+            "media_aspect_ratio": "square",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "d1cc054b-25b1-48f0-99ad-03b4a89a3f1e": {
+          "type": "title",
+          "settings": {
+            "title": "La LIBERTÀ è un diritto, non una pretesa.",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--tiny",
+            "sm_margin_top": 60,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "template--19920269115726__f84c9728-47cc-4a06-9ac0-626971e3d5d3-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>È fine marzo quando, dopo aver sentito la notizia dell’ennesimo caso di femminicidio compiuto in strada, la psicologa clinica Laura De Dilectis decide di aiutare concretamente le donne a sentirsi più sicure quando tornano a casa la sera.<br/>Con una call to action su Instagram nasce così il progetto DONNEXSTRADA, diventato subito virale, con 140k follower guadagnati in 12 mesi sull’omonima pagina Instagram.</p><p>Oggi DONNEXSTRADA è un’associazione che offre un aiuto concreto alle vittime di violenza di genere, fornendo allo stesso tempo strumenti per impedire il ripetersi di quelle dinamiche. Rivendicando il diritto fondamentale e inalienabile di tornare a casa in sicurezza, costruendo una rete attiva sui social e sul territorio per promuovere una partecipazione collettiva concreta, rieducando la società nei confronti della violenza di genere e supportando psicologicamente chiunque subisca delle discriminazioni.<br/>L'associazione DONNEXSTRADA offre strumenti semplici, efficaci e concreti per far si che tuttx si sentano al sicuro, specialmente le donne. È un diritto che va difeso.</p><p></p><p>Contatta l'associazione tramite il sito web <a href=\"http://www.donnexstrada.org/\"><strong>www.donnexstrada.org </strong></a>o via email all'indirizzo <a href=\"mailto:info@donnexstrada.org\"><strong>info@donnexstrada.org</strong></a></p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 25,
+            "size_multiplier": "size--default",
+            "margin_top": 15
+          }
+        }
+      },
+      "block_order": [
+        "template--19920269115726__f84c9728-47cc-4a06-9ac0-626971e3d5d3-image-1",
+        "d1cc054b-25b1-48f0-99ad-03b4a89a3f1e",
+        "template--19920269115726__f84c9728-47cc-4a06-9ac0-626971e3d5d3-text-1"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 24,
+        "md_padding_bottom": 24,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 32,
+        "padding_bottom": 24
+      }
+    },
+    "d5588b6b-d977-458b-ac74-03e932ff1787": {
+      "type": "banner-grid",
+      "blocks": {
+        "template--19920269115726__d5588b6b-d977-458b-ac74-03e932ff1787-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/t-shirt_4-5.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "video_8Cy7V9": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/e21223c53855413b8fd421295e135017.mp4",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--19920269115726__d5588b6b-d977-458b-ac74-03e932ff1787-image-2",
+        "video_8Cy7V9"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 40,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "rich_text_xVDXRc": {
+      "type": "rich-text",
+      "blocks": {
+        "title_tGz7FJ": {
+          "type": "title",
+          "settings": {
+            "title": "T-SHIRT MANIFESTO",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "text_6aqhiQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>“Accadono cose incredibili quando le donne si supportano a vicenda”</strong></em> è la frase che appare sulla T-shirt Made in ALYSI, a tiratura limitata.</p><p>Sono soltanto 100 i pezzi in vendita a partire dall’8 Marzo, nelle boutique ALYSI, Milano – Ponte Vetero 6 e Roma – Borgognona 42, e nello store online, fino a esaurimento scorte. </p><p>Così come un legame di amicizia tra donne, lo stesso è per DONNEXSTRADA e ALYSI, una liason, prima ancora che una partnership, tra due realtà che guardano al cambiamento con ottimismo, mettendolo in atto ogni giorno, non solo nelle ricorrenze prestabilite.</p><p>Attraverso questo progetto si vuole trasmettere un messaggio di <em><strong>empowerment</strong></em> come risposta al problema. La soluzione è nell’autostima, nella speranza, nell’unione. Nell’ottica di andare oltre i luoghi comuni, l’invidia tra donne è un concetto che non va più di moda. Questa sinergica unione tra ALYSI e DXS vuole trasmettere che il supporto è più cool, sempre. </p><p> “Abbiamo scelto di fare la prima T-shirt di DONNEXSTRADA con ALYSI, in un’ottica concreta, artigianale. Una scritta che ci ricorda ogni giorno la forza dell’amore ed un numero per dirci che ogni storia è unica, la nostra. Speriamo che tante donne e non solo possano ritrovarsi e sorridere davanti a questa frase così forte, da indossare e da regalare a chi si ama. Per fare un vero gesto di amore e di celebrazione verso se stessi e l’altro. Noi non vogliamo più parlare solo del problema, vogliamo dimostrare che il cambiamento è nelle nostre mani. L’empowerment è questo.” ha dichiarato Laura De Dilectis, founder di DONNEXSTRADA. </p><p>Proprio l’empowerment è il denominatore comune tra DXS e ALYSI, <strong>due realtà fatte </strong><em><strong>da e di donne</strong></em>. “Noi di ALYSI facciamo dell’empowerment femminile il nostro abito preferito: ci piace pensare che il miglior prodotto che si possa mettere sul mercato oggi sia la self confidence, quell’ingrediente che ogni donna dovrebbe indossare tutti i giorni! Per noi l’outfit giusto ha il potere magico di farti sentire a tuo agio, con te stessa e con gli altri. Questa T-shirt porta in giro un “pensiero indossabile” che parla di collaborazione, supporto, empatia, e ci auguriamo possa ispirare un nuovo approccio fra le donne!” Valentina Celata, Creative Director di ALYSI. </p><p>Il ricavato della vendita delle T-shirt sarà devoluto per la costruzione dei servizi e dei progetti di DONNEXSTRADA.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 25,
+            "size_multiplier": "size--default",
+            "margin_top": 15
+          }
+        }
+      },
+      "block_order": [
+        "title_tGz7FJ",
+        "text_6aqhiQ"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 100,
+        "desktop_content_alignment": "left",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-center",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_HwtbGG": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_iJCkjY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/t-shirt_4-5.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "text_bxf4Aq": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "Text block",
+            "richtext": "<p>Text blocks are usefull for braking the grid feeling and to bring out additional inofrmation that needs more room and words.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-center"
+          }
+        }
+      },
+      "block_order": [
+        "image_iJCkjY",
+        "text_bxf4Aq"
+      ],
+      "disabled": true,
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 40,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_tn8Fkj": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_EJkNyG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/t07.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_ferHzq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/t08.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_XaFbgj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/t01.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_tN7Pb7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/t09.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_EJkNyG",
+        "image_ferHzq",
+        "image_XaFbgj",
+        "image_tN7Pb7"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 4,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "image_with_text_jVeCQ7": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_AgpHng": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Tavola_da_disegno_2_copia_30f09de8-ee3b-43bf-8084-1b2ba3119748.png",
+            "video_url": "",
+            "media_aspect_ratio": "square",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "title_A4LxzL": {
+          "type": "title",
+          "settings": {
+            "title": "SUPPORTO PSICOLOGICO",
+            "heading_tag": "h1",
+            "sm_size_multiplier": "sm-size--tiny",
+            "sm_margin_top": 60,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "text_zMwWxx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Il team di Donnexstrada è formato da psicologhe e psicoterapeute. È uno spazio sicuro e privo di pregiudizi finalizzato ad aiutare la donna a sviluppare strategie per affrontare tutte quelle dinamiche che ostacolano il loro benessere.<br/></p><p>Si occupano di:<br/>Revenge Porn, Stalking, Cyberstalking, Violenza domestica, Violenza sessuale, Violenza psicologica, Violenza economica, Supporto per vittime che denunciano, Maltrattamenti/abusi e traumi, Minori in condizione di vulnerabilità, Sessuologia, EMDR, Terapia di coppia, Gestione della rabbia, Trauma, Empowerment femminile, Comunicazione assertiva, Gestione delle emozioni, Autostima, Dipendenza affettiva, Abitare il proprio corpo, Identità, Difficoltà relazionali</p><p>Contatta l'associazione tramite il sito web <a href=\"http://www.donnexstrada.org/\"><strong>www.donnexstrada.org</strong></a> o via email all'indirizzo <a href=\"mailto:supportopsicologico@donnexstrada.org\"><strong>supportopsicologico@donnexstrada.org</strong></a></p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 25,
+            "size_multiplier": "size--default",
+            "margin_top": 15
+          }
+        }
+      },
+      "block_order": [
+        "image_AgpHng",
+        "title_A4LxzL",
+        "text_zMwWxx"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 104,
+        "md_padding_bottom": 24,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 32,
+        "padding_bottom": 24
+      }
+    },
+    "image_with_text_PRcaAP": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_gaLhHE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Tavola_da_disegno_2_copia_2.png",
+            "video_url": "",
+            "media_aspect_ratio": "square",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "title_LMFYL8": {
+          "type": "title",
+          "settings": {
+            "title": "SUPPORTO LEGALE",
+            "heading_tag": "h1",
+            "sm_size_multiplier": "sm-size--tiny",
+            "sm_margin_top": 60,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "text_J6fEVh": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Donnexstrada offre una prima consulenza gratuita civile e/o penale e in caso di ulteriore attività difensiva il compenso sarà a un costo calmierato.</p><p><br/>Offrono consulenza in materia di:<br/>Revenge Porn, Molestie, Stalking, Cyberstalking, Violenza e molestie sessuali, Violenza privata, Maltrattamenti in famiglia, Minacce, Lesioni personali, Separazione, Divorzi, Ordini di protezione contro gli abusi familiari, Giudizi risarcitori, Procedimenti davanti al tribunale dei minori, Decadenza o limitazioni della responsabilità genitoriale</p><p></p><p>Contatta l'associazione tramite il sito web <a href=\"http://www.donnexstrada.org/\"><strong>www.donnexstrada.org</strong></a> o via email all'indirizzo <a href=\"mailto:supportolegale@donnexstrada.org\"><strong>supportolegale@donnexstrada.org</strong></a></p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 25,
+            "size_multiplier": "size--default",
+            "margin_top": 15
+          }
+        }
+      },
+      "block_order": [
+        "image_gaLhHE",
+        "title_LMFYL8",
+        "text_J6fEVh"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_last",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 24,
+        "md_padding_bottom": 104,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 32,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "main",
+    "hero_QYPkkT",
+    "banner_grid_LeMPgK",
+    "rich_text_PRnqaN",
+    "rich_text_NFLQqf",
+    "banner_grid_rfaWXq",
+    "sliding_text_Baijqx",
+    "banner_grid_LA7bTz",
+    "banner_grid_ybMeMM",
+    "a52e8046-8a7a-4e77-a9a6-98186032f89b",
+    "rich_text_jAwPXE",
+    "f84c9728-47cc-4a06-9ac0-626971e3d5d3",
+    "d5588b6b-d977-458b-ac74-03e932ff1787",
+    "rich_text_xVDXRc",
+    "banner_grid_HwtbGG",
+    "banner_grid_tn8Fkj",
+    "image_with_text_jVeCQ7",
+    "image_with_text_PRcaAP"
+  ]
+}

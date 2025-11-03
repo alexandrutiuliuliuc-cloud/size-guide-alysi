@@ -1,0 +1,24 @@
+<div id="drawer-filter" class="drawer" data-drawer data-parent style="opacity: 0; display: none;">
+  <facets-form>
+    <form class="drawer-panel user-select-none slide-from-left" data-contents>
+      <header class="drawer-header">
+        <h3 class="size--small">{{ 'products.facets.filter_button' | t }}</h3>
+        <a role="button" href="#" class="close" data-drawer-close data-close aria-label="{{ 'accessibility.close_navigation' | t }}">{%- render 'icon-close' -%}</a>
+      </header>
+      <div id="facets" class="drawer-content scrollbar--hide --with-padding" style="padding-top: 0;">
+        {%- render 'facets', context: context -%}
+      </div>
+      <footer class="drawer-footer button-group">
+        <a href="#" class="btn btn--primary btn--full mb-12" data-drawer-close data-close>{{ 'products.facets.apply' | t }}</a>
+        {%- if context == 'search' -%}
+          <a href="{{ request.path }}?q={{ search.terms | escape }}&sort_by={{ search.sort_by }}" class="btn btn--secondary btn--full">{{ 'products.facets.clear_all' | t }}</a>
+        {%- else -%}
+          <a href="{{ collection.url }}?sort_by={{ collection.sort_by }}" class="btn btn--secondary btn--full">{{ 'products.facets.clear_all' | t }}</a>
+        {%- endif -%}
+      </footer>
+    </form>
+  </facets-form>
+
+  {% comment %} Background, click to close {% endcomment %}
+  <a href="#" class="page-overlay" data-overlay aria-hidden="true"></a>
+</div>

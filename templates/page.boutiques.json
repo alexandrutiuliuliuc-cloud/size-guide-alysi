@@ -1,0 +1,1302 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "f96c4d55-9aa7-4311-bd2e-b12d811f1faf": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19927550591310__f96c4d55-9aa7-4311-bd2e-b12d811f1faf-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/post-new_opening.jpg",
+            "video_url": "",
+            "media_aspect_ratio": "landscape",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "template--19927550591310__f96c4d55-9aa7-4311-bd2e-b12d811f1faf-title-1": {
+          "type": "title",
+          "settings": {
+            "title": "PARIS",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "template--19927550591310__f96c4d55-9aa7-4311-bd2e-b12d811f1faf-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>13 B, Rue de Grenelle, 75007 Paris, Francia.</p><p></p><p></p><p></p><p><strong>Next opening</strong><br/></p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--19927550591310__f96c4d55-9aa7-4311-bd2e-b12d811f1faf-image-1",
+        "template--19927550591310__f96c4d55-9aa7-4311-bd2e-b12d811f1faf-title-1",
+        "template--19927550591310__f96c4d55-9aa7-4311-bd2e-b12d811f1faf-text-1"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_last",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "image_with_text_mGBMMK": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_EzEXGQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_1920x_d4b65db0-4849-45ec-ae97-6219921cdda7.webp",
+            "video_url": "",
+            "media_aspect_ratio": "landscape",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "title_9n7Pwb": {
+          "type": "title",
+          "settings": {
+            "title": "MILAN",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "text_NyDX7G": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Via Ponte Vetero 6, 20121 Milano Italy</p><p>+39 02 805 2178</p><p>lun – sab 10.00 – 19.30 dom chiuso</p><p>pontevetero@alysi.it<br/></p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "custom_button_ewiMyK": {
+          "type": "custom_button",
+          "settings": {
+            "button_label": "View Map",
+            "button_link": "#milan-map-store-locator"
+          }
+        }
+      },
+      "block_order": [
+        "image_EzEXGQ",
+        "title_9n7Pwb",
+        "text_NyDX7G",
+        "custom_button_ewiMyK"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_last",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "eb4a9f84-6cf5-46ae-a7a2-4b0bab65fd1d": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "color-main",
+        "custom_liquid": "<div id=\"custom-gm\" align=\"center\" ><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2798.0273979740623!2d9.185559!3d45.469252!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4786c75628fc7dbb%3A0xbf2637b2e0bb72aa!2sALYSI%20Milano!5e0!3m2!1sit!2sit!4v1698330765771!5m2!1sit!2sit\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></div>",
+        "enable_full_width": false,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "578ab0b1-9b4a-43f6-8ecf-118e9bfca98d": {
+      "type": "custom-liquid",
+      "settings": {
+        "color_scheme": "color-main",
+        "custom_liquid": "<!-- Start Stockist.co widget -->\n<div data-stockist-widget-tag=\"u20420\" id=\"milan-map-store-locator\" >Loading store locator\nfrom <a href=\"https://stockist.co\">Stockist store locator</a>...</div>\n<script>\n  (function(s,t,o,c,k){c=s.createElement(t);c.src=o;c.async=1;\n  k=s.getElementsByTagName(t)[0];k.parentNode.insertBefore(c,k);\n  })(document,'script','//stockist.co/embed/v1/widget.min.js');\n</script>\n<!-- End Stockist.co widget -->",
+        "enable_full_width": false,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "258e5d2a-bcf7-4f72-bfde-dba0c60fac4d": {
+      "type": "image-with-text",
+      "blocks": {
+        "41f37762-d9ac-4ac3-807a-82618b4f3678": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Studiopepe-Alysi-300dpi-01_1920x_ae72b680-30f8-4be0-badf-bb534e344461.webp",
+            "video_url": "",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "78dfbd9e-49fc-4b2a-9165-4e59081937bf": {
+          "type": "text",
+          "settings": {
+            "text": "<p>130 mq in una palazzina del 600: la boutique ALYSI in Brera è un progetto di retail design in collaborazione con Studiopepe, lo studio di interior e consulenza creativa che ha trasferito l’anima del brand negli interni, creando un’atmosfera sofisticata e contemporanea, con una palette di mezzi toni e tinte naturali che esaltano la lettura della collezione senza sovrastarla.</p><p>Un’estetica femminile e moderna crea un fil rouge tra i capi e gli ambienti. La ricerca delle forme e dei materiali si concretizza in superfici preziose custom made, come il pavimento che reinterpreta la classica palladiana con maxi inserti in marmi policromi dalla forma irregolare, le superfici glossy e gli elementi scultorei in gesso e marmo.</p><p>La boutique è concepita come una sequenza di spazi dal carattere individuale e distinto per accostamento di materiali e colori, che accompagna il cliente in un percorso cromatico e prospettico. Diviso in tre stanze, lo spazio si sviluppa in profondità: un’elegante esposizione degli abiti riempie l’area d’ingresso, in cui un’atmosfera fresca e luminosa invita a scoprire la collezione. Uno spazio di passaggio trova invece forza nella sua configurazione cromatica e installativa, collegando la prima alla seconda stanza, in cui diventa protagonista un’innovativa soluzione espositiva a parete in rame e gypsum dove è presentata la selezione di accessori. Infine la zona camerini è studiata come un piccolo salotto dall’atmosfera morbida e raccolta, con moquette e finiture che rendono intimo l’ambiente.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "41f37762-d9ac-4ac3-807a-82618b4f3678",
+        "78dfbd9e-49fc-4b2a-9165-4e59081937bf"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "2ecf235b-05ef-495b-8dce-ca7a8f21f39b": {
+      "type": "hero-slideshow",
+      "blocks": {
+        "2dba2cd7-984a-49e1-b987-547720352345": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/milan-Studiopepe-Alysi-300dpi-02_1920x_9d58cddc-839a-48ee-8626-ff4f64a32408.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "2211248b-6d46-40bd-bf8f-1af67669131b": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/milan-Studiopepe-Alysi-300dpi-23_1920x_faa36e0d-735c-4ca8-a431-54136c484f9a.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "c24e31d1-5705-4061-ace2-5988ba1aa1b5": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/milan-Studiopepe-Alysi-300dpi-17_1920x_3cfae372-6c10-4930-b50f-727ed3a8f5c2.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "23cd2bdf-f94f-4f25-9ba7-dbd93782707f": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/milan-Studiopepe-Alysi-300dpi-03_1920x_6abee4fc-4d71-4ade-afa1-ccb48b566052.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "275bef57-22e5-4d85-a554-906abf41394a": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/milan-Studiopepe-Alysi-300dpi-19_1920x_20d8a84e-2623-44b3-ae32-5e008456528c.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "d5376a21-802c-47c1-b0a9-fc49c1ce9da4": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/milan-Studiopepe-Alysi-300dpi-11_1920x_147560f3-321a-40e6-a848-036ebce78f32.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "3bff4db8-e1c3-4279-8441-91c858b88b20": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/milan-Studiopepe-Alysi-300dpi-09_1920x_692d10b4-250b-42ca-b042-4a38c1ae533e.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "a136f2ba-1e2f-43d9-a423-5e3b9d4054ce": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/milan-Studiopepe-Alysi-300dpi-02_1920x_9d58cddc-839a-48ee-8626-ff4f64a32408.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "95eacf09-0933-47b8-a9a4-374cec9d5fc0": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/milan-Studiopepe-Alysi-300dpi-04_1920x_d24c5468-4b42-49a6-8d64-f458a28a0d9d.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "85a81502-9170-4b61-8ebf-6bb64b96a526": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/11_1920x_cf52f8c6-f7bc-4bb5-bd25-00ca80151d7c.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "08f4a00a-8ccd-48cd-98b0-ce43692c5dae": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/milan-Studiopepe-Alysi-300dpi-14_1920x_f461bbfd-2f83-4475-8e63-8d97dc6049c6.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "79f0aa14-f3a6-4178-bffa-c6934b72ee99": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/milan-Studiopepe-Alysi-300dpi-05_1920x_f589fb8b-623a-465b-a2eb-356acbf0be50.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "64e6546b-bc52-4f2b-bb8f-a4ff6c1d78fd": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/milan-Studiopepe-Alysi-300dpi-06_1920x_aa305986-9f81-4a62-9d8f-d64e89aebaa1.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "b6e8e91e-b554-43fe-aecc-137655bf5ce7": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/milan-Studiopepe-Alysi-300dpi-07_1920x_1ff32084-650d-4c53-9ff8-deef354349bc.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "d44d87e4-997a-4aec-b883-c9b24f539bed": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/milan-Studiopepe-Alysi-300dpi-08_1920x_9f2a7051-31ca-41c5-b708-65b671099a2d.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "a36e2bbf-7797-4760-9b2e-7de8301dcf58": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/milan-Studiopepe-Alysi-300dpi-31_1920x_715c257b-44b4-4677-9eda-4a11b4bc6c35.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "12e704a3-581b-42da-a54b-46302ea04d53": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/milan-Studiopepe-Alysi-300dpi-22_1920x_c2533fff-629e-4feb-8156-daa257f22d09.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "68bc00bf-3054-42c0-9876-1390b6f0f0eb": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/milan-Studiopepe-Alysi-300dpi-32_1920x_0bdc1f0d-535c-4717-8ad7-0fa25799c193.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        }
+      },
+      "block_order": [
+        "2dba2cd7-984a-49e1-b987-547720352345",
+        "2211248b-6d46-40bd-bf8f-1af67669131b",
+        "c24e31d1-5705-4061-ace2-5988ba1aa1b5",
+        "23cd2bdf-f94f-4f25-9ba7-dbd93782707f",
+        "275bef57-22e5-4d85-a554-906abf41394a",
+        "d5376a21-802c-47c1-b0a9-fc49c1ce9da4",
+        "3bff4db8-e1c3-4279-8441-91c858b88b20",
+        "a136f2ba-1e2f-43d9-a423-5e3b9d4054ce",
+        "95eacf09-0933-47b8-a9a4-374cec9d5fc0",
+        "85a81502-9170-4b61-8ebf-6bb64b96a526",
+        "08f4a00a-8ccd-48cd-98b0-ce43692c5dae",
+        "79f0aa14-f3a6-4178-bffa-c6934b72ee99",
+        "64e6546b-bc52-4f2b-bb8f-a4ff6c1d78fd",
+        "b6e8e91e-b554-43fe-aecc-137655bf5ce7",
+        "d44d87e4-997a-4aec-b883-c9b24f539bed",
+        "a36e2bbf-7797-4760-9b2e-7de8301dcf58",
+        "12e704a3-581b-42da-a54b-46302ea04d53",
+        "68bc00bf-3054-42c0-9876-1390b6f0f0eb"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "show_arrows_desktop": true,
+        "enable_full_width": false,
+        "section_height_desktop": "100vh",
+        "section_pixel_height_desktop": 600,
+        "md_padding_top": 96,
+        "md_padding_bottom": 96,
+        "show_arrows": true,
+        "section_height": "by_pixels",
+        "section_pixel_height": 400,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "aad9b56c-7cda-4e32-a609-8b85a08c9eac": {
+      "type": "image-with-text",
+      "blocks": {
+        "fd869527-b09b-498a-ba93-bbcffbaa5990": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_1920x_a213d849-a267-4070-9f2c-d026e2742b5f.webp",
+            "video_url": "",
+            "media_aspect_ratio": "landscape",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "990f0911-743e-49f3-b403-8df1a991ab85": {
+          "type": "title",
+          "settings": {
+            "title": "ROME",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "d0bb6ef1-2bca-4c07-8ee2-332ecdefe938": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Via Borgognona 42, 00187 Roma Italy</p><p>+39 06 679 0538 lun – sab 10.00 – 19.30 dom 11.00 – 19.30</p><p>borgognona@alysi.it</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "fd869527-b09b-498a-ba93-bbcffbaa5990",
+        "990f0911-743e-49f3-b403-8df1a991ab85",
+        "d0bb6ef1-2bca-4c07-8ee2-332ecdefe938"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_last",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "24852075-6ef1-4fac-8622-d6f079755d58": {
+      "type": "image-with-text",
+      "blocks": {
+        "cf76123b-8d1b-40e9-b716-439869e6b2e1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_1920x_a8443f97-bd87-41eb-be8f-93bce1cc9af9.webp",
+            "video_url": "",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "99e2ad6d-5f72-4d11-a090-e941dc9980db": {
+          "type": "text",
+          "settings": {
+            "text": "<p>130 mq in una palazzina del 600: la boutique ALYSI in Brera è un progetto di retail design in collaborazione con Studiopepe, lo studio di interior e consulenza creativa che ha trasferito l’anima del brand negli interni, creando un’atmosfera sofisticata e contemporanea, con una palette di mezzi toni e tinte naturali che esaltano la lettura della collezione senza sovrastarla.</p><p>Un’estetica femminile e moderna crea un fil rouge tra i capi e gli ambienti. La ricerca delle forme e dei materiali si concretizza in superfici preziose custom made, come il pavimento che reinterpreta la classica palladiana con maxi inserti in marmi policromi dalla forma irregolare, le superfici glossy e gli elementi scultorei in gesso e marmo.</p><p>La boutique è concepita come una sequenza di spazi dal carattere individuale e distinto per accostamento di materiali e colori, che accompagna il cliente in un percorso cromatico e prospettico. Diviso in tre stanze, lo spazio si sviluppa in profondità: un’elegante esposizione degli abiti riempie l’area d’ingresso, in cui un’atmosfera fresca e luminosa invita a scoprire la collezione. Uno spazio di passaggio trova invece forza nella sua configurazione cromatica e installativa, collegando la prima alla seconda stanza, in cui diventa protagonista un’innovativa soluzione espositiva a parete in rame e gypsum dove è presentata la selezione di accessori. Infine la zona camerini è studiata come un piccolo salotto dall’atmosfera morbida e raccolta, con moquette e finiture che rendono intimo l’ambiente.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "cf76123b-8d1b-40e9-b716-439869e6b2e1",
+        "99e2ad6d-5f72-4d11-a090-e941dc9980db"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "7ab315c4-1182-4b43-9356-f61ba16bb6a1": {
+      "type": "hero-slideshow",
+      "blocks": {
+        "907ce9d3-2020-4c45-8e69-bc96ad74830a": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/2_1920x_28baf451-9ffe-4b15-bc43-a82eb768cc70.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "c3b17a80-5bac-4642-88d9-60e42abaf0b1": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/3_1920x_6b2c0942-aa06-47e3-8430-793f1edbdae5.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "b9b05223-650a-459d-8c09-77fc0da4be83": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/4_1920x_b556b26c-8114-4484-9825-2fb6fc9f9363.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "610c1d76-7239-42ad-bed6-aeb84e765b15": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/5_1920x_723f8887-f7b7-4e92-9de7-16eab49578ef.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "d2ca945e-7549-4a3f-9cef-0f962af15561": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/6_1920x_83a086b3-daf8-4ce4-a4c4-7a96262cdcbb.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "63fa0a5d-f7b6-47fc-80e9-0bdb6138bfe3": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/7_1920x_799cf0c2-741f-4cd9-bc7f-8e63107ed6c5.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "5e17c55a-b507-43b5-b08b-f7cd72ba5f0b": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/8_1920x_e729e6c0-2a2f-4620-8cf8-73e66ad34ab6.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "4613402e-e988-4078-8d00-6a4b81f5f066": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/9_1920x_40292a60-c0cc-4570-af94-8ee7eed001ac.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "2a9cfac0-61d8-49fe-8b27-a4590c71b801": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/10_1920x_5bfae922-e6c3-49ee-ae72-acf75717e355.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "4c484a46-a004-4683-91e6-5496f780de03": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/11_1920x_cf52f8c6-f7bc-4bb5-bd25-00ca80151d7c.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "7287cb66-43ff-43a9-ad6b-6329efbd736f": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/12_1920x_42a6f8c7-8b94-493c-b20d-e87288607663.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "1c0bbfe5-2c55-4bb0-86b9-49abdb6b8c99": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/13_1920x_c81352eb-a9ae-4073-9171-8acd5ca636d0.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "237eaf10-e227-4f09-9b6f-4e2f21665956": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/14_1920x_9360eac1-5365-43fd-8627-cfb084734f81.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "31c571b7-7dee-48e7-9be5-20f4ca37eb38": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/15_1920x_83229888-9f2c-442f-810c-256da9cbe1c5.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "d4198626-bb56-4694-8de4-d6b9f5ab0886": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/16_1920x_fdf065ff-5e66-444e-ba2e-a90a7820e367.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "d7a05009-4cc6-46f3-b7eb-683465f473b0": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/17_1920x_c218ff4d-5e56-47f7-855b-429f4790f06c.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "814c5ec3-fdd8-4a00-96ae-f032351a6841": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/18_1920x_12c7f1a2-1a5f-4676-bf1b-cb4c9e0548a8.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        },
+        "41bb3979-13bb-43e1-98b0-695883c8f358": {
+          "type": "hero_slide",
+          "settings": {
+            "image": "shopify://shop_images/19_1920x_69de8dd7-c991-4d24-af04-0161cb9861a0.webp",
+            "text": "",
+            "media_link": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_2": "secondary",
+            "content_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0,
+            "sm_size_multiplier": "sm-size--default",
+            "content_width": "col-sm-max-8",
+            "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+            "desktop_alignment": "sm-text-align-center",
+            "size_multiplier": "size--default",
+            "mobile_alignment": "text-align-center",
+            "content_align_mobile": "vertical-center horizontal-center"
+          }
+        }
+      },
+      "block_order": [
+        "907ce9d3-2020-4c45-8e69-bc96ad74830a",
+        "c3b17a80-5bac-4642-88d9-60e42abaf0b1",
+        "b9b05223-650a-459d-8c09-77fc0da4be83",
+        "610c1d76-7239-42ad-bed6-aeb84e765b15",
+        "d2ca945e-7549-4a3f-9cef-0f962af15561",
+        "63fa0a5d-f7b6-47fc-80e9-0bdb6138bfe3",
+        "5e17c55a-b507-43b5-b08b-f7cd72ba5f0b",
+        "4613402e-e988-4078-8d00-6a4b81f5f066",
+        "2a9cfac0-61d8-49fe-8b27-a4590c71b801",
+        "4c484a46-a004-4683-91e6-5496f780de03",
+        "7287cb66-43ff-43a9-ad6b-6329efbd736f",
+        "1c0bbfe5-2c55-4bb0-86b9-49abdb6b8c99",
+        "237eaf10-e227-4f09-9b6f-4e2f21665956",
+        "31c571b7-7dee-48e7-9be5-20f4ca37eb38",
+        "d4198626-bb56-4694-8de4-d6b9f5ab0886",
+        "d7a05009-4cc6-46f3-b7eb-683465f473b0",
+        "814c5ec3-fdd8-4a00-96ae-f032351a6841",
+        "41bb3979-13bb-43e1-98b0-695883c8f358"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "autoplay": true,
+        "autoplay_speed": 5,
+        "show_arrows_desktop": true,
+        "enable_full_width": false,
+        "section_height_desktop": "100vh",
+        "section_pixel_height_desktop": 600,
+        "md_padding_top": 96,
+        "md_padding_bottom": 96,
+        "show_arrows": true,
+        "section_height": "by_pixels",
+        "section_pixel_height": 400,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "cf1fb0a9-4d0c-41a0-b9be-21d746ee2251": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "color-main",
+        "custom_liquid": "<div align=\"center\"><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2955691.090207557!2d8.188024490735902!3d43.66029489687413!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6054694927eb%3A0xadcbad603463b021!2sAlysi%20Roma!5e0!3m2!1sit!2sit!4v1698330989867!5m2!1sit!2sit\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></div>",
+        "enable_full_width": false,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "78cada6d-e44b-4bba-8b25-f8d637c9cdb1": {
+      "type": "boutique",
+      "disabled": true,
+      "settings": {
+        "enable_shadow": true,
+        "banner_1_title": "",
+        "banner_1_text": "",
+        "banner_1_link": "https://www.google.it/maps/place/ALYSI/@45.4692557,9.1833703,17z/data=!3m1!4b1!4m5!3m4!1s0x4786c75628fc7dbb:0xbf2637b2e0bb72aa!8m2!3d45.469252!4d9.185559",
+        "banner_1_link_text": "",
+        "map_address_1": "",
+        "banner_2_text": "",
+        "banner_4_title": "",
+        "banner_4_text": "",
+        "banner_4_link": "https://www.google.it/maps/place/ALYSI/@45.4692557,9.1833703,17z/data=!3m1!4b1!4m5!3m4!1s0x4786c75628fc7dbb:0xbf2637b2e0bb72aa!8m2!3d45.469252!4d9.185559",
+        "banner_4_link_text": "",
+        "map_address_4": "",
+        "banner_5_text": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "f96c4d55-9aa7-4311-bd2e-b12d811f1faf",
+    "image_with_text_mGBMMK",
+    "eb4a9f84-6cf5-46ae-a7a2-4b0bab65fd1d",
+    "578ab0b1-9b4a-43f6-8ecf-118e9bfca98d",
+    "258e5d2a-bcf7-4f72-bfde-dba0c60fac4d",
+    "2ecf235b-05ef-495b-8dce-ca7a8f21f39b",
+    "aad9b56c-7cda-4e32-a609-8b85a08c9eac",
+    "24852075-6ef1-4fac-8622-d6f079755d58",
+    "7ab315c4-1182-4b43-9356-f61ba16bb6a1",
+    "cf1fb0a9-4d0c-41a0-b9be-21d746ee2251",
+    "78cada6d-e44b-4bba-8b25-f8d637c9cdb1"
+  ]
+}

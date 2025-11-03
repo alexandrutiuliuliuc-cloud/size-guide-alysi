@@ -1,0 +1,437 @@
+{%- assign siblings_string = product.metafields.custom.siblings -%}
+{%- assign siblings_cleaned = siblings_string | remove: '[' | remove: ']' | remove: '"' -%}
+{%- assign siblings = siblings_cleaned | split: ',' | uniq -%} <!-- Rimuove duplicati -->
+
+{%- liquid
+  assign variants_available_arr = product.variants | map: 'available'
+  assign variants_option1_arr = product.variants | map: 'option1'
+  assign variants_option2_arr = product.variants | map: 'option2'
+  assign variants_option3_arr = product.variants | map: 'option3'
+
+  assign product_form_id = 'product-form-' | append: section.id
+
+  assign option_downcase_name = option.name | downcase
+  assign color_str = 'products.product.color_swatch_identifiers' | t | downcase
+
+  if color_str contains option_downcase_name
+    assign color_swatches = true
+  else
+    assign color_swatches = false
+  endif
+  
+  assign current_colors = "" | split: ","
+  for value in option.values
+    assign current_colors = current_colors | push: value | map: 'downcase'
+  endfor
+-%}
+
+<!-- Varianti di colore normali (statiche, invariate) -->
+{%- for value in option.values -%}
+  {%- liquid
+    assign option_disabled = true
+    for option1_name in variants_option1_arr
+      case option.position
+        when 1
+          if variants_option1_arr[forloop.index0] == value and variants_available_arr[forloop.index0]
+            assign option_disabled = false
+          endif
+        when 2
+          if option1_name == product.selected_or_first_available_variant.option1 and variants_option2_arr[forloop.index0] == value and variants_available_arr[forloop.index0]
+            assign option_disabled = false
+          endif
+        when 3
+          if option1_name == product.selected_or_first_available_variant.option1 and variants_option2_arr[forloop.index0] == product.selected_or_first_available_variant.option2 and variants_option3_arr[forloop.index0] == value and variants_available_arr[forloop.index0]
+            assign option_disabled = false
+          endif
+      endcase
+    endfor
+  -%}
+
+  {%- if block.settings.picker_type == 'button' -%}
+    {%- liquid
+      if color_swatches
+        assign downcased_color = value | handleize
+        assign url = value | handleize | append: '.png'
+        assign file_url = images[url]
+        if file_url == blank
+          assign url = value | handleize | append: '.jpg'
+          assign file_url = images[url]
+        endif
+        if file_url == blank
+          assign file_url = false
+        else
+          assign file_url = url | file_img_url: '32x32'
+        endif
+      endif
+    -%}
+
+    <input
+      type='radio'
+      id='{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}'
+      name='{{ option.name }}'
+      value='{{ value | escape }}'
+      form='{{ product_form_id }}'
+      {% if option.selected_value == value %}
+        checked
+      {% endif %}
+      {% if option_disabled %}
+        class="disabled"
+      {% endif %}
+      lang="it"
+    >
+
+    <label
+      for='{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}'
+      {% if color_swatches %}
+        style='--color: {{ downcased_color }}; width: 24px; height: 24px; margin-left: 8px; border: 1px solid #ddd; border-radius: 50%; position: relative; display: inline-block;'
+      {% endif %}
+      class='{% if color_swatches %}swatch {% endif %}{% if file_url %}has-image{% endif %}' 
+      data-variant-index="variant{{ forloop.index }}" 
+      lang="it">
+      {%- unless color_swatches -%}
+        {{- value -}}
+      {%- else -%}
+        {%- if file_url -%}
+          <img src='{{ file_url }}' alt='{{ value }}' class="color" width='18' height='18' loading='lazy' decoding='async' data-alt='{{ value }}' lang="it" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 50%;">
+        {%- else -%}
+          <span class="color" style="width: 18px; height: 18px; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); border-radius: 50%;"></span>
+        {%- endif -%}
+        <span class='visually-hidden'>
+          {{- value -}}
+        </span>
+      {%- endunless -%}
+    </label>
+  {%- elsif block.settings.picker_type == 'dropdown' -%}
+    <option
+      value="{{ value | escape }}"
+      {% if option.selected_value == value %}
+        selected="selected"
+      {% endif %}
+    >
+      {% if option_disabled -%}
+        {{- 'products.product.value_unavailable' | t: option_value: value -}}
+      {%- else -%}
+        {{- value -}}
+      {%- endif %}
+    </option>
+  {%- endif -%}
+{%- endfor -%}
+
+<!-- Script per i siblings (replica esatta con --color) -->
+<script>
+window.storefrontAccessToken = "89fd64a57d893d4f6be19374ee548e88"; // Token per "Siblings2"
+
+document.addEventListener("DOMContentLoaded", function () {
+  if (!window.siblings) {
+    window.siblings = {{ siblings | json }};
+  }
+  console.log("🔍 Siblings trovati:", window.siblings);
+
+  const currentColors = {{ current_colors | json }};
+  console.log("🎨 Colori attuali:", currentColors);
+
+  // Controllo del tag EnableColor
+  const productTags = {{ product.tags | json }};
+  const hasEnableColor = productTags.includes("EnableColor");
+  console.log("🏷️ Tag EnableColor presente:", hasEnableColor);
+
+  if (!hasEnableColor) {
+    console.log("🚫 EnableColor non trovato, salto la visualizzazione dei siblings.");
+    return;
+  }
+
+  setTimeout(() => {
+    let colorSwatchesContainer = document.querySelector("fieldset.product-form__input[class*='testing']:nth-of-type(2)") ||
+      document.querySelector(".product-form__input.testing:last-of-type") ||
+      document.querySelector("fieldset.product-form__input") ||
+      document.querySelector(".variant-input-wrap, .radio-wrapper");
+
+    if (!colorSwatchesContainer) {
+      console.error("❌ Contenitore varianti colore NON TROVATO, non posso aggiungere i siblings.");
+      return;
+    }
+
+    console.log("✅ Contenitore varianti colore trovato:", colorSwatchesContainer);
+    
+    colorSwatchesContainer.setAttribute("style", `
+      display: flex !important;
+      flex-direction: row !important;
+      flex-wrap: nowrap !important;
+      gap: 8px !important;
+      width: 100% !important;
+      overflow-x: auto !important;
+    `);
+
+    let existingSiblingsContainer = document.getElementById("siblings-swatches");
+    if (existingSiblingsContainer) {
+      existingSiblingsContainer.remove();
+    }
+    
+    let siblingsContainer = document.createElement("div");
+    siblingsContainer.id = "siblings-swatches";
+    siblingsContainer.className = "siblings-swatches";
+    
+    siblingsContainer.setAttribute("style", `
+      display: flex !important;
+      flex-direction: row !important;
+      flex-wrap: nowrap !important;
+      gap: 8px !important;
+      width: 100% !important;
+      overflow-x: auto !important;
+      align-items: center !important;
+    `);
+    
+    colorSwatchesContainer.appendChild(siblingsContainer);
+
+    const processedColors = new Set();
+    currentColors.forEach(color => processedColors.add(color.toLowerCase()));
+
+    window.siblings.forEach((gid) => {
+      if (!gid || gid.trim() === "") return;
+
+      console.log("🔹 Recupero dati per il sibling:", gid);
+
+      fetch("https://sbam.fuzzymarketing.it/alysi/shopify_proxy.php", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({
+          query: `
+            query GetProductDetails($id: ID!) {
+              product(id: $id) {
+                handle
+                options {
+                  name
+                  values
+                }
+              }
+            }
+          `,
+          variables: { id: gid },
+        }),
+      })
+        .then((response) => response.json())
+        .then((data) => {
+          console.log("✅ Risultato ricevuto per", gid, ":", data);
+
+          if (!data || !data.data || !data.data.product) {
+            console.error("❌ Errore: il prodotto non è stato trovato per ID", gid, "- Verifica se è pubblicato su Siblings2.");
+            return;
+          }
+
+          const product = data.data.product;
+          const colorOption = product.options.find((option) => 
+            option.name.toLowerCase() === "colore" || 
+            option.name.toLowerCase() === "color"
+          );
+          
+          if (!colorOption || colorOption.values.length === 0) {
+            console.log("⚠️ Nessuna variante colore trovata per", gid);
+            return;
+          }
+          
+          let color = colorOption.values[0];
+          let colorLower = color.toLowerCase();
+
+          if (processedColors.has(colorLower)) {
+            console.log("⏩ Colore già presente, salto:", color);
+            return;
+          }
+          
+          processedColors.add(colorLower);
+
+          console.log("🎨 Variante 'Colore' trovata per", gid, ":", color);
+
+          const productUrl = `/products/${product.handle}`;
+          let formattedColor = colorLower.replace(/\s+/g, "-").replace(/\//g, "-"); // Handleize manuale
+          let imageUrlPng = `https://alysi.com/cdn/shop/files/${formattedColor}.png`;
+          let imageUrlJpg = `https://alysi.com/cdn/shop/files/${formattedColor}.jpg`;
+
+          const siblingLabel = document.createElement("a");
+          siblingLabel.href = productUrl;
+          siblingLabel.classList.add("swatch", "sibling-swatch");
+          siblingLabel.setAttribute("title", color);
+          siblingLabel.setAttribute("data-color", formattedColor);
+          siblingLabel.style.cssText = `
+            --color: ${formattedColor};
+            display: inline-block !important;
+            width: 24px !important;
+            height: 24px !important;
+            border-radius: 50% !important;
+            border: 1px solid #ddd !important;
+            overflow: hidden !important;
+            margin-left: 8px !important;
+            position: relative !important;
+          `;
+
+          const img = document.createElement("img");
+          img.alt = color;
+          img.classList.add("color");
+          img.src = imageUrlPng;
+          img.width = 18;
+          img.height = 18;
+          img.loading = "lazy";
+          img.decoding = "async";
+          img.style.cssText = `
+            position: absolute !important;
+            top: 50% !important;
+            left: 50% !important;
+            transform: translate(-50%, -50%) !important;
+            border-radius: 50% !important;
+            object-fit: cover !important;
+          `;
+
+          img.onerror = function () {
+            console.warn(`⚠️ PNG non trovato per sibling ${color}, provo con JPG`);
+            img.src = imageUrlJpg;
+            img.onerror = function () {
+              console.warn(`🚨 Nessuna immagine trovata per sibling ${color}, uso span con colore`);
+              img.remove();
+              const colorSpan = document.createElement("span");
+              colorSpan.classList.add("color");
+              colorSpan.style.cssText = `
+                display: block !important;
+                width: 18px !important;
+                height: 18px !important;
+                position: absolute !important;
+                top: 50% !important;
+                left: 50% !important;
+                transform: translate(-50%, -50%) !important;
+                border-radius: 50% !important;
+              `;
+              siblingLabel.appendChild(colorSpan);
+            };
+          };
+          
+          siblingLabel.appendChild(img);
+          siblingsContainer.appendChild(siblingLabel);
+        })
+        .catch((error) => console.error("🚨 Errore nel recupero dei siblings:", error));
+    });
+  }, 500);
+});
+</script>
+
+<style>
+<style>
+/* 🎨 Swatch "siblings" (varianti colore estese) */
+.siblings-swatches {
+  display: flex !important;
+  flex-direction: row !important;
+  flex-wrap: nowrap !important;
+  gap: 8px !important;
+  width: 100% !important;
+  overflow-x: auto !important;
+  align-items: center !important;
+}
+
+.sibling-swatch {
+  display: inline-block !important;
+  width: 24px !important;
+  height: 24px !important;
+  margin-left: 8px !important;
+  border-radius: 50% !important;
+  border: 1px solid #ddd !important;
+  overflow: hidden !important;
+  cursor: pointer !important;
+  transition: transform 0.2s, box-shadow 0.2s !important;
+}
+
+.sibling-swatch img,
+.sibling-swatch .color {
+  width: 18px !important;
+  height: 18px !important;
+  border-radius: 50% !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  object-fit: cover !important;
+}
+
+.sibling-swatch .color {
+  background-color: var(--color);
+}
+
+.sibling-swatch:hover {
+  transform: scale(1.1) !important;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* 🟠 Swatch standard colore */
+.swatch {
+  display: inline-block !important;
+  width: 24px !important;
+  height: 24px !important;
+  margin-left: 8px !important;
+  border-radius: 50% !important;
+  border: 1px solid  #3b3b3b !important;
+  overflow: hidden !important;
+  position: relative !important;
+}
+
+.swatch .color {
+  width: 18px !important;
+  height: 18px !important;
+  border-radius: 50% !important;
+  position: absolute !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  background-color: var(--color);
+}
+
+/* 📦 Container dei siblings */
+#siblings-swatches {
+  flex-direction: row !important;
+  display: flex !important;
+}
+
+#siblings-swatches > * {
+  flex-direction: unset !important;
+}
+
+/* ✅ Fix per TAGLIE: quadrati visibili e belli anche su iOS */
+input[type="radio"] {
+  display: none;
+}
+
+input[type="radio"] + label:not(.swatch):not(.has-image) {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 8px 12px;
+  margin: 4px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+  min-width: 40px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #fff;
+  transition: border 0.2s, background-color 0.2s;
+}
+
+input[type="radio"]:checked + label:not(.swatch):not(.has-image) {
+  border-width: 2px !important;
+  border-color: #000 !important;
+  box-shadow: none !important;
+  outline: none !important;
+  background-color: #f7f7f7;
+  font-weight: bold;
+}
+
+
+  
+/* ❌ Rimuove eventuali cornici intorno al contenuto prodotto */
+.product,
+.product__content,
+.product__wrapper,
+.main,
+.page-width {
+  border: none !important;
+  box-shadow: none !important;
+}
+</style>
+
+</style>

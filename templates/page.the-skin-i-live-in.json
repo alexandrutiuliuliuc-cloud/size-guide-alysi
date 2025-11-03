@@ -1,0 +1,655 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "banner_grid_aJycpq": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_YnBNeD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/theskinilivein_organza.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_d9qqWQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/250119_ALYSI_CHOCOLAT_FW25_STILL_0015.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_K9k9NF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1714147259835.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_YnBNeD",
+        "image_d9qqWQ",
+        "image_K9k9NF"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 9,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_fGHepb": {
+      "type": "rich-text",
+      "blocks": {
+        "subtitle_MeyFwH": {
+          "type": "subtitle",
+          "settings": {
+            "subtitle": "",
+            "heading_tag": "h4",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 30,
+            "size_multiplier": "size--default",
+            "margin_top": 30
+          }
+        },
+        "title_ULMhEV": {
+          "type": "title",
+          "settings": {
+            "title": "The Skin I Live In / La Pelle che Abito",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "text_P8WjjG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Un incontro tra SABA e ALYSI.<br/>Un progetto di Studiopepe, in collaborazione con Around Studio.</p><h4></h4>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "subtitle_MeyFwH",
+        "title_ULMhEV",
+        "text_P8WjjG"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 100,
+        "desktop_content_alignment": "center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-center",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "rich_text_QdYXAk": {
+      "type": "rich-text",
+      "blocks": {
+        "text_JkaHwE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La pelle che ci avvolge è materia, memoria, gesto. È un confine e un rifugio, superficie e sostanza.<br/><em><strong>The Skin I Live In </strong></em>esplora il dialogo tra corpo e spazio, tra tessuto e forma, tra abito e arredo.</p><p>Il divano Simposio<strong> </strong>diventa il punto di incontro di questo racconto sensoriale. Una seduta modulare che non è solo oggetto, ma esperienza: accoglie, avvolge, invita alla conversazione. Le sue linee sinuose e senza tempo evocano il fluire della bellezza, mentre la tappezzeria – priva di eccessi, segnata solo da una piega essenziale – richiama la morbidezza di un peplo greco.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_JkaHwE"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 50,
+        "desktop_content_alignment": "center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-center",
+        "padding_top": 24,
+        "padding_bottom": 40
+      }
+    },
+    "banner_grid_LhDbAT": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_Mdw633": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/46282578-ea59-47ad-9430-0f0905733137.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_j46qfa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/80_FS25_Saba_ViaTortona12-Edit_Retouched_HighRes.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_Mdw633",
+        "image_j46qfa"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 9,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_FLqkER": {
+      "type": "rich-text",
+      "blocks": {
+        "text_gkLVTT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Sullo sfondo dell’allestimento artistico a cura di <em>Studiopepe</em>, un fondale scenografico racconta la sintonia cromatica e la cifra emozionale dei daue brands.<br/>Attraverso un tocco lieve, fatto di ricami sartoriali e di immagini create dall’illustratrice <em>Clorophilla</em>, prende forma l’intimità dell’abitare, partendo dalla relazione con il primo spazio che abitiamo: l’abito.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_gkLVTT"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 50,
+        "desktop_content_alignment": "center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-center",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_duo_with_text_c9KNjj": {
+      "type": "image-duo-with-text",
+      "blocks": {
+        "image_rekepX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/250119_ALYSI_CHOCOLAT_FW25_LOOK_34_0006.jpg",
+            "video_url": "",
+            "media_toggle": "show_image",
+            "link_url": ""
+          }
+        },
+        "image_BcxNyb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/250119_ALYSI_CHOCOLAT_FW25_LOOK_34_0042.jpg",
+            "video_url": "",
+            "media_toggle": "show_image",
+            "link_url": ""
+          }
+        },
+        "text_3RffML": {
+          "type": "text",
+          "settings": {
+            "subtitle": "mdw capsule",
+            "title": "",
+            "text": "<p>Un intreccio di elementi – abito, design, materia – che si fondono con armonia, trasformando lo spazio in una dimensione da abitare, da toccare, da vivere.</p>"
+          }
+        },
+        "button_CbJ6JA": {
+          "type": "button",
+          "settings": {
+            "button_label": "DISCOVER MORE",
+            "button_link": "shopify://collections/simposio",
+            "button_style": "secondary",
+            "button_width": "inline"
+          }
+        }
+      },
+      "block_order": [
+        "image_rekepX",
+        "image_BcxNyb",
+        "text_3RffML",
+        "button_CbJ6JA"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "desktop_height": 720,
+        "layout": "bottom-left",
+        "desktop_alignment": "sm-text-align-left",
+        "md_padding_top": 80,
+        "md_padding_bottom": 40,
+        "mobile_height": 400,
+        "mobile_alignment": "text-align-left",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "banner_grid_TyaM7W": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_g6Hhjm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/32_FS25_Saba_ViaTortona12-Edit_Retouched_HighRes.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_kaTNrL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/a83b7131-f6a4-489d-a5f0-1d106ebaad1d.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_LgAPyQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/581ca6123aead14e51445f3735a7618f.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_g6Hhjm",
+        "image_kaTNrL",
+        "image_LgAPyQ"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 9,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "rich_text_PpReT3": {
+      "type": "rich-text",
+      "blocks": {
+        "text_tQngpt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Come la pelle si adatta al corpo, così i tessuti di <em>House of Lyria</em> dialogano in simbiosi con le superfici di Simposio. Il piede del divano, lungi dall’essere un semplice supporto, imprime sensualità al tessuto, evocando il peso leggero di una presenza.</p><p>A fare da cornice a questa esplorazione è la <a href=\"/pages/garden-house\" target=\"_blank\" title=\"Garden House\">Garden House di ALYSI</a>,<strong> </strong>un ambiente pensato per ispirare, dove Simposio trova una casa che ne esalta l’essenza e il valore comunicativo.</p><p><em><strong>The Skin I Live In</strong></em> è uno spazio simbolico che genera nuove visioni e che celebra la creatività al femminile.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_tQngpt"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 50,
+        "desktop_content_alignment": "center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-center",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "image_with_text_hpMRj7": {
+      "type": "image-with-text",
+      "blocks": {
+        "image_XaEEUD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/a4de2e6b421d1afd4bb1fcaedd3a111e.webp",
+            "video_url": "",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "title_9z4kCa": {
+          "type": "title",
+          "settings": {
+            "title": "COLOUR: UNKNOWN",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "text_bbr74g": {
+          "type": "text",
+          "settings": {
+            "text": "<p> </p><p></p><p>Lo showroom di ALYSI diventa un vivaio dove crescono nuove visioni.<br/>Una combinazione di esperienze interattive e proposte espositive creano un nuovo format ibrido e inaspettato.</p><p>COLOUR: UNKNOWN è una serie di eventi<br/>dedicati alla curiosità, orientati alla sorpresa e all’osservazione sensoriale, curati da Sara Maragotto di Studio Fludd e ospitati dalla Garden House di ALYSI.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "button_gq7Lww": {
+          "type": "button",
+          "settings": {
+            "button_label": "scopri di più",
+            "button_link": "shopify://blogs/garden-house/lorem-ipsum-1",
+            "button_style": "link",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 24,
+            "size_multiplier": "size--default",
+            "margin_top": 24
+          }
+        }
+      },
+      "block_order": [
+        "image_XaEEUD",
+        "title_9z4kCa",
+        "text_bbr74g",
+        "button_gq7Lww"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 40,
+        "md_padding_bottom": 80,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "featured_collection_or_products_kwyJKi": {
+      "type": "featured-collection-or-products",
+      "blocks": {
+        "section_header_qHN8Qw": {
+          "type": "section_header",
+          "settings": {
+            "subtitle": "",
+            "subtitle_tag": "h3",
+            "title": "",
+            "title_tag": "h2",
+            "text": "",
+            "text_alignment": "text-align-center",
+            "sm_size_multiplier": "sm-size--default",
+            "size_multiplier": "size--default"
+          }
+        }
+      },
+      "block_order": [
+        "section_header_qHN8Qw"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "collection": "",
+        "product_list": [
+          "105520p5271pelle",
+          "105431p5272lt",
+          "105430p5272lt"
+        ],
+        "product_limit": 12,
+        "view_all": true,
+        "enable_full_width": false,
+        "sm_enable_card_thumbnail": false,
+        "layout_desktop": "slide",
+        "products_per_row_desktop": 3,
+        "sm_custom_gap": -1,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "products_per_row_tablet": 4,
+        "sm_down_enable_card_thumbnail": false,
+        "layout_mobile": "slide peek",
+        "products_per_row_mobile": 1,
+        "custom_gap": -1,
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "banner_grid_VFbLCm": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_8gc48H": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Around-Studio-x-Alysi-x-Saba-MDW-25-055.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#FFFFFF",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_ctbrww": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Around-Studio-x-Alysi-x-Saba-MDW-25-059.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#FFFFFF",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_UPk8pf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Around-Studio-x-Alysi-x-Saba-MDW-25-057.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#FFFFFF",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_jFNXNf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Around-Studio-x-Alysi-x-Saba-MDW-25-056.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#FFFFFF",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_8gc48H",
+        "image_ctbrww",
+        "image_UPk8pf",
+        "image_jFNXNf"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 4,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 48
+      }
+    },
+    "hero_rydVjf": {
+      "type": "hero",
+      "blocks": {
+        "image_BQgi8k": {
+          "type": "image",
+          "settings": {
+            "media_link": "",
+            "media_toggle": "show_image",
+            "image": "shopify://shop_images/236_FS25_SabaItalia_ViaTortona12-Edit_Retouched_HighRes.jpg",
+            "video_url": "",
+            "video_url_mobile": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_BQgi8k"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "overlay_opacity": 0,
+        "enable_full_width": true,
+        "section_height_desktop": "by_pixels",
+        "section_pixel_height_desktop": 840,
+        "content_width": "col-sm-max-8",
+        "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "section_height": "by_pixels",
+        "section_pixel_height": 400,
+        "content_align_mobile": "vertical-center horizontal-center",
+        "mobile_alignment": "text-align-center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner_grid_aJycpq",
+    "rich_text_fGHepb",
+    "rich_text_QdYXAk",
+    "banner_grid_LhDbAT",
+    "rich_text_FLqkER",
+    "image_duo_with_text_c9KNjj",
+    "banner_grid_TyaM7W",
+    "rich_text_PpReT3",
+    "image_with_text_hpMRj7",
+    "featured_collection_or_products_kwyJKi",
+    "banner_grid_VFbLCm",
+    "hero_rydVjf"
+  ]
+}

@@ -1,0 +1,48 @@
+.product-buy-bar {
+  position: fixed;
+  left: 0;
+  bottom: -200px;
+  width: 100vw;
+  z-index: 2;
+  opacity: 0;
+  transition: all 0.3s ease-in-out;
+  padding: var(--container-margin) 0;
+  background: linear-gradient(transparent, var(--primary-background));
+  color: var(--modals-foreground);
+}
+.product-buy-bar.show {
+  bottom: 0;
+  opacity: 1;
+}
+.the-buy-bar {
+  background: var(--modals-background);
+  color: var(--modals-foreground);
+}
+.the-buy-bar .info {
+  display: none;
+}
+.the-buy-bar .product-form {
+  flex-grow: 2;
+}
+
+@media only screen and (max-width: 767px) {
+  .the-buy-bar {
+    background: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .the-buy-bar {
+    padding: 12px 24px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .2);
+    border-radius: var(--border-radius);
+  }
+  .the-buy-bar .info {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+  .the-buy-bar .info .media {
+    width: 80px;
+    height: 80px;
+  }
+} 

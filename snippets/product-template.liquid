@@ -1,0 +1,703 @@
+{%- liquid
+  # Product page media_layout defines the desktop media structure as "grid" or "traditional" desktop layout.
+  # - Traditional places media in a slider.
+  # - Grid shows all media in a grid of 1 or 2 columns.
+  # - Slider will be forced in mobile.
+
+  assign md_two_columns = false
+  assign media_gap = section.settings.media_gap | append: 'px'
+  assign sm_media_gap = section.settings.sm_media_gap | append: 'px'
+  assign mobile_sizes = '(max-width: 767px) calc(100vw / 1)'
+  assign tablet_sizes = '(max-width: 1023px) calc(100vw / 2)'
+  assign desktop_sizes = 'calc(100vw / 2)'
+
+  # media column width setting affect on column classes and variables
+  case section.settings.media_col_width
+    when 'narrow'
+      assign media_column_class = 'col-sm-5'
+      assign content_column_class = 'col-sm-7'
+      assign conten_width_limit_class = 'col-sm-max-5'
+    when 'wide'
+      assign media_column_class = 'col-sm-6 col-md-7'
+      assign content_column_class = 'col-sm-6 col-md-5'
+      assign conten_width_limit_class = 'col-sm-max-4'
+    when 'extra_wide'
+      assign media_column_class = 'col-sm-6 col-md-8'
+      assign content_column_class = 'col-sm-6 col-md-4'
+      assign conten_width_limit_class = 'col-sm-max-4'
+    else
+      # medium as default value
+      assign media_column_class = 'col-sm-6'
+      assign content_column_class = 'col-sm-6'
+      assign conten_width_limit_class = 'col-sm-max-4'
+  endcase
+
+  # media_layout affect on column classes and variables
+  if section.settings.media_layout contains 'two-columns'
+    assign md_two_columns = true
+    assign first_item_full = true
+    assign desktop_sizes = 'calc(100vw * (2 / 3))'
+
+    if product.media.size > 1 and section.settings.media_layout != 'two-columns-stacked'
+      assign first_item_full = false
+      assign desktop_sizes = 'calc(100vw / 3)'
+    endif
+  endif
+
+  # Media slider variable formatting
+  assign mobile_media_as_slider = true
+  assign desktop_media_as_slider = false
+
+  # Thumbnails slider variable formatting
+  assign mobile_thumbnails = section.settings.show_thumbnails_sm_down
+  assign desktop_thumbnails = false
+  assign desktop_thumbnails_position = 'below'
+  assign desktop_thumbnails_as_slider = true
+
+  if section.settings.media_layout contains 'traditional'
+    assign desktop_thumbnails = true
+    assign desktop_media_as_slider = true
+  endif
+
+  case section.settings.media_layout
+    when 'traditional-below-as-grid'
+      assign desktop_thumbnails_as_slider = false
+    when 'traditional-below'
+      assign desktop_thumbnails_as_slider = true
+    when 'traditional-next-to'
+      assign desktop_thumbnails_as_slider = true
+      assign desktop_thumbnails_position = 'next-to'
+    when 'traditional'
+      assign desktop_thumbnails = false
+  endcase
+
+  # To render thumbnails at all
+  assign render_thumbnails = false
+  if product.media.size <= 1
+    assign mobile_media_as_slider = false
+    assign desktop_media_as_slider = false
+  elsif mobile_thumbnails or desktop_thumbnails
+    assign render_thumbnails = true
+  endif
+
+  # Formatting sizes attributes for images
+  assign sizes = mobile_sizes | append: ', ' | append: tablet_sizes | append: ', ' | append: desktop_sizes
+
+  # Tag related
+  assign product_tags = product.tags | join: ','
+  assign is_preorder = false
+
+  if product_tags contains 'Preorder' or product_tags contains 'preorder' or product.metafields.woolman.preorder.value == true
+    assign is_preorder = true
+
+    if product.metafields.woolman.preorder_info.value != blank
+      assign preorder_info = product.metafields.woolman.preorder_info.value
+    else
+      assign preorder_info = 'products.product.preorder.info_html' | t
+    endif
+  endif
+
+  # Quantity selector and Multiply add related
+  assign quantity_selector_block = section.blocks | where: 'type', 'quantity_selector' | first
+  if quantity_selector_block
+    assign has_quantity_selector = true
+  else
+    assign has_quantity_selector = false
+  endif
+-%}
+
+<div
+  id="{{ section.id }}"
+  class="container pt pb sm-pt sm-pb sm-down-edge-to-edge {{ section.settings.color_scheme }}{% if section.settings.enable_full_width %} full-width{% endif %}"
+  style="
+    --pt: {{ section.settings.padding_top | append: 'px' }};
+    --pb: {{ section.settings.padding_bottom | append: 'px' }};
+    --sm-pt: {{ section.settings.md_padding_top | append: 'px' }};
+    --sm-pb: {{ section.settings.md_padding_bottom | append: 'px' }};
+  "
+>
+  <div
+    class="sm-br product-main grid"
+    style="
+      --sm-br: {{ section.settings.border_radius | append: 'px' }};
+      {%- if section.settings.section_bg != blank -%}
+      background: {{ section.settings.section_bg }};
+      {%- endif -%}
+    "
+  >
+    <div
+      class="pdp-media col-12 sm-p sm-br {{ media_column_class }}"
+      style="
+        --sm-p: {{ section.settings.sm-p | append: 'px' }};
+        --sm-br: {{ section.settings.border_radius | append: 'px' }};
+        {%- if section.settings.media_col_bg != blank -%}
+        background: {{ section.settings.media_col_bg }};
+        {%- endif -%}
+      "
+    >
+      <div
+        class="media-sliders sm-gap{% if render_thumbnails and desktop_thumbnails_position == 'next-to' %} thumbnails-next-to{% endif %}"
+        style="
+          --gap: {{ media_gap }};
+          --sm-gap: {{ sm_media_gap | default: '3px' }};
+        "
+      >
+        {%- render 'product-media-slider',
+          product: product,
+          aspect_ratio: section.settings.product_image_aspect_ratio,
+          background_color: section.settings.product_media_bg,
+          md_two_columns: md_two_columns,
+          first_item_full: first_item_full,
+          sizing_rule: section.settings.media_fill_rule,
+          slider_mobile: mobile_media_as_slider,
+          slider_desktop: desktop_media_as_slider,
+          media_gap: media_gap,
+          sm_media_gap: sm_media_gap,
+          sm_border_radius: section.settings.media_border_radius,
+          slide_peek: section.settings.enable_slider_peek
+        -%}
+
+        {%- if render_thumbnails -%}
+          {%- render 'product-media-thumbnails',
+            product: product,
+            aspect_ratio: section.settings.product_image_aspect_ratio,
+            background_color: section.settings.product_media_bg,
+            slider_desktop: desktop_thumbnails_as_slider,
+            desktop_thumbnails_position: desktop_thumbnails_position,
+            sizing_rule: section.settings.media_fill_rule,
+            media_gap: media_gap,
+            sm_media_gap: sm_media_gap,
+            sm_border_radius: section.settings.media_border_radius,
+            show_in_mobile: mobile_thumbnails,
+            show_in_desktop: desktop_thumbnails
+          -%}
+        {%- endif -%}
+      </div>
+    </div>
+
+    {% comment %}
+      Product content includes anything expect the product media. Everything should be made using blocks so the merchant can adjust the page to their vision.
+    {% endcomment %}
+    <div
+      class="pdp-content col-12 sm-down-p-page sm-p sm-br {{ content_column_class }}"
+      style="
+        --sm-p: {{ section.settings.sm-p | append: 'px' }};
+        --sm-br: {{ section.settings.border_radius | append: 'px' }};
+        {%- if section.settings.content_col_bg != blank -%}
+        background: {{ section.settings.content_col_bg }};
+        {%- endif -%}
+      "
+    >
+      <div class="m-auto sticky {{ conten_width_limit_class }}">
+        {%- assign product_form_id = 'product-form-' | append: section.id -%}
+        {%- for block in section.blocks -%}
+          {%- capture block_inner_html -%}
+          {%- assign show_block = true -%}
+          {%- case block.type -%}
+            {%- when '@app' -%}
+              {%- render block -%}
+            {% when 'breadcrumb' %}
+            {% render 'breadcrumbs' %}
+            {%- when 'text' -%}
+              <div class="rte">
+                {{- block.settings.text -}}
+              </div>
+            {%- when 'title' -%}
+              <h1 class="h1">
+                {%- if product.title != blank -%}
+                  {{ product.title | escape }}
+                {%- else -%}
+                  {{ 'onboarding.product_title' | t }}
+                {%- endif -%}
+              </h1>
+            {%- when 'price' -%}
+            {% comment %}Added/Modified by Limoni Apps on 18/06/25 to support Discount Ninja{% endcomment %}
+
+              <div class="js" id="price-{{ section.id }}" role="status">
+              <span data-la-dn-price> {%- render 'price', product: product, use_variant: true -%}</span> 
+                {%- if cart.taxes_included or shop.shipping_policy.body != blank -%}
+                  <div class="product__tax caption" style="font-size: 20px;">
+                    {%- if cart.taxes_included -%}
+                      {{ 'products.product.include_taxes' | t }}
+                    {%- endif -%}
+                    {%- if shop.shipping_policy.body != blank -%}
+                      {{ 'products.product.shipping_policy_html' | t: link: shop.shipping_policy.url }}
+                    {%- endif -%}
+                  </div>
+                {%- endif -%}
+              </div>
+<div la-dn-product-banner></div>
+              {%- unless product == nil -%}
+                {%- assign product_form_installment_id = 'product-form-installment-' | append: section.id -%}
+                {%- form 'product', product, id: product_form_installment_id, class: 'installment caption-large' -%}
+                  <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}">
+                  {{ form | payment_terms }}
+                {%- endform -%}
+              {%- endunless -%}
+            {%- when 'description' -%}
+              {%- if product.description == blank -%}
+                {%- assign show_block = false -%}
+              {%- else -%}
+                {% if block.settings.enable_collapsible %}
+                
+                <details id="Description-{{ block.id }}">
+                  <summary>
+                    <div class="summary__title">
+                      {% render 'icon-caret', direction: 'down' %}
+                      <span class="small accordion__title">
+                        {{ 'products.product.description' | t }}
+                      </span>
+                    </div>
+                  </summary>
+                  <div class="content accordion__content rte pt-8 pb-16">
+                    {{ product.description }}
+                  </div>
+                </details>
+                      
+                {% else %}
+                  <div class="rte">
+                    {{ product.description }}
+                  </div>
+                {% endif %}
+              {%- endif -%}
+            {%- when 'custom_liquid' -%}
+              {{ block.settings.custom_liquid }}
+            {%- when 'collapsible_tab' -%}
+              {%- assign collapsible_id = 'Details-' | append: block.id | append: '-' | append: section.id -%}
+              {%- capture collapsible_title -%}
+                <div class="summary__title">
+                  {%- liquid
+                     if block.settings.icon and block.settings.icon != 'none' 
+                       if block.settings.icon == 'icon-caret__right' and block.settings.open_as_drawer == false
+                         assign icon_name = 'icon-caret__down'
+                       else
+                         assign icon_name = block.settings.icon
+                       endif
+     
+                       case icon_name
+                         when 'icon-caret__right'
+                           render 'icon-caret', direction: 'right'
+                         when 'icon-caret__down'
+                           render 'icon-caret', direction: 'down'
+                         when 'icon-feather'
+                           render 'icon-feather'
+                         when 'icon-gift'
+                           render 'icon-gift'
+                         when 'icon-map-pin'
+                           render 'icon-map-pin'
+                         when 'icon-package'
+                           render 'icon-package'
+                         when 'icon-truck'
+                           render 'icon-truck'
+                       endcase
+                     endif 
+                   -%}
+
+                  <span class="small accordion__title">
+                    {{ block.settings.title | default: block.settings.page.title }}
+                  </span>
+                </div>
+              {%- endcapture -%}
+
+              {%- unless block.settings.open_as_drawer -%}
+                {%- capture collapsible_body -%}
+                  <div class="content accordion__content rte pt-8 pb-16">
+                    {{ block.settings.content }}
+                    {{ block.settings.page.content }}
+                  </div>
+                {%- endcapture -%}
+
+                <details id="{{- collapsible_id -}}">
+                  <summary>{{- collapsible_title -}}
+                  </summary>
+                  {{- collapsible_body -}}
+                </details>
+              {%- else -%}
+                <a style="display: block;" href="#drawer-{{ collapsible_id }}">
+                  {{- collapsible_title -}}
+                </a>
+                {%- assign has_collapsible_drawers = true -%}
+              {%- endunless -%}
+            {%- when 'sibling_products' -%}
+              {%- liquid 
+                assign siblings = product.metafields.woolman.sibling_products.value | sort_natural
+
+                assign slider_enabled = false
+                if siblings.size > 4
+                  assign slider_enabled = true
+                endif -%}
+              
+              {%- if siblings and siblings != blank -%}
+                {%- if block.settings.variant_option_name -%}
+                  {%- assign option_name_handleized = block.settings.variant_option_name | handleize -%}
+                  <p class="mb-8">{{ block.settings.variant_option_name }}: <strong>{{ product.options_by_name[option_name_handleized].values | first }}</strong></p>
+                {%- endif -%}
+                <div class="siblings__wrapper" style="margin-top: {{ block.settings.margin_top }}">
+                  <gridy-slider
+                    id="slider-{{ block.id }}"
+                    class="gridy-slider"
+                    data-mobile-enabled="{{ slider_enabled }}"
+                    data-tablet-enabled="{{ slider_enabled }}"
+                    data-desktop-enabled="{{ slider_enabled }}"
+                    data-ipr-mobile="4"
+                    data-ipr-tablet="4"
+                    data-ipr-desktop="4"
+                    data-arrows="true"
+                    data-dots="false">
+                    
+                    <div class="gridy-track scrollbar--hide grid grid-cols-4 track-inner-padding">
+                      {%- for sibling in siblings -%}
+                        <a href="{{ sibling.url }}" class="sibling-product{% if sibling.id == product.id %} current-product{% endif %}">
+                          {%- render 'img',
+                            src: sibling.featured_media.preview_image,
+                            sizing_rule: 'cover',
+                            aspect_ratio: section.settings.product_image_aspect_ratio,
+                            lazyload: true,
+                            sizes: '(max-width: 767px) 25vw, 165px' -%}
+                          <span class="visually-hidden">{{ sibling.title }}
+                          </span>
+                        </a>
+                      {%- endfor -%}
+                    </div>
+                    {%- if siblings.size > 4 -%}
+                    {% render 'gridy-arrows',
+                        class: 'sm-on-edge' %}
+                    {%- endif -%}
+                
+                  </gridy-slider>
+                </div>
+              {%- endif -%}
+            {%- when 'quantity_selector' -%}
+              <label class="form__label" for="Quantity-{{ section.id }}">
+                {{ 'products.product.quantity.label' | t }}
+              </label>
+
+              <quantity-input class="quantity">
+                <button class="quantity__button js" name="minus" type="button">
+                  <span class="visually-hidden">{{ 'products.product.quantity.decrease' | t: product: product.title | escape }}
+                  </span>
+                  {%- render 'icon-minus' -%}
+                </button>
+                <input class="quantity__input" type="number" name="quantity" id="Quantity-{{ section.id }}" min="1" value="1" form="{{ product_form_id }}">
+                <button class="quantity__button js" name="plus" type="button">
+                  <span class="visually-hidden">{{ 'products.product.quantity.increase' | t: product: product.title | escape }}
+                  </span>
+                  {%- render 'icon-plus' -%}
+                </button>
+              </quantity-input>
+            {%- when 'share' -%}
+              <share-button data-text="{{ product.title }}" id="Share-{{ section.id }}" class="share-button{% if block.settings.hide_on_desktop %} small-up--hide{% endif %}" {{ block.shopify_attributes }}>
+                <details id="Details-{{ block.id }}-{{ section.id }}">
+                  <summary class="share-button__button">
+                    <div class="summary__title">
+                      {%- render 'icon-share' -%}
+                      <span class="small accordion__title">
+                        {{ block.settings.share_label | escape }}
+                      </span>
+                    </div>
+                  </summary>
+                  <div id="Product-share-{{ section.id }}" class="content accordion__content rte">
+                    <div class="flex vertical">
+                      <input type="text" class="field__input" id="url" value="{{ product.selected_variant.url | default: product.url | prepend: request.origin }}" placeholder="{{ 'general.share.share_url' | t }}" onclick="this.select();" readonly>
+                      <button class="share-button__copy link js">
+                        {{ 'general.share.copy_to_clipboard' | t }}
+                      </button>
+                      <span id="ShareMessage-{{ section.id }}" class="share-button__message hidden" role="status"></span>
+                    </div>
+                  </div>
+                </details>
+              </share-button>
+              <script data-loading="lazy" data-src="{{ 'component-share.js' | asset_url }}" defer="defer" async="async"></script>
+            {%- when 'variant_picker' -%}
+              {%- liquid
+	              render 'product-variant-picker', block: block, product: product
+                if product.has_only_default_variant 
+                  assign show_block = false 
+                endif 
+              -%}
+            {%- when 'buy_buttons' -%}
+              {%- unless product == nil -%}
+                <product-form class="product-form" data-hide-errors="{{ gift_card_recipient_feature_active }}">
+
+                  {%- liquid
+                    assign gift_card_recipient_feature_active = false
+                    if block.settings.show_gift_card_recipient and product.gift_card?
+                      assign gift_card_recipient_feature_active = true
+                    endif
+
+                    if product.selected_or_first_available_variant.available == false
+                      assign buttons_disabled = true
+                    endif
+
+                    if block.settings.show_dynamic_checkout and product.selling_plan_groups == empty
+                      assign show_dynamic_checkout = true
+                    endif
+                  -%}
+                  
+                  {%- if block.settings.add_multipliers != blank -%}
+                    {%- assign add_multipliers_array = block.settings.add_multipliers | remove: ' ' | split: ',' -%}
+                    
+                    {%- capture add_multipliers -%}
+                      {%- for multiply_by in add_multipliers_array -%}
+                        {%- assign integer_value = multiply_by | divided_by: 1 -%}
+                        {%- if integer_value == 0 -%}
+                          {%- continue -%}
+                        {%- endif -%}
+                          <add-multiplier class="js">
+                            <input type="hidden" name="multiplied-quantity" value="{{ integer_value }}">
+                            <button type="button" class="btn btn--add-multiplier {% if show_dynamic_checkout %}btn--secondary{% else %}btn--primary{% endif %}" {% if buttons_disabled %}disabled{% endif %}>&times;{{ integer_value }}</button>
+                          </add-multiplier>
+                      {%- endfor -%}
+                    {%- endcapture -%}
+                  {%- endif -%}
+
+
+                  <div class="product-form__error-message-wrapper flex horizontal vertical-center mb-16 mt-16" role="alert" hidden>
+                    <svg aria-hidden="true" focusable="false" role="presentation" class="icon icon-error" viewBox="0 0 13 13">
+                      <circle cx="6.5" cy="6.50049" r="5.5" stroke="white" stroke-width="2"/>
+                      <circle cx="6.5" cy="6.5" r="5.5" fill="#EB001B" stroke="#EB001B" stroke-width="0.7"/>
+                      <path d="M5.87413 3.52832L5.97439 7.57216H7.02713L7.12739 3.52832H5.87413ZM6.50076 9.66091C6.88091 9.66091 7.18169 9.37267 7.18169 9.00504C7.18169 8.63742 6.88091 8.34917 6.50076 8.34917C6.12061 8.34917 5.81982 8.63742 5.81982 9.00504C5.81982 9.37267 6.12061 9.66091 6.50076 9.66091Z" fill="white"/>
+                      <path d="M5.87413 3.17832H5.51535L5.52424 3.537L5.6245 7.58083L5.63296 7.92216H5.97439H7.02713H7.36856L7.37702 7.58083L7.47728 3.537L7.48617 3.17832H7.12739H5.87413ZM6.50076 10.0109C7.06121 10.0109 7.5317 9.57872 7.5317 9.00504C7.5317 8.43137 7.06121 7.99918 6.50076 7.99918C5.94031 7.99918 5.46982 8.43137 5.46982 9.00504C5.46982 9.57872 5.94031 10.0109 6.50076 10.0109Z" fill="white" stroke="#EB001B" stroke-width="0.7"/>
+                    </svg>
+                    <span class="product-form__error-message"></span>
+                  </div>
+
+                  {%- form 'product', product, id: product_form_id, class: 'form', novalidate: 'novalidate', data-type: 'add-to-cart-form' -%}
+                    <input type="hidden" name="id" value="{{ product.selected_or_first_available_variant.id }}" disabled>
+
+                    {%- if is_preorder -%}
+                      <input type="hidden" name="attributes[_preorder]" value="true">
+                    {%- endif -%}
+
+                    {%- if gift_card_recipient_feature_active -%}
+                      {%- render 'gift-card-recipient-form', product: product, form: form, section: section -%}
+                    {%- endif -%}
+
+                    <div class="product-form__buttons">
+                      {% unless has_quantity_selector %}
+                        <input class="quantity__input" type="hidden" name="quantity" min="1" value="1" form="{{ product_form_id }}">
+                      {% endunless %}
+                      {%- capture add_to_cart_button -%}
+                        <button type="submit" name="add" class="product-form__submit btn btn--full {% if show_dynamic_checkout %}btn--secondary{% else %}btn--primary{% endif %}" {% if buttons_disabled %}disabled{% endif %}>
+                          <span>
+                            {%- if product.selected_or_first_available_variant.available -%}
+                              {%- if is_preorder -%}
+                                {{ 'products.product.preorder.preorder' | t }}
+                              {%- else -%}
+                                {{ 'products.product.add_to_cart' | t }}
+                              {%- endif -%}
+                            {%- else -%}
+                              {{ 'products.product.sold_out' | t }}
+                            {%- endif -%}
+                          </span>
+                          {% render 'loading' %}
+                        </button>
+                      {%- endcapture -%}
+                      
+                      {%- if add_multipliers != blank -%}
+                        <div class="with-add-multipliers {{ block.settings.add_multipliers_layout }}">
+                          {{ add_to_cart_button }}
+                          {{ add_multipliers }}
+                        </div>
+                      {%- else -%}
+                        {{ add_to_cart_button }}
+                      {%- endif -%}
+
+                      {%- if block.settings.show_dynamic_checkout -%}
+                        <div class="product__dynamic-checkout-buttons mt-16">
+                          {{ form | payment_button }}
+                        </div>
+                      {%- endif -%}
+
+                      {%- if is_preorder -%}
+                        <p class="mt-8 preorder--info">{{ preorder_info }}
+                        </p>
+                      {%- endif -%}
+                    </div>
+
+                  {%- endform -%}
+                </product-form>
+              {%- endunless -%}
+            {%- when 'rating' -%}
+              {%- render 'product-rating',
+                product: product -%}
+            {%- when 'inventory_status' -%}
+              {%- render 'product-inventory-status',
+                product: product,
+                current_variant: product.selected_or_first_available_variant,
+                block: block -%}
+            {%- when 'similar_collections' -%}
+              {%- render 'product-similar-collections',
+                product: product,
+                block: block -%}
+            {%- when 'pickup_availability' -%}
+              {{ 'component-pickup-availability.css' | asset_url | stylesheet_tag }}
+              {%- assign pick_up_availabilities = product.selected_or_first_available_variant.store_availabilities | where: 'pick_up_enabled', true -%}
+
+              <pickup-availability class="product__pickup-availabilities js" {% if product.selected_or_first_available_variant.available and pick_up_availabilities.size > 0 %} available{% endif %} data-root-url="{{ routes.root_url }}" data-variant-id="{{ product.selected_or_first_available_variant.id }}" data-has-only-default-variant="{{ product.has_only_default_variant }}">
+                <template>
+                  <pickup-availability-preview class="pickup-availability-preview">
+                    {% render 'icon-unavailable' %}
+                    <div class="pickup-availability-info">
+                      <p class="caption-large">{{ 'products.product.pickup_availability.unavailable' | t }}
+                      </p>
+                      <button class="pickup-availability-button link">{{ 'products.product.pickup_availability.refresh' | t }}
+                      </button>
+                    </div>
+                  </pickup-availability-preview>
+                </template>
+              </pickup-availability>
+
+              <script src="{{ 'component-pickup-availability.js' | asset_url }}" async="async" defer="defer"></script>
+            {%- when 'icons' -%}
+              {%- liquid 
+              assign product_icon_columns = block.settings.icons_per_row
+              assign product_icon_gap_count = product_icon_columns | minus: 1
+              assign product_icon_total_gap_width = block.settings.grid_gap | times: product_icon_gap_count
+              assign product_icon_total_width = 800 | minus: product_icon_total_gap_width
+              assign product_icon_width = product_icon_total_width | divided_by: product_icon_columns
+              -%}
+              <span class="form__label ">{{ block.settings.title }}</span>
+              <div class="product-icons-grid" style="--icons-grid-cols: {{ block.settings.icons_per_row }}; --icons-grid-gap: {{ block.settings.grid_gap | append: "px" }}">
+                {% if block.settings.first_image != blank %} <img class="product-icons-grid__icon" src="{{ block.settings.first_image.src | image_url: width: product_icon_width }}" alt="{{ block.settings.first_image.alt }}" loading="lazy"/> {% endif %}
+                {% if block.settings.second_image != blank %} <img class="product-icons-grid__icon" src="{{ block.settings.second_image.src | image_url: width: product_icon_width }}" alt="{{ block.settings.second_image.alt }}" loading="lazy"/> {% endif %}
+                {% if block.settings.third_image != blank %} <img class="product-icons-grid__icon"  src="{{ block.settings.third_image.src | image_url: width: product_icon_width }}" alt="{{ block.settings.third_image.alt }}" loading="lazy"/> {% endif %}
+                {% if block.settings.fourth_image != blank %} <img class="product-icons-grid__icon" src="{{ block.settings.fourth_image.src | image_url: width: product_icon_width }}" alt="{{ block.settings.fourth_image.alt }}" loading="lazy"/> {% endif %}
+                {% if block.settings.fifth_image != blank %} <img class="product-icons-grid__icon" src="{{ block.settings.fifth_image.src | image_url: width: product_icon_width }}" alt="{{ block.settings.fifth_image.alt }}" loading="lazy"/> {% endif %}
+                {% if block.settings.sixth_image != blank %} <img class="product-icons-grid__icon" src="{{ block.settings.sixth_image.src | image_url: width: product_icon_width }}" alt="{{ block.settings.sixth_image.alt }}" loading="lazy"/> {% endif %}
+                {% if block.settings.seventh_image != blank %} <img class="product-icons-grid__icon" src="{{ block.settings.seventh_image.src | image_url: width: product_icon_width }}" alt="{{ block.settings.seventh_image.alt }}" loading="lazy"/> {% endif %} 
+                {% if block.settings.eighth_image != blank %} <img class="product-icons-grid__icon" src="{{ block.settings.eighth_image.src | image_url: width: product_icon_width }}" alt="{{ block.settings.eight_image.alt }}" loading="lazy"/> {% endif %}
+              </div>
+            {%- when 'complementary' -%}
+              {%- render 'product-complementary-products',
+                product: product,
+                block: block -%}
+            {% when 'upsell_products' %}
+              {% if block.settings.upsell_products != empty %}
+                {{ 'component-upsell-products.css' | asset_url | stylesheet_tag }}
+                {% if block.settings.title %}
+                  <p class="product-block-title mb-8">{{ block.settings.title }}</p>
+                {% endif %}
+                <div class="upsell-products">
+                {% for upsell_product in block.settings.upsell_products %}
+                  {% render 'card-product-upsell', product: upsell_product, product_form_id: product_form_id %}
+                {% endfor %}
+                </div>
+              {% else %}
+                {% assign show_block = false %}
+              {% endif %}
+
+            {%- endcase -%}
+        {%- endcapture -%}
+
+          {%- if show_block -%}
+            <div
+              class="product-block product-block__{{ block.type | escape }}"
+              style="margin-top: {{ block.settings.margin_top | append: 'px' }};"
+              {{ block.shopify_attributes }}
+            >
+              {{ block_inner_html }}
+            </div>
+          {%- endif -%}
+        {%- endfor -%}
+      </div>
+
+      {%- if similar_collections_html != blank -%}
+        <div class="medium-down--hide">
+          {{ similar_collections_html }}
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{%- liquid
+  # Sticky buy bar if in used blocks
+  assign sticky_buy_bar = section.blocks | where: 'type', 'sticky_buy_bar' | first
+  if sticky_buy_bar
+    render 'product-buy-bar', product_form_id: product_form_id, buy_bar_br: sticky_buy_bar.settings.border_radius, product_image_aspect_ratio: section.settings.product_image_aspect_ratio, is_preorder: is_preorder
+  endif
+
+  # Collapsible tabs that are set as drawers are loaded here so they are properly aligned on the DOM tree and do not cause any layout issues.
+  if has_collapsible_drawers
+    assign collapsible_blocks = section.blocks | where: 'type', 'collapsible_tab'
+    for block in collapsible_blocks
+      if block.settings.open_as_drawer == true
+        assign collapsible_id = 'Details-' | append: block.id | append: '-' | append: section.id
+        render 'drawer-tabs', drawer_id: collapsible_id, title: block.settings.title, text: block.settings.content, page: block.settings.page
+      endif
+    endfor
+  endif
+-%}
+
+<script type="text/javascript" src="{{ 'template-product.js' | asset_url }}" async="async" defer="true"></script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    function isIE() {
+      const ua = window.navigator.userAgent;
+      const msie = ua.indexOf('MSIE ');
+      const trident = ua.indexOf('Trident/');
+      return(msie > 0 || trident > 0);
+    }
+    if (! isIE())
+      return;
+
+    const hiddenInput = document.querySelector('# {{ product_form_id }}input[name="id"]');
+    const noScriptInputWrapper = document.createElement('div');
+    const variantSwitcher = document.querySelector('variant-radios[data-section=" {{ section.id }}"]') || document.querySelector('variant-selects[data-section=" {{ section.id }}"]');
+    noScriptInputWrapper.innerHTML = document.querySelector('.product-form__noscript-wrapper- {{ section.id }}').textContent;
+    variantSwitcher.outerHTML = noScriptInputWrapper.outerHTML;
+    document.querySelector('#Variants- {{ section.id }}').addEventListener('change', function(event) {
+      hiddenInput.value = event.currentTarget.value;
+    });
+  });
+</script>
+
+{%- liquid
+  # SEO media definition
+  if product.selected_or_first_available_variant.featured_media
+    assign seo_media = product.selected_or_first_available_variant.featured_media
+  else
+    assign seo_media = product.featured_media
+  endif
+-%}
+
+<script type="application/ld+json">
+  {
+    "@context": "http://schema.org/",
+    "@type": "Product",
+    "name": {{ product.title | json }},
+    "url": {{ request.origin | append: product.url | json }},{% if seo_media -%}
+      "image" : [{{ seo_media | image_url: width: seo_media.preview_image.width | prepend: "https:" | json }}],{%- endif %}
+    "description": {{ product.description | strip_html | json }},{% if product.selected_or_first_available_variant.sku != blank -%}
+      "sku" : {{ product.selected_or_first_available_variant.sku | json }},{%- endif %}
+    "brand": {
+      "@type": "Brand",
+      "name": {{ product.vendor | json }}
+    },
+    "offers": [{%- for variant in product.variants -%}
+        {
+          "@type": "Offer",
+          {%- if variant.sku != blank -%}
+            "sku" : {{ variant.sku | json }},
+          {%- endif -%}
+          {%- if variant.barcode.size == 12 -%}
+            "gtin12" : {{ variant.barcode }},
+          {%- endif -%}
+          {%- if variant.barcode.size == 13 -%}
+            "gtin13" : {{ variant.barcode }},
+          {%- endif -%}
+          {%- if variant.barcode.size == 14 -%}
+            "gtin14" : {{ variant.barcode }},
+          {%- endif -%}
+          "availability": "http://schema.org/ {% if variant.available %}InStock
+          {% else %}
+            OutOfStock{% endif %}",
+          "price": {{ variant.price | divided_by: 100.00 | json }},
+          "priceCurrency": {{ cart.currency.iso_code | json }},
+          "url": {{ request.origin | append: variant.url | json }}
+        }
+        {% unless forloop.last %},{% endunless %}{%- endfor -%}]
+  }
+</script>

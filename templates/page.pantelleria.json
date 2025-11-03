@@ -1,0 +1,837 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "banner_grid_Vmt6hR": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_Qkk9DV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Group_12.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "video_qBx8HD": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/dda455b0cd3b41a1a417cf5e819e8e2f.mp4",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_Qkk9DV",
+        "video_qBx8HD"
+      ],
+      "name": "t:sections.banner-grid.name",
+      "settings": {
+        "block_aspect_ratio": "square",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 64,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_a3mMtY": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_xw6TNG": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "Pantelleria",
+            "richtext": "<p>L'isola dal fascino autentico che ha ispirato parte della collezione SS '25, in collaborazione con Èrato Mediterraneo.</p><p></p>",
+            "button_label": "Curiosity atelier",
+            "button_link": "shopify://pages/curiosity-atelier-1",
+            "button_style": "link",
+            "color_scheme": "color-main",
+            "padding": 32,
+            "text_position": "center",
+            "text_alignment": "text-align-center"
+          }
+        },
+        "image_76UEMR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1251.jpg",
+            "media_link": "shopify://products/105188p5201merin",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_fCjXMi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9_Maggio.jpg",
+            "media_link": "shopify://products/105609p5234fa",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_xw6TNG",
+        "image_76UEMR",
+        "image_fCjXMi"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 112,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "24646734-7d66-4b87-a493-864904488cbc": {
+      "type": "image-duo-with-text",
+      "blocks": {
+        "template--20494408876366__24646734-7d66-4b87-a493-864904488cbc-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4849.jpg",
+            "video_url": "",
+            "media_toggle": "show_image",
+            "link_url": "shopify://products/105341p5207ne"
+          }
+        },
+        "template--20494408876366__24646734-7d66-4b87-a493-864904488cbc-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4582.jpg",
+            "video_url": "",
+            "media_toggle": "show_image",
+            "link_url": "shopify://products/305647p5203fumo"
+          }
+        }
+      },
+      "block_order": [
+        "template--20494408876366__24646734-7d66-4b87-a493-864904488cbc-image-1",
+        "template--20494408876366__24646734-7d66-4b87-a493-864904488cbc-image-2"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "desktop_height": 600,
+        "layout": "bottom-right",
+        "desktop_alignment": "sm-text-align-left",
+        "md_padding_top": 0,
+        "md_padding_bottom": 40,
+        "mobile_height": 400,
+        "mobile_alignment": "text-align-left",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "0391254f-a00c-462e-8641-0dbedc8a4c0f": {
+      "type": "banner-grid",
+      "blocks": {
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/14_Maggio.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "da6ab4fd-02b3-455b-94da-1f5cfdb05495": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1043.jpg",
+            "media_link": "shopify://products/105505p5201merin",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "text_n8frid": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "Pantelleria, Giorno Uno",
+            "title": "",
+            "richtext": "<p><em>«Tra le mura silenziose del dammuso, il mio battito ha imparato il ritmo antico dell’isola.»</em></p><p>Sono arrivata all’alba, con le cupole bianche del dammuso che brillavano come conchiglie contro la dorsale vulcanica.<br/><br/>Attraversando la soglia di pietra lavica grezza, ho sentito la casa inspirare il maestrale, offrendo il suo fresco e sacro silenzio.<br/><br/>All’interno, la penombra mi avvolgeva—ogni angolo un invito all’ascolto.<br/><br/>Ho passeggiato sotto la pergola intrecciata di viti, dove i grappoli di zibibbo catturavano la luce del mattino, lasciandomi guidare dalla Curiosità tra stanze scolpite da secoli di siccità e vento.<br/><br/>Qui, la vita segue il respiro lento della terra—e in questo rifugio, ho ritrovato il mio battito, sintonizzato con il canto senza tempo di Pantelleria.<br/><br/></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "secondary",
+            "color_scheme": "color-main",
+            "padding": 32,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-1",
+        "da6ab4fd-02b3-455b-94da-1f5cfdb05495",
+        "text_n8frid"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 0,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_fBMYPj": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_eXBNMn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2d997c2159cd9060f14f2adecb49163e.jpg",
+            "media_link": "shopify://products/305662p5119pa",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_caE9KL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3105.jpg",
+            "media_link": "shopify://products/105031p5213lt",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_eXBNMn",
+        "image_caE9KL"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 48,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_bXEE8j": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_Wc7L9V": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "Pantelleria, Giorno Due",
+            "title": "",
+            "richtext": "<p><em>«Sotto l’arco dell’Elefante, mi sono tuffata nella libertà—dove mare e anima diventano una cosa sola.»</em></p><p>Alle prime luci, ho percorso il sentiero verso l’Arco dell’Elefante, dove l’arco vulcanico veglia sulle acque cristalline.<br/><br/>Avvolta nell’avorio fluido di Alysi, mi sono immersa nella calma turchese—ogni bracciata un dialogo tra corpo e mare.<br/><br/>Emergendo, mi sono fermata sulle rocce riscaldate dal sole, sentendo la forza dei contrasti naturali in ogni increspatura.<br/><br/>Più tardi, siamo arrivati alle vigne di Mueggen, file di viti scolpite nella pietra scura, le foglie tremanti nella brezza.<br/><br/>Una breve deviazione mi ha condotta alla Chiesetta di Sant’Antonio: dalla sua terrazza essenziale, terra e mare si fondevano in un unico, sconfinato orizzonte.<br/><br/>La Curiosità mi ha guidata oltre, ogni panorama impresso nella memoria come una cartolina viva.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        },
+        "image_tLJ4W7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/23_Giugno.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_mFUHqf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_2405-2.jpg",
+            "media_link": "shopify://products/105171p5211cm",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_Wc7L9V",
+        "image_tLJ4W7",
+        "image_mFUHqf"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 64,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_ALYqaE": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_6fibVw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4731.jpg",
+            "media_link": "shopify://products/105283p5233choco",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_3Wz3FF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1530.jpg",
+            "media_link": "shopify://products/105283p5233choco",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_EgLcPU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1648.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_HehnRf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4036.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_6fibVw",
+        "image_3Wz3FF",
+        "image_EgLcPU",
+        "image_HehnRf"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 4,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 40,
+        "padding_bottom": 24
+      }
+    },
+    "image_duo_with_text_fLpBkA": {
+      "type": "image-duo-with-text",
+      "blocks": {
+        "image_UYLmMi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_1446.jpg",
+            "video_url": "",
+            "media_toggle": "show_image",
+            "link_url": "shopify://products/105403p5209cer"
+          }
+        },
+        "button_8NhzjK": {
+          "type": "button",
+          "settings": {
+            "button_label": "holiday selection",
+            "button_link": "shopify://collections/beachwear",
+            "button_style": "",
+            "button_width": "inline"
+          }
+        },
+        "image_jVyCNK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/23_Maggio.jpg",
+            "video_url": "",
+            "media_toggle": "show_image",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_UYLmMi",
+        "button_8NhzjK",
+        "image_jVyCNK"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "desktop_height": 700,
+        "layout": "top-right",
+        "desktop_alignment": "sm-text-align-left",
+        "md_padding_top": 24,
+        "md_padding_bottom": 48,
+        "mobile_height": 400,
+        "mobile_alignment": "text-align-left",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "banner_grid_9kiRCj": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_wYrfeN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/19_Maggio.jpg",
+            "media_link": "shopify://products/105924p5206gold",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_N9jRUJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3439.jpg",
+            "media_link": "shopify://products/205422p5203cer",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_wYrfeN",
+        "image_N9jRUJ"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "image_duo_with_text_iMNKFQ": {
+      "type": "image-duo-with-text",
+      "blocks": {
+        "image_EeDJNb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_2863.jpg",
+            "video_url": "",
+            "media_toggle": "show_image",
+            "link_url": "shopify://products/105290p5211cm"
+          }
+        },
+        "image_PgxxYU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_2253-2.jpg",
+            "video_url": "",
+            "media_toggle": "show_image",
+            "link_url": "shopify://products/105171p5211cm"
+          }
+        }
+      },
+      "block_order": [
+        "image_EeDJNb",
+        "image_PgxxYU"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "desktop_height": 700,
+        "layout": "bottom-right",
+        "desktop_alignment": "sm-text-align-left",
+        "md_padding_top": 64,
+        "md_padding_bottom": 24,
+        "mobile_height": 400,
+        "mobile_alignment": "text-align-left",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_B7MMyH": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_GYC69z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_0968-Migliorato-NR.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_nAGCez": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/21_Maggio.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_GYC69z",
+        "image_nAGCez"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 80,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_bfHM3J": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_MAdBfq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3423.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_JNqxHq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/30_Giugno.jpg",
+            "media_link": "shopify://products/105607p5234cg",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_LYEfm3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_3917.jpg",
+            "media_link": "shopify://products/105607p5234cg",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_MAdBfq",
+        "image_JNqxHq",
+        "image_LYEfm3"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 3,
+        "md_padding_top": 0,
+        "md_padding_bottom": 64,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 3,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_WBHkCe": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_C3TcxE": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "Pantelleria, Giorno Tre",
+            "title": "",
+            "richtext": "<p><em>«Nel bagliore fuso dello Specchio di Venere, ogni increspatura sussurrava la poesia di terra e acqua.»</em></p><p>Al calar dell’oro, mi sono immersa nelle acque termali dello Specchio di Venere, il fango minerale morbido sotto i piedi.<br/><br/>Mi sono mossa lentamente, lasciando che acqua e terra tracciassero i contorni dei pantaloni color sabbia di Alysi, e ho respirato il bagliore fuso del tramonto.<br/><br/>Da vicino, il gioco fluido della luce sulla pelle era primordiale—ogni goccia un richiamo all’alchimia di quest’isola.<br/><br/>Più tardi, ho assaporato i sapori autentici di Pantelleria: capperi IGP salmastri che esplodono sul palato, pesto pantesco mescolato con olio d’oliva locale, e una fumante ciotola di sciakisciuka.<br/><br/>Con un calice di Passito di zibibbo appassito al sole, dolce e complesso, ho brindato al lavoro e alla passione di questa terra.<br/><br/>In ogni gusto, ho scoperto l’anima selvaggia di Pantelleria—e in ogni sorso, la promessa di una curiosità sempre viva.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        },
+        "image_WUrhwc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_Giugno.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_CTB76x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_2923.jpg",
+            "media_link": "shopify://products/105290p5211cm",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_C3TcxE",
+        "image_WUrhwc",
+        "image_CTB76x"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 24,
+        "md_padding_bottom": 64,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_JDVRiL": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_bpPpDw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/28_Maggio.jpg",
+            "media_link": "shopify://products/105171p5211cm",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_yQXB3M": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/IMG_4765.jpg",
+            "media_link": "shopify://products/105608p5234bar",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_bpPpDw",
+        "image_yQXB3M"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 24,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "main",
+    "banner_grid_Vmt6hR",
+    "banner_grid_a3mMtY",
+    "24646734-7d66-4b87-a493-864904488cbc",
+    "0391254f-a00c-462e-8641-0dbedc8a4c0f",
+    "banner_grid_fBMYPj",
+    "banner_grid_bXEE8j",
+    "banner_grid_ALYqaE",
+    "image_duo_with_text_fLpBkA",
+    "banner_grid_9kiRCj",
+    "image_duo_with_text_iMNKFQ",
+    "banner_grid_B7MMyH",
+    "banner_grid_bfHM3J",
+    "banner_grid_WBHkCe",
+    "banner_grid_JDVRiL"
+  ]
+}

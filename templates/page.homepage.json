@@ -1,0 +1,575 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "c3edae58-958e-4b8b-9dea-0310c944722e": {
+      "type": "hero",
+      "blocks": {
+        "template--20494408876366__c3edae58-958e-4b8b-9dea-0310c944722e-image-1": {
+          "type": "image",
+          "settings": {
+            "media_link": "",
+            "media_toggle": "show_image",
+            "image": "shopify://shop_images/Alysi_367.jpg",
+            "video_url": "",
+            "video_url_mobile": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20494408876366__c3edae58-958e-4b8b-9dea-0310c944722e-image-1"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "overlay_opacity": 0,
+        "enable_full_width": true,
+        "section_height_desktop": "100vh",
+        "section_pixel_height_desktop": 600,
+        "content_width": "col-sm-max-8",
+        "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 0,
+        "md_padding_bottom": 0,
+        "section_height": "by_pixels",
+        "section_pixel_height": 400,
+        "content_align_mobile": "vertical-center horizontal-center",
+        "mobile_alignment": "text-align-center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ca764e69-bd62-4ddd-8176-83ae490b2591": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--20315981906254__ca764e69-bd62-4ddd-8176-83ae490b2591-title-1": {
+          "type": "title",
+          "settings": {
+            "title": "PARTY PREQUEL",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "template--20315981906254__ca764e69-bd62-4ddd-8176-83ae490b2591-subtitle-1": {
+          "type": "subtitle",
+          "disabled": true,
+          "settings": {
+            "subtitle": "La Festa inizia da TE!",
+            "heading_tag": "h5",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "template--20315981906254__ca764e69-bd62-4ddd-8176-83ae490b2591-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La Festa inizia da TE!</p><p></p><p>La Festa è ben riuscita quanti più invitati ci sono. Si nasconde, però, nei preparativi e nell’attesa l’emozione dell’evento! Quel momento intimo tra te e te in cui scegli che personalità indossare.</p><p>L’abito, che come una migliore amica ti conosce più di chiunque altro, accompagna questi attimi di ordinaria scoperta di sé. </p><p>Nel making of ti carichi di aspettative e scrivi la sceneggiatura della tua serata, il divertimento parte lì!</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "4048c43d-bb01-4879-a158-fade516eecbd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_278.jpg",
+            "video_url": "",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20315981906254__ca764e69-bd62-4ddd-8176-83ae490b2591-title-1",
+        "template--20315981906254__ca764e69-bd62-4ddd-8176-83ae490b2591-subtitle-1",
+        "template--20315981906254__ca764e69-bd62-4ddd-8176-83ae490b2591-text-1",
+        "4048c43d-bb01-4879-a158-fade516eecbd"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 32,
+        "padding_bottom": 24
+      }
+    },
+    "cb8d924d-efcd-4ab5-b343-c8cf810e19aa": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20315981906254__cb8d924d-efcd-4ab5-b343-c8cf810e19aa-title-1": {
+          "type": "title",
+          "settings": {
+            "title": "PARTY PREQUEL",
+            "heading_tag": "h3",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "template--20315981906254__cb8d924d-efcd-4ab5-b343-c8cf810e19aa-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La Festa inizia da TE!</p><p> La Festa è ben riuscita quanti più invitati ci sono. Si nasconde, però, nei preparativi e nell’attesa l’emozione dell’evento! Quel momento intimo tra te e te in cui scegli che personalità indossare.</p><p>L’abito, che come una migliore amica ti conosce più di chiunque altro, accompagna questi attimi di ordinaria scoperta di sé. </p><p>Nel <em>making of</em> ti carichi di aspettative e scrivi la sceneggiatura della tua serata, il divertimento parte lì!</p><p>Sotto i riflettori i dettagli: è qui infatti che si svela la personalità! Guardare con una lente d’ingrandimento al particolare, restringere il campo sulle “piccolezze”, curare quegli elementi di cui pensi non si accorgerà nessuno, è invece creare un vero e proprio dialogo raffinato con l’altro, presentarsi attraverso un lessico personale che lancia indizi sul tuo gusto e il tuo modo di essere.</p><p> </p><p>Dopo tante prove outfit vedrai che sarà sempre buona la prima, quindi..</p><p>Azione!</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 15,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--20315981906254__cb8d924d-efcd-4ab5-b343-c8cf810e19aa-title-1",
+        "template--20315981906254__cb8d924d-efcd-4ab5-b343-c8cf810e19aa-text-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 100,
+        "desktop_content_alignment": "center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "54264903-7e7e-45fc-9df2-ac40219658f7": {
+      "type": "banner-grid",
+      "blocks": {
+        "template--20494408876366__54264903-7e7e-45fc-9df2-ac40219658f7-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_081.jpg",
+            "media_link": "shopify://products/153245a3210",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--20494408876366__54264903-7e7e-45fc-9df2-ac40219658f7-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_473.jpg",
+            "media_link": "shopify://products/353618a3100",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--20494408876366__54264903-7e7e-45fc-9df2-ac40219658f7-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_411.webp",
+            "media_link": "shopify://products/153834a3258",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "b62b580d-4e6e-429a-934c-59434d94e91f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_454.jpg",
+            "media_link": "shopify://products/153272a3254",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--20494408876366__54264903-7e7e-45fc-9df2-ac40219658f7-image-1",
+        "template--20494408876366__54264903-7e7e-45fc-9df2-ac40219658f7-image-2",
+        "template--20494408876366__54264903-7e7e-45fc-9df2-ac40219658f7-image-3",
+        "b62b580d-4e6e-429a-934c-59434d94e91f"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 4,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "846023b4-af05-42dc-ac2d-f4c4441c67ac": {
+      "type": "sliding-text",
+      "blocks": {
+        "template--20494408876366__846023b4-af05-42dc-ac2d-f4c4441c67ac-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "La Festa inizia da TE!",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20494408876366__846023b4-af05-42dc-ac2d-f4c4441c67ac-text-1"
+      ],
+      "settings": {
+        "content_order": "horizontal",
+        "font": "base",
+        "text_color": "#000000",
+        "text_gradient_color": "",
+        "background_color": "#ffffff",
+        "direction": "normal",
+        "speed": 30,
+        "pause_on_hover": false,
+        "sm_size_multiplier": "sm-size--large",
+        "sm_item_gap": 80,
+        "sm_padding": 24,
+        "md_padding_top": 0,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "item_gap": 24,
+        "padding": 24,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "24646734-7d66-4b87-a493-864904488cbc": {
+      "type": "image-duo-with-text",
+      "blocks": {
+        "template--20494408876366__24646734-7d66-4b87-a493-864904488cbc-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_223.jpg",
+            "video_url": "",
+            "media_toggle": "show_image",
+            "link_url": "shopify://products/153328a3243"
+          }
+        },
+        "template--20494408876366__24646734-7d66-4b87-a493-864904488cbc-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_245.webp",
+            "video_url": "",
+            "media_toggle": "show_image",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20494408876366__24646734-7d66-4b87-a493-864904488cbc-image-1",
+        "template--20494408876366__24646734-7d66-4b87-a493-864904488cbc-image-2"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "desktop_height": 600,
+        "layout": "bottom-right",
+        "desktop_alignment": "sm-text-align-left",
+        "md_padding_top": 0,
+        "md_padding_bottom": 40,
+        "mobile_height": 400,
+        "mobile_alignment": "text-align-left",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "0391254f-a00c-462e-8641-0dbedc8a4c0f": {
+      "type": "banner-grid",
+      "blocks": {
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_500.webp",
+            "media_link": "shopify://products/153153a3240",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_039.webp",
+            "media_link": "shopify://products/153244a3221",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_218.jpg",
+            "media_link": "shopify://products/153328a3243",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "da6ab4fd-02b3-455b-94da-1f5cfdb05495": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_445.webp",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-1",
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-2",
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-3",
+        "da6ab4fd-02b3-455b-94da-1f5cfdb05495"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 4,
+        "md_padding_top": 0,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "1f4e9aa1-1bd4-4f40-b53e-27911d674018": {
+      "type": "image-duo-with-text",
+      "blocks": {
+        "template--20494408876366__1f4e9aa1-1bd4-4f40-b53e-27911d674018-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_181.jpg",
+            "video_url": "",
+            "media_toggle": "show_image",
+            "link_url": ""
+          }
+        },
+        "template--20494408876366__1f4e9aa1-1bd4-4f40-b53e-27911d674018-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_498.jpg",
+            "video_url": "",
+            "media_toggle": "show_image",
+            "link_url": ""
+          }
+        },
+        "template--20494408876366__1f4e9aa1-1bd4-4f40-b53e-27911d674018-text-1": {
+          "type": "text",
+          "settings": {
+            "subtitle": "",
+            "title": "",
+            "text": "<p>Sotto i riflettori i dettagli: è qui infatti che si svela la personalità! Guardare con una lente d’ingrandimento al particolare, restringere il campo sulle “piccolezze”, curare quegli elementi di cui pensi non si accorgerà nessuno, è invece creare un vero e proprio dialogo raffinato con l’altro, presentarsi attraverso un lessico personale che lancia indizi sul tuo gusto e il tuo modo di essere.</p><p>Dopo tante prove outfit vedrai che sarà sempre buona la prima, quindi..</p><p>Azione!</p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--20494408876366__1f4e9aa1-1bd4-4f40-b53e-27911d674018-image-1",
+        "template--20494408876366__1f4e9aa1-1bd4-4f40-b53e-27911d674018-image-2",
+        "template--20494408876366__1f4e9aa1-1bd4-4f40-b53e-27911d674018-text-1"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "desktop_height": 600,
+        "layout": "bottom-left",
+        "desktop_alignment": "sm-text-align-left",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_height": 450,
+        "mobile_alignment": "text-align-left",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    },
+    "62b9a1f6-c77f-4818-b73a-7818d6e876d5": {
+      "type": "banner-grid",
+      "blocks": {
+        "template--20494408876366__62b9a1f6-c77f-4818-b73a-7818d6e876d5-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_491.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--20494408876366__62b9a1f6-c77f-4818-b73a-7818d6e876d5-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_302.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--20494408876366__62b9a1f6-c77f-4818-b73a-7818d6e876d5-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_341.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--20494408876366__62b9a1f6-c77f-4818-b73a-7818d6e876d5-image-1",
+        "template--20494408876366__62b9a1f6-c77f-4818-b73a-7818d6e876d5-image-2",
+        "template--20494408876366__62b9a1f6-c77f-4818-b73a-7818d6e876d5-image-3"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "5ca57a80-b97b-4abb-bceb-6bf0373f0f6f": {
+      "type": "image-duo-with-text",
+      "blocks": {
+        "template--20494408876366__5ca57a80-b97b-4abb-bceb-6bf0373f0f6f-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_124.jpg",
+            "video_url": "",
+            "media_toggle": "show_image",
+            "link_url": "shopify://products/153022a3221"
+          }
+        },
+        "template--20494408876366__5ca57a80-b97b-4abb-bceb-6bf0373f0f6f-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_460.webp",
+            "video_url": "",
+            "media_toggle": "show_image",
+            "link_url": "shopify://products/153030a3254"
+          }
+        }
+      },
+      "block_order": [
+        "template--20494408876366__5ca57a80-b97b-4abb-bceb-6bf0373f0f6f-image-1",
+        "template--20494408876366__5ca57a80-b97b-4abb-bceb-6bf0373f0f6f-image-2"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "desktop_height": 600,
+        "layout": "top-right",
+        "desktop_alignment": "sm-text-align-left",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_height": 400,
+        "mobile_alignment": "text-align-left",
+        "padding_top": 40,
+        "padding_bottom": 40
+      }
+    }
+  },
+  "order": [
+    "main",
+    "c3edae58-958e-4b8b-9dea-0310c944722e",
+    "ca764e69-bd62-4ddd-8176-83ae490b2591",
+    "cb8d924d-efcd-4ab5-b343-c8cf810e19aa",
+    "54264903-7e7e-45fc-9df2-ac40219658f7",
+    "846023b4-af05-42dc-ac2d-f4c4441c67ac",
+    "24646734-7d66-4b87-a493-864904488cbc",
+    "0391254f-a00c-462e-8641-0dbedc8a4c0f",
+    "1f4e9aa1-1bd4-4f40-b53e-27911d674018",
+    "62b9a1f6-c77f-4818-b73a-7818d6e876d5",
+    "5ca57a80-b97b-4abb-bceb-6bf0373f0f6f"
+  ]
+}

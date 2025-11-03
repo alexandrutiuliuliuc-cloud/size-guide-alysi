@@ -1,0 +1,131 @@
+{%- liquid
+  # ** Purpose **
+  # This code generates the main media container that can be shown as slider or as a grid.
+
+  assign first_item_class = ''
+  if md_two_columns and first_item_full
+    assign first_item_class = 'sm-item-span-2'
+  endif
+-%}
+
+<gridy-slider
+  id="slider-{{ section.id }}"
+  class="gridy-slider product-media-slider small-hide-custom"
+  data-mobile-enabled="{{ slider_mobile }}"
+  data-tablet-enabled="{{ slider_desktop }}"
+  data-desktop-enabled="{{ slider_desktop }}"
+  data-arrows="true"
+  data-dots="false"
+  data-indicator="true"
+  {%- if product.selected_or_first_available_variant.featured_media.id -%}
+    data-init-scroll-to="item-{{ product.selected_or_first_available_variant.featured_media.id }}"
+  {%- endif -%}
+>
+  <div
+    class="gridy-track scrollbar--hide grid sm-gap grid-cols-1{% if md_two_columns %} md-grid-cols-2{% endif %}{% if slide_peek %} slide-peek{% endif %}"
+    style="
+      --gap: {{ media_gap | default: '24px' }};
+      --sm-gap: {{ sm_media_gap | default: '3px' }};
+      --sm-br: {{ sm_border_radius | append: 'px' }};
+    "
+  >
+    {%- if product == null -%}
+      {%- assign item_id = 'item-' | append: section.id | append: '-' | append: forloop.index -%}
+      <figure id="{{ item_id }}" class="media {{ aspect_ratio }}">
+        {{ 'product-' | append: forloop.index | placeholder_svg_tag }}
+      </figure>
+    {%- else -%}
+      {%- for media in product.media -%}
+        {%- liquid
+          assign item_id = 'item-' | append: media.id
+          if forloop.index == 1
+            assign custom_classes = first_item_class
+          else
+            assign custom_classes = ''
+          endif
+        -%}
+        {%- render 'product-media',
+          media: media,
+          aspect_ratio: aspect_ratio,
+          lazyload: true,
+          sizing_rule: sizing_rule,
+          background_color: background_color,
+          sizes: sizes,
+          item_id: item_id,
+          custom_classes: custom_classes,
+          forloopIndex: forloop.index
+        -%}
+      {%- endfor -%}
+    {%- endif -%}
+  </div>
+
+  {% render 'gridy-arrows' %}
+  {% render 'gridy-indicator', ipr_desktop: 1, ipr_tablet: 1, ipr_mobile: 1, items_count: product.media.size %}
+</gridy-slider>
+
+{% comment %}
+  SLIDER FOR MOBILE
+{% endcomment %}
+
+<gridy-slider
+  id="slider-{{ section.id }}"
+  class="gridy-slider product-media-slider medium-up-hide-custom large-hide-custom"
+  data-mobile-enabled="{{ slider_mobile }}"
+  data-tablet-enabled="{{ slider_desktop }}"
+  data-desktop-enabled="{{ slider_desktop }}"
+  data-arrows="true"
+  data-dots="false"
+  data-indicator="true"
+  {%- if product.selected_or_first_available_variant.featured_media.id -%}
+    data-init-scroll-to="item-{{ product.selected_or_first_available_variant.featured_media.id }}"
+  {%- endif -%}
+>
+  <div
+    class="gridy-track scrollbar--hide grid sm-gap grid-cols-1{% if md_two_columns %} md-grid-cols-2{% endif %}{% if slide_peek %} slide-peek{% endif %}"
+    style="
+      --gap: {{ media_gap | default: '24px' }};
+      --sm-gap: {{ sm_media_gap | default: '3px' }};
+      --sm-br: {{ sm_border_radius | append: 'px' }};
+    "
+  >
+    {%- if product == null -%}
+      {%- assign item_id = 'item-' | append: section.id | append: '-' | append: forloop.index -%}
+      <figure id="{{ item_id }}" class="media {{ aspect_ratio }}">
+        {{ 'product-' | append: forloop.index | placeholder_svg_tag }}
+      </figure>
+    {%- else -%}
+      {%- for media in product.media -%}
+        {%- liquid
+          assign item_id = 'item-' | append: media.id
+          if forloop.index == 1
+            assign custom_classes = first_item_class
+          else
+            assign custom_classes = ''
+          endif
+        -%}
+        {%- render 'product-media',
+          media: media,
+          aspect_ratio: aspect_ratio,
+          lazyload: true,
+          sizing_rule: sizing_rule,
+          background_color: background_color,
+          sizes: sizes,
+          item_id: item_id,
+          custom_classes: custom_classes,
+          forloopIndex: forloop.index
+        -%}
+      {%- endfor -%}
+    {%- endif -%}
+  </div>
+
+  {% render 'gridy-arrows' %}
+  <div class="dots-wrapper">
+    {% for i in (1..product.media.size) %}
+      <div class="dot {% if forloop.first %} active {% endif %}" data-slide-custom="{{ i }}" style="padding: 3px; ">
+        .
+      </div>
+    {% endfor %}
+  </div>
+
+  {% comment %}  {% render 'gridy-indicator', ipr_desktop: 1, ipr_tablet: 1, ipr_mobile: 1, items_count: product.media.size %} {% endcomment %}
+</gridy-slider>

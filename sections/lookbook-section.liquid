@@ -1,0 +1,229 @@
+{{ 'lookbook-section.css' | asset_url | stylesheet_tag }}
+<script src="{{ 'lookbook-section.js' | asset_url }}" defer="defer"></script>
+<section class="ctm-page-width main-container" id="section-unique{{ section.id }}">
+  <div class="lookbook-container lookbook-grid">
+    <div class="lookbook-featured-image container">
+      <img
+        src="{{ section.settings.lookbook_featured_image | image_url}}"
+        alt="featured_image_lookbook"
+        width="auto"
+        height="auto"
+      >
+      <div class="markers-wrapper">
+        {% for block in section.blocks %}
+          <button
+            id="{{ block.id }}"
+            class="marker-button"
+            style="left:{{ block.settings.horizontal }}%; top: {{ block.settings.vertical }}%;"
+            data-product="{{ block.id }}"
+          >
+            <svg
+              class="svg-inline--fa fa-plus icon"
+              style="--fa-secondary-opacity: 1;position: absolute;top: 50%;left: 50%;transform: translate(-50%,-50%) rotate(0);transition: transform .2s ease-in;width: 16px;height: 16px;"
+              aria-hidden="true"
+              focusable="false"
+              data-prefix="fat"
+              data-icon="plus"
+              role="img"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+              data-fa-i2svg=""
+            >
+              <path fill="currentColor" d="M232 72c0-4.4-3.6-8-8-8s-8 3.6-8 8V248H40c-4.4 0-8 3.6-8 8s3.6 8 8 8H216V440c0 4.4 3.6 8 8 8s8-3.6 8-8V264H408c4.4 0 8-3.6 8-8s-3.6-8-8-8H232V72z"></path>
+            </svg>
+          </button>
+        {% endfor %}
+      </div>
+    </div>
+    <div class="card-product-wrapper swiper">
+      <div class="featured-marker-products swiper-wrapper">
+        {% for block in section.blocks %}
+          {% if block.settings['marker-product'] %}
+            <div class="marker-product-card swiper-slide" data-marker-card="{{ block.id }}">
+              <div class="card-image">
+                {% render 'img',
+                  src: block.settings['marker-product'].media[0],
+                  aspect_ratio: 'square',
+                  lazyload: true,
+                  placeholder: 'product-2'
+                %}
+              </div>
+              <h2 class="lookbook-product-title">{{ block.settings['marker-product'].title }}</h2>
+              <span class="product-price">{{ block.settings['marker-product'].price | money }}</span>
+              <a href="{{block.settings['marker-product'].url }}" class="lookbook-view-product-btn"> Vidi Prodotto </a>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </div>
+      <div class="swiper-button-next">
+        <img
+          class="a-right control-c next slick-next slick-arrow"
+          src="//oliveware-india.myshopify.com/cdn/shop/t/1/assets/next-arrow.png?v=43738239450083717361689283052"
+          style=""
+        >
+      </div>
+      <div class="swiper-button-prev">
+        <img
+          class="a-left control-c prev slick-prev slick-arrow"
+          src="//oliveware-india.myshopify.com/cdn/shop/t/1/assets/previous-arrow.png?v=77199801369814035301689282959"
+          style=""
+        >
+      </div>
+
+      <!-- Add pagination dots -->
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</section>
+{% schema %}
+{
+  "name": "LookBook",
+  "class": "LookBook Section",
+  "settings": [
+    {
+      "type": "text",
+      "id": "Section-Heading",
+      "label": "Heading"
+    },
+    {
+      "type": "range",
+      "id": "heading-font-size",
+      "min": 10,
+      "max": 100,
+      "unit": "%",
+      "default": 10,
+      "label": "Font Size"
+    },
+    {
+      "type": "image_picker",
+      "id": "lookbook_featured_image",
+      "label": "Image",
+      "info": "3840 x 2160px .jpg recommended."
+    }
+
+  ],
+  "blocks": [
+    {
+      "type": "marker",
+      "name": "Marker",
+      "settings": [
+    {
+      "type": "range",
+      "id": "horizontal",
+      "min": 0,
+      "max": 100,
+      "unit": "%",
+      "default": 10,
+      "label": "Horizontal"
+    },
+    {
+      "type": "range",
+      "id": "vertical",
+      "min": 0,
+      "max": 100,
+      "unit": "%",
+      "default": 10,
+      "label": "vertical"
+    },
+    {
+      "type": "product",
+      "id": "marker-product",
+      "label": "Product"
+    },
+    {
+      "type": "select",
+      "id": "image_ratio",
+      "options": [
+        {
+          "value": "adapt",
+          "label": "t:sections.featured-collection.settings.image_ratio.options__1.label"
+        },
+        {
+          "value": "portrait",
+          "label": "t:sections.featured-collection.settings.image_ratio.options__2.label"
+        },
+        {
+          "value": "square",
+          "label": "t:sections.featured-collection.settings.image_ratio.options__3.label"
+        }
+      ],
+      "default": "adapt",
+      "label": "t:sections.featured-collection.settings.image_ratio.label"
+    }
+      ]
+    }
+  ],
+  "presets": [
+        {
+          "name": "LookBook"
+        }
+  ]
+}
+{% endschema %}
+<script>
+      // debugger;
+    // alert("working");
+    const lookBookSections = document.querySelectorAll(
+      ".ctm-page-width.main-container"
+    );
+  console.log(lookBookSections)
+    lookBookSections.forEach((section) => {
+      console.log(`${section} This is section `) 
+      const section_id_new = section.getAttribute("id");
+console.log(`This is section id ${section_id_new            }`);
+      // Select marker buttons and marker product cards within the current section
+      const marker_Buttons = section.querySelectorAll(`#${section_id_new} .marker-button`);
+      const marker_product_cards = section.querySelectorAll(`
+        #${section_id_new} .marker-product-card
+      `);
+
+      marker_Buttons.forEach((btn) => {
+        btn.addEventListener("click", function () {
+          const data_product = this.getAttribute("data-product");
+          let card_attribute = null;
+
+          for (const card of marker_product_cards) {
+            const card_data_attribute = card.getAttribute("data-marker-card");
+            if (data_product === card_data_attribute) {
+              card_attribute = card.getAttribute("data-swiper-slide-index");
+              break;
+            }
+          }
+
+          if (card_attribute !== null) {
+            const paginationDots = section.querySelectorAll(`
+              #${section_id_new} .swiper-pagination-bullet
+            `);
+            paginationDots.forEach((dot) => {
+              const dotIndex = dot.getAttribute("aria-label").match(/\d+/)[0] - 1;
+              if (card_attribute == dotIndex) {
+                dot.click();
+              }
+            });
+          }
+        });
+      });
+
+      // Initialize Swiper for each look book section
+      const mySwiper = new Swiper(`#${section_id_new} .swiper.card-product-wrapper`,
+        {
+          effect: "fade",
+          fadeEffect: {
+            crossFade: true,
+          },
+          slidesPerView: 1,
+          direction: "horizontal",
+          loop: true,
+          slidesPerGroup: 1,
+          navigation: {
+            nextEl: `#${section_id_new} .swiper-button-next`,
+            prevEl: `#${section_id_new} .swiper-button-prev`,
+          },
+          pagination: {
+            el: `#${section_id_new} .swiper-pagination`,
+            clickable: true,
+          },
+        }
+      );
+    });
+</script>

@@ -1,0 +1,147 @@
+{%- liquid
+  assign show_image = false
+  if collection.image != blank and section.settings.image_layout contains 'show'
+    assign show_image = true
+  endif
+-%}
+
+<header
+  class="container sm-down-edge-to-edge pt pb sm-pt sm-pb {{ section.settings.color_scheme }}{% if section.settings.center_text %} text-align-center{% endif %}"
+  style="
+    --pt: {{ section.settings.padding_top | append: 'px' }};
+    --pb: {{ section.settings.padding_bottom | append: 'px' }};
+    --sm-pt: {{ section.settings.md_padding_top | append: 'px' }};
+    --sm-pb: {{ section.settings.md_padding_bottom | append: 'px' }};
+    ">
+
+  <div class="grid vertical-center" style="position: relative; z-index: 1;">
+    {% if show_image and section.settings.image_layout == 'show next_to' %}
+    <div class="collection-image col-12 {% if section.settings.center_text %}col-sm-4 col-sm-offset-5{% else %}col-sm-3 col-md-2{% endif %}">
+      {% render 'img', src: collection.image, custom_classes: 'sm-br-img' %}
+    </div>
+    {% endif %}
+    <div class="collection-title pt-24 pb-24 sm-down-p-page col-12{% if show_image and section.settings.image_layout == 'show next_to' and section.settings.center_text == false %} col-sm-6{% endif %}">
+      <h1 class="heading">{{ collection.title }}</h1>
+      {%- unless collection.description == blank -%}  
+        <div class="mt-12 rte description">
+          {{ collection.description }}
+        </div>
+      {%- endunless -%}
+    </div>
+  </div>
+  {% if show_image and section.settings.image_layout == 'show as_bg' %}
+  <div class="collection-header-background">
+    {% render 'img', src: collection.image %}
+  </div>
+  {% endif %}
+</header>
+
+{% schema %}
+  {
+    "name": "t:sections.main-collection-banner.name",
+    "class": "ignore-section-animation",
+    "settings": [
+      {
+        "type": "paragraph",
+        "content": "t:sections.main-collection-banner.info"
+      },
+      {
+        "type": "select",
+        "id": "color_scheme",
+        "label": "t:sections.colors.color_scheme.label",
+        "options": [
+          {
+            "value": "color-main",
+            "label": "t:sections.colors.color_scheme.main"
+          },
+          {
+            "value": "color-main-inverted",
+            "label": "t:sections.colors.color_scheme.main_inverted"
+          },
+          {
+            "value": "color-accent",
+            "label": "t:sections.colors.color_scheme.accent"
+          },
+          {
+            "value": "color-accent-inverted",
+            "label": "t:sections.colors.color_scheme.accent_inverted"
+          }
+        ]
+      },
+      {
+        "type": "select",
+        "id": "image_layout",
+        "label": "t:sections.main-collection-banner.settings.image_layout.label",
+        "default": "show next_to",
+        "options": [
+          {
+            "value": "hide",
+            "label": "t:sections.main-collection-banner.settings.image_layout.options.hide"
+          },
+          {
+            "value": "show as_bg",
+            "label": "t:sections.main-collection-banner.settings.image_layout.options.show_as_background"
+          },
+          {
+            "value": "show next_to",
+            "label": "t:sections.main-collection-banner.settings.image_layout.options.show_next_to"
+          }
+        ]
+      },
+      {
+        "type": "checkbox",
+        "id": "center_text",
+        "default": false,
+        "label": "t:sections.main-collection-banner.settings.center_text.label"
+      },
+      {
+        "type": "header",
+        "content": "t:sections.headers.desktop_layout"
+      },
+      {
+        "type": "range",
+        "id": "md_padding_top",
+        "min": 0,
+        "max": 160,
+        "step": 8,
+        "unit": "px",
+        "label": "t:sections.layout.margin_top",
+        "default": 80
+      },
+      {
+        "type": "range",
+        "id": "md_padding_bottom",
+        "min": 0,
+        "max": 160,
+        "step": 8,
+        "unit": "px",
+        "label": "t:sections.layout.margin_bottom",
+        "default": 40
+      },
+      {
+        "type": "header",
+        "content": "t:sections.headers.mobile_layout"
+      },
+      {
+        "type": "range",
+        "id": "padding_top",
+        "min": 0,
+        "max": 160,
+        "step": 8,
+        "unit": "px",
+        "label": "t:sections.layout.margin_top",
+        "default": 40
+      },
+      {
+        "type": "range",
+        "id": "padding_bottom",
+        "min": 0,
+        "max": 160,
+        "step": 8,
+        "unit": "px",
+        "label": "t:sections.layout.margin_bottom",
+        "default": 0
+      }
+    ]
+  }
+{% endschema %}

@@ -1,0 +1,595 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "55c5b527-7c1d-4c43-808c-d09c46e8a486": {
+      "type": "banner-grid",
+      "blocks": {
+        "31ddd830-1de3-4f53-96e5-3a9fdd99a34c": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "EDITORIALS",
+            "richtext": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "start",
+            "text_alignment": "text-align-left"
+          }
+        }
+      },
+      "block_order": [
+        "31ddd830-1de3-4f53-96e5-3a9fdd99a34c"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "382fb2d5-29d9-4141-a114-5650320a1f9c": {
+      "type": "banner-grid",
+      "blocks": {
+        "template--19900500509006__382fb2d5-29d9-4141-a114-5650320a1f9c-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/feelingmag-stripes.webp",
+            "media_link": "",
+            "title": "FEELING MAGAZINE\nMaggio",
+            "title_style": "body-text",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "28b631c8-1df5-420b-bf53-7bc36a22a97d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/feelingmag-mag.webp",
+            "media_link": "",
+            "title": "FEELING MAGAZINE\nMaggio",
+            "title_style": "body-text",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "fc860c49-d691-4f8e-b249-746970909777": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/feelingmag-feb_bd3ef97c-f00d-489d-9117-f83994e6cb06.webp",
+            "media_link": "",
+            "title": "FEELING MAGAZINE\nFebbraio",
+            "title_style": "body-text",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "template--19900500509006__382fb2d5-29d9-4141-a114-5650320a1f9c-image-2",
+        "28b631c8-1df5-420b-bf53-7bc36a22a97d",
+        "fc860c49-d691-4f8e-b249-746970909777"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 20,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "68eef723-282a-4b80-badf-1170662f3c94": {
+      "type": "banner-grid",
+      "blocks": {
+        "c4ea675a-d508-4d99-ab00-b480dad9e557": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/feelingmagazine-settembre-01-web.webp",
+            "media_link": "",
+            "title": "FEELING MAGAZINE\nSettembre",
+            "title_style": "body-text",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "63a25635-31c0-496d-aa78-f56b0c9d9bb6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/vestalmag-settembre.webp",
+            "media_link": "",
+            "title": "VESTAL MAG\nSettembre",
+            "title_style": "body-text",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "fa214a28-2b5d-4497-ba40-a2301e3077cc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/feelingmagazine-settembre-00-web.webp",
+            "media_link": "",
+            "title": "FEELING MAGAZINE\nSettembre",
+            "title_style": "body-text",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "c4ea675a-d508-4d99-ab00-b480dad9e557",
+        "63a25635-31c0-496d-aa78-f56b0c9d9bb6",
+        "fa214a28-2b5d-4497-ba40-a2301e3077cc"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 20,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "41942b86-8be1-4cf6-b249-96b0d005b359": {
+      "type": "banner-grid",
+      "blocks": {
+        "5be2499b-0e8b-4bbf-8fb4-523f30ed7e34": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/instylemexico-settembre-web.webp",
+            "media_link": "",
+            "title": "INSTYLE MEXICO\nSettembre",
+            "title_style": "body-text",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "4336171b-c3c5-4857-86c3-5db212f225a6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/feelingmagazine-agosto-01-web.webp",
+            "media_link": "",
+            "title": "FEELING MAGAZINE\nAgosto",
+            "title_style": "body-text",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "aa312d84-e11a-4506-ac13-64d98a0cf158": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/feelingmagazine-agosto-00-web.webp",
+            "media_link": "",
+            "title": "FEELING MAGAZINE\nAgosto",
+            "title_style": "body-text",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "5be2499b-0e8b-4bbf-8fb4-523f30ed7e34",
+        "4336171b-c3c5-4857-86c3-5db212f225a6",
+        "aa312d84-e11a-4506-ac13-64d98a0cf158"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 20,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "c3a3d391-3ccc-4f70-8437-2881fd69acaa": {
+      "type": "banner-grid",
+      "blocks": {
+        "6402c635-5aa7-46cb-bce0-2e211878ecd9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/feelingmagazine-luglio-web.webp",
+            "media_link": "",
+            "title": "FEELING MAGAZINE\nLuglio",
+            "title_style": "body-text",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "0618bbfc-9bcc-4eca-a81c-aebe18708661": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/mialejournal-giugno-web.webp",
+            "media_link": "",
+            "title": "MIA LE JOURNAL\nGiugno",
+            "title_style": "body-text",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "a19a4d50-e123-4c36-85a9-024a61823639": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/mialejournal-maggio.webp",
+            "media_link": "",
+            "title": "MIA LE JOURNAL\nMaggio",
+            "title_style": "body-text",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "6402c635-5aa7-46cb-bce0-2e211878ecd9",
+        "0618bbfc-9bcc-4eca-a81c-aebe18708661",
+        "a19a4d50-e123-4c36-85a9-024a61823639"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 20,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "a6df80ee-9fd8-45c9-b453-a5d2839c189d": {
+      "type": "banner-grid",
+      "blocks": {
+        "88b08f61-28d6-46ac-ab2c-7a298eb48bba": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/feelingmagazine-maggio-web.webp",
+            "media_link": "",
+            "title": "FEELING MAGAZINE\nMaggio",
+            "title_style": "body-text",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "6cb7452c-243c-41e6-b1c2-5f7e85147c25": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/labotanicamagazine-marzo.webp",
+            "media_link": "",
+            "title": "LA BOTANICA MAGAZINE\nMarzo",
+            "title_style": "body-text",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "13f8cf49-7ebe-4bd1-9625-32525a87b2f5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/dlarepubblica-febbraio-02.webp",
+            "media_link": "",
+            "title": "D LA REPUBBLICA\nFebbraio",
+            "title_style": "body-text",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "88b08f61-28d6-46ac-ab2c-7a298eb48bba",
+        "6cb7452c-243c-41e6-b1c2-5f7e85147c25",
+        "13f8cf49-7ebe-4bd1-9625-32525a87b2f5"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 20,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "85f08f51-c74a-41f9-9eb7-6724c4efd6a4": {
+      "type": "banner-grid",
+      "blocks": {
+        "62670254-c23b-496d-bfdb-399c1e70828e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/dlarepubblica-febbraio-01-web.webp",
+            "media_link": "",
+            "title": "D LA REPUBBLICA\nFebbraio",
+            "title_style": "body-text",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "0fbc8ef3-b13e-4265-b8de-3a3983472cdf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/dlarepubblica-febbraio-00.webp",
+            "media_link": "",
+            "title": "D LA REPUBBLICA\nFebbraio",
+            "title_style": "body-text",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "785cbd52-1e63-425d-9c56-02dba16e8065": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/greymagazine-gennaio_ea43f784-a84f-4fe9-b45f-903940974591.jpg",
+            "media_link": "",
+            "title": "GREY MAGAZINE\nGennaio",
+            "title_style": "body-text",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "62670254-c23b-496d-bfdb-399c1e70828e",
+        "0fbc8ef3-b13e-4265-b8de-3a3983472cdf",
+        "785cbd52-1e63-425d-9c56-02dba16e8065"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 20,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "1d51c278-6d71-4eff-812d-c1668819177e": {
+      "type": "banner-grid",
+      "blocks": {
+        "afb36fcc-5d80-433e-ad38-12e36195746d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/spaghettimag-gennaio.webp",
+            "media_link": "",
+            "title": "SPAGHETTI MAG\nGennaio",
+            "title_style": "body-text",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "656036f7-9190-4c6e-a03c-77966c18f17d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/lurve-gennaio.webp",
+            "media_link": "",
+            "title": "LURVE\nGennaio",
+            "title_style": "body-text",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "e9b95e1b-2522-4269-84e6-5ed0874a87a0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/mialejournal-dicembre-web.webp",
+            "media_link": "",
+            "title": "MIA LE JOURNAL\nDicembre",
+            "title_style": "body-text",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "afb36fcc-5d80-433e-ad38-12e36195746d",
+        "656036f7-9190-4c6e-a03c-77966c18f17d",
+        "e9b95e1b-2522-4269-84e6-5ed0874a87a0"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 20,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "57f9cf20-8b90-4168-bf95-825a6da71cdb": {
+      "type": "banner-grid",
+      "blocks": {
+        "5a58f9bc-21b2-4179-877b-e13a1303256b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/l_officielukraine-dicembre.webp",
+            "media_link": "",
+            "title": "L'OFFICIEL UKRAINE\nDicembre",
+            "title_style": "body-text",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "61227ca8-1395-49c2-98e2-149dd0d1fcc7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/img28_2.webp",
+            "media_link": "",
+            "title": "FEELING MAGAZINE\nNovembre",
+            "title_style": "body-text",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "b10ac301-cecd-4665-a99f-82b5842e5706": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/img28.webp",
+            "media_link": "",
+            "title": "FEELING MAGAZINE\nNovembre",
+            "title_style": "body-text",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        }
+      },
+      "block_order": [
+        "5a58f9bc-21b2-4179-877b-e13a1303256b",
+        "61227ca8-1395-49c2-98e2-149dd0d1fcc7",
+        "b10ac301-cecd-4665-a99f-82b5842e5706"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 20,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "main",
+    "55c5b527-7c1d-4c43-808c-d09c46e8a486",
+    "382fb2d5-29d9-4141-a114-5650320a1f9c",
+    "68eef723-282a-4b80-badf-1170662f3c94",
+    "41942b86-8be1-4cf6-b249-96b0d005b359",
+    "c3a3d391-3ccc-4f70-8437-2881fd69acaa",
+    "a6df80ee-9fd8-45c9-b453-a5d2839c189d",
+    "85f08f51-c74a-41f9-9eb7-6724c4efd6a4",
+    "1d51c278-6d71-4eff-812d-c1668819177e",
+    "57f9cf20-8b90-4168-bf95-825a6da71cdb"
+  ]
+}

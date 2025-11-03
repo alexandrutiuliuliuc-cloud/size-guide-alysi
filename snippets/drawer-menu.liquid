@@ -1,0 +1,103 @@
+{%- liquid
+  assign drawer_menu = linklists[section.settings.drawer_menu.handle]
+  assign drawer_secondary_menu = linklists[section.settings.drawer_secondary_menu.handle]
+-%}
+
+<drawer-menu id="drawer-menu" class="drawer drawer-menu" data-drawer data-parent style="opacity: 0; display: none;">
+  <div class="drawer-panel drawer-menu__contents user-select-none" data-contents>
+    <header class="drawer-header">
+      <a role="button" href="#" class="close" data-close aria-label="{{ 'accessibility.close_navigation' | t }}">{%- render 'icon-close' -%}</a>
+    </header>
+    <nav class="drawer-menu-nav drawer-content scrollbar--hide">
+      {% for menu_item in drawer_menu.links %}
+        {% render 'drawer-menu-items', 
+          menu_item: menu_item,
+          current_level: 1,
+          context: 'js',
+          section: section,
+          content_menu_titles: content_menu_titles
+        -%}
+      {% endfor %}
+
+      {% for menu_item in drawer_secondary_menu.links %}
+        {% render 'drawer-menu-items', 
+          menu_item: menu_item,
+          current_level: 1,
+          context: 'js',
+          section: section,
+          content_menu_titles: content_menu_titles
+        -%}
+      {% endfor %}
+
+      {%- if localization.available_countries.size > 1 or localization.available_languages.size > 1 -%}
+        <hr class="drawer-menu__divider rr"/>
+                <!-- <a class="header-item__link header-wishlist-icon" href="/a/wishlist"> </a>-->
+        <a
+          role="button"
+          href="#drawer-search"
+          class="header-item__link search-button medium-up--hide mobile-search-icon"
+          style="color: #000;"
+        >
+          <div class="header-item__link-icon medium-up--hide">
+            <svg
+              role="presentation"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              stroke="currentColor"
+              stroke-width="2"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              class="feather feather-search"
+            >
+              <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+            </svg>
+            <span class="visually-hidden">{{ 'general.search.search' | t }}</span>
+          </div>
+            <span class="search-label-mobile">Cerca</span>
+        </a>    
+        {% render 'drawer-menu-localization' %}
+      {%- endif -%}
+
+      <noscript>
+        {% for menu_item in drawer_menu.links %}
+          {% render 'drawer-menu-items', 
+            menu_item: menu_item,
+            current_level: 1,
+            context: 'no-js',
+            section: section,
+            content_menu_titles: content_menu_titles
+          -%}
+        {% endfor %}
+
+        {% for menu_item in drawer_secondary_menu.links %}
+          {% render 'drawer-menu-items', 
+            menu_item: menu_item,
+            current_level: 1,
+            context: 'no-js',
+            section: section,
+            content_menu_titles: content_menu_titles
+          -%}
+        {% endfor %}
+      </noscript>
+    </nav>
+    <footer class="drawer-footer">
+    </footer>
+  </div>
+
+  {% comment %} Background, click to close {% endcomment %}
+  <a href="#" class="page-overlay" data-overlay aria-hidden="true"></a>
+
+  {%- comment -%} Clipping mask for drawer animations {%- endcomment -%}
+  <svg class="drawer-clip" width="100%" preserveAspectRatio="xMidYMid meet" viewBox="0 0 100 100" aria-hidden="true" xmlns="https://www.w3.org/2000/svg" version="1.1">
+    <defs>
+      <clipPath id="drawer-clip">
+        <rect x="0" y="0" width="2000" height="2000" style="height: 100vh;"></rect>
+      </clipPath>
+    </defs>
+  </svg>
+</drawer-menu>
+<script src="{{ 'component-drawer-menu.js' | asset_url }}" defer="defer"></script>

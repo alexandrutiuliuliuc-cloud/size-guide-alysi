@@ -1,0 +1,77 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:section_groups.aside",
+  "type": "aside",
+  "sections": {
+    "modal-newsletter": {
+      "type": "modal-newsletter",
+      "blocks": {
+        "the-title": {
+          "type": "title",
+          "settings": {
+            "title": "entra nella nostra community"
+          }
+        },
+        "the-image": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240718_ALYSI_CHOCOLAT_SS25_LOOK_10_045.jpg",
+            "media_link": "",
+            "aspect_ratio": "square",
+            "margin_top": 48
+          }
+        },
+        "the-text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Iscriviti alla nostra newsletter e ottieni il 10% di sconto sul tuo primo acquisto.<br/></p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 8,
+            "size_multiplier": "size--default",
+            "margin_top": 8
+          }
+        },
+        "text_4tAp3J": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>L’offerta è valida una sola volta per cliente e non è cumulabile con altre promozioni.</p>",
+            "sm_size_multiplier": "sm-size--small",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "the-newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "margin_top": 8
+          }
+        }
+      },
+      "block_order": [
+        "the-title",
+        "the-image",
+        "the-text",
+        "text_4tAp3J",
+        "the-newsletter"
+      ],
+      "disabled": true,
+      "settings": {
+        "test_mode": true,
+        "delay": 10,
+        "frequency": "once"
+      }
+    }
+  },
+  "order": [
+    "modal-newsletter"
+  ]
+}

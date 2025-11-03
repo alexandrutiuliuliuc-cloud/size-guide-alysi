@@ -1,0 +1,69 @@
+
+<script type="text/javascript">
+    var _iub = _iub || [];
+    _iub.csConfiguration = {
+        "countryDetection": true,
+        "consentOnContinuedBrowsing": false,
+        "perPurposeConsent": true,
+        "lang": "en",
+        "siteId": 3440254, //use your siteId
+        "cookiePolicyId": 96573506, //use your cookiePolicyId
+        "floatingPreferencesButtonDisplay": "bottom-right",
+        "banner": {
+            "acceptButtonDisplay": true,
+            "customizeButtonDisplay": true,
+            "rejectButtonDisplay": true,
+            "position": "float-top-center"
+        }
+    };
+    <!-- code for Shopify (1 of 2) -->
+    var onPreferenceFirstExpressedCallback = function(consent) {
+        var shopifyPurposes = {
+          "analytics": [4, 's'],
+          "marketing": [5, 'adv'],
+          "preferences": [2, 3],
+          "sale_of_data": ['s', 'sh'],
+        }
+        var expressedConsent = {};
+        Object.keys(shopifyPurposes).forEach(function(purposeItem) {
+          var purposeExpressed = null
+          shopifyPurposes[purposeItem].forEach(item => {
+            if (consent.purposes && typeof consent.purposes[item] === 'boolean') {
+              purposeExpressed = consent.purposes[item];
+            }
+            if (consent.uspr && typeof consent.uspr[item] === 'boolean' && purposeExpressed !== false) {
+              purposeExpressed = consent.uspr[item];
+            }
+          })
+ 
+          if (typeof purposeExpressed === 'boolean') {
+            expressedConsent[purposeItem] = purposeExpressed;
+          }
+        })
+        window.Shopify.customerPrivacy.setTrackingConsent(expressedConsent, function() {});
+    }
+    if (typeof _iub.csConfiguration.callback === 'object') {
+        _iub.csConfiguration.callback.onPreferenceFirstExpressed = onPreferenceFirstExpressedCallback;
+    } else {
+        _iub.csConfiguration.callback = {
+            onPreferenceFirstExpressed: onPreferenceFirstExpressedCallback
+        };
+    }
+</script>
+<script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+    <!-- code for Shopify (2 of 2) - Tracking API -->
+<script type="text/javascript">
+window.Shopify.loadFeatures(
+  [
+    {
+      name: 'consent-tracking-api',
+      version: '0.1',
+    },
+  ],
+  function(error) {
+    if (error) {
+      throw error;
+    }
+  }
+);
+</script>

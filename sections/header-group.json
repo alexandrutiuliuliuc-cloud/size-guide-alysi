@@ -1,0 +1,105 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "name": "t:section_groups.header",
+  "type": "header",
+  "sections": {
+    "announcements-bar": {
+      "type": "announcements-bar",
+      "blocks": {
+        "announcement-2": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "title": "Check out the latest Taiga features!"
+          }
+        },
+        "announcement-3": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "title": "Use announcements for general info."
+          }
+        },
+        "announcement-4": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "title": "Free standard shipping to all orders!"
+          }
+        },
+        "announcement_ccTdjr": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "title": "<strong>LAST WEEKEND |</strong>  Extra <strong>-10%</strong> con il codice <strong>EXTRA10</strong> al checkout"
+          }
+        },
+        "announcement_HjJidj": {
+          "type": "announcement",
+          "settings": {
+            "title": "<strong>PARIS NEW OPENING | </strong>13 B, Rue de Grenelle"
+          }
+        },
+        "announcement_nHJy77": {
+          "type": "announcement",
+          "settings": {
+            "title": "Iscriviti alla nostra newsletter e ottieni il 10% di sconto."
+          }
+        }
+      },
+      "block_order": [
+        "announcement-2",
+        "announcement-3",
+        "announcement-4",
+        "announcement_ccTdjr",
+        "announcement_HjJidj",
+        "announcement_nHJy77"
+      ],
+      "custom_css": [],
+      "settings": {
+        "text_color": "#ffffff",
+        "background_color": "#ddb593"
+      }
+    },
+    "header": {
+      "type": "header",
+      "custom_css": [
+        "a.child-menu-link {white-space: nowrap;}"
+      ],
+      "settings": {
+        "drawer_menu": "menu-new-fuzzy",
+        "drawer_secondary_menu": "",
+        "enable_full_width": true,
+        "header_layout": "logo-left__menu-center",
+        "header_sticky_behavior": "fixed",
+        "shortcut_limit": 4,
+        "header_uses_icons": true,
+        "region_menu": "text",
+        "header_shadow": false,
+        "overlay_index": false,
+        "overlay_collection": false,
+        "overlay_handles": "",
+        "overlay_text_color": "is-dark-background",
+        "logo_dark": "shopify://shop_images/alysi_d4b63f3b-9790-40af-bc9e-7d085fdba2a1.png",
+        "svg_logo_dark": "",
+        "svg_logo_light": "",
+        "logo_max_width_desktop": 130,
+        "logo_padding_desktop": 0,
+        "logo_max_width": 90,
+        "logo_padding": 25
+      }
+    }
+  },
+  "order": [
+    "announcements-bar",
+    "header"
+  ]
+}

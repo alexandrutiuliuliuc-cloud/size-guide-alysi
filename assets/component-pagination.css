@@ -1,0 +1,32 @@
+.pagination-wrapper {
+  margin-top: 64px;
+}
+
+.pagination__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: calc(var(--gutter) / 2);
+  margin-bottom: 24px;
+}
+
+.pagination__list .pagination__item {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-content: center;
+  line-height: 1;
+  border-radius: 50%;
+  background-color: var(--primary-background);
+}
+
+.pagination__list .pagination__item--current {
+  background-color: var(--primary-borders);
+}
+
+
+@media only screen and (min-width: 768px) {
+  .pagination__list {
+    margin-bottom: 32px;
+  }
+}

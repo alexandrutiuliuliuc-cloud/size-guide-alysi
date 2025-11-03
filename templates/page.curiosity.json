@@ -1,0 +1,221 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "24f598a1-c669-4809-8ef2-321973c3ecf6": {
+      "type": "hero",
+      "blocks": {
+        "template--19927713546574__24f598a1-c669-4809-8ef2-321973c3ecf6-image-1": {
+          "type": "image",
+          "settings": {
+            "media_link": "",
+            "media_toggle": "show_image",
+            "image": "shopify://shop_images/3840x966.webp",
+            "video_url": "",
+            "video_url_mobile": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19927713546574__24f598a1-c669-4809-8ef2-321973c3ecf6-image-1"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "overlay_opacity": 30,
+        "enable_full_width": true,
+        "section_height_desktop": "by_pixels",
+        "section_pixel_height_desktop": 300,
+        "content_width": "col-sm-max-8",
+        "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 0,
+        "md_padding_bottom": 0,
+        "section_height": "by_pixels",
+        "section_pixel_height": 400,
+        "content_align_mobile": "vertical-center horizontal-center",
+        "mobile_alignment": "text-align-center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "26a07133-929d-493c-9dc6-cb9a5a12d675": {
+      "type": "rich-text",
+      "blocks": {
+        "template--19927713546574__26a07133-929d-493c-9dc6-cb9a5a12d675-title-1": {
+          "type": "title",
+          "settings": {
+            "title": "CURIOSITY",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 9
+          }
+        },
+        "template--19927713546574__26a07133-929d-493c-9dc6-cb9a5a12d675-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>La curiosità è un'attitudine, un istinto.</p><p>Essere curiosi ci spinge a rubare con gli occhi, a percepire anche ogni minimo cambiamento: scoprire sempre nuove trame o filati, sperimentare i più insoliti accostamenti di colori e materie. </p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 39,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--19927713546574__26a07133-929d-493c-9dc6-cb9a5a12d675-title-1",
+        "template--19927713546574__26a07133-929d-493c-9dc6-cb9a5a12d675-text-1"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 40,
+        "desktop_content_alignment": "left",
+        "desktop_alignment": "sm-text-align-left",
+        "md_padding_top": 104,
+        "md_padding_bottom": 104,
+        "mobile_alignment": "text-align-left",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "5676cc3d-6dd6-461b-a7f4-92ba4b4ed6f5": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19927713546574__5676cc3d-6dd6-461b-a7f4-92ba4b4ed6f5-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1116x1726_1920x_ea26c939-334a-48d0-a76c-370f3550b65f.webp",
+            "video_url": "",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "template--19927713546574__5676cc3d-6dd6-461b-a7f4-92ba4b4ed6f5-title-1": {
+          "type": "title",
+          "settings": {
+            "title": "BRAND \nPHILOSOPHY",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "template--19927713546574__5676cc3d-6dd6-461b-a7f4-92ba4b4ed6f5-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>In accordo con la tradizione del Made in Italy, l’attenzione ai dettagli e le lavorazioni accurate rendono speciali anche i capi dalla linea più semplice ed essenziale.</p><p>Ricercare e meravigliarsi, continuamente: è questo il nostro approccio ogni volta che una nuova collezione viene pensata, una curiosità senza confini è l'essenza del nostro lavoro. Contemporanea, eclettica e raffinata, la donna ALYSI sa rendere sofisticata anche la quotidianità più metropolitana.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 50,
+            "size_multiplier": "size--default",
+            "margin_top": 20
+          }
+        }
+      },
+      "block_order": [
+        "template--19927713546574__5676cc3d-6dd6-461b-a7f4-92ba4b4ed6f5-image-1",
+        "template--19927713546574__5676cc3d-6dd6-461b-a7f4-92ba4b4ed6f5-title-1",
+        "template--19927713546574__5676cc3d-6dd6-461b-a7f4-92ba4b4ed6f5-text-1"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "252a1abc-02b0-4f42-ab14-0c119c54b663": {
+      "type": "image-with-text",
+      "blocks": {
+        "986962de-5aef-448b-9ba2-1d41ce5621d8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1372x1050_1920x_8ac78d8f-ae10-4c84-98ae-8631a3637f7a.webp",
+            "video_url": "",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_image",
+            "media_link": ""
+          }
+        },
+        "5191e6fe-7361-41e1-81ee-0db5da77ce6b": {
+          "type": "title",
+          "settings": {
+            "title": "BRAND \nPROFILE",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "1a923d52-734f-4579-8ecb-e1931f4b8efc": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ALYSI nasce nel 1996 e ancora oggi è guidata dalla famiglia fondatrice, che con passione e dedizione, da anni si dedica alla crescita del Brand, forte dei propri valori ma con un occhio sempre attento alle nuove tendenze.</p><p>Il core business consiste in collezioni d’abbigliamento femminile, alle quali è affiancata una linea di accessori e scarpe, dal nome Accessoreria.</p><p>L’attenzione alle lavorazioni, la scelta dei tessuti, la ricerca di forme e materiali, lo studio dei volumi e la realizzazione di stampe e grafiche personalizzate ed esclusive, rappresentano l’ormai inconfondibile DNA del Brand.</p><p>Combinare la tradizione del Made in Italy e la qualità della manifattura artigianale con le più innovative logiche distributive e stilistiche: questa la direzione su cui il team lavora quotidianamente, con passione e costanza. L’internazionalizzazione è una delle leve su cui il marchio sta puntando maggiormente: ad oggi le collezioni ALYSI sono presenti in 16 paesi con più di 700 stores multibrand. L’obiettivo è rafforzare sempre di più l’immagine nel mercato italiano, e affermare il Brand nel maggior numero di paesi oltre i confini nazionali.</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 50,
+            "size_multiplier": "size--default",
+            "margin_top": 20
+          }
+        }
+      },
+      "block_order": [
+        "986962de-5aef-448b-9ba2-1d41ce5621d8",
+        "5191e6fe-7361-41e1-81ee-0db5da77ce6b",
+        "1a923d52-734f-4579-8ecb-e1931f4b8efc"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_last",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 40,
+        "md_padding_bottom": 104,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "main",
+    "24f598a1-c669-4809-8ef2-321973c3ecf6",
+    "26a07133-929d-493c-9dc6-cb9a5a12d675",
+    "5676cc3d-6dd6-461b-a7f4-92ba4b4ed6f5",
+    "252a1abc-02b0-4f42-ab14-0c119c54b663"
+  ]
+}

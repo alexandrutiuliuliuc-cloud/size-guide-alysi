@@ -1,0 +1,111 @@
+/* body,html {
+  overflow-x: hidden;
+} */
+
+.lookbook-container.lookbook-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  align-items: center;
+}
+.lookbook-featured-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.lookbook-featured-image.container {
+  position: relative;
+}
+.marker-button {
+  position: absolute;
+  z-index: 1;
+  width: 30px;
+  height: 30px;
+  background-color: #ffffff;
+  text-shadow: unset;
+  border: unset;
+  border-radius: 100%;
+  cursor: pointer;
+}
+.featured-marker-products {
+  max-width: 430px;
+  margin-inline: auto;
+}
+.marker-product-card.swiper-slide.swiper-slide-active {
+  width: 100% !important;
+}
+
+img.a-left.control-c.prev.slick-prev.slick-arrow , img.a-right.control-c.next.slick-next.slick-arrow{
+    height: 20px;
+}
+.swiper-pagination-bullet-active {
+    background: #000;
+}
+.card-product-wrapper.swiper.swiper-fade.swiper-initialized.swiper-horizontal.swiper-watch-progress.swiper-backface-hidden {
+    padding-bottom: 20rem;
+}
+.lookbook-product-title {
+  padding-top: 4rem;
+  text-align: center;
+}
+span.product-price {
+    display: block;
+    padding-top: 1rem;
+  text-align: center;
+}
+a.lookbook-view-product-btn {
+    background: transparent;
+    position: absolute;
+    left: 32%;
+    margin-top: 5rem;
+    font-size: 18px;
+    color: #000;
+    padding: 10px 32px;
+    border: 1px solid #bab8b8;
+}
+.swiper-button-next, .swiper-button-prev {
+    top: 37%;
+}
+
+@media only screen and (max-width: 767px) {
+  .lookbook-container.lookbook-grid {
+    grid-template-columns: 100%;
+    gap: 36px;
+ }
+  img.a-left.control-c.prev.slick-prev.slick-arrow , img.a-right.control-c.next.slick-next.slick-arrow{
+    visibility: hidden; 
+ }
+  .lookbook-container.lookbook-grid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.featured-marker-products {
+  width: 100%;
+  max-width: unset;
+  margin-inline: auto;
+}
+.card-product-wrapper.swiper.swiper-fade.swiper-initialized.swiper-horizontal.swiper-watch-progress.swiper-backface-hidden {
+  width: 300px;
+}
+a.lookbook-view-product-btn {
+    background: transparent;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60%;
+    margin-top: 5rem;
+    font-size: 18px;
+    color: #000;
+    padding: 10px 32px;
+    border: 1px solid #bab8b8;
+}
+}
+
+@media only screen and (max-width: 374px) {
+  /* .card-product-wrapper.swiper.swiper-fade.swiper-initialized.swiper-horizontal.swiper-watch-progress.swiper-backface-hidden {
+    max-width: 329px;
+  } */
+}
+.lookbook-container.lookbook-grid { 
+  margin-block: 60px;
+}

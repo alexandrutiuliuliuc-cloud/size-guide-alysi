@@ -1,0 +1,60 @@
+<style>
+
+  .banner-link{
+    position: relative;
+  }
+  
+  .banner-link img{
+    width: 100%;
+    display: block;
+  }
+
+  .banner-link a{
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+  }
+
+</style>
+
+{% if section.settings.image != blank %}
+<div class="banner-link">
+  <a href="{{ section.settings.link }}"></a>
+  <picture>
+  <source media="(min-width:769px)" srcset="{{ section.settings.image | image_url: width: 2500 }}">
+  <source media="(max-width:768px)" srcset="{{ section.settings.image2 | image_url: width: 800 }}">
+  <img src="{{ section.settings.image | image_url: width: 2500 }}" alt="{{ section.settings.image.alt }}">
+</picture>
+</div>
+{% endif %}
+
+{% schema %}
+{
+  "name": "Banner Link",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+     {
+      "type": "image_picker",
+      "id": "image2",
+      "label": "Image (Mobile)"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "Link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Banner Link"
+    }
+  ]
+}
+{% endschema %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,50 @@
+{{ 'custom-header-alysi.css' | asset_url | stylesheet_tag }}
+
+<nav class="navigation-menus">
+  <ul class="menu-list">
+    {%- for menu_item in shortcut_menu.links -%}
+      <li class="child-menu-list first-tier-child">
+        <a href="{{menu_item.url}}" class="first-tier-item-link">{{ menu_item.title }}</a>
+        {%- if menu_item.links.size > 0 -%}
+          <ul class="child-menu-list">
+            {% for childMenu in menu_item.links %}
+              <li class="child-menu-item">
+                <a href="{{ childMenu.url }}" class="child-menu-link">{{ childMenu.title }}</a>
+              </li>
+            {% endfor %}
+          </ul>
+        {% endif %}
+      </li>
+
+      <noscript>
+        <a role="button" class="header-shortlink flex center-center no-js" href="{{ menu_item.url }}">
+          {{- menu_item.title -}}
+          <br>
+        </a>
+      </noscript>
+    {%- endfor -%}
+  </ul>
+</nav>
+
+<script>
+    document.querySelectorAll(".first-tier-item-link").forEach(link => {
+      const handleHover = () => {
+          link.classList.add("active-menu");
+      };
+
+      const handleMouseOut = () => {
+          link.classList.remove("active-menu");
+      };
+
+      link.addEventListener("mouseover", handleHover);
+      link.addEventListener("mouseout", handleMouseOut);
+
+      // Assuming the sibling ul is a direct sibling
+      const siblingUl = link.nextElementSibling;
+
+      if (siblingUl) {
+          siblingUl.addEventListener("mouseover", handleHover);
+          siblingUl.addEventListener("mouseout", handleMouseOut);
+      }
+  });
+</script>

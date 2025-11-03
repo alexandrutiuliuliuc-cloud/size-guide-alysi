@@ -1,0 +1,627 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "video_YfzB8K": {
+      "type": "video",
+      "name": "t:sections.blocks.video.name",
+      "settings": {
+        "color_scheme": "color-main",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/a313e532bf9a47a5b4d978f769424956.mp4",
+        "title": "",
+        "text": "",
+        "align_content": "text-align-left",
+        "position_content": "above",
+        "md_padding_top": 0,
+        "md_padding_bottom": 40,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "ca764e69-bd62-4ddd-8176-83ae490b2591": {
+      "type": "image-with-text",
+      "blocks": {
+        "4048c43d-bb01-4879-a158-fade516eecbd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_roma_18novembre4782.jpg",
+            "video_url": "",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_image",
+            "media_link": "shopify://products/165807a5013mel"
+          }
+        },
+        "template--20315981906254__ca764e69-bd62-4ddd-8176-83ae490b2591-title-1": {
+          "type": "title",
+          "settings": {
+            "title": "Back to office",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "template--20315981906254__ca764e69-bd62-4ddd-8176-83ae490b2591-subtitle-1": {
+          "type": "subtitle",
+          "disabled": true,
+          "settings": {
+            "subtitle": "",
+            "heading_tag": "h5",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "template--20315981906254__ca764e69-bd62-4ddd-8176-83ae490b2591-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><p>Lontano dalla staticità dell’ufficio, il nostro “Back to Office” è un ritorno al cuore pulsante del brand: l’headquarters, luogo di passaggi, idee e trasformazioni continue.<br/>Apriamo le porte dell’azienda per raccontare il making of della nuova collezione FW '25. </p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "4048c43d-bb01-4879-a158-fade516eecbd",
+        "template--20315981906254__ca764e69-bd62-4ddd-8176-83ae490b2591-title-1",
+        "template--20315981906254__ca764e69-bd62-4ddd-8176-83ae490b2591-subtitle-1",
+        "template--20315981906254__ca764e69-bd62-4ddd-8176-83ae490b2591-text-1"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 48,
+        "padding_bottom": 24
+      }
+    },
+    "54264903-7e7e-45fc-9df2-ac40219658f7": {
+      "type": "banner-grid",
+      "blocks": {
+        "video_mreqpj": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/e0fc0bb88aab405d8bf780b73cbbfe7e.mp4",
+            "media_link": "https://cdn.shopify.com/videos/c/o/v/e0fc0bb88aab405d8bf780b73cbbfe7e.mp4",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--20494408876366__54264903-7e7e-45fc-9df2-ac40219658f7-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_roma_18novembre7041.png",
+            "media_link": "shopify://products/265308a5004gh",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--20494408876366__54264903-7e7e-45fc-9df2-ac40219658f7-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_roma_18novembre7442.png",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "video_mreqpj",
+        "template--20494408876366__54264903-7e7e-45fc-9df2-ac40219658f7-image-2",
+        "template--20494408876366__54264903-7e7e-45fc-9df2-ac40219658f7-image-3"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 3,
+        "section_columns_mobile": 3,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_PRj4zt": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_hnepPT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_roma_18novembre6393.png",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_7LJ99U": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_roma_18novembre0575.png",
+            "media_link": "shopify://products/165901a5025org",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "text_eWApUQ": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "",
+            "richtext": "<p>Frammenti veloci di quotidianità si muovono su un ritmo che alterna frenesia e riflessione, gesti tecnici e visioni istintive.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        }
+      },
+      "block_order": [
+        "image_hnepPT",
+        "image_7LJ99U",
+        "text_eWApUQ"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "0391254f-a00c-462e-8641-0dbedc8a4c0f": {
+      "type": "banner-grid",
+      "blocks": {
+        "da6ab4fd-02b3-455b-94da-1f5cfdb05495": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_roma_18novembre8470.png",
+            "media_link": "shopify://products/265308a5004gh",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_roma_18novembre6974.jpg",
+            "media_link": "shopify://products/265436a5008lt",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "da6ab4fd-02b3-455b-94da-1f5cfdb05495",
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-3"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_MYdckg": {
+      "type": "banner-grid",
+      "blocks": {
+        "video_A6zPqY": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/b968b473afdb4ffe808bb00312d814dc.mp4",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "text_67b6Xn": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "Per noi, rientrare nella routine significa ricominciare a creare.",
+            "title": "",
+            "richtext": "<p>Muovendoci tra scaffali e tessuti, immagini, sensazioni e bisogni ci lasciamo guidare dalla curiosità e da una ricerca incessante.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-center"
+          }
+        }
+      },
+      "block_order": [
+        "video_A6zPqY",
+        "text_67b6Xn"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_iCjLhf": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_W9fXRL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_roma_18novembre9524.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_JPPBCj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_roma_18novembre4179.png",
+            "media_link": "shopify://products/265802a5003ne",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_W9fXRL",
+        "image_JPPBCj"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 80,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_V3rh9K": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_Ni8EUk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_roma_18novembre4203.jpg",
+            "media_link": "shopify://products/165601a5046fard",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "text_BnQbtB": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "",
+            "richtext": "<p>Ogni nuova collezione nasce dall’ ascolto profondo dei nostri desideri mutevoli: tutto diventa spunto concreto di design, trasformandosi in abito, quell’amico fidato che conosce la nostra personalità più di chiunque altro. </p><p>Un invito a scoprire la nuova collezione non solo attraverso i capi, ma attraverso il luogo, le mani e i pensieri che la rendono possibile.</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 40,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        }
+      },
+      "block_order": [
+        "image_Ni8EUk",
+        "text_BnQbtB"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 0,
+        "md_padding_bottom": 80,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 0
+      }
+    },
+    "hero_iTGT4p": {
+      "type": "hero",
+      "blocks": {
+        "image_qz6GLr": {
+          "type": "image",
+          "settings": {
+            "media_link": "",
+            "media_toggle": "show_image",
+            "image": "shopify://shop_images/Alysi_roma_18novembre4191.jpg",
+            "video_url": "",
+            "video_url_mobile": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_qz6GLr"
+      ],
+      "name": "t:sections.hero.name",
+      "settings": {
+        "color_scheme": "color-main",
+        "overlay_opacity": 0,
+        "enable_full_width": false,
+        "section_height_desktop": "auto",
+        "section_pixel_height_desktop": 600,
+        "content_width": "col-sm-max-8",
+        "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 0,
+        "md_padding_bottom": 40,
+        "section_height": "by_pixels",
+        "section_pixel_height": 400,
+        "content_align_mobile": "vertical-center horizontal-center",
+        "mobile_alignment": "text-align-center",
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_Emg4wJ": {
+      "type": "banner-grid",
+      "blocks": {
+        "video_UADc9E": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://cdn.shopify.com/videos/c/o/v/e07265b1e4cd4f83b2a50eed12adfcdb.mp4",
+            "media_link": "https://cdn.shopify.com/videos/c/o/v/e0fc0bb88aab405d8bf780b73cbbfe7e.mp4",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_TwGfFX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_roma_18novembre5852.jpg",
+            "media_link": "shopify://products/165125a5049uv",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "video_UADc9E",
+        "image_TwGfFX"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 40
+      }
+    },
+    "banner_grid_RVJAkE": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_w8CQTq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_roma_18novembre1636.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_tTkQen": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_roma_18novembre5344.png",
+            "media_link": "shopify://products/365611a5100camel",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_pnqAnr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_roma_18novembre2680.jpg",
+            "media_link": "shopify://products/265901a5021ne",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_dByAJW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Alysi_roma_18novembre2686.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_w8CQTq",
+        "image_tTkQen",
+        "image_pnqAnr",
+        "image_dByAJW"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 4,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 4,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_YfzB8K",
+    "ca764e69-bd62-4ddd-8176-83ae490b2591",
+    "54264903-7e7e-45fc-9df2-ac40219658f7",
+    "banner_grid_PRj4zt",
+    "0391254f-a00c-462e-8641-0dbedc8a4c0f",
+    "banner_grid_MYdckg",
+    "banner_grid_iCjLhf",
+    "banner_grid_V3rh9K",
+    "hero_iTGT4p",
+    "banner_grid_Emg4wJ",
+    "banner_grid_RVJAkE"
+  ]
+}

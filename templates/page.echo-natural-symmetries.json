@@ -1,0 +1,812 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "video_RPLPhY": {
+      "type": "video",
+      "custom_css": [
+        ".container.color-main {display: block !important;}"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "cover_image": "shopify://shop_images/Schermata_2024-04-22_alle_13.02.55.png",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/578cd41bbe664345844f3b6d12338c5d.mp4",
+        "title": "",
+        "text": "",
+        "align_content": "text-align-center",
+        "position_content": "above",
+        "md_padding_top": 0,
+        "md_padding_bottom": 40,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_a3mMtY": {
+      "type": "banner-grid",
+      "blocks": {
+        "text_xw6TNG": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "",
+            "richtext": "<p><strong>ECHO</strong> - natural symmetries</p><p>Il Mondo è il nostro migliore amico, ci somiglia più di quanto crediamo!</p><p>Le lentiggini sono granelli di sabbia e gli occhi due conchiglie, per sbirciare il rumore del mare anche quando siamo lontani.<br/>Stretchare il corpo per imitare le curve dei tronchi levigati dal vento, riempirsi lo sguardo del colore vivido dei fiori che tutto il giorno bevono Sole! </p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary",
+            "color_scheme": "color-main",
+            "padding": 32,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        },
+        "image_76UEMR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_06_407.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_fCjXMi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_04_346.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "text_xw6TNG",
+        "image_76UEMR",
+        "image_fCjXMi"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 112,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "24646734-7d66-4b87-a493-864904488cbc": {
+      "type": "image-duo-with-text",
+      "blocks": {
+        "template--20494408876366__24646734-7d66-4b87-a493-864904488cbc-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_14_743.jpg",
+            "video_url": "",
+            "media_toggle": "show_image",
+            "link_url": ""
+          }
+        },
+        "template--20494408876366__24646734-7d66-4b87-a493-864904488cbc-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_14_751.jpg",
+            "video_url": "",
+            "media_toggle": "show_image",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20494408876366__24646734-7d66-4b87-a493-864904488cbc-image-1",
+        "template--20494408876366__24646734-7d66-4b87-a493-864904488cbc-image-2"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "desktop_height": 800,
+        "layout": "bottom-right",
+        "desktop_alignment": "sm-text-align-left",
+        "md_padding_top": 0,
+        "md_padding_bottom": 40,
+        "mobile_height": 400,
+        "mobile_alignment": "text-align-left",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "0391254f-a00c-462e-8641-0dbedc8a4c0f": {
+      "type": "banner-grid",
+      "blocks": {
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_02_209.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "da6ab4fd-02b3-455b-94da-1f5cfdb05495": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_02_237.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "text_n8frid": {
+          "type": "text",
+          "settings": {
+            "svg": "",
+            "subtitle": "",
+            "title": "",
+            "richtext": "<p>Riflettersi sull’acqua che sulla spiaggia diventa specchio, confondere il Mare col Cielo perdendosi nell’azzurro. </p><p>Simmetrie naturali nascono spontanee, quando la Natura ti fa l’occhiolino, facci caso!</p><p></p>",
+            "button_label": "scopri di più",
+            "button_link": "https://alysi.com/collections/spring-summer-24",
+            "button_style": "secondary",
+            "color_scheme": "color-main",
+            "padding": 32,
+            "text_position": "center",
+            "text_alignment": "text-align-left"
+          }
+        }
+      },
+      "block_order": [
+        "template--20494408876366__0391254f-a00c-462e-8641-0dbedc8a4c0f-image-1",
+        "da6ab4fd-02b3-455b-94da-1f5cfdb05495",
+        "text_n8frid"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 3,
+        "md_padding_top": 0,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_fBMYPj": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_eXBNMn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_03_261.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_caE9KL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_09_575.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_eXBNMn",
+        "image_caE9KL"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_bXEE8j": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_tLJ4W7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_05_366.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_mFUHqf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_12_690.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_tLJ4W7",
+        "image_mFUHqf"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 64,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "image_duo_with_text_fLpBkA": {
+      "type": "image-duo-with-text",
+      "blocks": {
+        "image_UYLmMi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_01_103.jpg",
+            "video_url": "",
+            "media_toggle": "show_image",
+            "link_url": ""
+          }
+        },
+        "image_jVyCNK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_MOOD_003.jpg",
+            "video_url": "",
+            "media_toggle": "show_image",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_UYLmMi",
+        "image_jVyCNK"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "desktop_height": 800,
+        "layout": "bottom-left",
+        "desktop_alignment": "sm-text-align-left",
+        "md_padding_top": 24,
+        "md_padding_bottom": 24,
+        "mobile_height": 400,
+        "mobile_alignment": "text-align-left",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_9kiRCj": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_wYrfeN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_07_477.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_N9jRUJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_MOOD_048.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_wYrfeN",
+        "image_N9jRUJ"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 0,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_ALYqaE": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_6fibVw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_12_711.jpg",
+            "media_link": "shopify://products/153153a3240",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_3Wz3FF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_08_520.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_EgLcPU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_09_597.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_HehnRf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_MOOD_027.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_6fibVw",
+        "image_3Wz3FF",
+        "image_EgLcPU",
+        "image_HehnRf"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 4,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 40,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_B7MMyH": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_GYC69z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_13_720.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_nAGCez": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_03_333.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_GYC69z",
+        "image_nAGCez"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 24,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "image_duo_with_text_iMNKFQ": {
+      "type": "image-duo-with-text",
+      "blocks": {
+        "image_EeDJNb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_08_563.jpg",
+            "video_url": "",
+            "media_toggle": "show_image",
+            "link_url": ""
+          }
+        },
+        "image_PgxxYU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_MOOD_005.jpg",
+            "video_url": "",
+            "media_toggle": "show_image",
+            "link_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_EeDJNb",
+        "image_PgxxYU"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "desktop_height": 800,
+        "layout": "bottom-right",
+        "desktop_alignment": "sm-text-align-left",
+        "md_padding_top": 64,
+        "md_padding_bottom": 24,
+        "mobile_height": 400,
+        "mobile_alignment": "text-align-left",
+        "padding_top": 40,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_bfHM3J": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_MAdBfq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_03_263.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_JNqxHq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_MOOD_018.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_LYEfm3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_MOOD_038.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_tWqRK7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_10_620.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_MAdBfq",
+        "image_JNqxHq",
+        "image_LYEfm3",
+        "image_tWqRK7"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 4,
+        "md_padding_top": 0,
+        "md_padding_bottom": 64,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_WBHkCe": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_WUrhwc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_MOOD_033.jpg",
+            "media_link": "shopify://products/153153a3240",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_CTB76x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_03_299.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_WUrhwc",
+        "image_CTB76x"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 8,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 3,
+        "md_padding_top": 24,
+        "md_padding_bottom": 64,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_JDVRiL": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_bpPpDw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_11_681.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_yQXB3M": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_MOOD_004.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_bpPpDw",
+        "image_yQXB3M"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 0,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 24,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_kQjny3": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_88KBPC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ALYSI_SS24_Drop2_05_377.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_88KBPC"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 48,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 1,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_RPLPhY",
+    "banner_grid_a3mMtY",
+    "24646734-7d66-4b87-a493-864904488cbc",
+    "0391254f-a00c-462e-8641-0dbedc8a4c0f",
+    "banner_grid_fBMYPj",
+    "banner_grid_bXEE8j",
+    "image_duo_with_text_fLpBkA",
+    "banner_grid_9kiRCj",
+    "banner_grid_ALYqaE",
+    "banner_grid_B7MMyH",
+    "image_duo_with_text_iMNKFQ",
+    "banner_grid_bfHM3J",
+    "banner_grid_WBHkCe",
+    "banner_grid_JDVRiL",
+    "banner_grid_kQjny3"
+  ]
+}

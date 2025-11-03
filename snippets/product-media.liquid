@@ -1,0 +1,226 @@
+{%- liquid
+  assign load_xr_stuff = false
+-%}
+
+<style>
+  .image-zoom-container {
+    position: relative;
+    overflow: hidden;
+    cursor: default; 
+  }
+  .image-zoom-container img {
+    width: 100%;
+    display: block;
+    transition: transform 0.3s ease;
+  }
+
+
+  .fullscreen-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.9);
+    z-index: 2147483647 !important;
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+  .fullscreen-overlay.active {
+    display: flex;
+  }
+
+  .zoomed-image { 
+    max-width: 90%;
+    max-height: 90%;
+    object-fit: contain;
+    transition: transform 0.3s ease;
+    cursor: default;
+    pointer-events: auto !important;
+  }
+
+  @media (min-width: 1025px) and (hover: hover) and (pointer: fine) {
+    .zoomed-image.zoomed-in {
+      transform: scale(2) !important;
+      cursor: default !important;
+    }
+  }
+
+  .close-btn {
+    position: absolute;
+    top: 0px !important;
+    right: 420px !important;
+    color: #fff;
+    font-size: 30px;
+    cursor: pointer;
+    z-index: 10000;
+  }
+  @media screen and (max-width: 767px) {
+  .close-btn {
+    top: 20px !important;
+    right: 20px !important;
+  }
+}
+</style>
+
+<div id="{{ item_id }}"
+     class="product-media test sm-br{{ custom_classes }}"
+     data-slide-custom="{{ forloopIndex }}"
+     {% if product.selected_or_first_available_variant.featured_image.alt != media.alt and
+           product.selected_or_first_available_variant.featured_image.alt != blank %}
+       style="display: none;"
+     {% endif %}
+     thumbnail-alt="{{ media.alt }}"
+>
+  {%- if media.media_type == 'image' -%}
+    {%- liquid
+      assign lazy_load = false
+      if forloop.index > 2
+        assign lazy_load = true
+      endif
+    -%}
+
+    <div class="image-zoom-container">
+      {%- render 'img',
+        src: media,
+        aspect_ratio: aspect_ratio,
+        lazyload: lazy_load,
+        sizing_rule: sizing_rule,
+        background_color: background_color,
+        sizes: sizes,
+        index: forloop.index
+      -%}
+    </div>
+
+   
+    <div class="fullscreen-overlay" data-overlay>
+      <span class="close-btn" data-close-overlay>&times;</span>
+      <img class="zoomed-image"
+           src="{{ media | img_url: '2000x' }}"
+           alt="{{ media.alt }}">
+    </div>
+
+  {%- else -%}
+    {%- case media.media_type -%}
+      {%- when 'external_video' -%}
+        <figure class="media {{ aspect_ratio }} media--{{ media.media_type }}">
+          {%- if media.host == 'youtube' -%}
+            {{
+              media
+              | external_video_url:
+                  mute: 1,
+                  autoplay: 1,
+                  loop: 1,
+                  playlist: media.external_id,
+                  disablekb: 1,
+                  modestbranding: 1,
+                  rel: 0,
+                  controls: 0
+              | external_video_tag: loading: 'lazy'
+            }}
+          {%- else -%}
+            {{
+              media
+              | external_video_url: autoplay: 1, loop: 1, controls: 0, keyboard: 0, muted: 1, title: 0
+              | external_video_tag: loading: 'lazy'
+            }}
+          {%- endif -%}
+        </figure>
+      {%- when 'video' -%}
+        <figure class="media {{ aspect_ratio }} media--{{ media.media_type }}">
+          <video autoplay muted loop playsinline controlslist="nodownload" preload="metadata">
+            {%- for source in media.sources -%}
+              <source src="{{ source.url }}" type="{{ source.mime_type }}">
+            {%- endfor -%}
+          </video>
+        </figure>
+      {%- when 'model' -%}
+        <div class="model-container">
+          {%- assign load_xr_stuff = true -%}
+          <product-model
+            class="media {{ aspect_ratio }} media--{{ media.media_type }}"
+            data-media-id="{{ media.id }}"
+            data-loaded="false"
+          >
+            {{ media | model_viewer_tag: background-color: background_color, toggleable: true }}
+          </product-model>
+          <button
+            class="btn btn--primary btn--color-main-inverted btn--full product__xr-button"
+            type="button"
+            aria-label="{{ 'products.product.xr_button_label' | t }}"
+            data-shopify-xr
+            data-shopify-model3d-id="{{ media.id }}"
+            data-shopify-title="{{ product.title }}"
+            data-shopify-xr-hidden
+            style="display: none;"
+          >
+            {% render 'icon-3d-model' %}
+            {{ 'products.product.xr_button' | t }}
+          </button>
+        </div>
+    {%- endcase -%}
+  {%- endif -%}
+
+  {%- if load_xr_stuff -%}
+    <script type="application/json" id="ProductJSON-{{ product.id }}">
+      {{ product.media | where: 'media_type', 'model' | json }}
+    </script>
+    <script type="text/javascript" src="{{ 'component-product-model.js' | asset_url }}" defer="true"></script>
+    <link
+      rel="stylesheet"
+      href="{{ 'component-product-model.css' | asset_url }}"
+      media="print"
+      onload="this.media='all'"
+    >
+    <noscript>{{ 'component-product-model.css' | asset_url | stylesheet_tag }}</noscript>
+  {%- endif -%}
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  // iPad/tablet e mobile avranno pointer: coarse, desktop pointer: fine
+  // Vogliamo desktop = (larghezza ≥1025px) E (pointer fine)
+  const isDesktop = window.matchMedia('(min-width: 1025px) and (hover: hover) and (pointer: fine)').matches;
+
+  document.querySelectorAll('.image-zoom-container').forEach(container => {
+    const overlay  = container.nextElementSibling; 
+    const zoomImg  = overlay.querySelector('.zoomed-image');
+    const closeBtn = overlay.querySelector('[data-close-overlay]');
+
+
+    container.addEventListener('click', e => {
+      e.preventDefault();
+      overlay.classList.add('active');
+      zoomImg.classList.remove('zoomed-in');
+      zoomImg.style.transformOrigin = 'center center';
+    });
+
+    closeBtn.addEventListener('click', () => {
+      overlay.classList.remove('active');
+      zoomImg.classList.remove('zoomed-in');
+    });
+
+    document.addEventListener('keydown', e => {
+      if (e.key === 'Escape') {
+        overlay.classList.remove('active');
+        zoomImg.classList.remove('zoomed-in');
+      }
+    });
+
+    if (isDesktop && zoomImg) {
+      zoomImg.addEventListener('click', e => {
+        e.preventDefault();
+        e.stopPropagation();
+        e.stopImmediatePropagation();
+
+        const rect = zoomImg.getBoundingClientRect();
+        const offsetX = e.clientX - rect.left;
+        const offsetY = e.clientY - rect.top;
+        const percentX = (offsetX / rect.width) * 100;
+        const percentY = (offsetY / rect.height) * 100;
+
+        zoomImg.style.transformOrigin = `${percentX}% ${percentY}%`;
+        zoomImg.classList.toggle('zoomed-in');
+      }, { capture: true });
+    }
+  });
+});
+</script>

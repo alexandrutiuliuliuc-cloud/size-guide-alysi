@@ -1,0 +1,530 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "heading_text_align": "text-align-left",
+        "sm_size_multiplier": "sm-size--default",
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "padding_top": 32,
+        "padding_bottom": 32
+      }
+    },
+    "video_c7V4Ye": {
+      "type": "video",
+      "custom_css": [
+        ".container.color-main {display: block !important;}"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "video_url": "https://cdn.shopify.com/videos/c/o/v/e4ce616389724a7eb5122022f509e3d2.mp4",
+        "title": "",
+        "text": "",
+        "align_content": "text-align-left",
+        "position_content": "above",
+        "md_padding_top": 0,
+        "md_padding_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "f84c9728-47cc-4a06-9ac0-626971e3d5d3": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19920269115726__f84c9728-47cc-4a06-9ac0-626971e3d5d3-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240212_Alysi_14_023.jpg",
+            "video_url": "",
+            "media_aspect_ratio": "natural",
+            "media_toggle": "show_image",
+            "media_link": "shopify://products/104122p4034"
+          }
+        },
+        "d1cc054b-25b1-48f0-99ad-03b4a89a3f1e": {
+          "type": "title",
+          "settings": {
+            "title": "SEE_ME_THROUGH",
+            "heading_tag": "h2",
+            "sm_size_multiplier": "sm-size--small",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "template--19920269115726__f84c9728-47cc-4a06-9ac0-626971e3d5d3-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Giocare a nascondino col Sole, rincorrere i raggi e far vibrare le ombre che si allungano sui panni stesi come marionette ballerine.</p><p><br/>In un momento di pausa dal Mondo, scappo dagli schemi e mi ritrovo in trasparenze e luccichii: sono come sono e brillo proprio per questo!</p><p><br/>In un caleidoscopio di luci e riflessi, ogni angolo del terrazzo diventa il palcoscenico per la mia performance!            E la Curiosità, come un maestro d’orchestra, trasforma il semplice calar del sole in un concerto unico di forme e scintillii!</p>",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 25,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--19920269115726__f84c9728-47cc-4a06-9ac0-626971e3d5d3-image-1",
+        "d1cc054b-25b1-48f0-99ad-03b4a89a3f1e",
+        "template--19920269115726__f84c9728-47cc-4a06-9ac0-626971e3d5d3-text-1"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "media_position": "media_first",
+        "content_width": "col-sm-max-4",
+        "desktop_alignment": "sm-text-align-left",
+        "sm_full_width_buttons": false,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "full_width_buttons": false,
+        "padding_top": 48,
+        "padding_bottom": 48
+      }
+    },
+    "1d66ac48-8885-49d5-b225-d6e0a07788e4": {
+      "type": "banner-grid",
+      "blocks": {
+        "template--19920269115726__1d66ac48-8885-49d5-b225-d6e0a07788e4-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240212_Alysi_03_021_Crop.jpg",
+            "media_link": "shopify://products/204418p4026",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--19920269115726__1d66ac48-8885-49d5-b225-d6e0a07788e4-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240212_Alysi_10_001.jpg",
+            "media_link": "shopify://products/104304p4037",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_9M4Fdp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240212_Alysi_09_009.jpg",
+            "media_link": "shopify://products/204805p4035",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_iK4di7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240212_Alysi_04_030.jpg",
+            "media_link": "shopify://products/104906p4023",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--19920269115726__1d66ac48-8885-49d5-b225-d6e0a07788e4-image-1",
+        "template--19920269115726__1d66ac48-8885-49d5-b225-d6e0a07788e4-image-2",
+        "image_9M4Fdp",
+        "image_iK4di7"
+      ],
+      "settings": {
+        "block_aspect_ratio": "square",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 4,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "e0a8e192-8d5c-4459-83fe-36f01ff0fe9c": {
+      "type": "sliding-text",
+      "blocks": {
+        "text_aTiwx9": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Sliding text",
+            "link": ""
+          }
+        },
+        "template--19920269115726__e0a8e192-8d5c-4459-83fe-36f01ff0fe9c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "SEE_ME_THROUGH",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_aTiwx9",
+        "template--19920269115726__e0a8e192-8d5c-4459-83fe-36f01ff0fe9c-text-1"
+      ],
+      "settings": {
+        "content_order": "horizontal",
+        "font": "base",
+        "text_color": "#111111",
+        "text_gradient_color": "",
+        "background_color": "#ffffff",
+        "direction": "normal",
+        "speed": 30,
+        "pause_on_hover": false,
+        "sm_size_multiplier": "sm-size--gigantic",
+        "sm_item_gap": 96,
+        "sm_padding": 24,
+        "md_padding_top": 0,
+        "md_padding_bottom": 40,
+        "size_multiplier": "size--default",
+        "item_gap": 24,
+        "padding": 24,
+        "padding_top": 0,
+        "padding_bottom": 24
+      }
+    },
+    "d5588b6b-d977-458b-ac74-03e932ff1787": {
+      "type": "banner-grid",
+      "blocks": {
+        "template--19920269115726__d5588b6b-d977-458b-ac74-03e932ff1787-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240212_Alysi_01_011.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--19920269115726__d5588b6b-d977-458b-ac74-03e932ff1787-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240212_Alysi_01_028.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--19920269115726__d5588b6b-d977-458b-ac74-03e932ff1787-image-1",
+        "template--19920269115726__d5588b6b-d977-458b-ac74-03e932ff1787-image-2"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 40,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "d332fb32-8372-4678-9b80-83d5f8bb7f13": {
+      "type": "banner-grid",
+      "blocks": {
+        "b0e5b981-ba86-44c6-9a34-55f8a792e3ca": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240212_Alysi_12_033.jpg",
+            "media_link": "shopify://products/104005p4023",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "13e27a55-f842-4c9e-a819-102e48e92da8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240212_Alysi_02_023.jpg",
+            "media_link": "shopify://products/104321p4028",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_9J7RE8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240212_Alysi_16_058.jpg",
+            "media_link": "shopify://products/104910p4024",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_Uknya6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240212_Alysi_08_009.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "b0e5b981-ba86-44c6-9a34-55f8a792e3ca",
+        "13e27a55-f842-4c9e-a819-102e48e92da8",
+        "image_9J7RE8",
+        "image_Uknya6"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 4,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "c468d6bb-fb6f-4d6a-8386-e89207097e14": {
+      "type": "banner-grid",
+      "blocks": {
+        "6e8f9a48-cbc1-47a1-bcc6-a9ca65c78ccf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240212_Alysi_05_030.jpg",
+            "media_link": "shopify://products/104103p4024",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "c9e3dfb6-efd0-4246-9f70-55e47403f900": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240212_Alysi_02_019.jpg",
+            "media_link": "shopify://products/104321p4028",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "6e8f9a48-cbc1-47a1-bcc6-a9ca65c78ccf",
+        "c9e3dfb6-efd0-4246-9f70-55e47403f900"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 40,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_byrHY3": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_txj9VP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240212_Alysi_11_027.jpg",
+            "media_link": "shopify://products/204429p4026",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_hX4NJK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240212_Alysi_06_017.jpg",
+            "media_link": "shopify://products/104901p4034",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_hcb39j": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240212_Alysi_07_016.jpg",
+            "media_link": "shopify://products/204803p4011",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_txj9VP",
+        "image_hX4NJK",
+        "image_hcb39j"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 3,
+        "color_scheme": "color-main",
+        "enable_full_width": true,
+        "section_columns_desktop": 3,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 3,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "banner_grid_xCNcRL": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_FPbJnG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240212_Alysi_13_045.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_LFhJQX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/240212_Alysi_13_016.jpg",
+            "media_link": "shopify://products/104908p4032",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_FPbJnG",
+        "image_LFhJQX"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 40,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 40,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "main",
+    "video_c7V4Ye",
+    "f84c9728-47cc-4a06-9ac0-626971e3d5d3",
+    "1d66ac48-8885-49d5-b225-d6e0a07788e4",
+    "e0a8e192-8d5c-4459-83fe-36f01ff0fe9c",
+    "d5588b6b-d977-458b-ac74-03e932ff1787",
+    "d332fb32-8372-4678-9b80-83d5f8bb7f13",
+    "c468d6bb-fb6f-4d6a-8386-e89207097e14",
+    "banner_grid_byrHY3",
+    "banner_grid_xCNcRL"
+  ]
+}

@@ -1,0 +1,106 @@
+{%- liquid
+
+  #  Renders a product card for upsell products.
+  #  Used in product template Upsell products block.
+  #
+  #  ** Parameters **
+  #  product       =>  OPTIONAL | product object 
+  #  lazyload      =>  OPTIONAL | boolean | default: true | layload images
+  #  aspect_ratio  =>  OPTIONAL | string | default: settings.product_card_aspect_ratio | 'natural','portrait','landscape','square'
+  #  text_align    =>  OPTIONAL | string | default: settings.product_card_text_alignment | product card text align class
+  #  class         =>  OPTIONAL | string | 'sm-item-span-2'
+
+  if lazyload == nil
+    assign lazyload = true
+  endif
+  assign aspect_ratio = aspect_ratio | default: settings.product_card_aspect_ratio
+  assign sizing_rule = sizing_rule | default: settings.product_card_fill_rule
+
+  unless sizes
+    assign sizes = '72px'
+  endunless
+  
+-%}
+
+{%- if product and product != empty -%}
+  <upsell-card class="card card--product card--default layout--thumbnail {{ class }}">
+    <a href="{{ product.url }}" class="card-media">
+      <figure class="media {{ aspect_ratio }} {{ sizing_rule }} br-img">
+        <img loading="lazy" src="{{ product.featured_image | image_url: width: 128 }}">
+      </figure>
+    </a>
+
+    <div class="card-body">
+      <h3 class="card-title h5 size--small"><a href="{{ product.url }}">{{ product.title }}</a></h3>
+      {% if product.has_only_default_variant %}
+        {%- render 'price', product: product, price_class: 'size--small mt-4' -%}
+      {% endif %}
+      {%- if settings.enable_swatches -%}
+        {%- render 'product-card-swatches', product: product -%}
+      {%- endif -%}
+
+      <div class="upsell-variant">
+        {% if product.has_only_default_variant %}
+          <input type="hidden" name="id" class="upsell-id" value="{{ product.selected_or_first_available_variant.id }}">
+        {% elsif product.variants.size == 1 %}
+          <input type="hidden" name="id" class="upsell-id" value="{{ product.selected_or_first_available_variant.id }}">
+          <div class="price size--small mt-4">
+          {% liquid 
+            assign money_price = product.price | money
+            if settings.currency_code_enabled
+              assign money_price = product.price | money_with_currency
+            endif %}
+          {{ product.variants[0].title }} - {{ money_price }}
+          </div>
+        {% else %}
+          <div class="select size--small mt-4">
+            <select name="id" class="select__select upsell-id">
+            {%- for variant in product.variants -%}
+              <option
+                {% if variant.featured_image %}
+                  data-variant-img-src="{{ variant.featured_image | image_url: width: 128 }}"
+                {% endif %}
+                {% if variant == product.selected_or_first_available_variant %}
+                  selected="selected"
+                {% endif %}
+                {% if variant.available == false %}
+                  disabled
+                {% endif %}
+                value='{{ variant.id }}'>
+                {{ variant.title }}
+                {%- if variant.available == false %}
+                  -
+                  {{ 'products.product.sold_out' | t }}
+                {% endif %}
+                {% liquid 
+                  assign money_price = variant.price | money
+                  if settings.currency_code_enabled
+                    assign money_price = variant.price | money_with_currency
+                  endif
+                %}
+                -
+                {{ money_price }}
+              </option>
+            {%- endfor -%}
+            </select>
+            {%- render 'icon-chevron-down--small' -%}
+          </div>
+        {% endif %}
+      </div>
+    </div>
+
+    <quantity-input class="quantity small js">
+      <button class="quantity__button js" name="minus" type="button">
+        <span class="visually-hidden">{{ 'products.product.quantity.decrease' | t: product: product.title | escape }}</span>
+        {%- render 'icon-minus' -%}
+      </button>
+      {% comment %}id="Quantity-{{ block.id }}-{{ upsell_index }}"{% endcomment %}
+      <input class="quantity__input upsell-quantity" type="number" name="quantity" min="0" value="0" >
+
+      <button class="quantity__button js" name="plus" type="button">
+        <span class="visually-hidden">{{ 'products.product.quantity.increase' | t: product: product.title | escape }}</span>
+        {%- render 'icon-plus' -%}
+      </button>
+    </quantity-input>
+  </upsell-card>
+{%- endif -%}

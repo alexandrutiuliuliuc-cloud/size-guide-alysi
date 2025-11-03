@@ -1,0 +1,32 @@
+{%- liquid
+  unless context == 'search'
+    assign object = collection
+  else
+    assign object = search
+  endunless
+-%}
+<div id="current-facets-ajax" class="active-filters scrollbar--hide sm-down-scroll flex" style="gap:12px;">
+  {%- for filter in object.filters -%}
+    {%- if filter.type == "price_range" -%}
+      {%- if filter.min_value.value != nil or filter.max_value.value != nil -%}
+        <a class="btn btn--with-icon size--tiny" href="{{ filter.url_to_remove | replace: '&view=ajax', '' | replace: '?view=ajax', '' }}" data-remove-single-filter>
+          {%- assign min_value = filter.min_value.value | default: 0 -%}
+          {%- assign max_value = filter.max_value.value | default: filter.range_max -%}
+          <span>
+            {{ min_value | money }} - {{ max_value | money }}
+          </span>
+          <svg role="presentation" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </a>
+      {%- endif -%}
+    {%- else -%}
+      {%- for filter_value in filter.active_values -%}
+        <a class="btn btn--with-icon size--tiny" href="{{ filter_value.url_to_remove | replace: '&view=ajax', '' | replace: '?view=ajax', '' }}" data-remove-single-filter>
+          <span>
+            {{ filter.label }}: {{ filter_value.label }}
+          </span>
+          <svg role="presentation" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-x"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+        </a>
+      {%- endfor -%}
+    {%- endif- %}
+  {%- endfor -%}
+</div>

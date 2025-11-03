@@ -1,0 +1,87 @@
+{%- if cart.discount_applications.size > 0 -%}
+  <ul id="cart-discounts limoniapps-discountninja-whenactivepromotions-hide" class="cart__discounts" role="list" aria-label="{{ 'customer.order.discount' | t }}">
+    {%- if cart.discount_applications.size > 0 -%}
+      {%- for discount in cart.discount_applications -%}
+        <li class="cart__discount">
+          {%- liquid
+            capture discount_title
+              if discount.value_type == 'percentage'
+                echo discount.title | append: ' (-' | append: discount.value | append: ' %)'
+              else 
+                echo discount.title
+              endif
+            endcapture
+          -%}
+
+          <span class="discount-title">{{- discount_title -}}</span>
+          <span class="discount-price">{{- discount.total_allocated_amount | money | prepend: '-' -}}</span>
+        </li>
+      {%- endfor -%}
+    {%- endif -%}
+  </ul>
+  {% comment %}Added/Modified by Limoni Apps on 18/06/25 to support Discount Ninja{% endcomment %}
+
+  <div data-la-dn-promotion-summary-placeholder></div>
+  <div data-la-dn-promocodefield-placeholder></div>
+  <div class="cart__subtotal cart__subtotal-final limoniapps-discountninja-cart-subtotal">
+    <span>{{ 'sections.cart.new_subtotal' | t }}</span>
+    <span class="limoniapps-discountninja-cart-subtotal-price">{{ cart.total_price | money }}</span>
+  </div>
+
+  <style>
+    .cart-item__discounted-prices {
+      display: flex;
+      flex-direction: row;
+      gap: 1rem;
+    }
+    .cart-item__discounted-prices .cart-item__old-price{
+      text-decoration: line-through;
+    }
+    .cart-item__discount {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      gap: 0.8rem;
+      font-size: 1.4rem;
+      font-family: var(--font-body-family);
+    }
+    .cart-item__discount svg {
+      width: 16px;
+      min-width: 16px;
+    }
+
+    .cart__discount {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    
+    .cart__subtotal-final {
+      font-weight: bold;
+    }
+    
+    .cart__discounts > * + * {
+      --spacing: 4px;
+      margin-top: var(--spacing);
+    }
+    
+    .cart__discounts {
+      margin-top: 4px;
+      margin-bottom: 4px;
+    }
+    
+    .cart__discount .discount-title {
+      max-width: 80%;
+      line-height: 1.25;
+    }
+
+    .cart__discount .discount-price {
+      flex: 1 0 auto;
+      text-align: right;
+    }
+
+    .cart__subtotal-final {
+      font-weight: bold;
+    }
+  </style>
+{%- endif -%}

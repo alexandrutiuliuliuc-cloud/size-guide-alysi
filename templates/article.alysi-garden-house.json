@@ -1,0 +1,392 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "c41fc66f-d09e-4514-a1ab-ed88e344c28c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--20406164029774__c41fc66f-d09e-4514-a1ab-ed88e344c28c-title-1": {
+          "type": "title",
+          "settings": {
+            "title": "ALYSI GARDEN HOUSE",
+            "heading_tag": "h1",
+            "sm_size_multiplier": "sm-size--default",
+            "sm_margin_top": 0,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        },
+        "template--20406164029774__c41fc66f-d09e-4514-a1ab-ed88e344c28c-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Lo Showroom come esperienza</p>",
+            "sm_size_multiplier": "sm-size--large",
+            "sm_margin_top": 24,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--20406164029774__c41fc66f-d09e-4514-a1ab-ed88e344c28c-title-1",
+        "template--20406164029774__c41fc66f-d09e-4514-a1ab-ed88e344c28c-text-1"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 100,
+        "desktop_content_alignment": "center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "mobile_alignment": "text-align-left",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "e1c652e0-30bd-4ba1-befe-b48feadc3a77": {
+      "type": "banner-grid",
+      "blocks": {
+        "template--20444775153998__e1c652e0-30bd-4ba1-befe-b48feadc3a77-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Giuseppe_Dinnella_DSC8135_ae44ec07-389d-4b83-a5db-05f2b8948e95.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "template--20444775153998__e1c652e0-30bd-4ba1-befe-b48feadc3a77-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Giuseppe_Dinnella_DSC8651_0f151092-1b70-4990-951f-5c9d6ef47831.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "template--20444775153998__e1c652e0-30bd-4ba1-befe-b48feadc3a77-image-1",
+        "template--20444775153998__e1c652e0-30bd-4ba1-befe-b48feadc3a77-image-2"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 9,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 16,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "a65185bf-25af-4bf8-94fc-01bf93652258": {
+      "type": "rich-text",
+      "blocks": {
+        "10503633-d062-40d3-b575-1b07dc4de991": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Nella <strong>Garden House </strong>di<strong> ALYSI</strong> la vegetazione si fa cornice del susseguirsi delle collezioni: la luce naturale che disegna lo spazio ogni volta diverso, il verde brillante e l’aria leggera, creano un’armonia perfetta con le cromie di ALYSI. </p><p>L’architettura industriale di inizio ‘900, con le sue linee essenziali e i materiali grezzi, si fonde con la delicatezza di un giardino interno, trasformando lo spazio in un’oasi di eleganza contemporanea, dove il silenzio della Natura contrasta con il trambusto della Città.</p>",
+            "sm_size_multiplier": "sm-size--large",
+            "sm_margin_top": 24,
+            "size_multiplier": "size--default",
+            "margin_top": 0
+          }
+        }
+      },
+      "block_order": [
+        "10503633-d062-40d3-b575-1b07dc4de991"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 100,
+        "desktop_content_alignment": "center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 80,
+        "md_padding_bottom": 40,
+        "mobile_alignment": "text-align-left",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "063bb00a-2ff1-444a-8823-44560fecc68b": {
+      "type": "banner-grid",
+      "blocks": {
+        "4ad353a6-3013-42b8-b7c9-d84651681499": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Giuseppe_Dinnella_DSC8620_29da99b2-d191-4007-8c5b-86ec20cf4384.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "8689afac-0610-4413-a648-d006a6813095": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Giuseppe_Dinnella_DSC8551_267368b0-97cc-48c6-a105-b73f36c6f18c.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "4ad353a6-3013-42b8-b7c9-d84651681499",
+        "8689afac-0610-4413-a648-d006a6813095"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait",
+        "grid_gap": 9,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 40,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "8134cc4a-6150-43fb-9cda-5e5e2d5aa17d": {
+      "type": "rich-text",
+      "blocks": {
+        "4bd19e7b-38e0-45a7-ac8a-c3837f095fc6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Il corridoio di ingresso ti accompagna in un percorso che si snoda nella parte centrale, sfumature di rosa e palette di mezzi toni avvolgono lo sguardo. L’esperienza multisensoriale è amplificata dal tocco delle superfici, ora lisce ora ruvide, mentre le linee di neon ti guidano alla scoperta della collezione. Ogni dettaglio è studiato per stimolare i sensi: dagli elementi di arredo, che invitano a fermarsi e toccare, i volumi di colore che catturano gli occhi, agli oggetti iconografici che raccontano storie e suscitano curiosità.</p><p><strong>ALYSI Garden House</strong> è un luogo da vivere, non solo da visitare. Le note fresche e frizzanti che si percepiscono entrando sono il risultato di un ambiente accogliente e divertente: la luce morbida, i suoni ovattati e le texture invitanti si uniscono per creare un’atmosfera unica. Uno spazio inedito, aperto a infinite possibilità, pronto a diventare la location perfetta per eventi, idee e sempre nuove ispirazioni.</p>",
+            "sm_size_multiplier": "sm-size--large",
+            "sm_margin_top": -10,
+            "size_multiplier": "size--default",
+            "margin_top": -10
+          }
+        }
+      },
+      "block_order": [
+        "4bd19e7b-38e0-45a7-ac8a-c3837f095fc6"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "text_gradient_color": "",
+        "content_width": 100,
+        "desktop_content_alignment": "center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 80,
+        "md_padding_bottom": 80,
+        "mobile_alignment": "text-align-center",
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "blocks": {
+        "featured_image": {
+          "type": "featured_image",
+          "disabled": true,
+          "settings": {
+            "enable_full_width": true,
+            "media_aspect_ratio": "square",
+            "margin_top": 0
+          }
+        },
+        "details": {
+          "type": "details",
+          "settings": {
+            "show_author": false,
+            "show_date": true,
+            "margin_top": 36
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+            "margin_top": 8
+          }
+        },
+        "hr_1": {
+          "type": "hr",
+          "settings": {
+            "margin_top": 24
+          }
+        },
+        "content": {
+          "type": "content",
+          "settings": {
+            "margin_top": 24
+          }
+        },
+        "hr_2": {
+          "type": "hr",
+          "settings": {
+            "margin_top": 24
+          }
+        },
+        "tags": {
+          "type": "tags",
+          "settings": {
+            "margin_top": 24
+          }
+        }
+      },
+      "block_order": [
+        "featured_image",
+        "details",
+        "title",
+        "hr_1",
+        "content",
+        "hr_2",
+        "tags"
+      ],
+      "disabled": true,
+      "settings": {
+        "md_padding_top": 0,
+        "md_padding_bottom": 0,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "article-navigation": {
+      "type": "article-navigation",
+      "disabled": true,
+      "settings": {
+        "show_back_to_blog": true,
+        "show_article_images": true,
+        "md_padding_top": 0,
+        "md_padding_bottom": 80,
+        "padding_top": 0,
+        "padding_bottom": 40
+      }
+    },
+    "950c60d7-4a3d-453a-954c-f649804853df": {
+      "type": "hero",
+      "blocks": {
+        "template--20406164029774__950c60d7-4a3d-453a-954c-f649804853df-image-1": {
+          "type": "image",
+          "settings": {
+            "media_link": "",
+            "media_toggle": "show_image",
+            "image": "shopify://shop_images/Giuseppe_Dinnella_DSC8382_6c00a9cb-0104-4387-bedd-28d609eae4b5.jpg",
+            "video_url": "",
+            "video_url_mobile": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--20406164029774__950c60d7-4a3d-453a-954c-f649804853df-image-1"
+      ],
+      "settings": {
+        "color_scheme": "color-main",
+        "overlay_opacity": 0,
+        "enable_full_width": false,
+        "section_height_desktop": "by_pixels",
+        "section_pixel_height_desktop": 600,
+        "content_width": "col-sm-max-8",
+        "content_align_desktop": "sm-vertical-center sm-horizontal-center",
+        "desktop_alignment": "sm-text-align-center",
+        "md_padding_top": 0,
+        "md_padding_bottom": 0,
+        "section_height": "by_pixels",
+        "section_pixel_height": 400,
+        "content_align_mobile": "vertical-center horizontal-center",
+        "mobile_alignment": "text-align-center",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "banner_grid_DAzyxg": {
+      "type": "banner-grid",
+      "blocks": {
+        "image_ryWT8f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Giuseppe_Dinnella_DSC8259_c6ed597d-6531-480f-9fc4-74bfd9b01e1b.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "image_6FY688": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Giuseppe_Dinnella_DSC8901_12b34498-5394-4f04-8765-fca706771e71.jpg",
+            "media_link": "",
+            "title": "",
+            "title_style": "h3",
+            "content_alignment": "vertical-bottom horizontal-left",
+            "padding": 40,
+            "text_color": "#ffffff",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_ryWT8f",
+        "image_6FY688"
+      ],
+      "settings": {
+        "block_aspect_ratio": "portrait_alt",
+        "grid_gap": 9,
+        "color_scheme": "color-main",
+        "enable_full_width": false,
+        "section_columns_desktop": 2,
+        "md_padding_top": 8,
+        "md_padding_bottom": 0,
+        "section_columns_tablet": 2,
+        "section_columns_mobile": 2,
+        "padding_top": 24,
+        "padding_bottom": 24
+      }
+    }
+  },
+  "order": [
+    "c41fc66f-d09e-4514-a1ab-ed88e344c28c",
+    "e1c652e0-30bd-4ba1-befe-b48feadc3a77",
+    "a65185bf-25af-4bf8-94fc-01bf93652258",
+    "063bb00a-2ff1-444a-8823-44560fecc68b",
+    "8134cc4a-6150-43fb-9cda-5e5e2d5aa17d",
+    "main",
+    "article-navigation",
+    "950c60d7-4a3d-453a-954c-f649804853df",
+    "banner_grid_DAzyxg"
+  ]
+}
